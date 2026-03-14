@@ -6,11 +6,20 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import javax.inject.Inject;
+import javax.inject.Singleton;
 
+@Singleton
 public class GuideRepository
 {
 	private static final String RESOURCE_PATH = "/guide.json";
-	private final Gson gson = new Gson();
+	private final Gson gson;
+
+	@Inject
+	public GuideRepository(Gson gson)
+	{
+		this.gson = gson;
+	}
 
 	public GuideData load() throws IOException
 	{

@@ -53,6 +53,9 @@ public class HcimGuidePlugin extends Plugin
 	@Inject
 	private Client client;
 
+	@Inject
+	private GuideRepository guideRepository;
+
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
@@ -71,7 +74,7 @@ public class HcimGuidePlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		guideData = new GuideRepository().load();
+		guideData = guideRepository.load();
 		progressStore = new GuideProgressStore(configManager);
 		completedStepIds.clear();
 		completedStepIds.addAll(progressStore.getCompletedStepIds());
