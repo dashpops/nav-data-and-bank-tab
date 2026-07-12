@@ -17,7 +17,7 @@ def runeLiteVersion = 'latest.release'
 def pluginMainClass = 'com.conde.hcimguide.HcimGuidePluginTest'
 
 group = 'com.conde.hcimguide'
-version = '1.0.0'
+version = '1.1.0'
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
