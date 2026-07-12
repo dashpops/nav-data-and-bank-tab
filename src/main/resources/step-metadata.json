@@ -1,0 +1,110 @@
+{
+  "episode-1-banks-1-through-24-starting-out-step-003": {
+    "nav": { "label": "Father Aereck", "x": 3243, "y": 3207, "z": 0 },
+    "quest": "Restless Ghost"
+  },
+  "episode-1-banks-1-through-24-starting-out-step-007": {
+    "nav": { "label": "Veos (Port Sarim)", "x": 3054, "y": 3245, "z": 0 },
+    "quest": "X Marks the Spot"
+  },
+  "episode-1-banks-1-through-24-starting-out-step-008": {
+    "nav": { "label": "Hans (Lumbridge)", "x": 3222, "y": 3218, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-starting-out-step-009": {
+    "nav": { "label": "Duke Horacio", "x": 3209, "y": 3220, "z": 1 },
+    "quest": "Rune Mysteries"
+  },
+  "episode-1-banks-1-through-24-bank-1-step-008": {
+    "nav": { "label": "Father Urhney", "x": 3148, "y": 3177, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-1-step-013": {
+    "nav": { "label": "Sedridor (Wizards' Tower)", "x": 3104, "y": 9571, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-002": {
+    "nav": { "label": "Aggie", "x": 3086, "y": 3257, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-004": {
+    "nav": { "label": "Morgan", "x": 3097, "y": 3268, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-009": {
+    "nav": { "label": "Fortunato (Draynor)", "x": 3083, "y": 3251, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-010": {
+    "nav": { "label": "A Porcine of Interest (Draynor)", "x": 3090, "y": 3261, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-015": {
+    "nav": { "label": "Veos (Port Piscarilius)", "x": 1824, "y": 3690, "z": 0 },
+    "quest": "Client of Kourend"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-016": {
+    "nav": { "label": "Shayzien (Minecart)", "x": 1494, "y": 3630, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-2-step-020": {
+    "nav": { "label": "Jennifer (Shayzien)", "x": 1497, "y": 3624, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-3-step-003": {
+    "nav": { "label": "Zaff (Varrock)", "x": 3201, "y": 3433, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-3-step-004": {
+    "nav": { "label": "Aris (Varrock)", "x": 3204, "y": 3424, "z": 0 },
+    "quest": "Demon Slayer"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-008": {
+    "nav": { "label": "Dr Harlow (Blue Moon Inn)", "x": 3222, "y": 3399, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-3-step-010": {
+    "nav": { "label": "Romeo (Varrock)", "x": 3210, "y": 3423, "z": 0 },
+    "quest": "Romeo & Juliet"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-015": {
+    "nav": { "label": "Sir Prysin (Varrock Palace)", "x": 3204, "y": 3472, "z": 0 },
+    "quest": "Demon Slayer"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-017": {
+    "nav": { "label": "Reldo (Varrock Library)", "x": 3211, "y": 3493, "z": 0 },
+    "quest": "Shield of Arrav"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-022": {
+    "nav": { "label": "King Roald (Varrock Palace)", "x": 3222, "y": 3473, "z": 0 },
+    "quest": "Priest in Peril"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-026": {
+    "nav": { "label": "Varrock Museum", "x": 3253, "y": 3450, "z": 0 }
+  },
+  "episode-1-banks-1-through-24-bank-4-step-002": {
+    "nav": { "label": "Aubury (Varrock)", "x": 3253, "y": 3401, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-002": {
+    "nav": { "label": "Barcrawl (Port Sarim)", "x": 3047, "y": 3233, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-003": {
+    "nav": { "label": "Veos (Port Sarim)", "x": 3054, "y": 3245, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-006": {
+    "nav": { "label": "Leenz (Piscarilius Store)", "x": 1794, "y": 3706, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-009": {
+    "nav": { "label": "Lovakengj (Minecart)", "x": 1492, "y": 3818, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-011": {
+    "nav": { "label": "Munty (Lovakengj Store)", "x": 1553, "y": 3750, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-013": {
+    "nav": { "label": "Kingstown (Arceuus)", "x": 1624, "y": 3745, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-014": {
+    "nav": { "label": "Regath (Arceuus Store)", "x": 1720, "y": 3724, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-015": {
+    "nav": { "label": "Horace (Hosidius Store)", "x": 1774, "y": 3588, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-017": {
+    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-018": {
+    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+  },
+  "episode-2-banks-24-through-75-bank-28-step-019": {
+    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+  }
+}

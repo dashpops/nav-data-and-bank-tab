@@ -3,6 +3,7 @@ package com.conde.hcimguide.ui;
 import com.conde.hcimguide.HcimGuidePlugin;
 import com.conde.hcimguide.model.GuideSection;
 import com.conde.hcimguide.model.GuideStep;
+import com.conde.hcimguide.model.StepMetadata;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -54,6 +55,7 @@ public class GuidePanel extends PluginPanel
 	private final JProgressBar sectionProgressBar = new JProgressBar();
 	private final JLabel currentStepBadge = new JLabel();
 	private final JTextArea currentStepText = new JTextArea();
+	private final JLabel navTargetLabel = new JLabel();
 	private final JButton previousButton;
 	private final JButton toggleButton;
 	private final JButton nextButton;
@@ -213,9 +215,15 @@ public class GuidePanel extends PluginPanel
 		currentStepText.setRows(4);
 		currentStepText.setAlignmentX(Component.LEFT_ALIGNMENT);
 
+		navTargetLabel.setFont(FontManager.getRunescapeSmallFont());
+		navTargetLabel.setForeground(INFO_COLOR);
+		navTargetLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		navTargetLabel.setVisible(false);
+
 		wrapper.add(currentStepBadge);
 		wrapper.add(Box.createRigidArea(new Dimension(0, 8)));
 		wrapper.add(currentStepText);
+		wrapper.add(navTargetLabel);
 		return wrapper;
 	}
 
@@ -327,6 +335,7 @@ public class GuidePanel extends PluginPanel
 		{
 			currentStepBadge.setText("CURRENT STEP");
 			currentStepText.setText("No step loaded.");
+			navTargetLabel.setVisible(false);
 			toggleButton.setText("Done");
 			return;
 		}
@@ -337,6 +346,17 @@ public class GuidePanel extends PluginPanel
 		toggleButton.setText(completed ? "Undo" : "Done");
 		toggleButton.setBackground(completed ? WARNING_COLOR : SUCCESS_COLOR);
 		toggleButton.setForeground(completed ? Color.BLACK : Color.WHITE);
+
+		StepMetadata.NavTarget nav = plugin.getCurrentNavTarget();
+		if (nav != null && nav.getLabel() != null && !nav.getLabel().isEmpty())
+		{
+			navTargetLabel.setText("Go to: " + nav.getLabel());
+			navTargetLabel.setVisible(true);
+		}
+		else
+		{
+			navTargetLabel.setVisible(false);
+		}
 	}
 
 	private void refreshTimeline(GuideStep currentStep)

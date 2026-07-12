@@ -3,6 +3,7 @@ package com.conde.hcimguide;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.Range;
 
 @ConfigGroup("hcimguide")
 public interface HcimGuideConfig extends Config
@@ -43,6 +44,37 @@ public interface HcimGuideConfig extends Config
 		description = "Display the current auto-progress rule in the sidebar"
 	)
 	default boolean showAutoStatus()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "showStepOverlay",
+		name = "Show step overlay",
+		description = "Draw the current step on screen (hold Alt to move it)"
+	)
+	default boolean showStepOverlay()
+	{
+		return true;
+	}
+
+	@Range(min = 0, max = 100)
+	@ConfigItem(
+		keyName = "overlayOpacity",
+		name = "Overlay opacity",
+		description = "Background opacity of the on-screen step overlay, in percent"
+	)
+	default int overlayOpacity()
+	{
+		return 60;
+	}
+
+	@ConfigItem(
+		keyName = "enableShortestPath",
+		name = "Shortest Path integration",
+		description = "Send the current step's destination to the Shortest Path plugin, when installed"
+	)
+	default boolean enableShortestPath()
 	{
 		return true;
 	}

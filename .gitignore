@@ -1,3 +1,4 @@
 .gradle/
 build/
 .cache-guide.wiki
+.DS_Store

@@ -20,6 +20,11 @@ public class GuideProgressStore
 		this.configManager = configManager;
 	}
 
+	public static boolean isProgressKey(String key)
+	{
+		return SECTION_KEY.equals(key) || STEP_KEY.equals(key) || COMPLETED_KEY.equals(key);
+	}
+
 	public int getCurrentSectionIndex()
 	{
 		return getInt(SECTION_KEY, 0);

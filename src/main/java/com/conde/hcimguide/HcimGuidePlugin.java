@@ -3,9 +3,12 @@ package com.conde.hcimguide;
 import com.conde.hcimguide.model.GuideData;
 import com.conde.hcimguide.model.GuideSection;
 import com.conde.hcimguide.model.GuideStep;
+import com.conde.hcimguide.model.StepMetadata;
 import com.conde.hcimguide.service.GuideAutoProgressService;
 import com.conde.hcimguide.service.GuideProgressStore;
 import com.conde.hcimguide.service.GuideRepository;
+import com.conde.hcimguide.service.StepMetadataRepository;
+import com.conde.hcimguide.ui.CurrentStepOverlay;
 import com.conde.hcimguide.ui.GuidePanel;
 import com.google.inject.Provides;
 import java.awt.BasicStroke;
@@ -14,22 +17,29 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.util.Collections;
-import java.util.LinkedHashSet;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 import javax.inject.Inject;
+import javax.swing.SwingUtilities;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.events.GameTick;
+import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
+import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.events.PluginMessage;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
+import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.LinkBrowser;
 
 @PluginDescriptor(
@@ -40,6 +50,7 @@ import net.runelite.client.util.LinkBrowser;
 public class HcimGuidePlugin extends Plugin
 {
 	private static final String GUIDE_URL = "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3";
+	private static final String SHORTEST_PATH_NAMESPACE = "shortestpath";
 
 	@Inject
 	private ClientToolbar clientToolbar;
@@ -54,16 +65,32 @@ public class HcimGuidePlugin extends Plugin
 	private Client client;
 
 	@Inject
+	private ClientThread clientThread;
+
+	@Inject
+	private EventBus eventBus;
+
+	@Inject
+	private OverlayManager overlayManager;
+
+	@Inject
 	private GuideRepository guideRepository;
+
+	@Inject
+	private StepMetadataRepository stepMetadataRepository;
+
+	@Inject
+	private CurrentStepOverlay currentStepOverlay;
 
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
 	private GuideProgressStore progressStore;
 	private final GuideAutoProgressService autoProgressService = new GuideAutoProgressService();
-	private final Set<String> completedStepIds = new LinkedHashSet<>();
-	private String autoProgressText = "Auto: manual";
-	private String lastAutoSatisfiedStepId;
+	private final Set<String> completedStepIds = ConcurrentHashMap.newKeySet();
+	private volatile String autoProgressText = "Auto: manual";
+	private volatile String lastAutoSatisfiedStepId;
+	private volatile String lastNavStepId;
 
 	@Provides
 	HcimGuideConfig provideConfig(ConfigManager configManager)
@@ -75,6 +102,7 @@ public class HcimGuidePlugin extends Plugin
 	protected void startUp() throws Exception
 	{
 		guideData = guideRepository.load();
+		stepMetadataRepository.load();
 		progressStore = new GuideProgressStore(configManager);
 		completedStepIds.clear();
 		completedStepIds.addAll(progressStore.getCompletedStepIds());
@@ -87,16 +115,24 @@ public class HcimGuidePlugin extends Plugin
 			.panel(panel)
 			.build();
 		clientToolbar.addNavigation(navigationButton);
+		overlayManager.add(currentStepOverlay);
 		refreshState();
 	}
 
 	@Override
 	protected void shutDown()
 	{
+		overlayManager.remove(currentStepOverlay);
 		if (navigationButton != null)
 		{
 			clientToolbar.removeNavigation(navigationButton);
 			navigationButton = null;
+		}
+
+		if (lastNavStepId != null)
+		{
+			lastNavStepId = null;
+			eventBus.post(new PluginMessage(SHORTEST_PATH_NAMESPACE, "clear"));
 		}
 
 		panel = null;
@@ -109,17 +145,20 @@ public class HcimGuidePlugin extends Plugin
 
 	public List<GuideSection> getSections()
 	{
-		return guideData == null ? Collections.emptyList() : guideData.getSections();
+		GuideData data = guideData;
+		return data == null ? Collections.emptyList() : data.getSections();
 	}
 
 	public String getGuideTitle()
 	{
-		return guideData == null ? "HCIM Guide" : guideData.getTitle();
+		GuideData data = guideData;
+		return data == null ? "HCIM Guide" : data.getTitle();
 	}
 
 	public int getCurrentSectionIndex()
 	{
-		return clampSectionIndex(progressStore == null ? 0 : progressStore.getCurrentSectionIndex());
+		GuideProgressStore store = progressStore;
+		return clampSectionIndex(store == null ? 0 : store.getCurrentSectionIndex());
 	}
 
 	public GuideSection getCurrentSection()
@@ -141,7 +180,8 @@ public class HcimGuidePlugin extends Plugin
 			return null;
 		}
 
-		int stepIndex = clampStepIndex(section, progressStore == null ? 0 : progressStore.getCurrentStepIndex());
+		GuideProgressStore store = progressStore;
+		int stepIndex = clampStepIndex(section, store == null ? 0 : store.getCurrentStepIndex());
 		return section.getSteps().get(stepIndex);
 	}
 
@@ -180,6 +220,18 @@ public class HcimGuidePlugin extends Plugin
 		return autoProgressText;
 	}
 
+	public StepMetadata.NavTarget getCurrentNavTarget()
+	{
+		GuideStep step = getCurrentStep();
+		if (step == null)
+		{
+			return null;
+		}
+
+		StepMetadata metadata = stepMetadataRepository.get(step.getId());
+		return metadata == null ? null : metadata.getNav();
+	}
+
 	public List<GuideStep> getVisibleSteps()
 	{
 		GuideSection section = getCurrentSection();
@@ -205,7 +257,8 @@ public class HcimGuidePlugin extends Plugin
 
 	public void goToSection(int sectionIndex)
 	{
-		if (progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (store == null)
 		{
 			return;
 		}
@@ -216,48 +269,50 @@ public class HcimGuidePlugin extends Plugin
 			return;
 		}
 
-		progressStore.setCurrentSectionIndex(targetSectionIndex);
-		progressStore.setCurrentStepIndex(0);
+		store.setCurrentSectionIndex(targetSectionIndex);
+		store.setCurrentStepIndex(0);
 		refreshState();
 	}
 
 	public void goToStep(int stepIndex)
 	{
 		GuideSection section = getCurrentSection();
-		if (section == null || progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (section == null || store == null)
 		{
 			return;
 		}
 
 		int targetStepIndex = clampStepIndex(section, stepIndex);
-		if (targetStepIndex == progressStore.getCurrentStepIndex())
+		if (targetStepIndex == store.getCurrentStepIndex())
 		{
 			return;
 		}
 
-		progressStore.setCurrentStepIndex(targetStepIndex);
+		store.setCurrentStepIndex(targetStepIndex);
 		refreshState();
 	}
 
 	public void previousStep()
 	{
 		GuideSection section = getCurrentSection();
-		if (section == null || progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (section == null || store == null)
 		{
 			return;
 		}
 
-		int stepIndex = clampStepIndex(section, progressStore.getCurrentStepIndex());
+		int stepIndex = clampStepIndex(section, store.getCurrentStepIndex());
 		if (stepIndex > 0)
 		{
-			progressStore.setCurrentStepIndex(stepIndex - 1);
+			store.setCurrentStepIndex(stepIndex - 1);
 		}
 		else if (getCurrentSectionIndex() > 0)
 		{
 			int previousSectionIndex = getCurrentSectionIndex() - 1;
-			progressStore.setCurrentSectionIndex(previousSectionIndex);
+			store.setCurrentSectionIndex(previousSectionIndex);
 			GuideSection previousSection = getSections().get(previousSectionIndex);
-			progressStore.setCurrentStepIndex(Math.max(0, previousSection.getSteps().size() - 1));
+			store.setCurrentStepIndex(Math.max(0, previousSection.getSteps().size() - 1));
 		}
 
 		refreshState();
@@ -266,20 +321,21 @@ public class HcimGuidePlugin extends Plugin
 	public void nextStep()
 	{
 		GuideSection section = getCurrentSection();
-		if (section == null || progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (section == null || store == null)
 		{
 			return;
 		}
 
-		int stepIndex = clampStepIndex(section, progressStore.getCurrentStepIndex());
+		int stepIndex = clampStepIndex(section, store.getCurrentStepIndex());
 		if (stepIndex < section.getSteps().size() - 1)
 		{
-			progressStore.setCurrentStepIndex(stepIndex + 1);
+			store.setCurrentStepIndex(stepIndex + 1);
 		}
 		else if (getCurrentSectionIndex() < getSections().size() - 1)
 		{
-			progressStore.setCurrentSectionIndex(getCurrentSectionIndex() + 1);
-			progressStore.setCurrentStepIndex(0);
+			store.setCurrentSectionIndex(getCurrentSectionIndex() + 1);
+			store.setCurrentStepIndex(0);
 		}
 
 		refreshState();
@@ -288,7 +344,8 @@ public class HcimGuidePlugin extends Plugin
 	public void toggleCurrentStepComplete()
 	{
 		GuideStep step = getCurrentStep();
-		if (step == null || progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (step == null || store == null)
 		{
 			return;
 		}
@@ -296,7 +353,7 @@ public class HcimGuidePlugin extends Plugin
 		if (completedStepIds.contains(step.getId()))
 		{
 			completedStepIds.remove(step.getId());
-			progressStore.setCompletedStepIds(completedStepIds);
+			store.setCompletedStepIds(completedStepIds);
 			refreshState();
 			return;
 		}
@@ -323,29 +380,49 @@ public class HcimGuidePlugin extends Plugin
 
 	public void resetProgress()
 	{
-		if (progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (store == null)
 		{
 			return;
 		}
 
-		progressStore.reset();
+		store.reset();
 		completedStepIds.clear();
 		lastAutoSatisfiedStepId = null;
 		refreshState();
 	}
 
+	/**
+	 * Safe to call from any thread; the actual Swing update always runs on the EDT.
+	 */
 	public void refreshPanel()
 	{
-		if (panel != null)
+		if (SwingUtilities.isEventDispatchThread())
 		{
-			panel.refresh();
+			GuidePanel currentPanel = panel;
+			if (currentPanel != null)
+			{
+				currentPanel.refresh();
+			}
+			return;
 		}
+
+		SwingUtilities.invokeLater(() ->
+		{
+			GuidePanel currentPanel = panel;
+			if (currentPanel != null)
+			{
+				currentPanel.refresh();
+			}
+		});
 	}
 
 	@Subscribe
 	public void onGameTick(GameTick event)
 	{
-		if (updateAutoProgress(true))
+		boolean changed = updateAutoProgress(true);
+		updateShortestPathTarget();
+		if (changed)
 		{
 			refreshPanel();
 		}
@@ -354,18 +431,36 @@ public class HcimGuidePlugin extends Plugin
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event)
 	{
-		if ("hcimguide".equals(event.getGroup()))
+		if (!"hcimguide".equals(event.getGroup()) || GuideProgressStore.isProgressKey(event.getKey()))
 		{
-			refreshState();
+			return;
 		}
+
+		refreshState();
 	}
 
+	/**
+	 * Safe to call from any thread; client API access is deferred to the client thread.
+	 */
 	private void refreshState()
 	{
-		updateAutoProgress(false);
-		refreshPanel();
+		clientThread.invokeLater(() ->
+		{
+			if (guideData == null)
+			{
+				// Plugin shut down before this queued refresh ran.
+				return;
+			}
+
+			updateAutoProgress(false);
+			updateShortestPathTarget();
+			refreshPanel();
+		});
 	}
 
+	/**
+	 * Must run on the client thread: evaluation reads quest states, skills and item containers.
+	 */
 	private boolean updateAutoProgress(boolean allowCompletion)
 	{
 		String nextStatus = "Auto: manual";
@@ -430,6 +525,47 @@ public class HcimGuidePlugin extends Plugin
 		return setAutoProgressText(nextStatus);
 	}
 
+	/**
+	 * Sends the current step's destination to the Shortest Path plugin, or clears the
+	 * previously requested path when the step no longer has one. Deduplicated per step.
+	 */
+	private void updateShortestPathTarget()
+	{
+		if (client.getGameState() != GameState.LOGGED_IN)
+		{
+			return;
+		}
+
+		StepMetadata.NavTarget nav = null;
+		String navStepId = null;
+		if (config.enableShortestPath())
+		{
+			GuideStep step = getCurrentStep();
+			if (step != null)
+			{
+				StepMetadata metadata = stepMetadataRepository.get(step.getId());
+				nav = metadata == null ? null : metadata.getNav();
+				navStepId = nav == null ? null : step.getId();
+			}
+		}
+
+		if (Objects.equals(navStepId, lastNavStepId))
+		{
+			return;
+		}
+
+		lastNavStepId = navStepId;
+		if (nav == null)
+		{
+			eventBus.post(new PluginMessage(SHORTEST_PATH_NAMESPACE, "clear"));
+			return;
+		}
+
+		Map<String, Object> data = new HashMap<>();
+		data.put("target", nav.toWorldPoint());
+		eventBus.post(new PluginMessage(SHORTEST_PATH_NAMESPACE, "path", data));
+	}
+
 	private boolean setAutoProgressText(String nextStatus)
 	{
 		if (Objects.equals(autoProgressText, nextStatus))
@@ -444,7 +580,8 @@ public class HcimGuidePlugin extends Plugin
 	private void setCurrentStepCompleted(boolean completed, boolean advance)
 	{
 		GuideStep step = getCurrentStep();
-		if (step == null || progressStore == null)
+		GuideProgressStore store = progressStore;
+		if (step == null || store == null)
 		{
 			return;
 		}
@@ -456,7 +593,7 @@ public class HcimGuidePlugin extends Plugin
 			return;
 		}
 
-		progressStore.setCompletedStepIds(completedStepIds);
+		store.setCompletedStepIds(completedStepIds);
 		if (completed && advance)
 		{
 			nextStep();
