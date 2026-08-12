@@ -3141,5 +3141,95 @@
     "quest": "Below Ice Mountain",
     "_text": "Talk to Willow (Below Ice Mountain) (1) [Below Ice Mountain]",
     "_section": "Bank 83"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-009": {
+    "nav": {
+      "label": "Ordan (Blast Furnace ore seller)",
+      "x": 1936,
+      "y": 4966,
+      "z": 0
+    },
+    "_text": "Buy 40 Coal from Blast Furnace",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-010": {
+    "nav": {
+      "label": "Ordan (Blast Furnace ore seller)",
+      "x": 1936,
+      "y": 4966,
+      "z": 0
+    },
+    "_text": "Buy 100 Gold from Blast Furnace",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-011": {
+    "nav": {
+      "label": "Ordan (Blast Furnace ore seller)",
+      "x": 1936,
+      "y": 4966,
+      "z": 0
+    },
+    "_text": "Buy 5 Silver Ore from Blast Furnace",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-012": {
+    "nav": {
+      "label": "Ordan (Blast Furnace ore seller)",
+      "x": 1936,
+      "y": 4966,
+      "z": 0
+    },
+    "_text": "Buy 20 Iron Ore from Blast Furnace",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-68-step-005": {
+    "nav": {
+      "label": "Blast Furnace teleport arrival (East Keldagrim)",
+      "x": 2894,
+      "y": 10214,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Blast Furnace",
+    "_section": "Bank 68"
+  },
+  "episode-2-banks-24-through-75-bank-69-step-002": {
+    "nav": {
+      "label": "Blast Furnace Foreman (coffer)",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Deposit 10k in the coffer",
+    "_section": "Bank 69"
+  },
+  "episode-2-banks-24-through-75-bank-69-step-003": {
+    "nav": {
+      "label": "Bar dispenser (Blast Furnace)",
+      "x": 1940,
+      "y": 4963,
+      "z": 0
+    },
+    "_text": "Blast Furnace all Gold Ore",
+    "_section": "Bank 69"
+  },
+  "episode-2-banks-24-through-75-bank-69-step-004": {
+    "nav": {
+      "label": "Bar dispenser (Blast Furnace)",
+      "x": 1940,
+      "y": 4963,
+      "z": 0
+    },
+    "_text": "Blast Furnace 5 Silver Bars, 10 Iron Bars, 12 Steel Bars",
+    "_section": "Bank 69"
+  },
+  "episode-2-banks-24-through-75-bank-69-step-005": {
+    "nav": {
+      "label": "Blast Furnace Foreman (coffer)",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Withdraw remainder of cash from Blast Furnace",
+    "_section": "Bank 69"
   }
 }
