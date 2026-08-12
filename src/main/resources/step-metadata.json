@@ -3231,5 +3231,414 @@
     },
     "_text": "Withdraw remainder of cash from Blast Furnace",
     "_section": "Bank 69"
+  },
+  "episode-3-banks-76-through-104b-bank-86-step-002": {
+    "nav": {
+      "label": "Flosi's Fishmongers (Jatizso)",
+      "x": 2417,
+      "y": 3813,
+      "z": 0
+    },
+    "_text": "Buy 5x Raw Tuna from Flosi's Fishmongers",
+    "_section": "Bank 86"
+  },
+  "episode-3-banks-76-through-104b-bank-86-step-003": {
+    "nav": {
+      "label": "Weapons Galore (Jatizso)",
+      "x": 2394,
+      "y": 3805,
+      "z": 0
+    },
+    "_text": "Buy 300 Mithril Claws from Weapons galore [Giants Foundry] (Costs 163k)",
+    "_section": "Bank 86"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-002": {
+    "nav": {
+      "label": "Barbarian Assault (Barbarian Outpost)",
+      "x": 2531,
+      "y": 3569,
+      "z": 0
+    },
+    "_text": "Teleport to Barbarian Assault",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-004": {
+    "nav": {
+      "label": "Barbarian Outpost Agility Course",
+      "x": 2551,
+      "y": 3554,
+      "z": 0
+    },
+    "diary": "Kandarin Medium",
+    "_text": "Do 1 lap of Barbarian Agility [Kandarin Medium Diary]",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-005": {
+    "nav": {
+      "label": "Captain Lawgof (Dwarf Cannon)",
+      "x": 2567,
+      "y": 3462,
+      "z": 0
+    },
+    "quest": "Dwarf Cannon",
+    "_text": "Head South & Complete Dwarf Cannon",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-008": {
+    "nav": {
+      "label": "Dondakan the Dwarf",
+      "x": 2824,
+      "y": 10168,
+      "z": 0
+    },
+    "quest": "Between a Rock...",
+    "_text": "Talk to Dondakan (2,1,1) [Between a Rock]",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-009": {
+    "nav": {
+      "label": "Keldagrim",
+      "x": 2879,
+      "y": 10176,
+      "z": 0
+    },
+    "_text": "Take boat to Keldagrim",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-013": {
+    "nav": {
+      "label": "Mount Karuulm weapon shop",
+      "x": 1311,
+      "y": 3807,
+      "z": 0
+    },
+    "_text": "Buy a Runite & Mithril Spear from Mount Karuulm Weapon Shop",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-015": {
+    "nav": {
+      "label": "Konar quo Maten",
+      "x": 1309,
+      "y": 3785,
+      "z": 0
+    },
+    "_text": "Buy 150 Steel Warhammers & Battleaxes by Konar(150 total. DO NOT need 150 of each)[Giants Foundry]",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-016": {
+    "nav": {
+      "label": "Giants' Foundry",
+      "x": 3360,
+      "y": 3151,
+      "z": 0
+    },
+    "quest": "Sleeping Giants",
+    "_text": "Minigame Teleport to Giants Foundry",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-88-step-008": {
+    "nav": {
+      "label": "Wizard Traiborn (Wizards' Tower, upstairs)",
+      "x": 3112,
+      "y": 3157,
+      "z": 1
+    },
+    "quest": "Demon Slayer",
+    "_text": "Get the 3rd Silverlight Key at Wizards Tower by talking to Wizard Traiborn [Demon Slayer]",
+    "_section": "Bank 88"
+  },
+  "episode-3-banks-76-through-104b-bank-88-step-011": {
+    "nav": {
+      "label": "Castle Wars bank",
+      "x": 2445,
+      "y": 3082,
+      "z": 0
+    },
+    "_text": "Bank all",
+    "_section": "Bank 88"
+  },
+  "episode-3-banks-76-through-104b-bank-90-step-003": {
+    "nav": {
+      "label": "Ruins of Uzer",
+      "x": 3480,
+      "y": 3095,
+      "z": 0
+    },
+    "_text": "Take the Magic carpet to the Ruins of Uzer",
+    "_section": "Bank 90"
+  },
+  "episode-3-banks-76-through-104b-bank-90-step-009": {
+    "nav": {
+      "label": "Ruins of Uzer",
+      "x": 3480,
+      "y": 3095,
+      "z": 0
+    },
+    "quest": "Shadow of the Storm",
+    "_text": "Complete Shadow of the Storm",
+    "_section": "Bank 90"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-004": {
+    "nav": {
+      "label": "Sigmund (Lumbridge Castle, upstairs)",
+      "x": 3210,
+      "y": 3226,
+      "z": 1
+    },
+    "quest": "The Lost Tribe",
+    "_text": "Talk to Sigmund (1) [The Lost Tribe]",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-005": {
+    "nav": {
+      "label": "Culinaromancer's Chest (Lumbridge cellar)",
+      "x": 3214,
+      "y": 9620,
+      "z": 0
+    },
+    "_text": "Buy from Culinoromancer Chest: 2x Bucket of Milk, Flour, Egg, 4x Cheese, 1x Grapes",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-008": {
+    "nav": {
+      "label": "Kaylee (Rising Sun Inn)",
+      "x": 2958,
+      "y": 3371,
+      "z": 0
+    },
+    "_text": "Talk to Kaylee & buy 4x Asgarnian Ale",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-009": {
+    "nav": {
+      "label": "Kaylee (Rising Sun Inn)",
+      "x": 2958,
+      "y": 3371,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Talk to Kaylee (2) [Recipe for Disaster]",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-010": {
+    "nav": {
+      "label": "Sanfew (Taverley, upstairs)",
+      "x": 2897,
+      "y": 3426,
+      "z": 1
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Sanfew (2,2,3,1)[One Small Favour]",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-013": {
+    "nav": {
+      "label": "Goblin Village",
+      "x": 2958,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "The Lost Tribe",
+    "_text": "Complete Lost Tribe",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-016": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Bank at South Bank",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-92-step-002": {
+    "nav": {
+      "label": "Captain Barnaby (Ardougne dock)",
+      "x": 2680,
+      "y": 3274,
+      "z": 0
+    },
+    "_text": "Take the boat to Brimhaven",
+    "_section": "Bank 92"
+  },
+  "episode-3-banks-76-through-104b-bank-92-step-003": {
+    "nav": {
+      "label": "Alfonse the Waiter (Brimhaven)",
+      "x": 2793,
+      "y": 3188,
+      "z": 0
+    },
+    "_text": "Buy 25 Karambwans from Alfonse the waiter",
+    "_section": "Bank 92"
+  },
+  "episode-3-banks-76-through-104b-bank-93-step-004": {
+    "nav": {
+      "label": "Temple of Ikov (cellar ladder)",
+      "x": 2677,
+      "y": 3405,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Continue Temple of Ikov Quest",
+    "_section": "Bank 93"
+  },
+  "episode-3-banks-76-through-104b-bank-93-step-006": {
+    "nav": {
+      "label": "Temple of Ikov (cellar ladder)",
+      "x": 2677,
+      "y": 3405,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Enter the Temple of Ikov (dungeon) via the entrence south of the Ranging Guild",
+    "_section": "Bank 93"
+  },
+  "episode-3-banks-76-through-104b-bank-94-step-002": {
+    "nav": {
+      "label": "Temple of Ikov (cellar ladder)",
+      "x": 2677,
+      "y": 3405,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Continue Temple of Ikov Quest",
+    "_section": "Bank 94"
+  },
+  "episode-3-banks-76-through-104b-bank-94-step-005": {
+    "nav": {
+      "label": "Varrock west bank",
+      "x": 3185,
+      "y": 3441,
+      "z": 0
+    },
+    "_text": "Bank at West Bank",
+    "_section": "Bank 94"
+  },
+  "episode-3-banks-76-through-104b-bank-95-step-004": {
+    "nav": {
+      "label": "Temple of Ikov (cellar ladder)",
+      "x": 2677,
+      "y": 3405,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Complete Temple of Ikov",
+    "_section": "Bank 95"
+  },
+  "episode-3-banks-76-through-104b-bank-95-step-005": {
+    "nav": {
+      "label": "Grand Exchange",
+      "x": 3165,
+      "y": 3490,
+      "z": 0
+    },
+    "_text": "Bank at Grand Exchange",
+    "_section": "Bank 95"
+  },
+  "episode-3-banks-76-through-104b-bank-96-step-003": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "Big Chompy Bird Hunting",
+    "_text": "Complete Big Chompy Bird Hunting",
+    "_section": "Bank 96"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-004": {
+    "nav": {
+      "label": "Rolad (Dwarven Mine)",
+      "x": 3021,
+      "y": 3452,
+      "z": 0
+    },
+    "quest": "Between a Rock...",
+    "_text": "Talk to Rolad [Between a Rock]",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-009": {
+    "nav": {
+      "label": "Rolad (Dwarven Mine)",
+      "x": 3021,
+      "y": 3452,
+      "z": 0
+    },
+    "quest": "Between a Rock...",
+    "_text": "Return to Rolad [Between a Rock]",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-002": {
+    "nav": {
+      "label": "Draynor Manor",
+      "x": 3108,
+      "y": 3358,
+      "z": 0
+    },
+    "quest": "Animal Magnetism",
+    "_text": "Chronicle teleport and run to Draynor Manor to Start Animal Magnetism",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-004": {
+    "nav": {
+      "label": "Ectofuntus",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Create 9 bonemeal to collect 45 ectotokens",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-006": {
+    "nav": {
+      "label": "Port Phasmatys",
+      "x": 3679,
+      "y": 3486,
+      "z": 0
+    },
+    "_text": "Use 2 ectotokens to enter Port Phasmatys",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-007": {
+    "nav": {
+      "label": "Velorina (Port Phasmatys)",
+      "x": 3678,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Velorina (1,1) [Ghosts Ahoy]",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-008": {
+    "nav": {
+      "label": "Port Phasmatys bank",
+      "x": 3692,
+      "y": 3468,
+      "z": 0
+    },
+    "_text": "Bank at Port Phasmatys and deposit all",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-86-step-001": {
+    "nav": {
+      "label": "Jatizso bank",
+      "x": 2417,
+      "y": 3801,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins",
+    "_section": "Bank 86"
+  },
+  "episode-3-banks-76-through-104b-bank-85-step-022": {
+    "nav": {
+      "label": "Jatizso bank",
+      "x": 2417,
+      "y": 3801,
+      "z": 0
+    },
+    "_text": "Bank all at Jatiso",
+    "_section": "Bank 85"
   }
 }
