@@ -1,5 +1,7 @@
 package com.conde.hcimguide.model;
 
+import java.util.Collections;
+import java.util.List;
 import net.runelite.api.coords.WorldPoint;
 
 /**
@@ -11,17 +13,43 @@ public class StepMetadata
 	/** Navigation target — null if this step has no movement goal. */
 	private NavTarget nav;
 
+	/**
+	 * Additional destinations for steps that gather from several places (e.g.
+	 * "collect snake weed and ardrigal"). Set this instead of {@link #nav} when a
+	 * step has more than one; the plugin routes to whichever is closest.
+	 */
+	private List<NavTarget> navs;
+
 	/** Quest Helper quest name — null if this step has no quest to open. */
 	private String quest;
 
 	public NavTarget getNav()
 	{
-		return nav;
+		if (nav != null)
+		{
+			return nav;
+		}
+		return navs == null || navs.isEmpty() ? null : navs.get(0);
 	}
 
 	public void setNav(NavTarget nav)
 	{
 		this.nav = nav;
+	}
+
+	/** Every destination for this step, in declaration order. Never null. */
+	public List<NavTarget> getNavTargets()
+	{
+		if (navs != null && !navs.isEmpty())
+		{
+			return navs;
+		}
+		return nav == null ? Collections.emptyList() : Collections.singletonList(nav);
+	}
+
+	public void setNavs(List<NavTarget> navs)
+	{
+		this.navs = navs;
 	}
 
 	public String getQuest()

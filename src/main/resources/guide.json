@@ -1,7 +1,7 @@
 {
   "title": "B0aty HCIM Guide V3",
   "sourceUrl": "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3",
-  "generatedAt": "2026-03-13T22:24:51+00:00",
+  "generatedAt": "2026-08-12T19:01:50+00:00",
   "sections": [
     {
       "id": "episode-1-banks-1-through-24-starting-out",
@@ -105,7 +105,7 @@
           "id": "episode-1-banks-1-through-24-bank-1-step-002",
           "index": 2,
           "level": 1,
-          "text": "Go down south staircase twice"
+          "text": "Go down south staircase twice (Right-Click 'Bottom-floor')"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-1-step-003",
@@ -189,7 +189,7 @@
           "id": "episode-1-banks-1-through-24-bank-1-step-016",
           "index": 16,
           "level": 1,
-          "text": "Return to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)"
+          "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-1-step-017",
@@ -263,7 +263,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-010",
           "index": 10,
           "level": 1,
-          "text": "Start A Porcine of Interest"
+          "text": "Check the Notice board next to Fortunato to Start A Porcine of Interest"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-011",
@@ -287,7 +287,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-014",
           "index": 14,
           "level": 1,
-          "text": "Travel to Port Piscarilius"
+          "text": "Travel to Port Piscarilius via Veos"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-015",
@@ -299,7 +299,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-016",
           "index": 16,
           "level": 1,
-          "text": "Take the Minecart to Shayzien East"
+          "text": "Take the Minecart to Shayzien East (option B)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-017",
@@ -323,7 +323,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-020",
           "index": 20,
           "level": 1,
-          "text": "Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)"
+          "text": "Head west to the General store, Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-021",
@@ -359,7 +359,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-026",
           "index": 26,
           "level": 1,
-          "text": "Talk to Restless Ghost (1)"
+          "text": "Search the Coffin, south-east in the graveyard. Talk to Restless Ghost (1)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-027",
@@ -371,7 +371,7 @@
           "id": "episode-1-banks-1-through-24-bank-2-step-028",
           "index": 28,
           "level": 1,
-          "text": "Complete 3 Floors of Stronghold of Security."
+          "text": "Complete 3 Floors of Stronghold of Security. (Answer the questions or spam click doors)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-2-step-029",
@@ -439,7 +439,7 @@
           "id": "episode-1-banks-1-through-24-bank-3-step-002",
           "index": 2,
           "level": 1,
-          "text": "Use the bones on the Stray Dog whenever you find him"
+          "text": "RIGHT CLICK Use the bones on the Stray Dog whenever you find him"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-3-step-003",
@@ -517,7 +517,7 @@
           "id": "episode-1-banks-1-through-24-bank-3-step-015",
           "index": 15,
           "level": 1,
-          "text": "Talk to Sir Prysin (3,1,2,2,1,1) [Demon Slayer]"
+          "text": "Go down North West 2x Stairs and talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-3-step-016",
@@ -731,7 +731,7 @@
           "id": "episode-1-banks-1-through-24-bank-5-step-001",
           "index": 1,
           "level": 1,
-          "text": "Withdraw: Leather Gloves (to pick nettles)"
+          "text": "Deposit All, then Withdraw and equip: Leather Gloves (to pick nettles)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-5-step-002",
@@ -1015,7 +1015,7 @@
           "id": "episode-1-banks-1-through-24-bank-9-step-005",
           "index": 5,
           "level": 1,
-          "text": "Head South-West and buy a Harpoon, 50 Bait & 10 Feather packs. Take Apron from the wall & wear."
+          "text": "Head South-West and buy a Harpoon, 50 Bait (non-packs) and 10 Feather packs. Take Apron from the wall & wear."
         },
         {
           "id": "episode-1-banks-1-through-24-bank-9-step-006",
@@ -1387,7 +1387,7 @@
           "id": "episode-1-banks-1-through-24-bank-11-step-014",
           "index": 14,
           "level": 1,
-          "text": "Read the Ardougne Teleport Scroll in your inventory (x0Lurk)"
+          "text": "Read the Ardougne Teleport Scroll in your inventory"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-11-step-015",
@@ -1749,13 +1749,13 @@
           "id": "episode-1-banks-1-through-24-bank-15-step-004",
           "index": 4,
           "level": 1,
-          "text": "Buy 5x Flour, 2x Swamp Paste"
+          "text": "Buy 5x Pot of flour, 2x Swamp paste"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-15-step-005",
           "index": 5,
           "level": 1,
-          "text": "Collect 2 Planks"
+          "text": "Collect 2x Planks"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-15-step-006",
@@ -1781,7 +1781,7 @@
           "id": "episode-1-banks-1-through-24-bank-16-step-002",
           "index": 2,
           "level": 1,
-          "text": "Buy 100 Soda ash + Sand, 1x Glassblowing pipe, 20 Pineapples (Can also buy at Catherby/Lands End later if stock is bad)"
+          "text": "Buy 100 Soda ash + 100 Buckets of sand, 1x Glassblowing pipe, 20x Pineapples (Can also buy at Catherby/Lands End later if stock is bad)"
         },
         {
           "id": "episode-1-banks-1-through-24-bank-16-step-003",
@@ -2569,7 +2569,7 @@
           "id": "episode-2-banks-24-through-75-bank-27-step-001",
           "index": 1,
           "level": 1,
-          "text": "Withdraw: 3x balls of wool, Ashes, Coins, Clay, Pot of Flour, 2x Bucket of Water, 4x Onions, 6x Woad Leaves & 1x Redberries (15 Inventory Slots)"
+          "text": "Withdraw: 3x balls of wool, 1 bronze bar, Ashes, Coins, Clay, Pot of Flour, 2x Bucket of Water, 4x Onions, 6x Woad Leaves & 1x Redberries (16 Inventory Slots)"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-27-step-002",
@@ -3535,7 +3535,7 @@
           "id": "episode-2-banks-24-through-75-bank-36-step-005",
           "index": 5,
           "level": 1,
-          "text": "Continue The Feud"
+          "text": "Continue The Feud (Recommend food as bandit can hit 10s)"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-36-step-006",
@@ -4225,7 +4225,7 @@
           "id": "episode-2-banks-24-through-75-bank-45-step-008",
           "index": 8,
           "level": 1,
-          "text": "Kill the Temple Guardian and then Minigame teleport to Barbarian Assault & hand in the Barcarwl."
+          "text": "Kill the Temple Guardian and then Minigame teleport to Barbarian Assault & hand in the Barcrawl."
         },
         {
           "id": "episode-2-banks-24-through-75-bank-45-step-009",
@@ -4951,13 +4951,13 @@
           "id": "episode-2-banks-24-through-75-bank-54-step-003",
           "index": 3,
           "level": 1,
-          "text": "Talk to Gillie Groats"
+          "text": "Talk to Seth Groats (2) [One Small Favour]"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-54-step-004",
           "index": 4,
           "level": 1,
-          "text": "Talk to Seth Groats (2) [One Small Favour]"
+          "text": "Talk to Gillie Groats (3) [Ides of Milk]"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-54-step-005",
@@ -4987,29 +4987,23 @@
           "id": "episode-2-banks-24-through-75-bank-54-step-009",
           "index": 9,
           "level": 1,
-          "text": "Teleport to Lumbridge"
+          "text": "Head west and talk to Cassius to get a milk sample [The Ides of Milk]"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-54-step-010",
           "index": 10,
           "level": 1,
-          "text": "Head northwest and talk to Cassius to get a milk sample [The Ides of Milk]"
+          "text": "Drink the milk sample and talk to Cassius again [The Ides of Milk]"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-54-step-011",
           "index": 11,
           "level": 1,
-          "text": "Drink the milk sample and talk to Cassius again [The Ides of Milk]"
+          "text": "Teleport to Ardougne"
         },
         {
           "id": "episode-2-banks-24-through-75-bank-54-step-012",
           "index": 12,
-          "level": 1,
-          "text": "Teleport to Ardougne"
-        },
-        {
-          "id": "episode-2-banks-24-through-75-bank-54-step-013",
-          "index": 13,
           "level": 1,
           "text": "Bank at South Bank"
         }
@@ -6455,7 +6449,7 @@
           "id": "episode-3-banks-76-through-104b-bank-77-step-008",
           "index": 8,
           "level": 1,
-          "text": "Fill sack with straw [Enlightened Journey]"
+          "text": "Use the sack on a hay bale [Morytania Easy Diary]"
         },
         {
           "id": "episode-3-banks-76-through-104b-bank-77-step-009",
@@ -7483,7 +7477,7 @@
           "id": "episode-3-banks-76-through-104b-bank-87-step-019",
           "index": 19,
           "level": 1,
-          "text": "Use 14 Mithril Claws/7 B-Axes/War Hammers per inv."
+          "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv."
         },
         {
           "id": "episode-3-banks-76-through-104b-bank-87-step-020",
@@ -7633,7 +7627,7 @@
           "id": "episode-3-banks-76-through-104b-bank-90-step-003",
           "index": 3,
           "level": 1,
-          "text": "Take the Magic carpet to Uzer"
+          "text": "Take the Magic carpet to the Ruins of Uzer"
         },
         {
           "id": "episode-3-banks-76-through-104b-bank-90-step-004",
@@ -7837,7 +7831,7 @@
           "id": "episode-3-banks-76-through-104b-bank-93-step-003",
           "index": 3,
           "level": 1,
-          "text": "Check Recoil has over 20 charges. (Make sure you have a 2nd in invetory)"
+          "text": "Check Recoil has over 20 charges. (Make sure you have a 2nd in inventory)"
         },
         {
           "id": "episode-3-banks-76-through-104b-bank-93-step-004",
@@ -8833,7 +8827,7 @@
           "id": "episode-3-banks-76-through-104b-bank-105-step-001",
           "index": 1,
           "level": 1,
-          "text": "Withdraw: Ardy Cloak, Dramen Staff, Steel warhammer, Steel Longsword, 2x Steel Swords, Steel Mace, Steel Dagger, 6x Planks, Holy Sickle (b), Druidic Pouch, Some food, Seed Dibber, Mushroom spore, Rake, teleport out"
+          "text": "Withdraw: 10 coins, Ardy Cloak, Dramen Staff, Steel warhammer, Steel Longsword, 2x Steel Swords, Steel Mace, Steel Dagger, 6x Planks, Holy Sickle (b), Druidic Pouch, Some food, Seed Dibber, Mushroom spore, Rake, teleport out"
         },
         {
           "id": "episode-3-banks-76-through-104b-bank-105-step-002",
@@ -12280,80 +12274,86 @@
       ]
     },
     {
-      "id": "episode-4-banks-105-through-150-bank-135",
+      "id": "episode-4-banks-105-through-150-bank-132-2",
       "episodeTitle": "Episode 4 - Banks 105 through 150",
-      "title": "Bank 135",
+      "title": "Bank 132",
       "youtubeId": "vuQnJwur8oI",
       "steps": [
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-001",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-001",
           "index": 1,
           "level": 1,
           "text": "Withdraw: Karamja Rum, Knife, Mithril Spear, All Karambwanji, Pestle & Mortar, 4x Logs, Skewered Chompy, Tinderbox, 2x Toadflax, 2x Swamp Toad, Bone crossbow+bolts, Jogre Bones, Ardy Cloak, Dramen Staff, Duelling Ring, Teasing Stick, 2x Karambwan vessels"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-002",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-002",
           "index": 2,
           "level": 1,
           "text": "Make 2 Agility Potions (3). Decant into (4) (Vial of water > Toadflax > Toad's Legs) (18 Inventory Spots)"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-003",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-003",
           "index": 3,
           "level": 1,
           "text": "Ardy Cloak -> DKP"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-004",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-004",
           "index": 4,
           "level": 1,
-          "text": "Complete Tai Bwo Wannai Trio"
+          "text": "Continue Tai Bwo Wannai Trio until you head to Cairn Isle"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-005",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-005",
           "index": 5,
           "level": 1,
           "text": "Trap a Horned Graahk before crossing to Cairn Isle[Karamja Medium Diary]"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-006",
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-006",
           "index": 6,
+          "level": 1,
+          "text": "Complete Tai Bwo Wannai Trio"
+        },
+        {
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-007",
+          "index": 7,
           "level": 1,
           "text": "Talk to Tinsay for 5,000 Cooking Experience"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-007",
-          "index": 7,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-008",
+          "index": 8,
           "level": 1,
           "text": "Talk to Tiadeche for 5,000 Fishing Experience"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-008",
-          "index": 8,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-009",
+          "index": 9,
           "level": 1,
           "text": "Buy Karambwan Vessel & 50 bait"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-009",
-          "index": 9,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-010",
+          "index": 10,
           "level": 1,
           "text": "Talk to Tamayu for 2,500 Attack/Strength XP"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-010",
-          "index": 10,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-011",
+          "index": 11,
           "level": 1,
           "text": "Head West"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-011",
-          "index": 11,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-012",
+          "index": 12,
           "level": 1,
           "text": "Light a fire & use Skewered Chompy on it by the tree with the arrow in [Recipe for Disaster]"
         },
         {
-          "id": "episode-4-banks-105-through-150-bank-135-step-012",
-          "index": 12,
+          "id": "episode-4-banks-105-through-150-bank-132-2-step-013",
+          "index": 13,
           "level": 1,
           "text": "Teleport Anywhere"
         }
@@ -13761,185 +13761,191 @@
           "id": "episode-4-banks-105-through-150-bank-153-step-009",
           "index": 9,
           "level": 1,
-          "text": "At Awowogei stand East of the Elder Guard and plant Mithril Seeds to skip a step"
+          "text": "Complete Monkey Madness"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-010",
           "index": 10,
           "level": 1,
-          "text": "Kill the Jungle Demon with Bone Crossbow (Max hit 32)"
+          "text": "At Awowogei stand East of the Elder Guard and plant Mithril Seeds to skip a step"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-011",
           "index": 11,
           "level": 1,
-          "text": "Use Experience on Strength & Stamina"
+          "text": "Kill the Jungle Demon with Bone Crossbow (Max hit 32)"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-012",
           "index": 12,
           "level": 1,
-          "text": "Bank at the Grand Tree"
+          "text": "Use Experience on Strength & Stamina"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-013",
           "index": 13,
           "level": 1,
-          "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Brown Apron"
+          "text": "Bank at the Grand Tree"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-014",
           "index": 14,
           "level": 1,
-          "text": "Complete Gnome Cooking Tutorial"
+          "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Brown Apron"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-015",
           "index": 15,
           "level": 1,
-          "text": "Make a Chocolate Bomb [Western Province Medium Diary]"
+          "text": "Complete Gnome Cooking Tutorial"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-016",
           "index": 16,
           "level": 1,
-          "text": "Complete an easy delivery for the Gnome Restaurant [Western Province Medium Diary]"
+          "text": "Make a Chocolate Bomb [Western Province Medium Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-017",
           "index": 17,
           "level": 1,
-          "text": "Mine a Gold Ore Beneath the Grand Tree [Western Province Medium Diary]"
+          "text": "Complete an easy delivery for the Gnome Restaurant [Western Province Medium Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-018",
           "index": 18,
           "level": 1,
-          "text": "Take the Shortcut North-East to Otto\u2019s Grotto [Western Province Medium Diary]"
+          "text": "Mine a Gold Ore Beneath the Grand Tree [Western Province Medium Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-019",
           "index": 19,
           "level": 1,
-          "text": "Teleport to Falador"
+          "text": "Take the Shortcut North-East to Otto\u2019s Grotto [Western Province Medium Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-020",
           "index": 20,
           "level": 1,
-          "text": "Mine a Gold Ore in the Crafting Guild [Falador Medium Diary]"
+          "text": "Teleport to Falador"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-021",
           "index": 21,
           "level": 1,
-          "text": "Teleport to Ardougne"
+          "text": "Mine a Gold Ore in the Crafting Guild [Falador Medium Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-022",
           "index": 22,
           "level": 1,
-          "text": "Bank at the South Bank"
+          "text": "Teleport to Ardougne"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-023",
           "index": 23,
           "level": 1,
-          "text": "Complete Legend's Quest (All items are in the bank)"
+          "text": "Bank at the South Bank"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-024",
           "index": 24,
           "level": 1,
-          "text": "IMPORTANT WARNING: Before Nezikchened spawns use Pray Melee. Keep pray melee on during the last fight with him!!! (Use Ibans to kill)"
+          "text": "Complete Legend's Quest (All items are in the bank)"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-025",
           "index": 25,
           "level": 1,
-          "text": "Kill an Oomlie bird for Oomlie Wrap (boatyVV)"
+          "text": "IMPORTANT WARNING: Before Nezikchened spawns use Pray Melee. Keep pray melee on during the last fight with him!!! (Use Ibans to kill)"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-026",
           "index": 26,
           "level": 1,
-          "text": "Collect 3x Vanilla pod [Recipe for Disater Amik Varze]"
+          "text": "Kill an Oomlie bird for Oomlie Wrap (boatyVV)"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-027",
           "index": 27,
           "level": 1,
-          "text": "Collect 1x Palm leaf Drop 5x [Karamja Hard Diary]"
+          "text": "Collect 3x Vanilla pod [Recipe for Disater Amik Varze]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-028",
           "index": 28,
           "level": 1,
-          "text": "Kill a Death wing [Karamja Hard Diary]"
+          "text": "Collect 1x Palm leaf Drop 5x [Karamja Hard Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-029",
           "index": 29,
           "level": 1,
-          "text": "Make 2 Golden Bowls & have them blessed (bring a prayer potion)"
+          "text": "Kill a Death wing [Karamja Hard Diary]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-030",
           "index": 30,
           "level": 1,
-          "text": "Drop trick for roughly 30 Germinated Seeds"
+          "text": "Make 2 Golden Bowls & have them blessed (bring a prayer potion)"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-031",
           "index": 31,
           "level": 1,
-          "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks."
+          "text": "Drop trick for roughly 30 Germinated Seeds"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-032",
           "index": 32,
           "level": 1,
-          "text": "TOWARDS THE END OF THE QUEST WHEN YOU ARE GROWING THE YOMMI TREE"
+          "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks."
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-033",
           "index": 33,
           "level": 1,
-          "text": "When the 'Adult Yommi Tree' becomes a 'Dead Yommi Tree' cut it down for a 1/3 chance for Magic Logs"
+          "text": "TOWARDS THE END OF THE QUEST WHEN YOU ARE GROWING THE YOMMI TREE"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-034",
           "index": 34,
           "level": 1,
-          "text": "Repeat until you have 1 Magic Logs [Mournings End Pt 1]"
+          "text": "When the 'Adult Yommi Tree' becomes a 'Dead Yommi Tree' cut it down for a 1/3 chance for Magic Logs"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-035",
           "index": 35,
           "level": 1,
-          "text": "This is much faster than Nature Implings"
+          "text": "Repeat until you have 1 Magic Logs [Mournings End Pt 1]"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-036",
           "index": 36,
           "level": 1,
-          "text": "Complete Legend's Quest"
+          "text": "This is much faster than Nature Implings"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-037",
           "index": 37,
           "level": 1,
-          "text": "ALL LAMPS ON HERBLORE"
+          "text": "Complete Legend's Quest"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-038",
           "index": 38,
           "level": 1,
-          "text": "Bank at Legend's Guild"
+          "text": "ALL LAMPS ON HERBLORE"
         },
         {
           "id": "episode-4-banks-105-through-150-bank-153-step-039",
           "index": 39,
+          "level": 1,
+          "text": "Bank at Legend's Guild"
+        },
+        {
+          "id": "episode-4-banks-105-through-150-bank-153-step-040",
+          "index": 40,
           "level": 1,
           "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop."
         }
@@ -14739,7 +14745,7 @@
           "id": "episode-5-banks-151-through-175-bank-162-step-003",
           "index": 3,
           "level": 1,
-          "text": "Make Necklace of Passage > Silver bar on furnace > Enchant with emeral spell"
+          "text": "Make Necklace of Passage > Silver bar on furnace > Enchant with emerald spell"
         },
         {
           "id": "episode-5-banks-151-through-175-bank-162-step-004",
@@ -17503,7 +17509,7 @@
           "id": "episode-10-bank-180-through-inferno-bank-193-step-006",
           "index": 6,
           "level": 1,
-          "text": "Build a Superior Garden immediately North of the portal. (rotate for the pool to be close to portal)"
+          "text": "Build a superior garden immediately North of the portal. (rotate for the pool to be close to portal)"
         },
         {
           "id": "episode-10-bank-180-through-inferno-bank-193-step-007",
@@ -17521,19 +17527,19 @@
           "id": "episode-10-bank-180-through-inferno-bank-193-step-009",
           "index": 9,
           "level": 1,
-          "text": "Build a Portal Nexus West of the Superior Garden"
+          "text": "Build a portal nexus West of the superior garden"
         },
         {
           "id": "episode-10-bank-180-through-inferno-bank-193-step-010",
           "index": 10,
           "level": 1,
-          "text": "Build a Marble Portal Nexus. Upgrade it to Gilded Portal Nexus"
+          "text": "Build a Marble portal nexus. Upgrade it to Gilded portal nexus"
         },
         {
           "id": "episode-10-bank-180-through-inferno-bank-193-step-011",
           "index": 11,
           "level": 1,
-          "text": "It is your choice what teleports to put in this. I personally had Kourend Castle & Lunar Isle as musts, and the rest were the standard spellbook teleports. Kharyl for Morytania Diary"
+          "text": "It is your choice what teleports to put in this. I personally had Kourend Castle & Lunar Isle as musts, and the rest were the standard spellbook teleports. Kharyrll for Morytania Diary"
         },
         {
           "id": "episode-10-bank-180-through-inferno-bank-193-step-012",
@@ -18049,7 +18055,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-bank-201-step-002",
           "index": 2,
           "level": 1,
-          "text": "Inventory: amulet of glory & Sapphire Lantern (Cave Slimes & Cave Bugs), Rope & Digsite Pendants (Skeletons & Bats), Ectophial (Zombies, Cows & Birds), Dramen Staff & House Teleports (POH Nexus: Kourend - Ghosts, Fairy ring - Bears(BLR), Crawling Hands(CKS) & Cave Crawlers(AJR), Grand Exchange - Minotaurs, Lumbridge - Goblins & Spiders. POH Occult Altar - Ancients, Lassar Teleport for Dwarves and Ice Fiends), Expeditious Bracelets, Super Strength Potion (not divine), Stamina Potion, Antipoison, Rune Pouch (NPC Contact Runes)"
+          "text": "Inventory: amulet of glory & Sapphire Lantern (Cave Slimes & Cave Bugs), Rope & Digsite Pendants (Skeletons & Bats), Ectophial (Zombies, Cows & Birds), Dramen Staff & House Teleports (POH Nexus: Kourend - Ghosts, Fairy ring - Bears(BLR), Crawling Hands(CKS) & Cave Crawlers(AJR), Grand Exchange - Minotaurs, Lumbridge - Goblins & Spiders. POH Occult Altar - Ancients, Lassar Teleport for Dwarves and Ice Fiends), Expeditious Bracelets, Super Strength Potion (not divine), Stamina Potion, Antipoison, Rune Pouch (Astral Contact Runes)"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-bank-201-step-003",
@@ -18061,7 +18067,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-bank-201-step-004",
           "index": 4,
           "level": 1,
-          "text": "You will be NPC contacting Turael and completing 49 Turael Tasks and then 50th at Konar or Duradel (up to you). You then repeat this process to 100 tasks, 150, 200 and 250 and so on to stack slayer points while working on 69 Slayer. The methods and locations for each monster are above"
+          "text": "You will be Astral Contacting Turael and completing 49 Turael Tasks and then 50th at Konar or Duradel (up to you). You then repeat this process to 100 tasks, 150, 200 and 250 and so on to stack slayer points while working on 69 Slayer. The methods and locations for each monster are above"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-bank-201-step-005",
@@ -18181,7 +18187,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-bank-204-step-006",
           "index": 6,
           "level": 1,
-          "text": "Teleport to POH -> Kharyl Portal [Morytania Hard Diary]"
+          "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-bank-204-step-007",
@@ -18573,7 +18579,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-003",
           "index": 3,
           "level": 1,
-          "text": "NPC Contact Duradel for a task. The only tasks you are looking for are"
+          "text": "Astral Contact Duradel for a task. The only tasks you are looking for are"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-004",
@@ -18591,7 +18597,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-006",
           "index": 6,
           "level": 1,
-          "text": "Dagannoths (Barrage with Alts in Catacombats or Saeldor them)"
+          "text": "Dagannoth (Barrage with Alts in Catacombats or Saeldor them)"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-007",
@@ -18621,7 +18627,7 @@
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-011",
           "index": 11,
           "level": 1,
-          "text": "If Duradel doesn\u2019t offer any of these tasks, NPC Contact Aya and replace your task streak with a new assignment. You should be in your Turael slayer gear from earlier in the guide until you pull an above task, then change to the gear accordingly"
+          "text": "If Duradel doesn\u2019t offer any of these tasks, Astral Contact Aya and replace your task streak with a new assignment. You should be in your Turael slayer gear from earlier in the guide until you pull an above task, then change to the gear accordingly"
         },
         {
           "id": "episode-11-bank-196-through-slayer-grind-slayer-grind-step-012",

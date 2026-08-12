@@ -1,110 +1,2419 @@
 {
   "episode-1-banks-1-through-24-starting-out-step-003": {
-    "nav": { "label": "Father Aereck", "x": 3243, "y": 3207, "z": 0 },
-    "quest": "Restless Ghost"
+    "nav": {
+      "label": "Father Aereck",
+      "x": 3243,
+      "y": 3207,
+      "z": 0
+    },
+    "quest": "Restless Ghost",
+    "_text": "Talk to Father Aereck (3,1) [Restless Ghost]",
+    "_section": "Starting out"
   },
   "episode-1-banks-1-through-24-starting-out-step-007": {
-    "nav": { "label": "Veos (Port Sarim)", "x": 3054, "y": 3245, "z": 0 },
-    "quest": "X Marks the Spot"
+    "nav": {
+      "label": "Veos (Port Sarim)",
+      "x": 3054,
+      "y": 3245,
+      "z": 0
+    },
+    "quest": "X Marks the Spot",
+    "_text": "Head East & Start X Marks the Spot on Veos (2,1) & complete the first step (Install Quest Helper plug in on Runelite)",
+    "_section": "Starting out"
   },
   "episode-1-banks-1-through-24-starting-out-step-008": {
-    "nav": { "label": "Hans (Lumbridge)", "x": 3222, "y": 3218, "z": 0 }
+    "nav": {
+      "label": "Hans (Lumbridge)",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Check playtime on Hans [Lumbridge Easy Diary]",
+    "_section": "Starting out"
   },
   "episode-1-banks-1-through-24-starting-out-step-009": {
-    "nav": { "label": "Duke Horacio", "x": 3209, "y": 3220, "z": 1 },
-    "quest": "Rune Mysteries"
+    "nav": {
+      "label": "Duke Horacio",
+      "x": 3209,
+      "y": 3220,
+      "z": 1
+    },
+    "quest": "Rune Mysteries",
+    "_text": "Go upstairs and Talk to Duke Horacio (1,1) [Rune Mysteries]",
+    "_section": "Starting out"
   },
   "episode-1-banks-1-through-24-bank-1-step-008": {
-    "nav": { "label": "Father Urhney", "x": 3148, "y": 3177, "z": 0 }
+    "nav": {
+      "label": "Father Urhney",
+      "x": 3148,
+      "y": 3177,
+      "z": 0
+    },
+    "_text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this.",
+    "_section": "Bank 1"
   },
   "episode-1-banks-1-through-24-bank-1-step-013": {
-    "nav": { "label": "Sedridor (Wizards' Tower)", "x": 3104, "y": 9571, "z": 0 }
+    "nav": {
+      "label": "Sedridor (Wizards' Tower)",
+      "x": 3104,
+      "y": 9571,
+      "z": 0
+    },
+    "_text": "Head to the basement & Talk to Sedridor to continue Rune Mysteries (1,2,1)",
+    "_section": "Bank 1"
   },
   "episode-1-banks-1-through-24-bank-2-step-002": {
-    "nav": { "label": "Aggie", "x": 3086, "y": 3257, "z": 0 }
+    "nav": {
+      "label": "Aggie",
+      "x": 3086,
+      "y": 3257,
+      "z": 0
+    },
+    "_text": "Collect Cheese from Aggie [Witch's House]",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-004": {
-    "nav": { "label": "Morgan", "x": 3097, "y": 3268, "z": 0 }
+    "nav": {
+      "label": "Morgan",
+      "x": 3097,
+      "y": 3268,
+      "z": 0
+    },
+    "_text": "Talk to Morgan and start Vampyre Slayer (1)",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-009": {
-    "nav": { "label": "Fortunato (Draynor)", "x": 3083, "y": 3251, "z": 0 }
+    "nav": {
+      "label": "Fortunato (Draynor)",
+      "x": 3083,
+      "y": 3251,
+      "z": 0
+    },
+    "_text": "Talk to Fortunato & buy 5 Jugs of wine. Hop worlds and buy 10 in total.",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-010": {
-    "nav": { "label": "A Porcine of Interest (Draynor)", "x": 3090, "y": 3261, "z": 0 }
+    "nav": {
+      "label": "A Porcine of Interest (Draynor)",
+      "x": 3090,
+      "y": 3261,
+      "z": 0
+    },
+    "_text": "Check the Notice board next to Fortunato to Start A Porcine of Interest",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-015": {
-    "nav": { "label": "Veos (Port Piscarilius)", "x": 1824, "y": 3690, "z": 0 },
-    "quest": "Client of Kourend"
+    "nav": {
+      "label": "Veos (Port Piscarilius)",
+      "x": 1824,
+      "y": 3690,
+      "z": 0
+    },
+    "quest": "Client of Kourend",
+    "_text": "Talk to Veos (4,1) [Client of Kourend]",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-016": {
-    "nav": { "label": "Shayzien (Minecart)", "x": 1494, "y": 3630, "z": 0 }
+    "nav": {
+      "label": "Shayzien (Minecart)",
+      "x": 1494,
+      "y": 3630,
+      "z": 0
+    },
+    "_text": "Take the Minecart to Shayzien East (option B)",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-020": {
-    "nav": { "label": "Jennifer (Shayzien)", "x": 1497, "y": 3624, "z": 0 }
+    "nav": {
+      "label": "Jennifer (Shayzien)",
+      "x": 1497,
+      "y": 3624,
+      "z": 0
+    },
+    "_text": "Head west to the General store, Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)",
+    "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-3-step-003": {
-    "nav": { "label": "Zaff (Varrock)", "x": 3201, "y": 3433, "z": 0 }
+    "nav": {
+      "label": "Zaff (Varrock)",
+      "x": 3201,
+      "y": 3433,
+      "z": 0
+    },
+    "_text": "Head East and buy an Air Staff from Zaff. Equip it.",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-004": {
-    "nav": { "label": "Aris (Varrock)", "x": 3204, "y": 3424, "z": 0 },
-    "quest": "Demon Slayer"
+    "nav": {
+      "label": "Aris (Varrock)",
+      "x": 3204,
+      "y": 3424,
+      "z": 0
+    },
+    "quest": "Demon Slayer",
+    "_text": "Head South & Talk to Aris and start Demon Slayer (1,2,3,4).",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-008": {
-    "nav": { "label": "Dr Harlow (Blue Moon Inn)", "x": 3222, "y": 3399, "z": 0 }
+    "nav": {
+      "label": "Dr Harlow (Blue Moon Inn)",
+      "x": 3222,
+      "y": 3399,
+      "z": 0
+    },
+    "_text": "Head East and talk to Dr Harlow (2, talk again)[Vampyre Slayer]",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-010": {
-    "nav": { "label": "Romeo (Varrock)", "x": 3210, "y": 3423, "z": 0 },
-    "quest": "Romeo & Juliet"
+    "nav": {
+      "label": "Romeo (Varrock)",
+      "x": 3210,
+      "y": 3423,
+      "z": 0
+    },
+    "quest": "Romeo & Juliet",
+    "_text": "Talk to Romeo (3,1) [Romeo & Juliet]",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-015": {
-    "nav": { "label": "Sir Prysin (Varrock Palace)", "x": 3204, "y": 3472, "z": 0 },
-    "quest": "Demon Slayer"
+    "nav": {
+      "label": "Sir Prysin (Varrock Palace)",
+      "x": 3204,
+      "y": 3472,
+      "z": 0
+    },
+    "quest": "Demon Slayer",
+    "_text": "Go down North West 2x Stairs and talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-017": {
-    "nav": { "label": "Reldo (Varrock Library)", "x": 3211, "y": 3493, "z": 0 },
-    "quest": "Shield of Arrav"
+    "nav": {
+      "label": "Reldo (Varrock Library)",
+      "x": 3211,
+      "y": 3493,
+      "z": 0
+    },
+    "quest": "Shield of Arrav",
+    "_text": "Return down the stairs and talk to Reldo and start Shield of Arrav (1,1).",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-022": {
-    "nav": { "label": "King Roald (Varrock Palace)", "x": 3222, "y": 3473, "z": 0 },
-    "quest": "Priest in Peril"
+    "nav": {
+      "label": "King Roald (Varrock Palace)",
+      "x": 3222,
+      "y": 3473,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Head to King Roald and start Priest in Peril (1,1,3)",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-026": {
-    "nav": { "label": "Varrock Museum", "x": 3253, "y": 3450, "z": 0 }
+    "nav": {
+      "label": "Varrock Museum",
+      "x": 3253,
+      "y": 3450,
+      "z": 0
+    },
+    "_text": "Enter Varrock Museum and head downstairs and talk to Orlando Smith (1) and complete the Natural History Quiz for 9 slayer and hunter and 28 kudos.",
+    "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-4-step-002": {
-    "nav": { "label": "Aubury (Varrock)", "x": 3253, "y": 3401, "z": 0 }
+    "nav": {
+      "label": "Aubury (Varrock)",
+      "x": 3253,
+      "y": 3401,
+      "z": 0
+    },
+    "_text": "Talk to Aubury to continue Rune Mysteries (2)",
+    "_section": "Bank 4"
   },
   "episode-2-banks-24-through-75-bank-28-step-002": {
-    "nav": { "label": "Barcrawl (Port Sarim)", "x": 3047, "y": 3233, "z": 0 }
+    "nav": {
+      "label": "Barcrawl (Port Sarim)",
+      "x": 3047,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Complete the Barcrawl at Port Sarim",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-003": {
-    "nav": { "label": "Veos (Port Sarim)", "x": 3054, "y": 3245, "z": 0 }
+    "nav": {
+      "label": "Veos (Port Sarim)",
+      "x": 3054,
+      "y": 3245,
+      "z": 0
+    },
+    "_text": "Head to Veos and travel to Port Piscarilius",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-006": {
-    "nav": { "label": "Leenz (Piscarilius Store)", "x": 1794, "y": 3706, "z": 0 }
+    "nav": {
+      "label": "Leenz (Piscarilius Store)",
+      "x": 1794,
+      "y": 3706,
+      "z": 0
+    },
+    "_text": "Head North to the Piscarillius General Store, talk to Leenz(3,2)",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-009": {
-    "nav": { "label": "Lovakengj (Minecart)", "x": 1492, "y": 3818, "z": 0 }
+    "nav": {
+      "label": "Lovakengj (Minecart)",
+      "x": 1492,
+      "y": 3818,
+      "z": 0
+    },
+    "_text": "Head west to the Minecart and travel to Lovakengj",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-011": {
-    "nav": { "label": "Munty (Lovakengj Store)", "x": 1553, "y": 3750, "z": 0 }
+    "nav": {
+      "label": "Munty (Lovakengj Store)",
+      "x": 1553,
+      "y": 3750,
+      "z": 0
+    },
+    "_text": "Head East and slightly North to the General Store, talk to Munty (4,2)",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-013": {
-    "nav": { "label": "Kingstown (Arceuus)", "x": 1624, "y": 3745, "z": 0 }
+    "nav": {
+      "label": "Kingstown (Arceuus)",
+      "x": 1624,
+      "y": 3745,
+      "z": 0
+    },
+    "_text": "Take Minecart to Kingstown",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-014": {
-    "nav": { "label": "Regath (Arceuus Store)", "x": 1720, "y": 3724, "z": 0 }
+    "nav": {
+      "label": "Regath (Arceuus Store)",
+      "x": 1720,
+      "y": 3724,
+      "z": 0
+    },
+    "_text": "Head directly North on the path to Arceuus general Store and talk to Regath (4,2) [Client of Kourend]",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-015": {
-    "nav": { "label": "Horace (Hosidius Store)", "x": 1774, "y": 3588, "z": 0 }
+    "nav": {
+      "label": "Horace (Hosidius Store)",
+      "x": 1774,
+      "y": 3588,
+      "z": 0
+    },
+    "_text": "Walk to the Hosidius General Store, talk to Horace (3,2)",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-017": {
-    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+    "nav": {
+      "label": "Hosidius Fruit Stall",
+      "x": 1790,
+      "y": 3563,
+      "z": 0
+    },
+    "_text": "Steal from the Fruit stall [Kourend Easy Diary]",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-018": {
-    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+    "nav": {
+      "label": "Hosidius Fruit Stall",
+      "x": 1790,
+      "y": 3563,
+      "z": 0
+    },
+    "_text": "Head East & thieve from the Hosidius fruit stall until 34512 Thieving Experience. Bank 5x Redberries, all Golovanova's + Strange fruit and 1x Jangerberries [Fairytale Part I, possible item for Malignius Mortifer]",
+    "_section": "Bank 28"
   },
   "episode-2-banks-24-through-75-bank-28-step-019": {
-    "nav": { "label": "Hosidius Fruit Stall", "x": 1790, "y": 3563, "z": 0 }
+    "nav": {
+      "label": "Hosidius Fruit Stall",
+      "x": 1790,
+      "y": 3563,
+      "z": 0
+    },
+    "_text": "Run between both stalls as it is faster. Once you are 0 energy, recharge at 1 stall.",
+    "_section": "Bank 28"
+  },
+  "episode-2-banks-24-through-75-bank-33-step-001": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Withdraw: Food, 4 Flax",
+    "_section": "Bank 33"
+  },
+  "episode-2-banks-24-through-75-bank-33-step-003": {
+    "nav": {
+      "label": "Seers' Rooftop Course (start)",
+      "x": 2729,
+      "y": 3489,
+      "z": 0
+    },
+    "_text": "Train Agility to 65 at Seers Course",
+    "_section": "Bank 33"
+  },
+  "episode-2-banks-24-through-75-bank-33-step-004": {
+    "nav": {
+      "label": "Seers' Village church organ",
+      "x": 2691,
+      "y": 3461,
+      "z": 0
+    },
+    "diary": "Kandarin Easy",
+    "_text": "Play the Organ after the first completion [Kandarin Easy Diary]",
+    "_section": "Bank 33"
+  },
+  "episode-2-banks-24-through-75-bank-33-step-005": {
+    "nav": {
+      "label": "Seers' Village spinning wheel",
+      "x": 2710,
+      "y": 3471,
+      "z": 1
+    },
+    "_text": "Spin 4 Flax on first trip. Keep the bowstrings",
+    "_section": "Bank 33"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-001": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Air Staff, Mind Runes, Barcrawl Card, Empty Pot, Empty Sack, Bronze Bar, Clay, Bucket of Water, Key Print (9 Inventory Slots)",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-003": {
+    "nav": {
+      "label": "Sinclair Mansion (Murder Mystery)",
+      "x": 2741,
+      "y": 3562,
+      "z": 0
+    },
+    "quest": "Murder Mystery",
+    "_text": "Complete Murder Mystery",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-005": {
+    "nav": {
+      "label": "Forester's Arms (Seers' Village)",
+      "x": 2695,
+      "y": 3493,
+      "z": 0
+    },
+    "diary": "Kandarin Easy",
+    "_text": "Buy a stew during the quest also from the Bartender [Kandarin Easy Diary]",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-006": {
+    "nav": {
+      "label": "Cows (Sinclair Mansion)",
+      "x": 2733,
+      "y": 3561,
+      "z": 0
+    },
+    "_text": "Kill a cow & take cowhide during or after the quest",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-007": {
+    "nav": {
+      "label": "Catherby bank",
+      "x": 2810,
+      "y": 3442,
+      "z": 0
+    },
+    "_text": "Head to Catherby",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-008": {
+    "nav": {
+      "label": "Catherby tool leprechaun",
+      "x": 2815,
+      "y": 3466,
+      "z": 0
+    },
+    "_text": "Collect 15 Supercompost. Deposit in Leprechaun. Withdraw 2x Plant Cure)",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-009": {
+    "nav": {
+      "label": "Catherby bank",
+      "x": 2810,
+      "y": 3442,
+      "z": 0
+    },
+    "_text": "Withdraw 15 Pineapples and refill compost bin",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-010": {
+    "nav": {
+      "label": "Rogues' Den",
+      "x": 2906,
+      "y": 3537,
+      "z": 0
+    },
+    "_text": "OPTIONAL: Use Minigames teleport to Burthorpe Games Room, go upstairs, then to Rogues' Den to buy Graceful legs (or the guide will tell you to buy them later).",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-012": {
+    "nav": {
+      "label": "Al Kharid bank",
+      "x": 3269,
+      "y": 3167,
+      "z": 0
+    },
+    "_text": "Head East to Al Kharid",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-013": {
+    "nav": {
+      "label": "Al Kharid Rooftop Course",
+      "x": 3273,
+      "y": 3195,
+      "z": 0
+    },
+    "diary": "Lumbridge Medium",
+    "_text": "Complete 1x Lap of Al Kharid Agility Course [Lumbridge Medium Diary]",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-014": {
+    "nav": {
+      "label": "Ali Morrisane",
+      "x": 3304,
+      "y": 3211,
+      "z": 0
+    },
+    "quest": "The Feud",
+    "_text": "Talk to Ali Morrisane and start The Feud (1,2,1,2)",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-016": {
+    "nav": {
+      "label": "Al Kharid General Store",
+      "x": 3315,
+      "y": 3182,
+      "z": 0
+    },
+    "_text": "Buy 5x Empty Pots in the General Store",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-017": {
+    "nav": {
+      "label": "Osman",
+      "x": 3286,
+      "y": 3180,
+      "z": 0
+    },
+    "quest": "Prince Ali Rescue",
+    "_text": "Talk to Osman (1) [Prince Ali Rescue]",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-018": {
+    "nav": {
+      "label": "Shantay Pass",
+      "x": 3304,
+      "y": 3123,
+      "z": 0
+    },
+    "_text": "Head to Shantay Pass",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-001": {
+    "nav": {
+      "label": "Shantay Pass bank",
+      "x": 3308,
+      "y": 3119,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Desert Robes/boots (buy new ones from Shantay Pass), Chronicle",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-003": {
+    "nav": {
+      "label": "Shantay (waterskins)",
+      "x": 3304,
+      "y": 3124,
+      "z": 0
+    },
+    "_text": "Buy 2x Inventory of Waterskins(4)",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-004": {
+    "nav": {
+      "label": "Rug merchant (Shantay Pass)",
+      "x": 3311,
+      "y": 3109,
+      "z": 0
+    },
+    "_text": "Take Carpet to Pollnivneach",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-005": {
+    "nav": {
+      "label": "Agility Pyramid",
+      "x": 3365,
+      "y": 2842,
+      "z": 0
+    },
+    "_text": "Run towards the Agility Pyramid",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-007": {
+    "nav": {
+      "label": "Nardah bank",
+      "x": 3427,
+      "y": 2891,
+      "z": 0
+    },
+    "_text": "Bank at Nardah when out of food/waterskins",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-009": {
+    "nav": {
+      "label": "Cactus (near Nardah)",
+      "x": 3352,
+      "y": 2999,
+      "z": 0
+    },
+    "diary": "Desert Easy",
+    "_text": "Withdraw a knife and cut a cactus one trip banking at Nardah [Desert Easy Diary]",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-012": {
+    "nav": {
+      "label": "Varrock General Store (shop keeper)",
+      "x": 3217,
+      "y": 3415,
+      "z": 0
+    },
+    "_text": "Buy 2x Tinderbox, Cake Tin, 2x Bowl from General Store",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-013": {
+    "nav": {
+      "label": "Zaff",
+      "x": 3203,
+      "y": 3434,
+      "z": 0
+    },
+    "_text": "Buy a Fire Staff from Zaff",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-014": {
+    "nav": {
+      "label": "Aubury",
+      "x": 3253,
+      "y": 3402,
+      "z": 0
+    },
+    "_text": "Buy 400 Chaos Runes from Aubury",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-016": {
+    "nav": {
+      "label": "Tea seller",
+      "x": 3270,
+      "y": 3413,
+      "z": 0
+    },
+    "diary": "Varrock Easy",
+    "_text": "Steal a tea [Varrock Easy Diary]",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-017": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Bank at Varrock East Bank",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-35-step-018": {
+    "nav": {
+      "label": "Mahogany Homes (Varrock)",
+      "x": 3243,
+      "y": 3447,
+      "z": 0
+    },
+    "_text": "Do Mahogany Home contract if Varrock",
+    "_section": "Bank 35"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-001": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Chaos Runes, Air Staff, Leather Gloves, 10x Empty Bucket, Barcrawl, Unstamped Letter (16 Inventory Slots)",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-002": {
+    "nav": {
+      "label": "Curator Haig Halen",
+      "x": 3260,
+      "y": 3451,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "Talk to Haig Halen to continue Digsite (1)",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-004": {
+    "nav": {
+      "label": "Shantay Pass",
+      "x": 3304,
+      "y": 3123,
+      "z": 0
+    },
+    "_text": "Head to the Shantay Pass",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-006": {
+    "nav": {
+      "label": "Rug merchant (Shantay Pass)",
+      "x": 3311,
+      "y": 3109,
+      "z": 0
+    },
+    "_text": "Travel to Pollnivneach via Magic Carpet",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-007": {
+    "nav": {
+      "label": "Camel pen (Ali the Camel), Pollnivneach",
+      "x": 3343,
+      "y": 2964,
+      "z": 0
+    },
+    "quest": "The Feud",
+    "_text": "During the quest, collect 10x Ugthanki dung [My Arms Big Adventure + Camulet]",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-010": {
+    "nav": {
+      "label": "Pollnivneach",
+      "x": 3358,
+      "y": 2974,
+      "z": 0
+    },
+    "quest": "The Feud",
+    "_text": "Complete The Feud",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-011": {
+    "nav": {
+      "label": "Ali Morrisane",
+      "x": 3304,
+      "y": 3211,
+      "z": 0
+    },
+    "_text": "After completing the quest talk to Ali Morrisane again. (2) To start Rogue Trader Runes Shop miniquest",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-013": {
+    "nav": {
+      "label": "Bartender (Blue Moon Inn)",
+      "x": 3226,
+      "y": 3398,
+      "z": 0
+    },
+    "_text": "Continue Barcrawl with Bartender (Blue Moon Inn) (4)",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-014": {
+    "nav": {
+      "label": "Aubury",
+      "x": 3253,
+      "y": 3402,
+      "z": 0
+    },
+    "_text": "Talk to Aubury (5)",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-015": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Bank at Varrock East Bank",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-001": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Pestle & Mortar, Vial of water, Tinderbox, Cup of Tea, 2x Ropes, Sealed Letter (13 Inventory Slots)",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-003": {
+    "nav": {
+      "label": "Digsite",
+      "x": 3354,
+      "y": 3420,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "Continue The Digsite",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-006": {
+    "nav": {
+      "label": "Doug Deeping (Digsite cave)",
+      "x": 3351,
+      "y": 9756,
+      "z": 0
+    },
+    "_text": "Collect Iron Pickaxe near Doug Deeping (He is in the cave) [Mournings End Pt 2]",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-007": {
+    "nav": {
+      "label": "Exam Centre",
+      "x": 3352,
+      "y": 3340,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "Complete The Digsite",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-008": {
+    "nav": {
+      "label": "Al Kharid bank",
+      "x": 3269,
+      "y": 3167,
+      "z": 0
+    },
+    "_text": "Head South to Al Kharid",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-009": {
+    "nav": {
+      "label": "Ali Morrisane",
+      "x": 3304,
+      "y": 3211,
+      "z": 0
+    },
+    "_text": "Talk to Ali Morrisane (1,2,3)",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-013": {
+    "nav": {
+      "label": "Emir's Arena bank",
+      "x": 3384,
+      "y": 3270,
+      "z": 0
+    },
+    "_text": "Bank at Emir's Arena before heading to the Mage Training Arena. Withdraw Air staff, Fire staff, Nature runes, Cosmic runes, Law runes, Water runes, and Earth runes as shown in the screenshot. (Place runes + air staff at the bottom of your inventory)",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-014": {
+    "nav": {
+      "label": "Mage Training Arena",
+      "x": 3364,
+      "y": 3312,
+      "z": 0
+    },
+    "_text": "NOTE: After talking to the Entrance Guardian, you can use the Mage Training Arena minigame teleport",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-018": {
+    "nav": {
+      "label": "Emir's Arena bank",
+      "x": 3384,
+      "y": 3270,
+      "z": 0
+    },
+    "_text": "Bank at Emir's Arena bank",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-001": {
+    "nav": {
+      "label": "Emir's Arena bank",
+      "x": 3384,
+      "y": 3270,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Willow Blackjack, 2 Law, 2 Water, 23x Wines",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-002": {
+    "nav": {
+      "label": "Pollnivneach",
+      "x": 3358,
+      "y": 2974,
+      "z": 0
+    },
+    "_text": "Head to Pollnivneach",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-004": {
+    "nav": {
+      "label": "Ali the Barman (Pollnivneach)",
+      "x": 3361,
+      "y": 2956,
+      "z": 0
+    },
+    "_text": "Buy wines from the bar to heal. Don\u2019t die here, it\u2019s possible, but only if you\u2019re not paying attention.",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-006": {
+    "nav": {
+      "label": "Silver merchant (Ardougne)",
+      "x": 2658,
+      "y": 3315,
+      "z": 0
+    },
+    "_text": "Buy 1x silver bar, 1x Silver Ore & 2x Unstrung Symbols from Silver Merchant [Nature Spirit][Animal Magnetism]",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-007": {
+    "nav": {
+      "label": "Spice seller (Ardougne)",
+      "x": 2659,
+      "y": 3297,
+      "z": 0
+    },
+    "_text": "Buy 1x Spice from the Spice seller [Desert Treasure]",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-008": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Bank the above",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-001": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Withdraw: Law Runes, Water Runes, Death Runes, Air Staff, Coins, 6x Wine, 3x Bones, Small Fishing Net (15 Inventory Spaces)",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-002": {
+    "nav": {
+      "label": "Captain Barnaby (Ardougne dock)",
+      "x": 2680,
+      "y": 3274,
+      "z": 0
+    },
+    "_text": "Take the boat to Brimhaven & head south to Jiminua's Jungle Store",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-003": {
+    "nav": {
+      "label": "Jiminua's Jungle Store",
+      "x": 2767,
+      "y": 3122,
+      "z": 0
+    },
+    "_text": "Buy Spade, Tinderbox, Candle, 2x Charcoal, Rope, Chisel, Bronze Bar, Hammer, 2x Antipoison (3)",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-007": {
+    "nav": {
+      "label": "Trufitus",
+      "x": 2809,
+      "y": 3086,
+      "z": 0
+    },
+    "quest": "Jungle Potion",
+    "_text": "Complete Jungle Potion quest",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-011": {
+    "nav": {
+      "label": "Trufitus",
+      "x": 2809,
+      "y": 3086,
+      "z": 0
+    },
+    "quest": "Tai Bwo Wannai Trio",
+    "_text": "Start Tai Bwo Wannai Trio (3,3/3,1)",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-012": {
+    "nav": {
+      "label": "Mosol Rei",
+      "x": 2883,
+      "y": 2951,
+      "z": 0
+    },
+    "quest": "Shilo Village",
+    "_text": "Complete Shilo Village",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-015": {
+    "nav": {
+      "label": "Shilo Village bank",
+      "x": 2852,
+      "y": 2955,
+      "z": 0
+    },
+    "_text": "Bank at Shilo Village",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-40a-step-001": {
+    "nav": {
+      "label": "Shilo Village bank",
+      "x": 2852,
+      "y": 2955,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins",
+    "_section": "Bank 40A"
+  },
+  "episode-2-banks-24-through-75-bank-40a-step-002": {
+    "nav": {
+      "label": "Yanni Salika",
+      "x": 2836,
+      "y": 2984,
+      "z": 0
+    },
+    "_text": "OPTIONAL: Withdraw items obtained from Shilo Village quest and sell to Yanni Salika for 2,000gp when starting One Small Favour",
+    "_section": "Bank 40A"
+  },
+  "episode-2-banks-24-through-75-bank-40a-step-003": {
+    "nav": {
+      "label": "Seravel (Shilo fishing shop, upstairs)",
+      "x": 2870,
+      "y": 2973,
+      "z": 1
+    },
+    "_text": "Buy 5,300 Feathers from the Shilo Village fishing shop. Go up the ladder and buy a ticket from Seravel (1)",
+    "_section": "Bank 40A"
+  },
+  "episode-2-banks-24-through-75-bank-40a-step-004": {
+    "nav": {
+      "label": "Yanni Salika",
+      "x": 2836,
+      "y": 2984,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Start One Small Favour by talking to Yanni Salika (2,5,1) [One Small Favour]",
+    "_section": "Bank 40A"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-001": {
+    "nav": {
+      "label": "Shilo Village bank",
+      "x": 2852,
+      "y": 2955,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Coins, Barcrawl Card, Bread, Bat Bones, Lit Black Candle, Steel Pickaxe, Silver Ore, Sickle Mould, Ship Ticket, Blunt axe (17 Inventory Slots)",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-002": {
+    "nav": {
+      "label": "Jungle forester (west)",
+      "x": 2814,
+      "y": 2944,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Jungle Forester (1,1) to continue One Small Favor",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-003": {
+    "nav": {
+      "label": "Captain Shanks (Lady of the Waves)",
+      "x": 2761,
+      "y": 2956,
+      "z": 0
+    },
+    "diary": "Karamja Medium",
+    "_text": "Head West & take the Lady of the Waves to Port Khazard [Karamja Medium Diary]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-007": {
+    "nav": {
+      "label": "Flynn's Mace Market",
+      "x": 2950,
+      "y": 3387,
+      "z": 0
+    },
+    "_text": "Buy a steel Mace from Flynn's Mace Market [In Search of Myreque]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-008": {
+    "nav": {
+      "label": "Rising Sun Inn (Kaylee)",
+      "x": 2958,
+      "y": 3371,
+      "z": 0
+    },
+    "_text": "Complete the Barcrawl in Rising Sun Inn",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-009": {
+    "nav": {
+      "label": "Falador furnace",
+      "x": 2976,
+      "y": 3369,
+      "z": 0
+    },
+    "_text": "Make a Silver Sickle",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-010": {
+    "nav": {
+      "label": "The Lady of the Lake (Taverley)",
+      "x": 2925,
+      "y": 3405,
+      "z": 0
+    },
+    "_text": "Run to Taverley and talk to Lady of the Lake (3)",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-012": {
+    "nav": {
+      "label": "Grum's Gold Exchange",
+      "x": 3014,
+      "y": 3247,
+      "z": 0
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Enter Jewellery Shop to get Excalibur Grum's Gold Exchange [Merlin's Crystal]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-013": {
+    "nav": {
+      "label": "Brian's Battleaxe Bazaar",
+      "x": 3027,
+      "y": 3249,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Brian (3,2,4) [One Small Favour]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-015": {
+    "nav": {
+      "label": "Chaos Temple (Varrock)",
+      "x": 3259,
+      "y": 3386,
+      "z": 0
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Check Chaos Altar for incantation [Merlins Crystal]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-017": {
+    "nav": {
+      "label": "Aubury",
+      "x": 3253,
+      "y": 3402,
+      "z": 0
+    },
+    "_text": "Teleport on Aubury [Enter the Abyss][Varrock Easy Diary]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-019": {
+    "nav": {
+      "label": "Camelot Castle",
+      "x": 2758,
+      "y": 3507,
+      "z": 0
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Complete Merlins Crystal",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-020": {
+    "nav": {
+      "label": "King Arthur",
+      "x": 2764,
+      "y": 3515,
+      "z": 0
+    },
+    "quest": "Holy Grail",
+    "_text": "Start Holy Grail quest",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-022": {
+    "nav": {
+      "label": "Merlin (upstairs)",
+      "x": 2767,
+      "y": 3501,
+      "z": 1
+    },
+    "_text": "Talk to Merlin (1)",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-42-step-001": {
+    "nav": {
+      "label": "Castle Wars bank",
+      "x": 2445,
+      "y": 3082,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Coins, Molten Glass, Bronze Bar, 3 Planks (11 Inventory Slots)",
+    "_section": "Bank 42"
+  },
+  "episode-2-banks-24-through-75-bank-42-step-002": {
+    "nav": {
+      "label": "Observatory",
+      "x": 2441,
+      "y": 3162,
+      "z": 0
+    },
+    "quest": "Observatory Quest",
+    "_text": "Head North and complete Observatory Quest (trap the goblin)",
+    "_section": "Bank 42"
+  },
+  "episode-2-banks-24-through-75-bank-42-step-006": {
+    "nav": {
+      "label": "Varrock Swordshop (shop keeper)",
+      "x": 3206,
+      "y": 3400,
+      "z": 0
+    },
+    "_text": "Buy an Adamant Sword, Black Dagger, Steel Longsword, 2x Steel Swords, Steel Dagger",
+    "_section": "Bank 42"
+  },
+  "episode-2-banks-24-through-75-bank-42-step-007": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Bank at Varrock East Bank",
+    "_section": "Bank 42"
+  },
+  "episode-2-banks-24-through-75-bank-43-step-002": {
+    "nav": {
+      "label": "Varrock Museum",
+      "x": 3260,
+      "y": 3449,
+      "z": 0
+    },
+    "_text": "Head to the Museum, Take the Cleaning Kit and clean Uncleaned finds until you obtain a Ruby Necklace & the 5 unique items. (You should get 78 Kudos)",
+    "_section": "Bank 43"
+  },
+  "episode-2-banks-24-through-75-bank-43-step-003": {
+    "nav": {
+      "label": "Historian Minas (upstairs)",
+      "x": 3265,
+      "y": 3454,
+      "z": 1
+    },
+    "_text": "Talk to Historian Minas to obtain 103 Kudos. Use lamps on Herblore",
+    "_section": "Bank 43"
+  },
+  "episode-2-banks-24-through-75-bank-43-step-005": {
+    "nav": {
+      "label": "Curator Haig Halen",
+      "x": 3260,
+      "y": 3451,
+      "z": 0
+    },
+    "quest": "Bone Voyage",
+    "_text": "Talk to Haig Halen for Diary step & Bone Voyage (1,1)",
+    "_section": "Bank 43"
+  },
+  "episode-2-banks-24-through-75-bank-43-step-006": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Bank at East Bank",
+    "_section": "Bank 43"
+  },
+  "episode-2-banks-24-through-75-bank-44-step-001": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw: Steel Pickaxe",
+    "_section": "Bank 44"
+  },
+  "episode-2-banks-24-through-75-bank-44-step-002": {
+    "nav": {
+      "label": "Aubury",
+      "x": 3253,
+      "y": 3402,
+      "z": 0
+    },
+    "_text": "Head to Aubury and teleport to the essence mine. Mine 2 Inventories of Essence",
+    "_section": "Bank 44"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-008": {
+    "nav": {
+      "label": "Camel pen (Ali the Camel), Pollnivneach",
+      "x": 3343,
+      "y": 2964,
+      "z": 0
+    },
+    "quest": "Demon Slayer",
+    "_text": "Safespot the Tough Guy in the Camel pen. Take the Willow Blackjack & bones [Demon Slayer]",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-009": {
+    "nav": {
+      "label": "Asp & Snake bar (Pollnivneach)",
+      "x": 3361,
+      "y": 2956,
+      "z": 0
+    },
+    "quest": "Demon Slayer",
+    "_text": "Safespot the Bandit Champion over a chair. Take the bones & Adamant Scimitar[Demon Slayer]",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-004": {
+    "nav": {
+      "label": "Panning point (Digsite)",
+      "x": 3380,
+      "y": 3378,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "Pan for the Opal",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-37-step-005": {
+    "nav": {
+      "label": "Specimen tray (Digsite)",
+      "x": 3353,
+      "y": 3386,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "After you obtain Specimen Jar during quest, search Specimen tray until you obtain Charcoal",
+    "_section": "Bank 37"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-006": {
+    "nav": {
+      "label": "Anvil (south-east of Jiminua's)",
+      "x": 2790,
+      "y": 3101,
+      "z": 0
+    },
+    "quest": "Shilo Village",
+    "_text": "Make Bronze Wire [Shilo Village](An Anvil is South East drop hammer)",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-008": {
+    "navs": [
+      {
+        "label": "Snake weed",
+        "x": 2764,
+        "y": 3047,
+        "z": 0
+      },
+      {
+        "label": "Ardrigal",
+        "x": 2870,
+        "y": 3115,
+        "z": 0
+      }
+    ],
+    "quest": "Legends' Quest",
+    "_text": "Collect 2x Snake Weed & Adrigal [Legend's Quest]",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-43-step-004": {
+    "nav": {
+      "label": "Information clerk (Varrock Museum)",
+      "x": 3254,
+      "y": 3454,
+      "z": 0
+    },
+    "_text": "Talk to Information clerk (1)",
+    "_section": "Bank 43"
+  },
+  "episode-2-banks-24-through-75-bank-34-step-004": {
+    "nav": {
+      "label": "Forester's Arms (Seers' Village)",
+      "x": 2695,
+      "y": 3493,
+      "z": 0
+    },
+    "_text": "Complete the Barcrawl during the quest",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-001": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw: Varrock Teleport Runes, Barcrawl Card, Coins, Adamant Scimitar, Bucket, Pickaxe (8 Inventory Slots) + 10x Wines",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-002": {
+    "nav": {
+      "label": "Bartender (Jolly Boar Inn)",
+      "x": 3277,
+      "y": 3489,
+      "z": 0
+    },
+    "_text": "Continue the Barcrawl by talking to Bartender (Jolly Boar Inn)",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-003": {
+    "nav": {
+      "label": "Canal barge (north of Digsite)",
+      "x": 3362,
+      "y": 3451,
+      "z": 0
+    },
+    "quest": "Bone Voyage",
+    "_text": "Talk to Barge foreman North of Digsite for Bone Voyage",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-004": {
+    "nav": {
+      "label": "Sawmill operator",
+      "x": 3302,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Speak to Sawmill Operator (4)",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-006": {
+    "nav": {
+      "label": "Paterdomus",
+      "x": 3416,
+      "y": 3487,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Continue Priest in Peril",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-008": {
+    "nav": {
+      "label": "Paterdomus",
+      "x": 3416,
+      "y": 3487,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Kill the Temple Guardian and then Minigame teleport to Barbarian Assault & hand in the Barcrawl.",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-009": {
+    "nav": {
+      "label": "King Roald",
+      "x": 3222,
+      "y": 3472,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Teleport to Varrock and speak to King Roald",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-010": {
+    "nav": {
+      "label": "Paterdomus",
+      "x": 3416,
+      "y": 3487,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Continue Priest in Peril",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-012": {
+    "nav": {
+      "label": "Drezel",
+      "x": 3440,
+      "y": 9895,
+      "z": 0
+    },
+    "quest": "Priest in Peril",
+    "_text": "Complete Priest In Peril",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-013": {
+    "nav": {
+      "label": "Drezel",
+      "x": 3440,
+      "y": 9895,
+      "z": 0
+    },
+    "quest": "Nature Spirit",
+    "_text": "Start Nature Spirit by talking to Drezel (1,1) (Keep the pie dishes)",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-015": {
+    "nav": {
+      "label": "Canifis (sign post)",
+      "x": 3493,
+      "y": 3488,
+      "z": 0
+    },
+    "quest": "Creature of Fenkenstrain",
+    "_text": "Start Creature of Fenkenstrain quest by reading the sign post in the middle of Canifis",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-017": {
+    "nav": {
+      "label": "Canifis Rooftop Course",
+      "x": 3507,
+      "y": 3488,
+      "z": 0
+    },
+    "diary": "Morytania Medium",
+    "_text": "Complete a lap of Canifis Agility Course [Morytania Medium Diary]",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-45-step-018": {
+    "nav": {
+      "label": "Canifis bank",
+      "x": 3512,
+      "y": 3478,
+      "z": 0
+    },
+    "_text": "Bank at Canafis Bank",
+    "_section": "Bank 45"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-001": {
+    "nav": {
+      "label": "Canifis bank",
+      "x": 3512,
+      "y": 3478,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Adamant Scimitar, Ghost Speak Amulet, Air Staff, Death Runes, 2x Cowhide, Wolfbane, All pies, Silver Sickle, Chisel, 8 food (24 Inventory Slots)",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-003": {
+    "nav": {
+      "label": "Mazchna",
+      "x": 3511,
+      "y": 3509,
+      "z": 0
+    },
+    "diary": "Morytania Easy",
+    "_text": "Get a slayer task from Mazchna [Morytania Easy Diary]",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-005": {
+    "nav": {
+      "label": "Sbott (tanner)",
+      "x": 3488,
+      "y": 3500,
+      "z": 0
+    },
+    "diary": "Morytania Easy",
+    "_text": "Have Sbott tan a HARD leather & Soft Leather [Morytania Easy Diary, Animal Magnetism]",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-008": {
+    "nav": {
+      "label": "Nature Grotto",
+      "x": 3441,
+      "y": 3337,
+      "z": 0
+    },
+    "quest": "Nature Spirit",
+    "_text": "Continue Nature Spirit",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-012": {
+    "nav": {
+      "label": "Nature Grotto",
+      "x": 3441,
+      "y": 3337,
+      "z": 0
+    },
+    "quest": "Nature Spirit",
+    "_text": "Complete Nature Spirit",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-013": {
+    "nav": {
+      "label": "Nature Grotto",
+      "x": 3441,
+      "y": 3337,
+      "z": 0
+    },
+    "diary": "Morytania Easy",
+    "_text": "Pray at Nature Altar once completed [Morytania Easy Diary]",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-015": {
+    "nav": {
+      "label": "Lumbridge Castle bank (upstairs)",
+      "x": 3209,
+      "y": 3219,
+      "z": 2
+    },
+    "_text": "Bank at Upstairs of the Castle",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-47-step-001": {
+    "nav": {
+      "label": "Lumbridge Castle bank (upstairs)",
+      "x": 3209,
+      "y": 3219,
+      "z": 2
+    },
+    "_text": "Withdraw: Adamant Scimitar, Egg, 2x Flour, Milk, Bucket of Water, Rotten Tomato, Greenmans Ale, Ashes, Fruit Blast, Eye of Newt (9 Inventory Slots)",
+    "_section": "Bank 47"
+  },
+  "episode-2-banks-24-through-75-bank-47-step-005": {
+    "nav": {
+      "label": "Bob's Axes (Lumbridge)",
+      "x": 3230,
+      "y": 3203,
+      "z": 0
+    },
+    "_text": "Kill Men/Women by Bob's Axes until 3x Grimy Guam, 2x Grimy Marrentil & 1x Harralander[Tick Manipulation/Bone Voyage/One Small Favour]",
+    "_section": "Bank 47"
+  },
+  "episode-2-banks-24-through-75-bank-48-step-001": {
+    "nav": {
+      "label": "Lumbridge Castle bank (upstairs)",
+      "x": 3209,
+      "y": 3219,
+      "z": 2
+    },
+    "_text": "Withdraw: Steel Axe, Guam, 15 Swamp Tar, Pestle & Mortar, Tinderbox, (5 Inventory Slots)",
+    "_section": "Bank 48"
+  },
+  "episode-2-banks-24-through-75-bank-48-step-005": {
+    "nav": {
+      "label": "Warrior (Lost City camp)",
+      "x": 3150,
+      "y": 3205,
+      "z": 0
+    },
+    "quest": "Lost City",
+    "_text": "Start Lost City Quest",
+    "_section": "Bank 48"
+  },
+  "episode-2-banks-24-through-75-bank-48-step-006": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Bank at Draynor",
+    "_section": "Bank 48"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-001": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Teleport Runes, Death Runes, Chaos Runes, Knife, 3x Beers, Rope, Pink Skirt, Wig, Paste, Steel Axe (15 Inventory Slots)",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-002": {
+    "nav": {
+      "label": "Martin the Master Gardener",
+      "x": 3078,
+      "y": 3258,
+      "z": 0
+    },
+    "diary": "Lumbridge Medium",
+    "_text": "Pickpocket Martin the Master Farmer [Lumbridge Medium Diary]",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-004": {
+    "nav": {
+      "label": "Chancellor Hassan",
+      "x": 3302,
+      "y": 3163,
+      "z": 0
+    },
+    "quest": "Prince Ali Rescue",
+    "_text": "Continue Prince Ali Rescue until needing to go to Hassan",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-005": {
+    "nav": {
+      "label": "Aggie",
+      "x": 3086,
+      "y": 3259,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Aggie (1,3,2) [One Small Favour]",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-006": {
+    "nav": {
+      "label": "Olivia (seed stall)",
+      "x": 3079,
+      "y": 3250,
+      "z": 0
+    },
+    "_text": "Buy all seeds from Olivia (hop worlds ~10 times). You can use them all for [Birdhouse Runs]",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-008": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Bank the seeds and steel axe at the Draynor Bank",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-009": {
+    "nav": {
+      "label": "Betty's Magic Emporium",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "NOTE: You can stop by Port Sarim rune shop Betty's Magic Emporium to buy some runes to cast crumble undead if you're low on runes",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-010": {
+    "nav": {
+      "label": "Entrana",
+      "x": 2840,
+      "y": 3358,
+      "z": 0
+    },
+    "diary": "Falador Easy",
+    "_text": "Travel to Entrana [Falador Easy Diary]",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-017": {
+    "nav": {
+      "label": "Zanaris",
+      "x": 2430,
+      "y": 4428,
+      "z": 0
+    },
+    "quest": "Lost City",
+    "_text": "Complete Lost City",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-018": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Bank at Draynor",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-001": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Coins, 15 Pineapples (21 Inventory Slots)",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-002": {
+    "nav": {
+      "label": "Martin the Master Gardener",
+      "x": 3078,
+      "y": 3258,
+      "z": 0
+    },
+    "quest": "Fairy Tale I - Growing Pains",
+    "_text": "Talk to Martin the Master Gardener in Draynor and start Fairy Tale Part I (2,1,1)",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-004": {
+    "nav": {
+      "label": "Sarah (Falador farm)",
+      "x": 3036,
+      "y": 3294,
+      "z": 0
+    },
+    "diary": "Falador Easy",
+    "_text": "Trade Sarah and buy Secateurs [Falador Easy Diary]",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-006": {
+    "nav": {
+      "label": "Elstan (Falador allotment)",
+      "x": 3053,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Talk to Elstan at Falador Allotment Patch (1) [Fairy Tale Part I] (2/5 Farmers)",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-010": {
+    "nav": {
+      "label": "Treznor",
+      "x": 3229,
+      "y": 3459,
+      "z": 0
+    },
+    "_text": "Talk to Treznor (1) [Fairy Tale Part I] (3/5 Farmers)",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-011": {
+    "nav": {
+      "label": "Horvik",
+      "x": 3230,
+      "y": 3437,
+      "z": 0
+    },
+    "_text": "Buy Iron Chainbody, Studded Body & Chaps from Horvik [Black Knights Fortress, Temple of Ikov]",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-012": {
+    "nav": {
+      "label": "Lowe",
+      "x": 3233,
+      "y": 3423,
+      "z": 0
+    },
+    "_text": "Buy 2x Oak Longbow & 4x Willow Longbow from Lowe [Ghost's Ahoy][Throne of Miscellania]",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-013": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw at Varrock east bank: Plague Sample, Touch Paper. Bank the bows",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-014": {
+    "nav": {
+      "label": "Dimintheis",
+      "x": 3281,
+      "y": 3404,
+      "z": 0
+    },
+    "quest": "Family Crest",
+    "_text": "Talk to Dimintheis (1,2,1) to start Family Crest",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-015": {
+    "nav": {
+      "label": "Asyff",
+      "x": 3281,
+      "y": 3398,
+      "z": 0
+    },
+    "quest": "Biohazard",
+    "_text": "Talk to Asyff (2) [Biohazard]",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-018": {
+    "nav": {
+      "label": "Heskel",
+      "x": 3004,
+      "y": 3374,
+      "z": 0
+    },
+    "_text": "Talk to Heskel (1) [Fairy Tale Part I] (4/5 Farmers)",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-020": {
+    "nav": {
+      "label": "Lumbridge Castle bank (upstairs)",
+      "x": 3209,
+      "y": 3219,
+      "z": 2
+    },
+    "_text": "Bank Upstairs",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-001": {
+    "nav": {
+      "label": "Lumbridge Castle bank (upstairs)",
+      "x": 3209,
+      "y": 3219,
+      "z": 2
+    },
+    "_text": "Withdraw: 10x Wine",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-002": {
+    "nav": {
+      "label": "Fayeth",
+      "x": 3190,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Talk to Fayeth (1) [Fairy Tale Part I] (5/5 Farmers)",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-003": {
+    "nav": {
+      "label": "H.A.M. Hideout (trapdoor)",
+      "x": 3200,
+      "y": 3235,
+      "z": 0
+    },
+    "diary": "Lumbridge Easy",
+    "_text": "Head West and enter HAM Hideout [Lumbridge Easy Diary]",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-004": {
+    "nav": {
+      "label": "Johanhus Ulsbrecht (HAM, underground)",
+      "x": 3172,
+      "y": 9620,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Johanhus Ulsbrecht (4,3,2) [One Small Favour]",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-006": {
+    "nav": {
+      "label": "Fred the Farmer",
+      "x": 3189,
+      "y": 3273,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Head North and talk to Fred the Farmer (3) [One Small Favour]",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-51-step-007": {
+    "nav": {
+      "label": "Martin the Master Gardener",
+      "x": 3078,
+      "y": 3258,
+      "z": 0
+    },
+    "quest": "Fairy Tale I - Growing Pains",
+    "_text": "Return to Martin the Master Gardener & Continue Fairy Tale Part I (2)",
+    "_section": "Bank 51"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-001": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Withdraw: Dramen Staff, Teleport Runes, Coins, Ghostspeak Amulet, Seceteaurs, 10 Wines, Adamant Scimitar, Garlic, Hammer, Stake, Rope, Lit Candle (25 Inventory Slots)",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-002": {
+    "nav": {
+      "label": "Lumbridge Swamp Caves",
+      "x": 3169,
+      "y": 3172,
+      "z": 0
+    },
+    "diary": "Lumbridge Easy",
+    "_text": "Quickly bop a Cave Bug [Lumbridge Easy Diary]",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-004": {
+    "nav": {
+      "label": "Draynor Manor",
+      "x": 3108,
+      "y": 3358,
+      "z": 0
+    },
+    "quest": "Ernest the Chicken",
+    "_text": "Complete Ernest the Chicken & Vampyre Slayer when getting the skull",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-009": {
+    "nav": {
+      "label": "Zahur (Nardah)",
+      "x": 3425,
+      "y": 2908,
+      "z": 0
+    },
+    "_text": "Herbs: Zahur in Nardah will clean grimy herbs for 200gp each",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-010": {
+    "nav": {
+      "label": "Martin the Master Gardener",
+      "x": 3078,
+      "y": 3258,
+      "z": 0
+    },
+    "quest": "Fairy Tale I - Growing Pains",
+    "_text": "Complete Fairy Tale Part I",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-52-step-011": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Return to Draynor",
+    "_section": "Bank 52"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-001": {
+    "nav": {
+      "label": "Draynor bank",
+      "x": 3093,
+      "y": 3244,
+      "z": 0
+    },
+    "_text": "Withdraw: Adamant Scimitar, Coins, Dramen Staff, Rope, 10x Wines, Combat Runes, Axe",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-002": {
+    "nav": {
+      "label": "Martin the Master Gardener",
+      "x": 3078,
+      "y": 3258,
+      "z": 0
+    },
+    "quest": "Fairy Tale II - Cure a Queen",
+    "_text": "Start Fairy Tale Part 2",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-003": {
+    "nav": {
+      "label": "Betty's Magic Emporium",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "If you're low on mind runes you can buy some more from Betty's Magic Emporium (Needed for killing Tree spirits later) [35% fire weakness - bring fire runes]",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-005": {
+    "nav": {
+      "label": "Spria",
+      "x": 3091,
+      "y": 3267,
+      "z": 0
+    },
+    "_text": "Buy 2x Enchanted Gem, Fishing Explosive, Bag of Salt, 2x Facemask & Earmuffs from Spria",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-006": {
+    "nav": {
+      "label": "Zanaris",
+      "x": 2430,
+      "y": 4428,
+      "z": 0
+    },
+    "quest": "Fairy Tale II - Cure a Queen",
+    "_text": "Continue Fairytale Part II to unlock Fairy Rings, then complete these Fairy Ring diary steps:",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-010": {
+    "nav": {
+      "label": "Zanaris bank",
+      "x": 2383,
+      "y": 4459,
+      "z": 0
+    },
+    "_text": "Bank at Zanaris, Deposit all",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-001": {
+    "nav": {
+      "label": "Zanaris bank",
+      "x": 2383,
+      "y": 4459,
+      "z": 0
+    },
+    "_text": "Withdraw: 3x Law Runes, 2x Water Runes, 3 Air Runes, 1 Earth Rune, 2x Empty Sack (8 Inventory Slots)",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-003": {
+    "nav": {
+      "label": "Seth Groats",
+      "x": 3228,
+      "y": 3291,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Seth Groats (2) [One Small Favour]",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-004": {
+    "nav": {
+      "label": "Gillie Groats",
+      "x": 3253,
+      "y": 3275,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Talk to Gillie Groats (3) [Ides of Milk]",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-009": {
+    "nav": {
+      "label": "Cassius",
+      "x": 3170,
+      "y": 3279,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Head west and talk to Cassius to get a milk sample [The Ides of Milk]",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-012": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Bank at South Bank",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-55-step-001": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Withdraw: Pickaxe, Guam, 15 Swamp Tar, Pestle & Mortar, Small Fishing Net, Swamp Paste",
+    "_section": "Bank 55"
+  },
+  "episode-2-banks-24-through-75-bank-55-step-003": {
+    "nav": {
+      "label": "Witchaven (Sea Slug)",
+      "x": 2720,
+      "y": 3287,
+      "z": 0
+    },
+    "quest": "Sea Slug",
+    "_text": "Complete Sea Slug Quest",
+    "_section": "Bank 55"
+  },
+  "episode-2-banks-24-through-75-bank-55-step-008": {
+    "nav": {
+      "label": "Thormac (Sorcerer's Tower, top)",
+      "x": 2702,
+      "y": 3406,
+      "z": 3
+    },
+    "quest": "Scorpion Catcher",
+    "_text": "Talk to (1) Thormac [Scorpion Catcher]",
+    "_section": "Bank 55"
+  },
+  "episode-2-banks-24-through-75-bank-55-step-009": {
+    "nav": {
+      "label": "Seer (Seers' Village)",
+      "x": 2705,
+      "y": 3483,
+      "z": 0
+    },
+    "quest": "Scorpion Catcher",
+    "_text": "Talk to Seer (1) [Scorpion Catcher]",
+    "_section": "Bank 55"
+  },
+  "episode-2-banks-24-through-75-bank-55-step-010": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Bank at Camelot Bank",
+    "_section": "Bank 55"
+  },
+  "episode-2-banks-24-through-75-bank-56-step-001": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Withdraw: Adamant Axe, Guam, 15 Tar, Pestle & Mortar (4 Inventory Slots)",
+    "_section": "Bank 56"
+  },
+  "episode-2-banks-24-through-75-bank-57-step-001": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Withdraw: 12x Coal, Knife, Steel Pickaxe, Needle (NOT COSTUME NEEDLE), 1x Thread, Hammer, Iron Bar, Adamant Scimitar, 2x Food (20 Inventory Slots",
+    "_section": "Bank 57"
+  },
+  "episode-2-banks-24-through-75-bank-57-step-002": {
+    "nav": {
+      "label": "Seers' Village (Elemental Workshop)",
+      "x": 2710,
+      "y": 3485,
+      "z": 0
+    },
+    "quest": "Elemental Workshop I",
+    "_text": "Start Elemental Workshop I",
+    "_section": "Bank 57"
+  },
+  "episode-2-banks-24-through-75-bank-57-step-006": {
+    "nav": {
+      "label": "Fishing Trawler (Port Khazard)",
+      "x": 2669,
+      "y": 3161,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Fishing Trawler",
+    "_section": "Bank 57"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-001": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Teleport Runes, Rusty Sword, Chroncle, Pickaxe (9 Inventory Slots)",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-005": {
+    "nav": {
+      "label": "Fishing Trawler (Port Khazard)",
+      "x": 2669,
+      "y": 3161,
+      "z": 0
+    },
+    "diary": "Ardougne Easy",
+    "_text": "Go out on the Fishing Trawler (W370) [Ardougne Easy Diary]",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-007": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Take cat out of ardy south bank",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-008": {
+    "nav": {
+      "label": "Elena (Ardougne)",
+      "x": 2592,
+      "y": 3336,
+      "z": 0
+    },
+    "quest": "Biohazard",
+    "_text": "Talk to Elena and complete Biohazard",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-009": {
+    "nav": {
+      "label": "King Lathas (upstairs)",
+      "x": 2579,
+      "y": 3294,
+      "z": 1
+    },
+    "quest": "Underground Pass",
+    "_text": "Talk to King Lathas to start Underground Pass",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-011": {
+    "nav": {
+      "label": "Jorral",
+      "x": 2436,
+      "y": 3346,
+      "z": 0
+    },
+    "_text": "Head West and talk to Jorral (1,1) (You can skip this walk if you plan to make Necklace's of Passage later - BEFORE GHOST'S AHOY)[Making History]",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-012": {
+    "nav": {
+      "label": "Two-pints",
+      "x": 2574,
+      "y": 3323,
+      "z": 0
+    },
+    "_text": "Talk to Two-pints for Ardougne Cloak (1)",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-016": {
+    "nav": {
+      "label": "Scavvo (Champions' Guild, upstairs)",
+      "x": 3192,
+      "y": 3354,
+      "z": 1
+    },
+    "_text": "Enter the Champions' Guild, head upstairs and buy a Rune Sword, Green D hide Chaps, Vambs & Coif from Scavvo",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-018": {
+    "nav": {
+      "label": "Gertrude",
+      "x": 3151,
+      "y": 3409,
+      "z": 0
+    },
+    "_text": "Get new Kitten from Gertrude",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-58-step-019": {
+    "nav": {
+      "label": "Varrock west bank",
+      "x": 3185,
+      "y": 3441,
+      "z": 0
+    },
+    "_text": "Bank at Varrock West Bank",
+    "_section": "Bank 58"
+  },
+  "episode-2-banks-24-through-75-bank-59-step-001": {
+    "nav": {
+      "label": "Varrock west bank",
+      "x": 3185,
+      "y": 3441,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Purple Dye, Orange Slices, Fishing Bait, Gnome Spice, Bucket, Bread, Guam, 15x Swamp Tar, Pestle & Mortar, Pickaxe & antique Lamp(15 Inventory Slots)",
+    "_section": "Bank 59"
+  },
+  "episode-2-banks-24-through-75-bank-59-step-008": {
+    "nav": {
+      "label": "Falador west bank",
+      "x": 2946,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Bank at West Bank",
+    "_section": "Bank 59"
+  },
+  "episode-2-banks-24-through-75-bank-60-step-001": {
+    "nav": {
+      "label": "Falador west bank",
+      "x": 2946,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Orange Dye, Blue Dye, Spicy Maggots, Charcoal, Dyed Orange, Soggy Bread, 2 Iron Ore, Blurite Ore, 4x Copper Ore, 6 Clay Hammer & antique Lamp (26 Inventory Slots)",
+    "_section": "Bank 60"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-001": {
+    "nav": {
+      "label": "Falador furnace",
+      "x": 2976,
+      "y": 3369,
+      "z": 0
+    },
+    "_text": "Make Blurite Bar at Falador furnace",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-002": {
+    "nav": {
+      "label": "Doric",
+      "x": 2952,
+      "y": 3452,
+      "z": 0
+    },
+    "quest": "Doric's Quest",
+    "_text": "Complete Dorics Quest",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-004": {
+    "nav": {
+      "label": "Goblin Village",
+      "x": 2958,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "Goblin Diplomacy",
+    "_text": "Complete Goblin Diplomacy",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-008": {
+    "nav": {
+      "label": "Goblin Village",
+      "x": 2958,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Complete Goblin RFD Stage",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-001": {
+    "nav": {
+      "label": "Falador west bank",
+      "x": 2946,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Withdraw: Coins, Teleport Runes, Sawmill Proposal, Dramen Staff, Antipoison, Spade, 6x Wines, Antique Lamp (16 Inventory Slots)",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-009": {
+    "nav": {
+      "label": "Woodcutting Guild (Hosidius)",
+      "x": 1565,
+      "y": 3499,
+      "z": 0
+    },
+    "quest": "Bone Voyage",
+    "_text": "Try to enter Woodcutting Guild South-West (4) [Bone Voyage]",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-63-step-002": {
+    "nav": {
+      "label": "Mahogany Homes (Falador)",
+      "x": 2989,
+      "y": 3363,
+      "z": 0
+    },
+    "_text": "Teleport to Falador & get Beginner Mahogany Home contracts until 26 Construction. Train to 10,163 XP, if you plan on soloing Tempoross, as you won't get enough Construction XP for a future step. These might be bad locations but best ways if no direct teleport. Doesn't take long anyway. Mahogany Homes plugin is helpful.",
+    "_section": "Bank 63"
+  },
+  "episode-2-banks-24-through-75-bank-64-step-009": {
+    "nav": {
+      "label": "Varrock Rooftop Course",
+      "x": 3220,
+      "y": 3414,
+      "z": 0
+    },
+    "diary": "Varrock Medium",
+    "_text": "Complete Varrock Agility Course [Varrock Medium Diary]",
+    "_section": "Bank 64"
+  },
+  "episode-2-banks-24-through-75-bank-64-step-010": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Bank at East Bank",
+    "_section": "Bank 64"
   }
 }

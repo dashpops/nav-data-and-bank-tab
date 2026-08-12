@@ -28,6 +28,8 @@ import javax.inject.Inject;
 import javax.swing.SwingUtilities;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
+import net.runelite.api.coords.WorldPoint;
+import net.runelite.api.Player;
 import net.runelite.api.events.GameTick;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
@@ -43,7 +45,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.LinkBrowser;
 
 @PluginDescriptor(
-	name = "HCIM Guide",
+	name = "Boaty",
 	description = "Sidebar guide for B0aty HCIM Guide V3",
 	tags = {"hcim", "ironman", "guide", "quest"}
 )
@@ -229,7 +231,47 @@ public class HcimGuidePlugin extends Plugin
 		}
 
 		StepMetadata metadata = stepMetadataRepository.get(step.getId());
-		return metadata == null ? null : metadata.getNav();
+		return metadata == null ? null : nearestTarget(metadata);
+	}
+
+	/**
+	 * The step's destination, or for a multi-destination step the one closest to the
+	 * player so a "collect A and B" step routes to whichever is nearer. Falls back to
+	 * the first target when the player's position is unknown.
+	 *
+	 * <p>Must be called on the client thread — it reads the local player.
+	 */
+	private StepMetadata.NavTarget nearestTarget(StepMetadata metadata)
+	{
+		List<StepMetadata.NavTarget> targets = metadata.getNavTargets();
+		if (targets.size() <= 1)
+		{
+			return metadata.getNav();
+		}
+
+		Player local = client.getLocalPlayer();
+		WorldPoint from = local == null ? null : local.getWorldLocation();
+		if (from == null)
+		{
+			return targets.get(0);
+		}
+
+		StepMetadata.NavTarget closest = null;
+		long best = Long.MAX_VALUE;
+		for (StepMetadata.NavTarget target : targets)
+		{
+			// Plain 2D distance: WorldPoint.distanceTo returns MAX_VALUE across planes,
+			// which would hide an upstairs destination that is otherwise the nearest.
+			long dx = (long) target.getX() - from.getX();
+			long dy = (long) target.getY() - from.getY();
+			long distance = dx * dx + dy * dy;
+			if (distance < best)
+			{
+				best = distance;
+				closest = target;
+			}
+		}
+		return closest;
 	}
 
 	public List<GuideStep> getVisibleSteps()
@@ -544,8 +586,12 @@ public class HcimGuidePlugin extends Plugin
 			if (step != null)
 			{
 				StepMetadata metadata = stepMetadataRepository.get(step.getId());
-				nav = metadata == null ? null : metadata.getNav();
-				navStepId = nav == null ? null : step.getId();
+				nav = metadata == null ? null : nearestTarget(metadata);
+				// Key on the chosen point, not just the step: for a multi-destination
+				// step the nearest target changes as the player moves, and that must
+				// re-path rather than be swallowed by the dedup below.
+				navStepId = nav == null ? null
+					: step.getId() + "@" + nav.getX() + "," + nav.getY() + "," + nav.getZ();
 			}
 		}
 
