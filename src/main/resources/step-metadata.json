@@ -2415,5 +2415,665 @@
     },
     "_text": "Bank at East Bank",
     "_section": "Bank 64"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-001": {
+    "nav": {
+      "label": "Varrock east bank",
+      "x": 3254,
+      "y": 3421,
+      "z": 0
+    },
+    "_text": "Withdraw: Teleport Runes, Coins, 2x Vodka, Marrentil, Vial of Water, 4x regular Logs, 2x Oak Plank, Iron Bar, 5 Steel Nails, 4x Clockwork Mechanism, Hammer, Chisel, 40 Barley, Pickaxe, Sawmill Agreement (26 Inventory Slots)",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-004": {
+    "nav": {
+      "label": "Canal barge (Digsite)",
+      "x": 3362,
+      "y": 3451,
+      "z": 0
+    },
+    "quest": "Bone Voyage",
+    "_text": "Complete Bone Voyage",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-007": {
+    "nav": {
+      "label": "Mushroom Meadow (Fossil Island)",
+      "x": 3688,
+      "y": 3857,
+      "z": 0
+    },
+    "_text": "Unlock Mycelium Transportation System at Mushroom Meadow and then House on the Hill",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-008": {
+    "nav": {
+      "label": "House on the Hill (Fossil Island)",
+      "x": 3772,
+      "y": 3872,
+      "z": 0
+    },
+    "_text": "Use the Magic Mushtree from House on the Hill to get back to Mushroom Meadow.",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-011": {
+    "nav": {
+      "label": "Volcanic Mine",
+      "x": 3814,
+      "y": 3807,
+      "z": 0
+    },
+    "_text": "Take rope shortcut up towards Volcanic Mine",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-65-step-013": {
+    "nav": {
+      "label": "Verdant Valley",
+      "x": 3760,
+      "y": 3760,
+      "z": 0
+    },
+    "_text": "Unlock Verdant Valley Mushtree & place 2x Birdhouse",
+    "_section": "Bank 65"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-003": {
+    "nav": {
+      "label": "Keldagrim",
+      "x": 2879,
+      "y": 10176,
+      "z": 0
+    },
+    "quest": "The Giant Dwarf",
+    "_text": "Start Giant Dwarf Quest to access Keldagrim",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-005": {
+    "nav": {
+      "label": "Stonemason (Keldagrim)",
+      "x": 2849,
+      "y": 10185,
+      "z": 0
+    },
+    "diary": "Fremennik Easy",
+    "_text": "Buy 10 Limestone bricks from the Stonemason Shop [Fremennik Easy Diary][Song of the Elves]",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-006": {
+    "nav": {
+      "label": "Vigr's Warhammers (Keldagrim)",
+      "x": 2873,
+      "y": 10209,
+      "z": 0
+    },
+    "_text": "Buy 77 Steel & Iron Warhammers from Vigr [Giants Foundry]",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-008": {
+    "nav": {
+      "label": "Tati (Keldagrim)",
+      "x": 2924,
+      "y": 10212,
+      "z": 0
+    },
+    "_text": "Buy Adamant and Rune Pickaxe from Tati",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-67-step-002": {
+    "nav": {
+      "label": "Giants' Foundry",
+      "x": 3360,
+      "y": 3151,
+      "z": 0
+    },
+    "quest": "Sleeping Giants",
+    "_text": "Minigame teleport to Giants Foundry",
+    "_section": "Bank 67"
+  },
+  "episode-2-banks-24-through-75-bank-68-step-002": {
+    "nav": {
+      "label": "Exam Centre",
+      "x": 3352,
+      "y": 3340,
+      "z": 0
+    },
+    "quest": "Elemental Workshop II",
+    "_text": "Teleport to Varrock and walk to the Exam Centre to continue Elemental Workshop II",
+    "_section": "Bank 68"
+  },
+  "episode-2-banks-24-through-75-bank-70-step-003": {
+    "nav": {
+      "label": "Edgeville bank",
+      "x": 3080,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Head to Edgeville Bank",
+    "_section": "Bank 70"
+  },
+  "episode-2-banks-24-through-75-bank-70-step-009": {
+    "nav": {
+      "label": "Oziach",
+      "x": 3070,
+      "y": 3517,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Oziach (1,1,1,1) [Dragon Slayer]",
+    "_section": "Bank 70"
+  },
+  "episode-2-banks-24-through-75-bank-70-step-011": {
+    "nav": {
+      "label": "House on the Hill (Fossil Island)",
+      "x": 3772,
+      "y": 3872,
+      "z": 0
+    },
+    "_text": "Use Digsite Pendant on the Strange Machinery at House on the Hill",
+    "_section": "Bank 70"
+  },
+  "episode-2-banks-24-through-75-bank-71-step-003": {
+    "nav": {
+      "label": "Captain Barnaby (Ardougne dock)",
+      "x": 2680,
+      "y": 3274,
+      "z": 0
+    },
+    "_text": "Take boat to Brimhaven",
+    "_section": "Bank 71"
+  },
+  "episode-2-banks-24-through-75-bank-73-step-005": {
+    "nav": {
+      "label": "Denulth (Burthorpe)",
+      "x": 2896,
+      "y": 3528,
+      "z": 0
+    },
+    "quest": "Death Plateau",
+    "_text": "Talk to Denulth (1,1) [Death Plateau]",
+    "_section": "Bank 73"
+  },
+  "episode-2-banks-24-through-75-bank-73-step-006": {
+    "nav": {
+      "label": "Martin Thwait (Rogues' Den)",
+      "x": 3051,
+      "y": 4974,
+      "z": 0
+    },
+    "diary": "Falador Hard",
+    "_text": "Crack a wall safe [Falador Hard Diary]",
+    "_section": "Bank 73"
+  },
+  "episode-2-banks-24-through-75-bank-73-step-007": {
+    "nav": {
+      "label": "Martin Thwait (Rogues' Den)",
+      "x": 3051,
+      "y": 4974,
+      "z": 0
+    },
+    "_text": "Buy Graceful Legs",
+    "_section": "Bank 73"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-005": {
+    "nav": {
+      "label": "Tithe Farm (Hosidius)",
+      "x": 1796,
+      "y": 3505,
+      "z": 0
+    },
+    "_text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during; plant any good trees from birdhouses]",
+    "_section": "Bank 74"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-010": {
+    "nav": {
+      "label": "Tithe Farm (Hosidius)",
+      "x": 1796,
+      "y": 3505,
+      "z": 0
+    },
+    "_text": "Buy Seedbox from Tithe Farm",
+    "_section": "Bank 74"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-004": {
+    "nav": {
+      "label": "Juliet (upstairs)",
+      "x": 3159,
+      "y": 3426,
+      "z": 1
+    },
+    "quest": "Romeo & Juliet",
+    "_text": "Talk to Juliet [Romeo & Juliet]",
+    "_section": "Bank 75"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-005": {
+    "nav": {
+      "label": "Cooks' Guild",
+      "x": 3143,
+      "y": 3448,
+      "z": 0
+    },
+    "_text": "Enter Cooks Guild",
+    "_section": "Bank 75"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-010": {
+    "nav": {
+      "label": "Farming Guild",
+      "x": 1249,
+      "y": 3737,
+      "z": 0
+    },
+    "diary": "Kourend Medium",
+    "_text": "Enter Farming Guild [Kourend Medium Diary]",
+    "_section": "Bank 75"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-002": {
+    "nav": {
+      "label": "Farming Guild",
+      "x": 1249,
+      "y": 3737,
+      "z": 0
+    },
+    "_text": "Head South of the Farming Guild",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-012": {
+    "nav": {
+      "label": "Farming Guild",
+      "x": 1249,
+      "y": 3737,
+      "z": 0
+    },
+    "_text": "Farming Guild - CIR Fairy Ring (Garden Pie until 65) (Priority for contracts)",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-005": {
+    "nav": {
+      "label": "Sir Galahad",
+      "x": 2613,
+      "y": 3477,
+      "z": 0
+    },
+    "quest": "Holy Grail",
+    "_text": "Head West outside of McGrubers & talk to Sir Galahad (4) [Holy Grail]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-011": {
+    "nav": {
+      "label": "Draynor Manor",
+      "x": 3108,
+      "y": 3358,
+      "z": 0
+    },
+    "quest": "Holy Grail",
+    "_text": "Run to Draynor Manor",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-014": {
+    "nav": {
+      "label": "Captain Barnaby (Ardougne dock)",
+      "x": 2680,
+      "y": 3274,
+      "z": 0
+    },
+    "_text": "Take the boat to Brimhaven",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-023": {
+    "nav": {
+      "label": "Vanessa's Farming Shop (Catherby)",
+      "x": 2819,
+      "y": 3462,
+      "z": 0
+    },
+    "_text": "Buy 8 Empty Sacks from Vanessa's Farming shop [Enlightened Journey]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-024": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Bank at Camelot Bank",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-79-step-002": {
+    "nav": {
+      "label": "Hemenster (Fishing Contest)",
+      "x": 2596,
+      "y": 3473,
+      "z": 0
+    },
+    "quest": "Fishing Contest",
+    "_text": "Complete Fishing Contest",
+    "_section": "Bank 79"
+  },
+  "episode-3-banks-76-through-104b-bank-79-step-003": {
+    "nav": {
+      "label": "Catherby bank",
+      "x": 2810,
+      "y": 3442,
+      "z": 0
+    },
+    "_text": "Bank at Catherby",
+    "_section": "Bank 79"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-005": {
+    "nav": {
+      "label": "Horvik",
+      "x": 3230,
+      "y": 3437,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Horvic (3,2) [One Small Favour]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-007": {
+    "nav": {
+      "label": "Apothecary (Varrock)",
+      "x": 3195,
+      "y": 3404,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Apothecary (2,2) [One Small Favour]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-008": {
+    "nav": {
+      "label": "Varrock west bank",
+      "x": 3185,
+      "y": 3441,
+      "z": 0
+    },
+    "_text": "Bank at West Bank",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-010": {
+    "nav": {
+      "label": "Barbarian Village",
+      "x": 3080,
+      "y": 3427,
+      "z": 0
+    },
+    "_text": "Head to Barbarian Village",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-014": {
+    "nav": {
+      "label": "Tassie Slipcast",
+      "x": 3085,
+      "y": 3409,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Tassie Slipcast (1) [One Small Favour]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-015": {
+    "nav": {
+      "label": "Nulodion",
+      "x": 3012,
+      "y": 3452,
+      "z": 0
+    },
+    "quest": "Dwarf Cannon",
+    "_text": "Talk to Nulodion [Dwarf Cannon]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-016": {
+    "nav": {
+      "label": "Dwarven Mine",
+      "x": 3018,
+      "y": 3450,
+      "z": 0
+    },
+    "_text": "Enter the Dwarven Mines using the ladder",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-019": {
+    "nav": {
+      "label": "Hammerspike Stoutbeard (Dwarven Mine)",
+      "x": 2965,
+      "y": 9811,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Hammerspike Stoutbeard (3,4,2) [One Small Favour]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-002": {
+    "nav": {
+      "label": "Emir's Arena bank",
+      "x": 3384,
+      "y": 3270,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena using the Duelling Ring",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-003": {
+    "nav": {
+      "label": "Chancellor Hassan",
+      "x": 3302,
+      "y": 3163,
+      "z": 0
+    },
+    "quest": "Prince Ali Rescue",
+    "_text": "Complete Prince Ali Rescue",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-006": {
+    "nav": {
+      "label": "Digsite",
+      "x": 3354,
+      "y": 3420,
+      "z": 0
+    },
+    "_text": "Digsite Pendant -> Digsite",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-007": {
+    "nav": {
+      "label": "Elissa",
+      "x": 3374,
+      "y": 3434,
+      "z": 0
+    },
+    "quest": "The Golem",
+    "_text": "Talk to Elissa [The Golem]",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-010": {
+    "nav": {
+      "label": "Father Lawrence",
+      "x": 3254,
+      "y": 3485,
+      "z": 0
+    },
+    "quest": "Romeo & Juliet",
+    "_text": "Talk to Father Lawrence [Romeo & Juliet]",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-011": {
+    "nav": {
+      "label": "Curator Haig Halen",
+      "x": 3260,
+      "y": 3451,
+      "z": 0
+    },
+    "_text": "Talk to Curator Haig Halen, pickpocket him and open the display case",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-012": {
+    "nav": {
+      "label": "Shantay Pass",
+      "x": 3304,
+      "y": 3123,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena and run to Shantay Pass (You can also ardy cloak -> fairy ring DLQ)",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-016": {
+    "nav": {
+      "label": "Ruins of Uzer",
+      "x": 3480,
+      "y": 3095,
+      "z": 0
+    },
+    "quest": "Underground Pass",
+    "_text": "Collect the Shortbow north-west of the Uzer Hunter area [Underground Pass]",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-018": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Teleport & Bank at Camelot",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-003": {
+    "nav": {
+      "label": "Guildmaster (Champions' Guild)",
+      "x": 3191,
+      "y": 3360,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Guildmaster (2,1,1,1,2,3,2,3) [Dragon Slayer]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-006": {
+    "nav": {
+      "label": "Duke Horacio (upstairs)",
+      "x": 3210,
+      "y": 3222,
+      "z": 1
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Duke Horacio (1,1,1,2) [Dragon Slayer]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-010": {
+    "nav": {
+      "label": "Sir Amik Varze (White Knights' Castle, 2nd floor)",
+      "x": 2960,
+      "y": 3337,
+      "z": 2
+    },
+    "quest": "Black Knights' Fortress",
+    "_text": "Talk to Sir Amik Varze (1,1,1) [Black Knights Fortress]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-014": {
+    "nav": {
+      "label": "Oracle (Ice Mountain)",
+      "x": 3011,
+      "y": 3501,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Oracle [Dragon Slayer]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-015": {
+    "nav": {
+      "label": "Dwarven Mine",
+      "x": 3018,
+      "y": 3450,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Head into Dwarven Mine & collect the Map Piece [Dragon Slayer]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-016": {
+    "nav": {
+      "label": "Mind Altar",
+      "x": 2981,
+      "y": 3513,
+      "z": 0
+    },
+    "_text": "Head West around Ice Mountain and go towards the Mind Altar",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-019": {
+    "nav": {
+      "label": "Black Knights' Fortress",
+      "x": 3020,
+      "y": 3514,
+      "z": 0
+    },
+    "quest": "Black Knights' Fortress",
+    "_text": "Head to Black Knights Fortress",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-021": {
+    "nav": {
+      "label": "Sir Amik Varze (White Knights' Castle, 2nd floor)",
+      "x": 2960,
+      "y": 3337,
+      "z": 2
+    },
+    "quest": "Recruitment Drive",
+    "_text": "Talk to Sir Amik Varze and Start Recruitment Drive",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-022": {
+    "nav": {
+      "label": "Sir Renitee (upstairs)",
+      "x": 2982,
+      "y": 3341,
+      "z": 1
+    },
+    "diary": "Falador Easy",
+    "_text": "Find out Family Crest by talking to Sir Renitee [Falador Easy Diary]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-025": {
+    "nav": {
+      "label": "Falador east bank",
+      "x": 3015,
+      "y": 3357,
+      "z": 0
+    },
+    "_text": "Bank Everything at East Bank",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-027": {
+    "nav": {
+      "label": "Falador west bank",
+      "x": 2946,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Bank at West Bank",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-84-step-003": {
+    "nav": {
+      "label": "Taverley Dungeon (entrance)",
+      "x": 2884,
+      "y": 3398,
+      "z": 0
+    },
+    "_text": "Head to Taverley Dungeon",
+    "_section": "Bank 84"
+  },
+  "episode-3-banks-76-through-104b-bank-84-step-008": {
+    "nav": {
+      "label": "Catherby bank",
+      "x": 2810,
+      "y": 3442,
+      "z": 0
+    },
+    "_text": "Bank at Catherby",
+    "_section": "Bank 84"
   }
 }
