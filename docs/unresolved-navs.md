@@ -39,6 +39,15 @@ written (see "Resolved" at the bottom).
 | 94 | 3 | Guardians of Armadyl | No pin on the wiki or in Quest Helper |
 | 97 | 6, 7, 8 | Scorpions / mine carts / clay for book pages | Inside the Dwarven Mine, scattered; #4 navs to Rolad |
 | 98 | 5 | Animal Magnetism at "the Farm" | Which farm is not stated in the guide text |
+| 99 | 8 | Repair the ship | No pin for the wrecked ship |
+| 99 | 13 | Use Star on Experiment Entrance | No pin for the entrance |
+| 99 | 19 | Buy 2 undead chickens at the farm | Same unnamed farm as 98 #5 |
+| 100 | 16 | Experiment Lair | No pin |
+| 103 | 3 | Estate agent (move house) | Page has no map template |
+| 103 | 5 | Enter Kalphite Lair | Page has no map template |
+| 104 | 6 | Pyramid Plunder in Sophanem | No pin; #5 navs to Sophanem |
+| 108B | 10 | Kill Wormbrain (Port Sarim) | No pin; roams the jail area |
+| 109 | 10 | Kill Elvarg | Boss has no map pin; #10 navs to Crandor instead |
 
 ## Deliberately empty (a nav would be wrong or useless)
 

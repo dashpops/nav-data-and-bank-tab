@@ -3640,5 +3640,709 @@
     },
     "_text": "Bank all at Jatiso",
     "_section": "Bank 85"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-001": {
+    "nav": {
+      "label": "Port Phasmatys bank",
+      "x": 3692,
+      "y": 3468,
+      "z": 0
+    },
+    "_text": "Withdraw: Range Gear + 2x Red/Yellow/Blue Dyes, Coins, Silk, Needle, 6x Thread, 41 ectotokens, Nettle Tea, Milk, Spade, Knife, Thin Snail, Axe, 4x Dragon Bones, 4x Empty Pot (25 Inventory Slots)",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-003": {
+    "nav": {
+      "label": "Port Phasmatys",
+      "x": 3679,
+      "y": 3486,
+      "z": 0
+    },
+    "_text": "Buy 4x Buckets of Slime",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-004": {
+    "nav": {
+      "label": "Ectofuntus",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Worship the Buckets and collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+ Pots (Keep 2 Pots))",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-005": {
+    "nav": {
+      "label": "Necrovarus",
+      "x": 3660,
+      "y": 3516,
+      "z": 0
+    },
+    "_text": "Talk to Necrovarus",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-006": {
+    "nav": {
+      "label": "Velorina (Port Phasmatys)",
+      "x": 3678,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Go back into port phasmatys and Talk to Velorina again. (1)",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-007": {
+    "nav": {
+      "label": "Old Crone",
+      "x": 3463,
+      "y": 3558,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship.",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-009": {
+    "nav": {
+      "label": "Dr Fenkenstrain (Fenkenstrain's Castle, top)",
+      "x": 3549,
+      "y": 3555,
+      "z": 2
+    },
+    "quest": "Creature of Fenkenstrain",
+    "_text": "Talk to Dr Fenkenstrain (1,4,4) [Creature of Fenkenstrain]",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-99-step-020": {
+    "nav": {
+      "label": "Port Phasmatys bank",
+      "x": 3692,
+      "y": 3468,
+      "z": 0
+    },
+    "_text": "Bank at Port Phasmatys and deposit all",
+    "_section": "Bank 99"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-004": {
+    "nav": {
+      "label": "Dragontooth Island",
+      "x": 3806,
+      "y": 3549,
+      "z": 0
+    },
+    "diary": "Morytania Medium",
+    "_text": "Head to Dragontooth Island [Morytania Medum Diary]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-006": {
+    "nav": {
+      "label": "Port Phasmatys",
+      "x": 3679,
+      "y": 3486,
+      "z": 0
+    },
+    "_text": "Return to Port Phasmatys",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-007": {
+    "nav": {
+      "label": "Ak-Haranu",
+      "x": 3690,
+      "y": 3497,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Ak-Haranu (1) [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-008": {
+    "nav": {
+      "label": "Robin",
+      "x": 3676,
+      "y": 3494,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Robin Beat him 4 times in Runedraw [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-010": {
+    "nav": {
+      "label": "Ghost innkeeper",
+      "x": 3680,
+      "y": 3498,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Ghost innkeeper (4,1) [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-012": {
+    "nav": {
+      "label": "Gravingas",
+      "x": 3660,
+      "y": 3499,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Gravingas (1) [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-014": {
+    "nav": {
+      "label": "Droalak",
+      "x": 3659,
+      "y": 3475,
+      "z": 0
+    },
+    "quest": "Making History",
+    "_text": "Talk to Droalak -> Melina -> Droalak [Making History]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-015": {
+    "nav": {
+      "label": "Necrovarus",
+      "x": 3660,
+      "y": 3516,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Necrovarus Take the key he drops & open the door upstairs for his robes",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-018": {
+    "nav": {
+      "label": "Old Crone",
+      "x": 3463,
+      "y": 3558,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Old Crone (1) [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-019": {
+    "nav": {
+      "label": "Necrovarus",
+      "x": 3660,
+      "y": 3516,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Necrovarus (1) [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-020": {
+    "nav": {
+      "label": "Velorina (Port Phasmatys)",
+      "x": 3678,
+      "y": 3510,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Velorina to complete Ghost's Ahoy",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-101-step-003": {
+    "nav": {
+      "label": "Ectofuntus",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "diary": "Morytania Medium",
+    "_text": "Ectophial teleport [Morytania Medium Diary]",
+    "_section": "Bank 101"
+  },
+  "episode-3-banks-76-through-104b-bank-101-step-004": {
+    "nav": {
+      "label": "Ectofuntus",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Worship all the bones",
+    "_section": "Bank 101"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-004": {
+    "nav": {
+      "label": "Dr Fenkenstrain (Fenkenstrain's Castle, top)",
+      "x": 3549,
+      "y": 3555,
+      "z": 2
+    },
+    "quest": "Creature of Fenkenstrain",
+    "_text": "Complete Creature of Fenkenstrain quest",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-006": {
+    "nav": {
+      "label": "Barbarian Village",
+      "x": 3080,
+      "y": 3427,
+      "z": 0
+    },
+    "_text": "Head to Barbarian Village",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-007": {
+    "nav": {
+      "label": "Checkal (Barbarian Village)",
+      "x": 3087,
+      "y": 3415,
+      "z": 0
+    },
+    "quest": "Below Ice Mountain",
+    "_text": "Talk to Checkal [Below Ice Mountain]",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-008": {
+    "nav": {
+      "label": "Atlas (Barbarian Village)",
+      "x": 3075,
+      "y": 3439,
+      "z": 0
+    },
+    "quest": "Below Ice Mountain",
+    "_text": "Talk to Atlas [Below Ice Mountain]",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-010": {
+    "nav": {
+      "label": "Checkal (Barbarian Village)",
+      "x": 3087,
+      "y": 3415,
+      "z": 0
+    },
+    "quest": "Below Ice Mountain",
+    "_text": "Talk to Checkal [Below Ice Mountain]",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-012": {
+    "nav": {
+      "label": "Brother Jered (Monastery, upstairs)",
+      "x": 3052,
+      "y": 3491,
+      "z": 1
+    },
+    "quest": "Animal Magnetism",
+    "_text": "Bless both Symbols at Monastery by talking to Brother Jered (1, 1) [Animal Magnetism]",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-018": {
+    "nav": {
+      "label": "Vannaka (Edgeville Dungeon)",
+      "x": 3147,
+      "y": 9914,
+      "z": 0
+    },
+    "diary": "Varrock Medium",
+    "_text": "Get a task from Vannaka [Varrock Medium Diary]",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-010": {
+    "nav": {
+      "label": "Nardah",
+      "x": 3427,
+      "y": 2911,
+      "z": 0
+    },
+    "_text": "Head South to Nardah",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-011": {
+    "nav": {
+      "label": "Nardah",
+      "x": 3427,
+      "y": 2911,
+      "z": 0
+    },
+    "quest": "Spirits of the Elid",
+    "_text": "Start Spirits of the Elid",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-012": {
+    "nav": {
+      "label": "Zahur (Nardah)",
+      "x": 3425,
+      "y": 2908,
+      "z": 0
+    },
+    "diary": "Desert Easy",
+    "_text": "Talk to Zahur to clean a Grimy Herb [Desert Easy Diary]",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-016": {
+    "nav": {
+      "label": "Nardah",
+      "x": 3427,
+      "y": 2911,
+      "z": 0
+    },
+    "quest": "Spirits of the Elid",
+    "_text": "Complete Spirits of the Elid",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-104-step-005": {
+    "nav": {
+      "label": "Sophanem",
+      "x": 3297,
+      "y": 2783,
+      "z": 0
+    },
+    "quest": "Icthlarin's Little Helper",
+    "_text": "Start Icthlarins Little Helper",
+    "_section": "Bank 104"
+  },
+  "episode-3-banks-76-through-104b-bank-104-step-008": {
+    "nav": {
+      "label": "Agility Pyramid",
+      "x": 3365,
+      "y": 2842,
+      "z": 0
+    },
+    "diary": "Desert Easy",
+    "_text": "Leave and trade this in at the Agility Pyramid [Desert Easy Diary]",
+    "_section": "Bank 104"
+  },
+  "episode-3-banks-76-through-104b-bank-104-step-010": {
+    "nav": {
+      "label": "Ardougne south bank",
+      "x": 2653,
+      "y": 3284,
+      "z": 0
+    },
+    "_text": "Bank at South Bank",
+    "_section": "Bank 104"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-006": {
+    "nav": {
+      "label": "Canifis",
+      "x": 3493,
+      "y": 3488,
+      "z": 0
+    },
+    "_text": "Head to Canifis",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-007": {
+    "nav": {
+      "label": "Vanstrom Klause (Canifis)",
+      "x": 3503,
+      "y": 3477,
+      "z": 0
+    },
+    "quest": "In Search of the Myreque",
+    "_text": "Talk to Vanstrom Klause (1) [In Search of Myreque]",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-009": {
+    "nav": {
+      "label": "Mort'ton",
+      "x": 3487,
+      "y": 3288,
+      "z": 0
+    },
+    "_text": "Head to Morton",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-010": {
+    "nav": {
+      "label": "Cyreg Paddlehorn",
+      "x": 3519,
+      "y": 3284,
+      "z": 0
+    },
+    "quest": "In Search of the Myreque",
+    "_text": "Talk to Cyreg Paddlehorn (2,2,3,3,1)",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-003": {
+    "nav": {
+      "label": "Mort'ton",
+      "x": 3487,
+      "y": 3288,
+      "z": 0
+    },
+    "_text": "Run South East and take the Rowboat to Mort'ton",
+    "_section": "Bank 106"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-005": {
+    "nav": {
+      "label": "Barrows",
+      "x": 3567,
+      "y": 3291,
+      "z": 0
+    },
+    "_text": "Head to Barrows",
+    "_section": "Bank 106"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-006": {
+    "nav": {
+      "label": "Strange Old Man (Barrows)",
+      "x": 3565,
+      "y": 3292,
+      "z": 0
+    },
+    "quest": "His Faithful Servants",
+    "_text": "Talk to Strange Old Man to start His Faithful Servants",
+    "_section": "Bank 106"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-019": {
+    "nav": {
+      "label": "Strange Old Man (Barrows)",
+      "x": 3565,
+      "y": 3292,
+      "z": 0
+    },
+    "quest": "His Faithful Servants",
+    "_text": "Talk to Strange Old Man to complete His Faithful Servants",
+    "_section": "Bank 106"
+  },
+  "episode-4-banks-105-through-150-bank-107a-step-003": {
+    "nav": {
+      "label": "Sophanem",
+      "x": 3297,
+      "y": 2783,
+      "z": 0
+    },
+    "quest": "Icthlarin's Little Helper",
+    "_text": "Continue & Complete Icthlarin\u2019s Little Helper",
+    "_section": "Bank 107A"
+  },
+  "episode-4-banks-105-through-150-bank-107a-step-005": {
+    "nav": {
+      "label": "Mort'ton",
+      "x": 3487,
+      "y": 3288,
+      "z": 0
+    },
+    "quest": "Shades of Mort'ton",
+    "_text": "Complete Shades of Morton",
+    "_section": "Bank 107A"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-003": {
+    "nav": {
+      "label": "Queen Ellamaria (Varrock Palace garden)",
+      "x": 3229,
+      "y": 3477,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Queen Ellamaria twice (1,1)",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-005": {
+    "nav": {
+      "label": "Varrock west bank",
+      "x": 3185,
+      "y": 3441,
+      "z": 0
+    },
+    "_text": "Bank at West bank and withdraw Food for Melzar's Maze",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-006": {
+    "nav": {
+      "label": "Gertrude",
+      "x": 3151,
+      "y": 3409,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Talk to Gertrude (1) [Ratcatchers] (AT THIS POINT DON\u2019T TRADE YOUR CAT IN / BUY A NEW KITTEN)",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-008": {
+    "nav": {
+      "label": "Rimmington",
+      "x": 2956,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Take boat to Rimmington",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-009": {
+    "nav": {
+      "label": "Melzar's Maze",
+      "x": 2932,
+      "y": 3247,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Continue Dragon Slayer by doing the Melzar's Maze [Dragon Slayer]",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-012": {
+    "nav": {
+      "label": "Klarense (Port Sarim)",
+      "x": 3047,
+      "y": 3204,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Klarense and buy Lady Lumbridge from him [Dragon Slayer]",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-017": {
+    "nav": {
+      "label": "Ned (Draynor)",
+      "x": 3099,
+      "y": 3259,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Ned (1) [Dragon Slayer]",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-003": {
+    "nav": {
+      "label": "Wise Old Man (Draynor)",
+      "x": 3089,
+      "y": 3254,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Wise Old Man (1)[Garden of Tranquility]",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-004": {
+    "nav": {
+      "label": "Falador allotment patch",
+      "x": 3053,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Head to Falador Allotment Patch",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-005": {
+    "nav": {
+      "label": "Elstan (Falador allotment)",
+      "x": 3053,
+      "y": 3305,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Elstan (1,2,3,2,2,1) [Garden of Tranquility]",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-010": {
+    "nav": {
+      "label": "Crandor",
+      "x": 2836,
+      "y": 3271,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Kill Elvarg [Dragon Slayer]",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-002": {
+    "nav": {
+      "label": "Edgeville",
+      "x": 3080,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Head to Edgeville by right clicking the Soul Wars portal",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-003": {
+    "nav": {
+      "label": "Oziach",
+      "x": 3070,
+      "y": 3517,
+      "z": 0
+    },
+    "quest": "Dragon Slayer I",
+    "_text": "Talk to Oziach to complete Dragon Slayer",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-005": {
+    "nav": {
+      "label": "Brother Althric (Edgeville Monastery)",
+      "x": 3052,
+      "y": 3505,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Brother Althric (2) [Garden of Tranquility]",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-010": {
+    "nav": {
+      "label": "Morytania allotment patch",
+      "x": 3600,
+      "y": 3524,
+      "z": 0
+    },
+    "_text": "Head to Morytania Allotment Patch",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-011": {
+    "nav": {
+      "label": "Lyra (Morytania allotment)",
+      "x": 3600,
+      "y": 3524,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Lyra (1,2,2,2,2,2,2,2,1) [Garden of Tranquility]",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-014": {
+    "nav": {
+      "label": "Ardougne allotment patch",
+      "x": 2667,
+      "y": 3375,
+      "z": 0
+    },
+    "_text": "Head to Ardougne Allotment Patch",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-015": {
+    "nav": {
+      "label": "Kragen (Ardougne allotment)",
+      "x": 2667,
+      "y": 3375,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Kragen (1,2,2,2,2,2,1) [Garden of Tranquility]",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-018": {
+    "nav": {
+      "label": "Catherby allotment patch",
+      "x": 2810,
+      "y": 3464,
+      "z": 0
+    },
+    "_text": "Head to Catherby Allotment Patch",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-019": {
+    "nav": {
+      "label": "Dantaera (Catherby allotment)",
+      "x": 2810,
+      "y": 3464,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Dantaera (1,2,2,2) [Garden of Tranquility]",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-020": {
+    "nav": {
+      "label": "Catherby bank",
+      "x": 2810,
+      "y": 3442,
+      "z": 0
+    },
+    "_text": "Bank at Catherby",
+    "_section": "Bank 110"
   }
 }
