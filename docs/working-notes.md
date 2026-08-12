@@ -41,6 +41,41 @@ missing — a lot of it is "a nav here would be wrong", not "nobody got to it".
 
 ---
 
+## Launching from the desktop: Iron and GIM
+
+Two Mint applications (Mint menu → Games, or search "Iron" / "GIM"):
+
+| App | Character |
+|---|---|
+| **Iron** | ProperDash |
+| **GIM** | Minion Olly |
+
+Both run `~/.local/bin/osrs-client <Character> <Label>`, which handles the
+session problem below by itself:
+
+1. If a Bolt client is already running that character, its session is captured.
+2. Otherwise a cached session under 5 hours old is reused.
+3. Otherwise **Bolt is opened for you** with a prompt to launch that character;
+   the session is picked up automatically and the prompt closes itself.
+
+So after a reboot you still need Bolt once, but you no longer have to remember
+the sequence — click the app and follow the prompt. Sessions are cached per
+character (`~/.cache/rl-run/session-<character>.env`, mode 600), so Iron and
+GIM do not fight over one cache.
+
+Note the game logs a character out if it appears twice, so launching GIM while
+you are playing Minion Olly in Bolt will take that session over — which is the
+point, but worth knowing.
+
+```bash
+osrs-client "ProperDash" Iron --refresh    # force a new session
+osrs-client "ProperDash" Iron --dry-run    # report what it would do
+```
+
+Desktop entries live in `~/.local/share/applications/osrs-{iron,gim}.desktop`
+with icons in `~/.local/share/icons/`. They are plain files, so they survive
+reboots and upgrades; edit the `Exec=` line to point at a different character.
+
 ## Running the dev client
 
 The Bolt/official client **cannot** load this plugin. It hard-disables developer
