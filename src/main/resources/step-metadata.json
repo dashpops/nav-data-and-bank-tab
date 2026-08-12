@@ -2616,9 +2616,9 @@
   },
   "episode-2-banks-24-through-75-bank-74-step-005": {
     "nav": {
-      "label": "Tithe Farm (Hosidius)",
-      "x": 1796,
-      "y": 3505,
+      "label": "Tithe Farm entrance (Hosidius)",
+      "x": 1806,
+      "y": 3501,
       "z": 0
     },
     "_text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during; plant any good trees from birdhouses]",
@@ -2626,9 +2626,9 @@
   },
   "episode-2-banks-24-through-75-bank-74-step-010": {
     "nav": {
-      "label": "Tithe Farm (Hosidius)",
-      "x": 1796,
-      "y": 3505,
+      "label": "Tithe Farm entrance (Hosidius)",
+      "x": 1806,
+      "y": 3501,
       "z": 0
     },
     "_text": "Buy Seedbox from Tithe Farm",
@@ -2740,9 +2740,9 @@
   },
   "episode-3-banks-76-through-104b-bank-79-step-002": {
     "nav": {
-      "label": "Hemenster (Fishing Contest)",
-      "x": 2596,
-      "y": 3473,
+      "label": "Hemenster gate (Fishing Contest)",
+      "x": 2642,
+      "y": 3441,
       "z": 0
     },
     "quest": "Fishing Contest",
@@ -3075,5 +3075,71 @@
     },
     "_text": "Bank at Catherby",
     "_section": "Bank 84"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-004": {
+    "nav": {
+      "label": "Saro (West Keldagrim)",
+      "x": 2827,
+      "y": 10198,
+      "z": 0
+    },
+    "quest": "The Giant Dwarf",
+    "_text": "Trade Saro & buy Adamant Chainbody South[Song of the Elves]",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-003": {
+    "nav": {
+      "label": "Temple of Ikov (cellar ladder)",
+      "x": 2677,
+      "y": 3405,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Run to Ikov Temple & collect Boots of Lightness",
+    "_section": "Bank 74"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-009": {
+    "nav": {
+      "label": "Mary (Getting Ahead)",
+      "x": 1237,
+      "y": 3678,
+      "z": 0
+    },
+    "quest": "Getting Ahead",
+    "_text": "Talk to Mary (Getting Ahead) after the quest to tan the Hide into Soft Leather",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-003": {
+    "nav": {
+      "label": "Red vine worms (McGrubor's Wood)",
+      "x": 2631,
+      "y": 3495,
+      "z": 0
+    },
+    "quest": "Fishing Contest",
+    "_text": "Dig for 1x Red Vine Worms [Fishing Contest]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-022": {
+    "nav": {
+      "label": "Vestri (White Wolf Mountain tunnel)",
+      "x": 2821,
+      "y": 3486,
+      "z": 0
+    },
+    "quest": "Fishing Contest",
+    "_text": "Start Fishing Contest",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-013": {
+    "nav": {
+      "label": "Willow (Below Ice Mountain)",
+      "x": 3003,
+      "y": 3435,
+      "z": 0
+    },
+    "quest": "Below Ice Mountain",
+    "_text": "Talk to Willow (Below Ice Mountain) (1) [Below Ice Mountain]",
+    "_section": "Bank 83"
   }
 }
