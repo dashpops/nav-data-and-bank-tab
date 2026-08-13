@@ -135,13 +135,27 @@ public class WithdrawBankOverlay extends Overlay
 	private void drawProgress(Graphics2D graphics, Rectangle bounds, int itemId, int bankQuantity)
 	{
 		WithdrawItem entry = entryFor(itemId);
-		if (entry == null || entry.getQuantity() <= 0)
+		if (entry == null)
 		{
 			return;
 		}
 
 		int required = entry.getQuantity();
-		boolean satisfied = withdrawService.carriedCount(entry) >= required;
+		boolean satisfied = withdrawService.carriedCount(entry) >= Math.max(required, 1);
+
+		// The guide sometimes names a thing without an amount - "Food". Inventing
+		// "/1" there would read as an instruction the guide never gave, so only the
+		// tick or cross is drawn.
+		if (required <= 0)
+		{
+			BufferedImage only = spriteManager.getSprite(
+				satisfied ? SpriteID.Checkbox.CHECKED : SpriteID.Checkbox.CROSSED, 0);
+			if (only != null)
+			{
+				graphics.drawImage(only, bounds.x + bounds.width - only.getWidth(), bounds.y, null);
+			}
+			return;
+		}
 
 		graphics.setFont(FontManager.getRunescapeSmallFont());
 		FontMetrics metrics = graphics.getFontMetrics();

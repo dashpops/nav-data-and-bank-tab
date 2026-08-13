@@ -160,6 +160,50 @@ public class WithdrawBankFilter
 	 * plugin. Both of us rewriting the same item widgets on every build is what
 	 * locked the client up when its button was pressed.
 	 */
+	/**
+	 * Clicks Quest Helper's bank button for the user, so its tab closes and gives
+	 * the bank back. Its button is the one on the bank interface offering
+	 * "View tab", and it toggles on op 2 — the same event a real right-click
+	 * would deliver.
+	 *
+	 * @return whether a button was found and invoked
+	 */
+	private boolean closeQuestHelperTab()
+	{
+		Widget parent = client.getWidget(InterfaceID.Bankmain.UNIVERSE);
+		if (parent == null || parent.getDynamicChildren() == null)
+		{
+			return false;
+		}
+
+		for (Widget child : parent.getDynamicChildren())
+		{
+			if (child == null || child == button || child.getActions() == null)
+			{
+				continue;
+			}
+			for (String action : child.getActions())
+			{
+				if (action == null || !action.trim().equals("View tab"))
+				{
+					continue;
+				}
+				Object[] listener = child.getOnOpListener();
+				if (listener == null)
+				{
+					return false;
+				}
+				client.createScriptEventBuilder(listener)
+					.setSource(child)
+					.setOp(2)
+					.build()
+					.run();
+				return true;
+			}
+		}
+		return false;
+	}
+
 	private boolean questHelperOwnsBank()
 	{
 		Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);
@@ -214,8 +258,19 @@ public class WithdrawBankFilter
 	{
 		if (!active && questHelperOwnsBank())
 		{
-			// Refuse rather than fight for the same widgets. Closing Quest Helper's
-			// tab frees the bank up.
+			// Take the bank over rather than refusing: close Quest Helper's tab the
+			// same way clicking its own button would, then switch ours on once it
+			// has let go.
+			if (!closeQuestHelperTab())
+			{
+				return;
+			}
+			active = true;
+			clientThread.invokeLater(() ->
+			{
+				applyFilter();
+				refreshButton();
+			});
 			return;
 		}
 
