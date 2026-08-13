@@ -89,6 +89,30 @@ boaty-deploy           # build + sideload only (safe while a client is running)
 rl-run                 # launch using the cached Jagex session
 ```
 
+### One config, shared with Bolt
+
+The dev client runs with `-Duser.home=` pointed at Bolt's directory
+(`~/.var/app/com.adamcake.Bolt/data/bolt-launcher`), set in the `run` task in
+`/home/olly/runelite-plugin/build.gradle`. So it uses **the same** RuneLite
+config as Bolt — the same profiles under the same names, the same plugin
+settings, the same hub plugins. Previously it had its own `~/.runelite`, and the
+two drifted: profiles existed in one and not the other, and a profile could be
+present but empty.
+
+Consequences worth knowing:
+
+- Profiles map themselves per account via RuneLite's `defaultForRsProfiles`:
+  **ProperDash → `Yep`**, **Minion Olly → `Minions`**. Nothing to configure.
+- Sideloaded jars now live in
+  `~/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/sideloaded-plugins`.
+  `boaty-deploy` writes there.
+- The dev client also loads Bolt's **hub** plugins, so conde's *HCIM Guide* was
+  loading alongside Boaty — two copies of the same plugin class, one with our
+  data and one with upstream's 33 entries. Its jar is parked in
+  `.runelite/plugins-disabled/`. Untick *HCIM Guide* in the Plugin Hub if it
+  reappears, since the hub will otherwise reinstall it.
+- The old `~/.runelite` is left in place, unused, as a fallback.
+
 ### After a reboot, the session cache is stale
 
 `rl-run` borrows a Jagex session from a running Bolt client, because a
@@ -126,7 +150,7 @@ loaded its jar at startup. Deploy, then relaunch.
 |---|---|
 | The repo and all commits | `/home/olly/callemshite/boaty/hcim-guide-plugin`, branch `boaty` |
 | `~/.local/bin` helpers | `boaty-deploy`, `rl-run`, plus the OSRS bits below. `~/.profile` puts this on PATH |
-| Deployed jar | `~/.runelite/sideloaded-plugins/boaty.jar` |
+| Deployed jar | `.../bolt-launcher/.runelite/sideloaded-plugins/boaty.jar` (shared with Bolt) |
 | JDK 11 | `/usr/lib/jvm/java-11-openjdk-amd64` — RuneLite needs 11, not 17/21 |
 | Gradle caches | `~/.gradle` — keeps rebuilds fast |
 | Ctrl+Space wiki search | `osrs-hotkey` daemon, autostarted via `~/.config/autostart/osrs-hotkey.desktop` |
