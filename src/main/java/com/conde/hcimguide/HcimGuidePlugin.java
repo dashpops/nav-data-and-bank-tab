@@ -10,6 +10,7 @@ import com.conde.hcimguide.service.GuideRepository;
 import com.conde.hcimguide.service.StepMetadataRepository;
 import com.conde.hcimguide.model.WithdrawItem;
 import com.conde.hcimguide.ui.CurrentStepOverlay;
+import com.conde.hcimguide.ui.WithdrawBankFilter;
 import com.conde.hcimguide.ui.WithdrawOverlay;
 import com.conde.hcimguide.ui.GuidePanel;
 import com.google.inject.Provides;
@@ -32,7 +33,9 @@ import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.Player;
+import net.runelite.api.ScriptID;
 import net.runelite.api.events.GameTick;
+import net.runelite.api.events.ScriptPostFired;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.EventBus;
@@ -89,6 +92,9 @@ public class HcimGuidePlugin extends Plugin
 	@Inject
 	private WithdrawOverlay withdrawOverlay;
 
+	@Inject
+	private WithdrawBankFilter withdrawBankFilter;
+
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
@@ -144,6 +150,7 @@ public class HcimGuidePlugin extends Plugin
 			eventBus.post(new PluginMessage(SHORTEST_PATH_NAMESPACE, "clear"));
 		}
 
+		withdrawBankFilter.reset();
 		panel = null;
 		guideData = null;
 		progressStore = null;
@@ -476,6 +483,19 @@ public class HcimGuidePlugin extends Plugin
 				currentPanel.refresh();
 			}
 		});
+	}
+
+	/**
+	 * The bank rebuilds its item widgets on open, scroll, search and tab change,
+	 * discarding anything we changed. Re-apply once it has finished.
+	 */
+	@Subscribe
+	public void onScriptPostFired(ScriptPostFired event)
+	{
+		if (event.getScriptId() == ScriptID.BANKMAIN_FINISHBUILDING)
+		{
+			withdrawBankFilter.onBankBuilt();
+		}
 	}
 
 	@Subscribe

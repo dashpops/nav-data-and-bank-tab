@@ -349,7 +349,7 @@
     "_section": "Bank 33",
     "withdraw": [
       {
-        "name": "Food (Jug of wine or Karambwan)",
+        "name": "Food",
         "itemIds": [
           1993,
           3144

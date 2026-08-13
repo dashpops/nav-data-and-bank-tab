@@ -44,7 +44,11 @@ public class WithdrawItem
 		return getItemIds().size() > 1;
 	}
 
-	/** "4 x Flax", or just "Food" when no quantity is given. */
+	/**
+	 * "4 x Flax", or just "Food" when no quantity is given. Deliberately the plain
+	 * role name: which items satisfy it is a question for the bank filter, not for
+	 * text sitting over your head.
+	 */
 	public String describe()
 	{
 		return quantity > 0 ? quantity + " x " + name : name;
