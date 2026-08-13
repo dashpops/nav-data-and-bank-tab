@@ -34,8 +34,11 @@ import net.runelite.api.GameState;
 import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.Player;
 import net.runelite.api.ScriptID;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.ScriptPostFired;
+import net.runelite.api.events.WidgetClosed;
+import net.runelite.api.events.WidgetLoaded;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.EventBus;
@@ -489,6 +492,29 @@ public class HcimGuidePlugin extends Plugin
 	 * The bank rebuilds its item widgets on open, scroll, search and tab change,
 	 * discarding anything we changed. Re-apply once it has finished.
 	 */
+	/**
+	 * A fresh bank interface means any widget we added to the previous one is gone.
+	 * Creating our button on every build instead would leak two widgets per bank
+	 * open, scroll and search, which is enough to stall the client.
+	 */
+	@Subscribe
+	public void onWidgetLoaded(WidgetLoaded event)
+	{
+		if (event.getGroupId() == InterfaceID.BANKMAIN)
+		{
+			withdrawBankFilter.onBankInterfaceLoaded();
+		}
+	}
+
+	@Subscribe
+	public void onWidgetClosed(WidgetClosed event)
+	{
+		if (event.getGroupId() == InterfaceID.BANKMAIN)
+		{
+			withdrawBankFilter.onBankInterfaceLoaded();
+		}
+	}
+
 	@Subscribe
 	public void onScriptPostFired(ScriptPostFired event)
 	{

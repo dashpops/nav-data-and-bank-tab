@@ -51,6 +51,19 @@ public class WithdrawBankFilter
 	private Widget button;
 	private Widget buttonIcon;
 	private boolean active;
+	/**
+	 * Whether our button exists on the bank interface currently loaded. The bank
+	 * finishes building many times per session — every open, scroll, search and
+	 * tab change — so creating the button there leaks two widgets each time until
+	 * the client stalls. It is created once per interface load instead.
+	 */
+	private boolean buttonAdded;
+	/**
+	 * Guards against re-entering the filter. Revalidating widgets and updating the
+	 * scrollbar can make the bank build again, and building is what calls us — so
+	 * without this a rebuild could feed itself and hang the client.
+	 */
+	private boolean applying;
 
 	/** widget index -> {originalX, originalY, hidden} captured before filtering. */
 	private final Map<Integer, int[]> savedLayout = new HashMap<>();
@@ -72,7 +85,14 @@ public class WithdrawBankFilter
 	{
 		// The rebuild replaced every widget, so anything saved refers to the old ones.
 		savedLayout.clear();
-		addButton();
+		if (!buttonAdded)
+		{
+			addButton();
+		}
+		else
+		{
+			refreshButton();
+		}
 		if (active)
 		{
 			applyFilter();
@@ -82,6 +102,7 @@ public class WithdrawBankFilter
 	public void reset()
 	{
 		active = false;
+		buttonAdded = false;
 		button = null;
 		buttonIcon = null;
 		savedLayout.clear();
@@ -115,6 +136,33 @@ public class WithdrawBankFilter
 		buttonIcon.setOriginalY(BUTTON_Y + 3);
 		buttonIcon.setOpacity(active ? 0 : 90);
 		buttonIcon.revalidate();
+		buttonAdded = true;
+	}
+
+	/** Update the existing button in place; never creates. */
+	private void refreshButton()
+	{
+		if (button != null)
+		{
+			button.setAction(0, active ? "Show all items" : "Show guide items");
+		}
+		if (buttonIcon != null)
+		{
+			buttonIcon.setOpacity(active ? 0 : 90);
+		}
+	}
+
+	/**
+	 * The bank interface was (re)loaded, so any widget we added to it is gone.
+	 * Forget it, and let the next build create a single replacement.
+	 */
+	public void onBankInterfaceLoaded()
+	{
+		buttonAdded = false;
+		button = null;
+		buttonIcon = null;
+		savedLayout.clear();
+		savedTitle = null;
 	}
 
 	private void toggle()
@@ -130,7 +178,7 @@ public class WithdrawBankFilter
 			{
 				restore();
 			}
-			addButton();   // refresh the button's label and icon state
+			refreshButton();
 		});
 	}
 
@@ -186,6 +234,11 @@ public class WithdrawBankFilter
 	 */
 	private void applyFilter()
 	{
+		if (applying)
+		{
+			return;
+		}
+
 		Set<Integer> wanted = wantedItemIds();
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
 		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
@@ -194,55 +247,63 @@ public class WithdrawBankFilter
 			return;
 		}
 
-		Widget[] children = container.getDynamicChildren();
-		Item[] items = bank.getItems();
-		int shown = 0;
-
-		if (savedLayout.isEmpty())
+		applying = true;
+		try
 		{
-			savedScrollHeight = container.getScrollHeight();
-			Widget existingTitle = client.getWidget(InterfaceID.Bankmain.TITLE);
-			savedTitle = existingTitle == null ? null : existingTitle.getText();
-		}
+			Widget[] children = container.getDynamicChildren();
+			Item[] items = bank.getItems();
+			int shown = 0;
 
-		for (int i = 0; i < children.length; i++)
-		{
-			Widget child = children[i];
-			if (child == null)
+			if (savedLayout.isEmpty())
 			{
-				continue;
+				savedScrollHeight = container.getScrollHeight();
+				Widget existingTitle = client.getWidget(InterfaceID.Bankmain.TITLE);
+				savedTitle = existingTitle == null ? null : existingTitle.getText();
 			}
 
-			savedLayout.putIfAbsent(i,
-				new int[]{child.getOriginalX(), child.getOriginalY(), child.isHidden() ? 1 : 0});
-
-			// Children beyond the item count are separators and tab furniture.
-			boolean keep = i < items.length && wanted.contains(items[i].getId());
-			if (!keep)
+			for (int i = 0; i < children.length; i++)
 			{
-				child.setHidden(true);
-				continue;
+				Widget child = children[i];
+				if (child == null)
+				{
+					continue;
+				}
+
+				savedLayout.putIfAbsent(i,
+					new int[]{child.getOriginalX(), child.getOriginalY(), child.isHidden() ? 1 : 0});
+
+				// Children beyond the item count are separators and tab furniture.
+				boolean keep = i < items.length && wanted.contains(items[i].getId());
+				if (!keep)
+				{
+					child.setHidden(true);
+					continue;
+				}
+
+				child.setHidden(false);
+				child.setOriginalX(ITEM_ROW_START + (shown % ITEMS_PER_ROW) * ITEM_X_STEP);
+				child.setOriginalY(FIRST_ROW_Y + (shown / ITEMS_PER_ROW) * ITEM_Y_STEP);
+				child.revalidate();
+				shown++;
 			}
 
-			child.setHidden(false);
-			child.setOriginalX(ITEM_ROW_START + (shown % ITEMS_PER_ROW) * ITEM_X_STEP);
-			child.setOriginalY(FIRST_ROW_Y + (shown / ITEMS_PER_ROW) * ITEM_Y_STEP);
-			child.revalidate();
-			shown++;
+			// Shrink the scroll area to what is left, or the bank scrolls into blank space.
+			int rows = (shown + ITEMS_PER_ROW - 1) / ITEMS_PER_ROW;
+			container.setScrollHeight(Math.max(rows * ITEM_Y_STEP, container.getHeight()));
+			client.runScript(ScriptID.UPDATE_SCROLLBAR,
+				InterfaceID.Bankmain.SCROLLBAR, InterfaceID.Bankmain.ITEMS, 0);
+
+			Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);
+			if (title != null)
+			{
+				title.setText(shown > 0
+					? "Guide items (<col=ff9040>" + shown + "</col>)"
+					: "Guide items — <col=ff4040>none in bank</col>");
+			}
 		}
-
-		// Shrink the scroll area to what is left, or the bank scrolls into blank space.
-		int rows = (shown + ITEMS_PER_ROW - 1) / ITEMS_PER_ROW;
-		container.setScrollHeight(Math.max(rows * ITEM_Y_STEP, container.getHeight()));
-		client.runScript(ScriptID.UPDATE_SCROLLBAR,
-			InterfaceID.Bankmain.SCROLLBAR, InterfaceID.Bankmain.ITEMS, 0);
-
-		Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);
-		if (title != null)
+		finally
 		{
-			title.setText(shown > 0
-				? "Guide items (<col=ff9040>" + shown + "</col>)"
-				: "Guide items — <col=ff4040>none in bank</col>");
+			applying = false;
 		}
 	}
 
