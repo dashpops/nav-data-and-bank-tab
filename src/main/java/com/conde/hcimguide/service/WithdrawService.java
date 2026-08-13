@@ -94,6 +94,24 @@ public class WithdrawService
 		return missing;
 	}
 
+	/**
+	 * Every item ID the step mentions, satisfied or not. The bank filter uses this
+	 * rather than {@link #outstandingItemIds}: an item that vanishes the moment you
+	 * pick it up never gets to show its tick.
+	 */
+	public Set<Integer> allItemIds(List<WithdrawItem> wanted)
+	{
+		Set<Integer> ids = new HashSet<>();
+		if (wanted != null)
+		{
+			for (WithdrawItem item : wanted)
+			{
+				ids.addAll(item.getItemIds());
+			}
+		}
+		return ids;
+	}
+
 	/** Every item ID that would help satisfy the outstanding entries. */
 	public Set<Integer> outstandingItemIds(List<WithdrawItem> wanted)
 	{

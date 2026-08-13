@@ -11,6 +11,7 @@ import com.conde.hcimguide.service.StepMetadataRepository;
 import com.conde.hcimguide.model.WithdrawItem;
 import com.conde.hcimguide.ui.CurrentStepOverlay;
 import com.conde.hcimguide.ui.WithdrawBankFilter;
+import com.conde.hcimguide.ui.WithdrawBankOverlay;
 import com.conde.hcimguide.ui.WithdrawOverlay;
 import com.conde.hcimguide.ui.GuidePanel;
 import com.google.inject.Provides;
@@ -96,6 +97,9 @@ public class HcimGuidePlugin extends Plugin
 	private WithdrawOverlay withdrawOverlay;
 
 	@Inject
+	private WithdrawBankOverlay withdrawBankOverlay;
+
+	@Inject
 	private WithdrawBankFilter withdrawBankFilter;
 
 	private GuideData guideData;
@@ -133,6 +137,7 @@ public class HcimGuidePlugin extends Plugin
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(currentStepOverlay);
 		overlayManager.add(withdrawOverlay);
+		overlayManager.add(withdrawBankOverlay);
 		refreshState();
 	}
 
@@ -141,6 +146,7 @@ public class HcimGuidePlugin extends Plugin
 	{
 		overlayManager.remove(currentStepOverlay);
 		overlayManager.remove(withdrawOverlay);
+		overlayManager.remove(withdrawBankOverlay);
 		if (navigationButton != null)
 		{
 			clientToolbar.removeNavigation(navigationButton);

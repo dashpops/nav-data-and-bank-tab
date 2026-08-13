@@ -217,7 +217,9 @@ public class WithdrawBankFilter
 			return;
 		}
 
-		Set<Integer> wanted = withdrawService.outstandingItemIds(plugin.getCurrentWithdrawItems());
+		// All of the step's items, not just the missing ones - an item that disappears
+		// once you hold it never shows you its tick.
+		Set<Integer> wanted = withdrawService.allItemIds(plugin.getCurrentWithdrawItems());
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
 		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
 		if (container == null || bank == null)
