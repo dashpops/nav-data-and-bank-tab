@@ -15,8 +15,8 @@ Work lives on the **`boaty`** branch. `master` is untouched upstream.
 
 | | |
 |---|---|
-| Nav entries | **415** |
-| Bank sections covered | **79 / 215** — banks 33 → 110, contiguous |
+| Nav entries | **481** |
+| Bank sections covered | **89 / 215** — banks 33 → 120, contiguous |
 | Guide data | 236 sections / 2911 steps, regenerated from the wiki 2026-08-12 |
 | Olly is playing | around **bank 33**, so coverage runs ~77 banks ahead |
 

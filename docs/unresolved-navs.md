@@ -48,6 +48,11 @@ written (see "Resolved" at the bottom).
 | 104 | 6 | Pyramid Plunder in Sophanem | No pin; #5 navs to Sophanem |
 | 108B | 10 | Kill Wormbrain (Port Sarim) | No pin; roams the jail area |
 | 109 | 10 | Kill Elvarg | Boss has no map pin; #10 navs to Crandor instead |
+| 112 | 10, 11 | White Tree on Ice Mountain | No pin for the tree |
+| 113 | 14 | Buy Asgarnian Ale in Burthorpe bar | Bar has no pin of its own; Harold upstairs is #15 |
+| 114 | 6 | Kill Chronozon | Boss has no map pin; #5 navs to Edgeville |
+| 115 | 22 | Travel Dwarven Ferryman | Still no pin, as at bank 87 |
+| 116 | 3 | Talk to Dwarven Engineer | No pin; #1 navs to Keldagrim bank |
 
 ## Deliberately empty (a nav would be wrong or useless)
 
