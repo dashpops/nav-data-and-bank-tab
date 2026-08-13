@@ -54,6 +54,22 @@ written (see "Resolved" at the bottom).
 | 115 | 22 | Travel Dwarven Ferryman | Still no pin, as at bank 87 |
 | 116 | 3 | Talk to Dwarven Engineer | No pin; #1 navs to Keldagrim bank |
 
+### Banks 121-130
+
+| Bank | Step(s) | Why |
+|---|---|---|
+| 121 | 59-63 | Chambers of Xeric scouting — inside a raid, no fixed tile |
+| 121 | 16, 23, 33, 56 | "Games necklace -> Wintertodt" — a teleport, not a walk. #24 navs to Ignisia there |
+| 121 | 17, 21, 26, 31, 35, 50 | Minecart hops — Shortest Path treats these as transports; the destination is the following step |
+| 121 | 45 | Boulder leap shortcut in the dense essence mine — no pin |
+| 122 | 5 | Catch chinchompas in Kourend Woodland — a hunting area, not a spot |
+| 124 | 17-25 | Taverley Dungeon interior (jail, dragons, Cerberus tunnel); #10 navs to the entrance |
+| 128, 129 | all | Miscellania and Etceteria kingdom management — the work is in an interface, not at a tile |
+| 130 | 21, 30 | Placing toads in Feldip Hills — scattered; #23 navs to Rantz |
+
+Istoria (121 #28) resolved to `1552,10224`, which is not Arceuus and looks like a
+different NPC of the same name, so it was left out rather than guessed.
+
 ## Deliberately empty (a nav would be wrong or useless)
 
 | Bank | Step(s) | Reason |

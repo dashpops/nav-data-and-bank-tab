@@ -13240,5 +13240,541 @@
     ],
     "_text": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 per Onyx) [You may need to buy more], Karamja Gloves, Teleport Runes, Dramen Staff, House tab, Banana, Zombie Monkey Greegree, Chisel, Wily Cat",
     "_section": "Bank 215"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-002": {
+    "nav": {
+      "label": "Tithe Farm entrance (Hosidius)",
+      "x": 1806,
+      "y": 3501,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Tithe Farm",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-004": {
+    "nav": {
+      "label": "Lord Kandur Hosidius",
+      "x": 1782,
+      "y": 3572,
+      "z": 0
+    },
+    "quest": "The Depths of Despair",
+    "_text": "Talk to Lord Kandur (2,1) [Depths of Despair]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-005": {
+    "nav": {
+      "label": "Chef Olivia",
+      "x": 1776,
+      "y": 3567,
+      "z": 0
+    },
+    "quest": "The Depths of Despair",
+    "_text": "Talk to Chef Olivia [Depths of Despair]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-007": {
+    "nav": {
+      "label": "Arceuus Library",
+      "x": 1606,
+      "y": 3824,
+      "z": 0
+    },
+    "_text": "Head South to Library",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-012": {
+    "nav": {
+      "label": "Mori (Arceuus)",
+      "x": 1700,
+      "y": 3742,
+      "z": 0
+    },
+    "quest": "The Ascent of Arceuus",
+    "_text": "Talk to Mori (1,2,1) [Ascent of Arceuus]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-013": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend Castle",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-014": {
+    "nav": {
+      "label": "Councillor Andrews (upstairs)",
+      "x": 1621,
+      "y": 3674,
+      "z": 1
+    },
+    "_text": "Talk to Councillor Andrews (2)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-020": {
+    "nav": {
+      "label": "Lady Vulcana Lovakengj",
+      "x": 1483,
+      "y": 3748,
+      "z": 0
+    },
+    "quest": "The Forsaken Tower",
+    "_text": "Talk to Lady Vulcana Lovakengj (1,3) [Forsaken Tower]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-022": {
+    "nav": {
+      "label": "Phileas Rimor",
+      "x": 1542,
+      "y": 3571,
+      "z": 0
+    },
+    "quest": "Tale of the Righteous",
+    "_text": "Talk to Phileas Rimor (2,1) [Tales of the Righteous]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-024": {
+    "nav": {
+      "label": "Wintertodt (Ignisia)",
+      "x": 1634,
+      "y": 3949,
+      "z": 0
+    },
+    "quest": "The Forsaken Tower",
+    "_text": "Talk to Ignisia [Forsaken Tower]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-025": {
+    "nav": {
+      "label": "Undor",
+      "x": 1624,
+      "y": 3942,
+      "z": 0
+    },
+    "quest": "The Forsaken Tower",
+    "_text": "Talk to Undor (4) [Forsaken Tower]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-030": {
+    "nav": {
+      "label": "Mori (Arceuus)",
+      "x": 1700,
+      "y": 3742,
+      "z": 0
+    },
+    "quest": "The Ascent of Arceuus",
+    "_text": "Talk to Mori and continue Ascent of Arceuus until needing to head to Mount Karuulm",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-047": {
+    "nav": {
+      "label": "Aretha (Soul Altar)",
+      "x": 1814,
+      "y": 3854,
+      "z": 0
+    },
+    "quest": "A Kingdom Divided",
+    "_text": "Head to the Soul Altar & talk to Aretha (3,1) [Bear your Soul]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-052": {
+    "nav": {
+      "label": "Lord Shiro Shayzien (upstairs)",
+      "x": 1486,
+      "y": 3635,
+      "z": 1
+    },
+    "quest": "Tale of the Righteous",
+    "_text": "Talk to Lord Shiro Shayzien [Tale of the Righteous]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-057": {
+    "nav": {
+      "label": "Mount Quidamortem",
+      "x": 1246,
+      "y": 3550,
+      "z": 0
+    },
+    "_text": "Take Minecart to Mount Quidermortum (8)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-069": {
+    "nav": {
+      "label": "Veos (Port Piscarilius)",
+      "x": 1824,
+      "y": 3690,
+      "z": 0
+    },
+    "_text": "Head south and talk to Veos and take boat to Lands End [Kourend Easy Diary]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-077": {
+    "nav": {
+      "label": "Captain Ginea",
+      "x": 1504,
+      "y": 3632,
+      "z": 0
+    },
+    "diary": "Kourend Medium",
+    "_text": "Collect an Intelligence and hand in to Captain Ginea [Kourend Medium Diary]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-081": {
+    "nav": {
+      "label": "Elise (Kourend Castle)",
+      "x": 1648,
+      "y": 3665,
+      "z": 0
+    },
+    "diary": "Kourend Easy",
+    "_text": "Talk to Elise & complete Kourend Easy Diary",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-122-step-010": {
+    "nav": {
+      "label": "Hooknosed Jack (Varrock)",
+      "x": 3269,
+      "y": 3401,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Talk to Hooknosed Jack [Ratcatchers]",
+    "_section": "Bank 122"
+  },
+  "episode-4-banks-105-through-150-bank-123-step-003": {
+    "nav": {
+      "label": "Caleb (Catherby)",
+      "x": 2819,
+      "y": 3451,
+      "z": 0
+    },
+    "_text": "Talk to Caleb for Cooking gauntlets",
+    "_section": "Bank 123"
+  },
+  "episode-4-banks-105-through-150-bank-123-step-004": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2899,
+      "y": 3564,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe",
+    "_section": "Bank 123"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-002": {
+    "nav": {
+      "label": "Achietties",
+      "x": 2902,
+      "y": 3511,
+      "z": 0
+    },
+    "quest": "Heroes' Quest",
+    "_text": "Talk to Achietties (1,4) [Heroes Quest]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-004": {
+    "nav": {
+      "label": "Gerrant (Port Sarim)",
+      "x": 3013,
+      "y": 3226,
+      "z": 0
+    },
+    "quest": "Heroes' Quest",
+    "_text": "Talk to Gerrant (3) [Heroes Quest]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-006": {
+    "nav": {
+      "label": "Felkrash (Rat Pits)",
+      "x": 2977,
+      "y": 9639,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Talk to Felkrash [Ratcatchers]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-007": {
+    "nav": {
+      "label": "The Face (Port Sarim)",
+      "x": 3018,
+      "y": 3233,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Exit the rat pits & talk to The Face [Ratcatchers]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-010": {
+    "nav": {
+      "label": "Taverley Dungeon (entrance)",
+      "x": 2884,
+      "y": 3398,
+      "z": 0
+    },
+    "_text": "Head West to Taverley Dungeon",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-014": {
+    "nav": {
+      "label": "Lord Daquarius (Black Knights' Base)",
+      "x": 2892,
+      "y": 9680,
+      "z": 0
+    },
+    "quest": "Wanted!",
+    "_text": "Talk to Lord Daquarius [Wanted!]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-030": {
+    "nav": {
+      "label": "Thormac (Sorcerer's Tower, top)",
+      "x": 2702,
+      "y": 3406,
+      "z": 3
+    },
+    "quest": "Scorpion Catcher",
+    "_text": "Go up the ladder 3 times then talk to Thormac to complete Scorpion Catcher",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-031": {
+    "nav": {
+      "label": "Seers' Village bank",
+      "x": 2725,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Bank at Camelot Bank",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-003": {
+    "nav": {
+      "label": "Wizard Persten (Al Kharid)",
+      "x": 3284,
+      "y": 3231,
+      "z": 0
+    },
+    "quest": "Temple of the Eye",
+    "_text": "Talk to Wizard Persten (2,1)[Temple of the Eye]",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-005": {
+    "nav": {
+      "label": "Captain Bleemadge (White Wolf Mountain)",
+      "x": 2849,
+      "y": 3500,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Captain Bleemadge (2,4) [One Small Favour]",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-007": {
+    "nav": {
+      "label": "Ice Queen (White Wolf Mountain)",
+      "x": 2837,
+      "y": 3518,
+      "z": 0
+    },
+    "_text": "Kill the Ice Queen for Ice gloves (You can 'safespot' between 2 Stalagmites to the east or fight her behind the Throne so no Warriors are attacking)",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-011": {
+    "nav": {
+      "label": "Auguste (Entrana)",
+      "x": 2810,
+      "y": 3356,
+      "z": 0
+    },
+    "quest": "Enlightened Journey",
+    "_text": "Talk to Auguste (1,1,1) to start Enlightened Journey",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-025": {
+    "nav": {
+      "label": "Pirate Jackie the Fruit (Brimhaven)",
+      "x": 2809,
+      "y": 3193,
+      "z": 0
+    },
+    "diary": "Karamja Easy",
+    "_text": "Talk to Pirate Jackie the Fruit to complete Karamja Easy Diary (Lamp on Herblore)",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-027": {
+    "nav": {
+      "label": "Lubufu (Brimhaven)",
+      "x": 2765,
+      "y": 3169,
+      "z": 0
+    },
+    "quest": "Tai Bwo Wannai Trio",
+    "_text": "Talk to Lubufu until you have 2x Karambwan Vessels (Drop 1 to get the 2nd)[Tai Bwo Wannai Trio]",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-029": {
+    "nav": {
+      "label": "Katrine (Varrock)",
+      "x": 3186,
+      "y": 3385,
+      "z": 0
+    },
+    "quest": "Heroes' Quest",
+    "_text": "Talk to Katrina for Masterthief Armband [Heroes' Quest]",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-126-step-002": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2899,
+      "y": 3564,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe",
+    "_section": "Bank 126"
+  },
+  "episode-4-banks-105-through-150-bank-126-step-006": {
+    "nav": {
+      "label": "Rogues' Den",
+      "x": 2906,
+      "y": 3537,
+      "z": 0
+    },
+    "_text": "Bank at Rogue's Denn",
+    "_section": "Bank 126"
+  },
+  "episode-4-banks-105-through-150-bank-127-step-003": {
+    "nav": {
+      "label": "Tenzing",
+      "x": 2821,
+      "y": 3556,
+      "z": 0
+    },
+    "quest": "Troll Stronghold",
+    "_text": "Buy 2x Climbing boots from Tenzing",
+    "_section": "Bank 127"
+  },
+  "episode-4-banks-105-through-150-bank-127-step-005": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2899,
+      "y": 3564,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe",
+    "_section": "Bank 127"
+  },
+  "episode-4-banks-105-through-150-bank-127-step-007": {
+    "nav": {
+      "label": "Dunstan (Burthorpe)",
+      "x": 2919,
+      "y": 3574,
+      "z": 0
+    },
+    "quest": "Desert Treasure I",
+    "_text": "Talk to Dunstan again (2,1) to create Spiked Boots [Desert Treasure]",
+    "_section": "Bank 127"
+  },
+  "episode-4-banks-105-through-150-bank-127-step-008": {
+    "nav": {
+      "label": "Unferth (Burthorpe)",
+      "x": 2920,
+      "y": 3559,
+      "z": 0
+    },
+    "quest": "A Tail of Two Cats",
+    "_text": "Talk to Unferth (1) [A Tail of Two Cats]",
+    "_section": "Bank 127"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-004": {
+    "nav": {
+      "label": "Arhein (Catherby)",
+      "x": 2803,
+      "y": 3432,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Arhein (4,1) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-014": {
+    "nav": {
+      "label": "Wizard Cromperty",
+      "x": 2684,
+      "y": 3325,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Wizard Cromperty (4,2) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-016": {
+    "nav": {
+      "label": "Tindel Marchant (Port Khazard)",
+      "x": 2673,
+      "y": 3150,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Tindel Merchant (2,1) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-023": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Rantz (2,4) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-024": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Talk to Rantz again (1,2,3) [Recipe for Disaster]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-025": {
+    "nav": {
+      "label": "Gnormadium Avlafrim",
+      "x": 2544,
+      "y": 2971,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Gnormadium Avlafrim (4,1) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-031": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Talk to Rantz (2) [Recipe for Disaster]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-037": {
+    "nav": {
+      "label": "Tindel Marchant (Port Khazard)",
+      "x": 2673,
+      "y": 3150,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Tindel Merchant (2) [One Small Favour]",
+    "_section": "Bank 130"
   }
 }
