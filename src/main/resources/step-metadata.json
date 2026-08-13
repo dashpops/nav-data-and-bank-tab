@@ -549,7 +549,32 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Desert Robes/boots (buy new ones from Shantay Pass), Chronicle",
-    "_section": "Bank 35"
+    "_section": "Bank 35",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Desert robes",
+        "itemIds": [
+          1835,
+          1837,
+          1833
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-35-step-003": {
     "nav": {
@@ -600,7 +625,16 @@
     },
     "diary": "Desert Easy",
     "_text": "Withdraw a knife and cut a cactus one trip banking at Nardah [Desert Easy Diary]",
-    "_section": "Bank 35"
+    "_section": "Bank 35",
+    "withdraw": [
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-35-step-012": {
     "nav": {
@@ -671,7 +705,58 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Chaos Runes, Air Staff, Leather Gloves, 10x Empty Bucket, Barcrawl, Unstamped Letter (16 Inventory Slots)",
-    "_section": "Bank 36"
+    "_section": "Bank 36",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Leather gloves",
+        "itemIds": [
+          1059
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Barcrawl card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Unstamped letter",
+        "itemIds": [
+          682
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-36-step-002": {
     "nav": {
@@ -774,7 +859,58 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Pestle & Mortar, Vial of water, Tinderbox, Cup of Tea, 2x Ropes, Sealed Letter (13 Inventory Slots)",
-    "_section": "Bank 37"
+    "_section": "Bank 37",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle and mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial of water",
+        "itemIds": [
+          227
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cup of tea",
+        "itemIds": [
+          1978
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Sealed letter",
+        "itemIds": [
+          683
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-37-step-003": {
     "nav": {
@@ -866,7 +1002,44 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Willow Blackjack, 2 Law, 2 Water, 23x Wines",
-    "_section": "Bank 38"
+    "_section": "Bank 38",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Willow blackjack",
+        "itemIds": [
+          4600
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Law runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Water runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 23
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-38-step-002": {
     "nav": {
@@ -926,7 +1099,65 @@
       "z": 0
     },
     "_text": "Withdraw: Law Runes, Water Runes, Death Runes, Air Staff, Coins, 6x Wine, 3x Bones, Small Fishing Net (15 Inventory Spaces)",
-    "_section": "Bank 39"
+    "_section": "Bank 39",
+    "withdraw": [
+      {
+        "name": "Law runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Water runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Bones",
+        "itemIds": [
+          526
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Small fishing net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-39-step-002": {
     "nav": {
@@ -999,7 +1230,16 @@
       "z": 0
     },
     "_text": "Withdraw: Coins",
-    "_section": "Bank 40A"
+    "_section": "Bank 40A",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-40a-step-002": {
     "nav": {
@@ -1040,7 +1280,80 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, Barcrawl Card, Bread, Bat Bones, Lit Black Candle, Steel Pickaxe, Silver Ore, Sickle Mould, Ship Ticket, Blunt axe (17 Inventory Slots)",
-    "_section": "Bank 41B"
+    "_section": "Bank 41B",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bat bones",
+        "itemIds": [
+          530
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lit black candle",
+        "itemIds": [
+          32,
+          38
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel pickaxe",
+        "itemIds": [
+          1269
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver ore",
+        "itemIds": [
+          442
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Sickle mould",
+        "itemIds": [
+          2976
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ship ticket",
+        "itemIds": [
+          621
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Blunt axe",
+        "itemIds": [
+          4415
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-41b-step-002": {
     "nav": {
@@ -1187,7 +1500,37 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, Molten Glass, Bronze Bar, 3 Planks (11 Inventory Slots)",
-    "_section": "Bank 42"
+    "_section": "Bank 42",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze bar",
+        "itemIds": [
+          2349
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 3
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-42-step-002": {
     "nav": {
@@ -1269,7 +1612,16 @@
       "z": 0
     },
     "_text": "Withdraw: Steel Pickaxe",
-    "_section": "Bank 44"
+    "_section": "Bank 44",
+    "withdraw": [
+      {
+        "name": "Steel pickaxe",
+        "itemIds": [
+          1269
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-44-step-002": {
     "nav": {

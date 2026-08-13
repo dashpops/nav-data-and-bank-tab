@@ -109,3 +109,34 @@ These follow a "bank anywhere"-style step, so there is no defensible bank to pic
 - **Hemenster** (79 #2) — was `2596,3473` from a polygon vertex, ~50 tiles off the
   real gate at `2642,3441`.
 - **Tithe Farm** (74 #5, #10) — outline corner corrected to the entrance.
+
+---
+
+# Unresolved withdraw items
+
+Item IDs come from the wiki via `scripts/itemids.py`, not from memory — a wrong
+id silently makes a step unsatisfiable, which reads as the plugin being broken.
+
+Where the guide states no amount ("Coins", "Food"), quantity is recorded as `0`
+meaning *unstated*: the overlay then shows only a tick or cross, rather than
+inventing a "/1" the guide never asked for.
+
+## Judgement calls made
+
+| Bank | Step | Call |
+|---|---|---|
+| 35 | 1 | "Desert Robes/boots" is one entry accepting robe `1835`, boots `1837` or shirt `1833`. The guide's slash makes it unclear whether it means the set or either piece |
+| 41B | 1 | "Lit Black Candle" accepts lit `32` and unlit `38`. Only the lit one is asked for, but the unlit is what you would spot in the bank |
+| 38, 39 | 1 | "Wines" taken as Jug of wine `1993`, the wine the guide uses for Blackjacking |
+| 39 | 1 | "3x Bones" taken as plain Bones `526`, not big/bat bones |
+
+## Deliberately not recorded
+
+| Bank | Step | Why |
+|---|---|---|
+| 41B, 42 | 1 | "Teleport Runes" names no specific rune, and which ones vary by destination. Marking a guess would show a cross against runes you do not need |
+| 43 | 1 | "Withdraw: Nothing" — nothing to record |
+| 36 | 1 | "Barcrawl" recorded as Barcrawl card `455`; the shorthand is unambiguous in context |
+
+Steps whose text begins "Withdraw" but which are instructions rather than lists
+(e.g. bank 35 #9, "Withdraw a knife and cut a cactus") carry only the item named.
