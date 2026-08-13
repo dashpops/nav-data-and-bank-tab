@@ -140,3 +140,30 @@ inventing a "/1" the guide never asked for.
 
 Steps whose text begins "Withdraw" but which are instructions rather than lists
 (e.g. bank 35 #9, "Withdraw a knife and cut a cactus") carry only the item named.
+
+## Bulk pass, banks 33-215
+
+`scripts/parse_withdraws.py` reads the withdraw lists, pulls out stated amounts
+and resolves names against the wiki. It filled 169 steps with 1024 entries. It
+never overwrites a list already in the file, so the hand-checked banks 33-44
+stayed as they were.
+
+**"Teleport Runes" now means Staff of air + Rune pouch**, per instruction. Both
+appear in the bank filter, either satisfies the entry.
+
+Guesses in the alias table worth a second look:
+
+| Guide says | Taken as | Note |
+|---|---|---|
+| "Pickaxe" | Bronze pickaxe | Any pickaxe would do; the lowest is a placeholder, so a better one in the bank shows a cross |
+| "Axe" | Bronze axe | Same |
+| "Varrock Teleport Runes" | Law rune | Only the law rune is specific; the elemental runes are not named |
+| "Milk" | Bucket of milk | The only bankable milk |
+| "Grimy Herb" | Grimy guam leaf | The guide does not say which herb |
+| "Antipoison" / "Super antipoison" | 4-dose | Dose is never stated |
+
+Around 144 steps still have at least one unresolved word. Nearly all are
+categories rather than items — "Combat Gear", "Food", "Potions", "Range Gear",
+"Best Air Spell" — which have no id to point at and are left out on purpose.
+The rest are genuinely ambiguous ("Biohazard Items", "Thralls, etc") or later
+content nobody has checked yet.

@@ -404,7 +404,65 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Air Staff, Mind Runes, Barcrawl Card, Empty Pot, Empty Sack, Bronze Bar, Clay, Bucket of Water, Key Print (9 Inventory Slots)",
-    "_section": "Bank 34"
+    "_section": "Bank 34",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty Pot",
+        "itemIds": [
+          1931
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty Sack",
+        "itemIds": [
+          5418
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Bar",
+        "itemIds": [
+          2349
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Clay",
+        "itemIds": [
+          434
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-34-step-003": {
     "nav": {
@@ -466,7 +524,16 @@
       "z": 0
     },
     "_text": "Withdraw 15 Pineapples and refill compost bin",
-    "_section": "Bank 34"
+    "_section": "Bank 34",
+    "withdraw": [
+      {
+        "name": "Pineapples",
+        "itemIds": [
+          2114
+        ],
+        "quantity": 15
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-34-step-010": {
     "nav": {
@@ -1735,7 +1802,44 @@
       "z": 0
     },
     "_text": "Withdraw: Varrock Teleport Runes, Barcrawl Card, Coins, Adamant Scimitar, Bucket, Pickaxe (8 Inventory Slots) + 10x Wines",
-    "_section": "Bank 45"
+    "_section": "Bank 45",
+    "withdraw": [
+      {
+        "name": "Varrock Teleport Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-45-step-002": {
     "nav": {
@@ -1874,7 +1978,72 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Adamant Scimitar, Ghost Speak Amulet, Air Staff, Death Runes, 2x Cowhide, Wolfbane, All pies, Silver Sickle, Chisel, 8 food (24 Inventory Slots)",
-    "_section": "Bank 46"
+    "_section": "Bank 46",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghost Speak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cowhide",
+        "itemIds": [
+          1739
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Wolfbane",
+        "itemIds": [
+          2952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Sickle",
+        "itemIds": [
+          2961
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-46-step-003": {
     "nav": {
@@ -1949,7 +2118,79 @@
       "z": 2
     },
     "_text": "Withdraw: Adamant Scimitar, Egg, 2x Flour, Milk, Bucket of Water, Rotten Tomato, Greenmans Ale, Ashes, Fruit Blast, Eye of Newt (9 Inventory Slots)",
-    "_section": "Bank 47"
+    "_section": "Bank 47",
+    "withdraw": [
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Egg",
+        "itemIds": [
+          1944
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Flour",
+        "itemIds": [
+          1933
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Milk",
+        "itemIds": [
+          1927
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rotten Tomato",
+        "itemIds": [
+          2518
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Greenmans Ale",
+        "itemIds": [
+          1909
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ashes",
+        "itemIds": [
+          592
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fruit Blast",
+        "itemIds": [
+          2084
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Eye of Newt",
+        "itemIds": [
+          221
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-47-step-005": {
     "nav": {
@@ -1969,7 +2210,44 @@
       "z": 2
     },
     "_text": "Withdraw: Steel Axe, Guam, 15 Swamp Tar, Pestle & Mortar, Tinderbox, (5 Inventory Slots)",
-    "_section": "Bank 48"
+    "_section": "Bank 48",
+    "withdraw": [
+      {
+        "name": "Steel Axe",
+        "itemIds": [
+          1353
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-48-step-005": {
     "nav": {
@@ -2000,7 +2278,87 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Teleport Runes, Death Runes, Chaos Runes, Knife, 3x Beers, Rope, Pink Skirt, Wig, Paste, Steel Axe (15 Inventory Slots)",
-    "_section": "Bank 49"
+    "_section": "Bank 49",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos Runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Beers",
+        "itemIds": [
+          1917
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pink Skirt",
+        "itemIds": [
+          1013
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wig",
+        "itemIds": [
+          2421
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Paste",
+        "itemIds": [
+          2424
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Axe",
+        "itemIds": [
+          1353
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-49-step-002": {
     "nav": {
@@ -2105,7 +2463,31 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, 15 Pineapples (21 Inventory Slots)",
-    "_section": "Bank 50"
+    "_section": "Bank 50",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pineapples",
+        "itemIds": [
+          2114
+        ],
+        "quantity": 15
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-50-step-002": {
     "nav": {
@@ -2177,7 +2559,16 @@
       "z": 0
     },
     "_text": "Withdraw at Varrock east bank: Plague Sample, Touch Paper. Bank the bows",
-    "_section": "Bank 50"
+    "_section": "Bank 50",
+    "withdraw": [
+      {
+        "name": "Plague Sample",
+        "itemIds": [
+          418
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-50-step-014": {
     "nav": {
@@ -2229,7 +2620,16 @@
       "z": 2
     },
     "_text": "Withdraw: 10x Wine",
-    "_section": "Bank 51"
+    "_section": "Bank 51",
+    "withdraw": [
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-51-step-002": {
     "nav": {
@@ -2293,7 +2693,94 @@
       "z": 0
     },
     "_text": "Withdraw: Dramen Staff, Teleport Runes, Coins, Ghostspeak Amulet, Seceteaurs, 10 Wines, Adamant Scimitar, Garlic, Hammer, Stake, Rope, Lit Candle (25 Inventory Slots)",
-    "_section": "Bank 52"
+    "_section": "Bank 52",
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghostspeak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seceteaurs",
+        "itemIds": [
+          5329
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Garlic",
+        "itemIds": [
+          1550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Stake",
+        "itemIds": [
+          1549
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-52-step-002": {
     "nav": {
@@ -2356,7 +2843,51 @@
       "z": 0
     },
     "_text": "Withdraw: Adamant Scimitar, Coins, Dramen Staff, Rope, 10x Wines, Combat Runes, Axe",
-    "_section": "Bank 53"
+    "_section": "Bank 53",
+    "withdraw": [
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-53-step-002": {
     "nav": {
@@ -2418,7 +2949,44 @@
       "z": 0
     },
     "_text": "Withdraw: 3x Law Runes, 2x Water Runes, 3 Air Runes, 1 Earth Rune, 2x Empty Sack (8 Inventory Slots)",
-    "_section": "Bank 54"
+    "_section": "Bank 54",
+    "withdraw": [
+      {
+        "name": "Law Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Earth Rune",
+        "itemIds": [
+          557
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Empty Sack",
+        "itemIds": [
+          5418
+        ],
+        "quantity": 2
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-54-step-003": {
     "nav": {
@@ -2471,7 +3039,51 @@
       "z": 0
     },
     "_text": "Withdraw: Pickaxe, Guam, 15 Swamp Tar, Pestle & Mortar, Small Fishing Net, Swamp Paste",
-    "_section": "Bank 55"
+    "_section": "Bank 55",
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing Net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Paste",
+        "itemIds": [
+          1941
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-55-step-003": {
     "nav": {
@@ -2524,7 +3136,37 @@
       "z": 0
     },
     "_text": "Withdraw: Adamant Axe, Guam, 15 Tar, Pestle & Mortar (4 Inventory Slots)",
-    "_section": "Bank 56"
+    "_section": "Bank 56",
+    "withdraw": [
+      {
+        "name": "Adamant Axe",
+        "itemIds": [
+          1357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-57-step-001": {
     "nav": {
@@ -2534,7 +3176,65 @@
       "z": 0
     },
     "_text": "Withdraw: 12x Coal, Knife, Steel Pickaxe, Needle (NOT COSTUME NEEDLE), 1x Thread, Hammer, Iron Bar, Adamant Scimitar, 2x Food (20 Inventory Slots",
-    "_section": "Bank 57"
+    "_section": "Bank 57",
+    "withdraw": [
+      {
+        "name": "Coal",
+        "itemIds": [
+          453
+        ],
+        "quantity": 12
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Pickaxe",
+        "itemIds": [
+          1269
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thread",
+        "itemIds": [
+          1734
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Scimitar",
+        "itemIds": [
+          1331
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-57-step-002": {
     "nav": {
@@ -2565,7 +3265,45 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Teleport Runes, Rusty Sword, Chroncle, Pickaxe (9 Inventory Slots)",
-    "_section": "Bank 58"
+    "_section": "Bank 58",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rusty Sword",
+        "itemIds": [
+          686
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chroncle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-58-step-005": {
     "nav": {
@@ -2668,7 +3406,87 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Purple Dye, Orange Slices, Fishing Bait, Gnome Spice, Bucket, Bread, Guam, 15x Swamp Tar, Pestle & Mortar, Pickaxe & antique Lamp(15 Inventory Slots)",
-    "_section": "Bank 59"
+    "_section": "Bank 59",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Purple Dye",
+        "itemIds": [
+          1773
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Orange Slices",
+        "itemIds": [
+          2112
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Bait",
+        "itemIds": [
+          313
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gnome Spice",
+        "itemIds": [
+          2169
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-59-step-008": {
     "nav": {
@@ -2688,7 +3506,80 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Orange Dye, Blue Dye, Spicy Maggots, Charcoal, Dyed Orange, Soggy Bread, 2 Iron Ore, Blurite Ore, 4x Copper Ore, 6 Clay Hammer & antique Lamp (26 Inventory Slots)",
-    "_section": "Bank 60"
+    "_section": "Bank 60",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Orange Dye",
+        "itemIds": [
+          1769
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Blue Dye",
+        "itemIds": [
+          1767
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spicy Maggots",
+        "itemIds": [
+          7513
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Charcoal",
+        "itemIds": [
+          973
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dyed Orange",
+        "itemIds": [
+          7514
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Soggy Bread",
+        "itemIds": [
+          7512
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Ore",
+        "itemIds": [
+          440
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Blurite Ore",
+        "itemIds": [
+          668
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Copper Ore",
+        "itemIds": [
+          436
+        ],
+        "quantity": 4
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-61-step-001": {
     "nav": {
@@ -2741,7 +3632,59 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Teleport Runes, Sawmill Proposal, Dramen Staff, Antipoison, Spade, 6x Wines, Antique Lamp (16 Inventory Slots)",
-    "_section": "Bank 62"
+    "_section": "Bank 62",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Sawmill Proposal",
+        "itemIds": [
+          21528
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 6
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-62-step-009": {
     "nav": {
@@ -2793,7 +3736,87 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, 2x Vodka, Marrentil, Vial of Water, 4x regular Logs, 2x Oak Plank, Iron Bar, 5 Steel Nails, 4x Clockwork Mechanism, Hammer, Chisel, 40 Barley, Pickaxe, Sawmill Agreement (26 Inventory Slots)",
-    "_section": "Bank 65"
+    "_section": "Bank 65",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vodka",
+        "itemIds": [
+          2015
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Marrentil",
+        "itemIds": [
+          251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial of Water",
+        "itemIds": [
+          227
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Oak Plank",
+        "itemIds": [
+          8778
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-2-banks-24-through-75-bank-65-step-004": {
     "nav": {
@@ -3998,7 +5021,16 @@
       "z": 0
     },
     "_text": "Withdraw: Coins",
-    "_section": "Bank 86"
+    "_section": "Bank 86",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-3-banks-76-through-104b-bank-85-step-022": {
     "nav": {
@@ -4018,7 +5050,93 @@
       "z": 0
     },
     "_text": "Withdraw: Range Gear + 2x Red/Yellow/Blue Dyes, Coins, Silk, Needle, 6x Thread, 41 ectotokens, Nettle Tea, Milk, Spade, Knife, Thin Snail, Axe, 4x Dragon Bones, 4x Empty Pot (25 Inventory Slots)",
-    "_section": "Bank 99"
+    "_section": "Bank 99",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silk",
+        "itemIds": [
+          950
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thread",
+        "itemIds": [
+          1734
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Nettle Tea",
+        "itemIds": [
+          4239
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Milk",
+        "itemIds": [
+          1927
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thin Snail",
+        "itemIds": [
+          3363
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dragon Bones",
+        "itemIds": [
+          536
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Empty Pot",
+        "itemIds": [
+          1931
+        ],
+        "quantity": 4
+      }
+    ]
   },
   "episode-3-banks-76-through-104b-bank-99-step-003": {
     "nav": {
@@ -4722,7 +5840,51 @@
       "z": 0
     },
     "_text": "Withdraw: Big Fishing Net, Coins, 5x Raw Tuna, Glassblowing Pipe, 2x Molten Glass, Seaweed (10 Inventory Slots)",
-    "_section": "Bank 111"
+    "_section": "Bank 111",
+    "withdraw": [
+      {
+        "name": "Big Fishing Net",
+        "itemIds": [
+          305
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Raw Tuna",
+        "itemIds": [
+          359
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Glassblowing Pipe",
+        "itemIds": [
+          1785
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Seaweed",
+        "itemIds": [
+          401
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-111-step-004": {
     "nav": {
@@ -4752,7 +5914,115 @@
       "z": 0
     },
     "_text": "Withdraw: Pickaxe, Coins, Teleport Runes, Ring of Duelling, Shrimps, Swordfish, Tuna, Salmon, Bass, Magic Secateurs, Filled Plant Pot, Watering Can, Spade, Gardening Trowel, Seed Dibber, Rake, 4x Red/Pink/White Roses (23 Inventory Slots)",
-    "_section": "Bank 112"
+    "_section": "Bank 112",
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Duelling",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Shrimps",
+        "itemIds": [
+          315
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swordfish",
+        "itemIds": [
+          373
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tuna",
+        "itemIds": [
+          361
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Salmon",
+        "itemIds": [
+          329
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bass",
+        "itemIds": [
+          365
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Magic Secateurs",
+        "itemIds": [
+          7409
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Filled Plant Pot",
+        "itemIds": [
+          5350
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Watering Can",
+        "itemIds": [
+          5331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rake",
+        "itemIds": [
+          5341
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-112-step-002": {
     "nav": {
@@ -4980,7 +6250,45 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, Death Runes, Antipoison, Super Antipoison, Scrying Orb If 56/57/58 Magic; Wizard Mind Bomb, (9/10 Inventory Slots) + Food",
-    "_section": "Bank 114"
+    "_section": "Bank 114",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Super Antipoison",
+        "itemIds": [
+          185
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-114-step-002": {
     "nav": {
@@ -5053,7 +6361,115 @@
       "z": 0
     },
     "_text": "Withdraw: Coins, Teleport Runes, Ardy Cloak, Dramen Staff, Spade, Pickaxe, Cannonball Mould, Scrying Orb, Gold Bar, Scroll, Yellow Dye, Swamp Tar, Rope, Butterfly Net, Bird Snare, 3x Crest Part, Teasing Stick, Axe, Knife (19 Inventory Slots)",
-    "_section": "Bank 115"
+    "_section": "Bank 115",
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cannonball Mould",
+        "itemIds": [
+          4
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Scrying Orb",
+        "itemIds": [
+          5519
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold Bar",
+        "itemIds": [
+          2357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Yellow Dye",
+        "itemIds": [
+          1765
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bird Snare",
+        "itemIds": [
+          10006
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-115-step-003": {
     "nav": {
@@ -5193,7 +6609,101 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Coins, Dwarven Lore, Schematic, Ring of Charos, Dramen Staff, Ardougne Cloak, 3x Gold bar, Hammer, Rake, Seed Dibber, Trolley, Enchanted Gem, Molten Glass (17 Inventory Slots)",
-    "_section": "Bank 116"
+    "_section": "Bank 116",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dwarven Lore",
+        "itemIds": [
+          4568
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Charos",
+        "itemIds": [
+          4202
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold bar",
+        "itemIds": [
+          2357
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rake",
+        "itemIds": [
+          5341
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Trolley",
+        "itemIds": [
+          6478
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Gem",
+        "itemIds": [
+          4155
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-116-step-006": {
     "nav": {
@@ -5267,7 +6777,45 @@
       "z": 0
     },
     "_text": "Withdraw: Teleport Runes, Earth Talisman, Pure Essence, Rope, Combat gear, Food, Bronze Knives, Cat/Kitten",
-    "_section": "Bank 117"
+    "_section": "Bank 117",
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Earth Talisman",
+        "itemIds": [
+          1440
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pure Essence",
+        "itemIds": [
+          7936
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Knives",
+        "itemIds": [
+          864
+        ],
+        "quantity": 0
+      }
+    ]
   },
   "episode-4-banks-105-through-150-bank-117-step-003": {
     "nav": {
@@ -5413,5 +6961,6284 @@
     "quest": "Below Ice Mountain",
     "_text": "Talk to Marley by the Yew Trees [Below Ice Mountain]",
     "_section": "Bank 120"
+  },
+  "episode-2-banks-24-through-75-bank-63-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bar",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Hammer, Saw, Nails, 2x Steel Bar, Teleport Runes, Invent of Planks (28 Inventory Slots)",
+    "_section": "Bank 63"
+  },
+  "episode-2-banks-24-through-75-bank-64-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Oak Plank",
+        "itemIds": [
+          8778
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bars",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Hammer, Saw, 4x Oak Plank, Molten Glass, 5x Steel Bars",
+    "_section": "Bank 64"
+  },
+  "episode-2-banks-24-through-75-bank-66-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardougne Cloak, Dramen Staff, Coins",
+    "_section": "Bank 66"
+  },
+  "episode-2-banks-24-through-75-bank-67-step-001": {
+    "withdraw": [
+      {
+        "name": "Oak Logs",
+        "itemIds": [
+          1521
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Wool",
+        "itemIds": [
+          1737
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 3 Oak Logs, Wool, 10 nails, Hammer, Chisel, Bucket of Water",
+    "_section": "Bank 67"
+  },
+  "episode-2-banks-24-through-75-bank-68-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Elemental Bars",
+        "itemIds": [
+          2893
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Rune Sword, Ardy Cloak, 2x Elemental Bars, Hammer, Battered Key or Knife, 5x Wine (19 Inventory Slots)",
+    "_section": "Bank 68"
+  },
+  "episode-2-banks-24-through-75-bank-69-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins",
+    "_section": "Bank 69"
+  },
+  "episode-2-banks-24-through-75-bank-70-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardougne Cloak 1",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardougne Cloak 1, Dramen Staff",
+    "_section": "Bank 70"
+  },
+  "episode-2-banks-24-through-75-bank-71-step-001": {
+    "withdraw": [
+      {
+        "name": "Law Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 2x Law Runes, 2x Water Runes, Coins",
+    "_section": "Bank 71"
+  },
+  "episode-2-banks-24-through-75-bank-72-step-001": {
+    "withdraw": [
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Feathers",
+        "itemIds": [
+          314
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fly Fishing Rod",
+        "itemIds": [
+          309
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Guam, Pestle & Mortar, 15 Swamp Tar, Feathers, Fly Fishing Rod (5 Inventory slots)",
+    "_section": "Bank 72"
+  },
+  "episode-2-banks-24-through-75-bank-73-step-001": {
+    "withdraw": [
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak 1",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing Net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Marks of Grace",
+        "itemIds": [
+          11849
+        ],
+        "quantity": 60
+      }
+    ],
+    "_text": "Withdraw: games necklace, Ardy Cloak 1, Dramen Staff, Small Fishing Net, 60 Marks of Grace (5 Inventory Slots)",
+    "_section": "Bank 73"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-001": {
+    "withdraw": [
+      {
+        "name": "Law Rune",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Graceful Legs",
+        "itemIds": [
+          11856
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Watering Cans",
+        "itemIds": [
+          5331
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Digsite Pendant",
+        "itemIds": [
+          11190
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Law Rune, 5 Air Runes, Graceful Legs, Knife, Dramen Staff, Ardy Cloak, Coins, 10 Watering Cans, Spade, Seed Dibber, Duelling Ring, Digsite Pendant, Candle (14 Inventory Slots)",
+    "_section": "Bank 74"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chefs Hat",
+        "itemIds": [
+          1949
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bowl",
+        "itemIds": [
+          1923
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Nettles",
+        "itemIds": [
+          4241
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Chefs Hat, Coins, 2x Bowl, 2x Nettles",
+    "_section": "Bank 75"
+  },
+  "episode-2-banks-24-through-75-bank-76-step-001": {
+    "withdraw": [
+      {
+        "name": "Seedbox",
+        "itemIds": [
+          13639
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Garden Pie",
+        "itemIds": [
+          7178
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Rogue Outfit, Few food, Seedbox, Garden Pie",
+    "_section": "Bank 76"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-001": {
+    "withdraw": [
+      {
+        "name": "Soft Clay",
+        "itemIds": [
+          1761
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bear Fur",
+        "itemIds": [
+          948
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty Sack",
+        "itemIds": [
+          5418
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Soft Clay, Bear Fur, Coins, Teleport Runes, Empty Sack, Death Runes, 5x Wines (14 Inventory Slots)",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Excalibur",
+        "itemIds": [
+          35
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Jute Seeds",
+        "itemIds": [
+          5306
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, Spade, Teleport Runes, Pickaxe, Rune Sword, Antipoison, Excalibur, 3x Jute Seeds,5x Wines (16 Inventory Slots)",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-79-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Rod",
+        "itemIds": [
+          307
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Red Vine Worm",
+        "itemIds": [
+          25
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Garlic",
+        "itemIds": [
+          1550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Pass",
+        "itemIds": [
+          27
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Fishing Rod, Red Vine Worm, Garlic, Coins, Fishing Pass (10 Inventory Slots)",
+    "_section": "Bank 79"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Pickaxe",
+        "itemIds": [
+          1271
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bars",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Fly Fishing Rod",
+        "itemIds": [
+          309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feathers",
+        "itemIds": [
+          314
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Clay",
+        "itemIds": [
+          434
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Adamant Pickaxe, Message, Hammer, 4x Steel Bars, Fly Fishing Rod, Feathers, 2x Clay, 4x Buckets (21 Inventory Slots)",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Digsite Pendant",
+        "itemIds": [
+          11190
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Papyrus",
+        "itemIds": [
+          970
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial",
+        "itemIds": [
+          229
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bird Snare",
+        "itemIds": [
+          10006
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Axe",
+        "itemIds": [
+          1357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Soft Clay",
+        "itemIds": [
+          1761
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Duelling Ring, Digsite Pendant, Papyrus, Vial, Pestle & Mortar, Bird Snare, Pickaxe, Adamant Axe, 4 Soft Clay, 5 Wines(21 Inventory Spots)",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-82-step-001": {
+    "withdraw": [
+      {
+        "name": "Rune Axe",
+        "itemIds": [
+          1359
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 15
+      }
+    ],
+    "_text": "Withdraw: Rune Axe, Guam, Pestle & Mortar, 15 Swamp Tar",
+    "_section": "Bank 82"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Med Helm",
+        "itemIds": [
+          1139
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Chainbody",
+        "itemIds": [
+          1101
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cabbage",
+        "itemIds": [
+          1965
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wizard mind Bomb",
+        "itemIds": [
+          1907
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lobster Pot",
+        "itemIds": [
+          301
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silk",
+        "itemIds": [
+          950
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Unfired Bowl",
+        "itemIds": [
+          1791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Chronicle, Bronze Med Helm, Iron Chainbody, Cabbage, Spade, Wizard mind Bomb, Lobster Pot, Silk, Unfired Bowl (14 Inventory Slots)",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-84-step-001": {
+    "withdraw": [
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antifire Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Law Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak 1",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwanji",
+        "itemIds": [
+          21394
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Sunbeam Ale",
+        "itemIds": [
+          29409
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Death Runes, Water Runes, Antifire Shield, Law Runes, Ardy Cloak 1, Karambwanji, 4x Wines, Sunbeam Ale (13 Inventory Slots)",
+    "_section": "Bank 84"
+  },
+  "episode-3-banks-76-through-104b-bank-85-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Law",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Raw Shark",
+        "itemIds": [
+          383
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Law, Death Runes, Air Staff, Ardougne Cloak, Dramen Staff, Raw Shark, Knife, Bucket, Axe, Tinderbox, 8 Food, 2100 Headless Arrows (18 Inventory Slots)",
+    "_section": "Bank 85"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-001": {
+    "withdraw": [
+      {
+        "name": "Scorpion Cage",
+        "itemIds": [
+          456
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Nulodion Notes",
+        "itemIds": [
+          3
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ammo Mould",
+        "itemIds": [
+          4
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Scorpion Cage, Coins, Ardy Cloak, Dramen Staff, Pickaxe, games necklace, Nulodion Notes, Ammo Mould (7 Inventory Slots)",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-88-step-001": {
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bones",
+        "itemIds": [
+          526
+        ],
+        "quantity": 25
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Scrying Orb",
+        "itemIds": [
+          5519
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Duelling",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Dramen Staff, Coins, 25 Bones, Ardougne Cloak, Scrying Orb, Ring of Duelling",
+    "_section": "Bank 88"
+  },
+  "episode-3-banks-76-through-104b-bank-89-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 3x Silverlight keys, Teleport Runes",
+    "_section": "Bank 89"
+  },
+  "episode-3-banks-76-through-104b-bank-90-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Desert Robes",
+        "itemIds": [
+          1835
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Black Wizard Hat",
+        "itemIds": [
+          1017
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Duelling",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silverlight",
+        "itemIds": [
+          2402
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial",
+        "itemIds": [
+          229
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Bar",
+        "itemIds": [
+          2355
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Blast Spells, Pestle & Mortar, Desert Robes, Black Wizard Hat, Ring of Duelling, ring of recoil, Silverlight, Vial, Silver Bar (14 Inventory Slots)",
+    "_section": "Bank 90"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bowl of Water",
+        "itemIds": [
+          1921
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Bowl of Water, Coins, Pickaxe, Lit Candle, Axe, Tinderbox (13 Inventory Slots)",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-92-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Law Rune",
+        "itemIds": [
+          563
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, 1 Law Rune, 5 Air Runes,",
+    "_section": "Bank 92"
+  },
+  "episode-3-banks-76-through-104b-bank-93-step-001": {
+    "withdraw": [
+      {
+        "name": "Law Rune",
+        "itemIds": [
+          563
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Graceful Legs",
+        "itemIds": [
+          11856
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Boots of Lightness",
+        "itemIds": [
+          88
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Pendant of Lucien",
+        "itemIds": [
+          86
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwans",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 23
+      }
+    ],
+    "_text": "Withdraw: 1 Law Rune, 5 Air Runes, Studded Body & Chaps & Coif, Graceful Legs, Boots of Lightness, 2x ring of recoil, Pendant of Lucien, 23 Karambwans",
+    "_section": "Bank 93"
+  },
+  "episode-3-banks-76-through-104b-bank-94-step-001": {
+    "withdraw": [
+      {
+        "name": "Law",
+        "itemIds": [
+          563
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Air",
+        "itemIds": [
+          556
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Fire Rune",
+        "itemIds": [
+          554
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Limpwurt Roots",
+        "itemIds": [
+          225
+        ],
+        "quantity": 20
+      }
+    ],
+    "_text": "Withdraw: 1 Law, 3 Air, 1 Fire Rune, Karambawns, 20 Limpwurt Roots, (I hope you were farming them lad)",
+    "_section": "Bank 94"
+  },
+  "episode-3-banks-76-through-104b-bank-95-step-001": {
+    "withdraw": [
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Bars",
+        "itemIds": [
+          2349
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Hammer, 6x Bronze Bars, Knife, 2x Empty Bucket",
+    "_section": "Bank 95"
+  },
+  "episode-3-banks-76-through-104b-bank-96-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feathers",
+        "itemIds": [
+          314
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwans",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Death Runes, Coins, Ardy Cloak, Dramen Staff, Knife, Feathers, Chisel, Hammer, Axe, 5 Karambwans (20 Inventory Slots)",
+    "_section": "Bank 96"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Gem",
+        "itemIds": [
+          4155
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dwarven Cake",
+        "itemIds": [
+          7509
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Bone Crossbow + Bolts, Studded Body+ Chaps, Coins, Teleport Runes, Enchanted Gem, Dwarven Cake, Pickaxe (13 Inventory Slots)",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-001": {
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghostspeak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Buckets of Slime",
+        "itemIds": [
+          4286
+        ],
+        "quantity": 9
+      },
+      {
+        "name": "Empty Pots",
+        "itemIds": [
+          1931
+        ],
+        "quantity": 9
+      },
+      {
+        "name": "Dragon Bones",
+        "itemIds": [
+          536
+        ],
+        "quantity": 9
+      }
+    ],
+    "_text": "Withdraw: Dramen Staff, Ardy Cloak, Ghostspeak Amulet, Chronicle, 9x Buckets of Slime, 9x Empty Pots & 9x Dragon Bones (27 Inventory Slots)",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-001": {
+    "withdraw": [
+      {
+        "name": "Oak Longbow",
+        "itemIds": [
+          845
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Sapphire Amulet",
+        "itemIds": [
+          1694
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Treasure Map",
+        "itemIds": [
+          4277
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghostspeak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Slime",
+        "itemIds": [
+          4286
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Decapitated Head",
+        "itemIds": [
+          4197
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickled Brain",
+        "itemIds": [
+          4199
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thread",
+        "itemIds": [
+          1734
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Steel Bar",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Oak Longbow, All Ectotokens, Sapphire Amulet, Treasure Map, Spade, Coins, Ghostspeak Amulet, Bucket of Slime, Decapitated Head, Pickled Brain, Needle, 5x Thread, 3 Bronze Wires, Steel Bar & Cannonball Mould + 5 Food(22 Inventory Slots)",
+    "_section": "Bank 100"
+  },
+  "episode-3-banks-76-through-104b-bank-101-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghostspeak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Remaining Dragon Bones, Pots, Ectophial, Ghostspeak Amulet",
+    "_section": "Bank 101"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Bar",
+        "itemIds": [
+          2355
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Conductor Mould",
+        "itemIds": [
+          5176
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bars",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mithril Axe",
+        "itemIds": [
+          1355
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Scorpion Cage",
+        "itemIds": [
+          456
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Ectophial, Silver Bar, Coins, Hammer, Conductor Mould, 2 Undead Chickens, 5 Iron Bars, games necklace, Mithril Axe, Polished Buttons, Hard Leather, 2x Unblessed Symbol, Scorpion Cage (24 Inventory Slots)",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-001": {
+    "withdraw": [
+      {
+        "name": "Shortbow",
+        "itemIds": [
+          841
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Spear",
+        "itemIds": [
+          1247
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Grimy Herb",
+        "itemIds": [
+          199
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thread",
+        "itemIds": [
+          1734
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Lit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Shortbow, Small Fishing net, Teleport Runes, Rune Spear, Needle, Coins, Grimy Herb, 2x Thread, Lit Candle, Knife, 2x Rope, Pickaxe, Bronze Arrows, Ardougne Cloak, 1x Ice Cooler, Dramen Staff, Potato Cactus (22 Inventory Slots) -> 6 Karamwbwans",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-104-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Waterskin",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Cat, 2x Waterskin (4), Tinderbox",
+    "_section": "Bank 104"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-001": {
+    "withdraw": [
+      {
+        "name": "coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel warhammer",
+        "itemIds": [
+          1339
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Longsword",
+        "itemIds": [
+          1295
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Swords",
+        "itemIds": [
+          1281
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Steel Mace",
+        "itemIds": [
+          1424
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Dagger",
+        "itemIds": [
+          1207
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rake",
+        "itemIds": [
+          5341
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 10 coins, Ardy Cloak, Dramen Staff, Steel warhammer, Steel Longsword, 2x Steel Swords, Steel Mace, Steel Dagger, 6x Planks, Holy Sickle (b), Druidic Pouch, Some food, Seed Dibber, Mushroom spore, Rake, teleport out",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-001": {
+    "withdraw": [
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Recoil Rings",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Best Air Spell, Spade, Ardy Cloak, Dramen Staff, Recoil Rings, Full Inventory of best food",
+    "_section": "Bank 106"
+  },
+  "episode-4-banks-105-through-150-bank-107a-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Willow Log",
+        "itemIds": [
+          1519
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bag of Salt",
+        "itemIds": [
+          4161
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Sap",
+        "itemIds": [
+          4687
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Dramen Staff, Ardougne Cloak, Combat Runes, Coins, Kitten or Cat, Tinderbox, Willow Log, Bag of Salt, Bucket of Sap, 2x Tarromin Potion (unf), Axe, Hammer (16 Inventory Slots) + Food",
+    "_section": "Bank 107A"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Steel Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 90
+      },
+      {
+        "name": "Maze Key",
+        "itemIds": [
+          1542
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Charos",
+        "itemIds": [
+          4202
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Compost",
+        "itemIds": [
+          6032
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Death Runes, Hammer, 3 Planks, 90 Steel Nails, Maze Key, Ring of Charos, Rune Sword, 2x Compost (17 Inventory Spots)",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antidragon Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Charos",
+        "itemIds": [
+          4202
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "rune sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Marigold Seed",
+        "itemIds": [
+          5096
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Antidragon Shield, Coins, ring of recoil, Ring of Charos, rune sword, Marigold Seed, Food for Elvarg (28 Inventory Slots)",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Elvargs Head",
+        "itemIds": [
+          11279
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Rod",
+        "itemIds": [
+          307
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Charos",
+        "itemIds": [
+          4202
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "onion Seeds",
+        "itemIds": [
+          5319
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Cabbage Seeds",
+        "itemIds": [
+          5324
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Elvargs Head, Fishing Rod, Ectophial, Ring of Charos, 6x onion Seeds, 6x Cabbage Seeds, Ardy Cloak, Dramen Staff (13 Inventory Slots)",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring of Charos",
+        "itemIds": [
+          4202
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Plant Cure",
+        "itemIds": [
+          6036
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Pure Essence",
+        "itemIds": [
+          7936
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Trolley",
+        "itemIds": [
+          6478
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "death runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Ring of Charos, Duelling Ring, games necklace, 2x Plant Cure, Pure Essence, Hammer, Pestle & Mortar, Trolley, Pickaxe, 2x Ruby, Necklace Mould, Ectophial, Ring Mould, Seed Dibber, Full Initiate, cat, catspeak amulet, 5 death runes (19 Inventory Slots)",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-118-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dueling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ardy cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "dramen staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Dueling Ring, a knife, log or axe, ardy cloak, dramen staff.",
+    "_section": "Bank 118"
+  },
+  "episode-4-banks-105-through-150-bank-119-step-001": {
+    "withdraw": [
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Rope, 3x Bucket, Harpoon or barb-tailed harpoon if you grabbed one in previous step, Hammer",
+    "_section": "Bank 119"
+  },
+  "episode-4-banks-105-through-150-bank-120-step-001": {
+    "withdraw": [
+      {
+        "name": "Desert Robes",
+        "itemIds": [
+          1835
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Pickaxe",
+        "itemIds": [
+          1271
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Waterskin",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Empty buckets",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 1500
+      }
+    ],
+    "_text": "Withdraw: Desert Robes, Tick Manipulation, Adamant Pickaxe, Coins, Shantay Pass, 6x Waterskin (4) & 1500 Empty buckets",
+    "_section": "Bank 120"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial of Water",
+        "itemIds": [
+          227
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Rune Sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fly Fishing Rod",
+        "itemIds": [
+          309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feathers",
+        "itemIds": [
+          314
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Death Runes, Ardy Cloak, Dramen Staff, games necklace, Pickaxe, Vial of Water, Tarromin, Limpwurt Root, Rope, Facemask, Kharedst Memoirs, Hammer, Saw, 3 Planks, 10+ Nails, Rune Sword, Fly Fishing Rod, Feathers, Spade (27 Inventory Slots) + Range Combat Gear",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-122-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cheese",
+        "itemIds": [
+          1985
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Marrentil",
+        "itemIds": [
+          251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Tick Manipulation, Box Traps, Rada's Blessing 1, Rat Poison, 4x Cheese, 1x Bucket of Milk, Amulet of Catspeak, 10+ Karambwanji, Cat, Marrentil, Unicorn Horn, Pestle & Mortar, Pot, Weeds, Tinerbox",
+    "_section": "Bank 122"
+  },
+  "episode-4-banks-105-through-150-bank-123-step-001": {
+    "withdraw": [
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: games necklace, Teleport Runes, Steel Gauntlets",
+    "_section": "Bank 123"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Rod",
+        "itemIds": [
+          307
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Bait",
+        "itemIds": [
+          313
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Scorpion cage",
+        "itemIds": [
+          456
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Super antipoison",
+        "itemIds": [
+          185
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Sunbeam Ale",
+        "itemIds": [
+          29409
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cup of Tea",
+        "itemIds": [
+          1978
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bowl",
+        "itemIds": [
+          1923
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Death Runes, Fishing Rod, 5x Fishing Bait, Harralander Potion (unf), Scorpion cage, Antidragon fire Shield, Super antipoison, Sunbeam Ale, games necklace, 1x Harralander, 2x Guam leaves, Marrentill, Cup of Tea (or loot one there), Bowl, Commorb, Damaged Soul Bearer, Cat, Amulet of Catspeak",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dueling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Papyrus",
+        "itemIds": [
+          970
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "karambwanji",
+        "itemIds": [
+          21394
+        ],
+        "quantity": 20
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Death Runes, Dueling Ring, Pickaxe, 3x Papyrus, Ball of Wool, Sack of Potatoes, Unlit Candle, Coins, Guthix Rest, 20 karambwanji (16 Inventory Slots)",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-126-step-001": {
+    "withdraw": [
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 10
+      }
+    ],
+    "_text": "Withdraw: games necklace, Masterthief Armband, Fire Feather, Lava Eel, Iron Bar, 10 Cooked Trout, 10 Bread, Combination (26 Inventory Slots)",
+    "_section": "Bank 126"
+  },
+  "episode-4-banks-105-through-150-bank-127-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rake",
+        "itemIds": [
+          5341
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Death Runes/Combat Runes, Coins, Food, Iron Bar, games necklace, Cat, Amulet of catspeak, Chocolate Cake, Seed Dibber, Rake, 4x Potato Seeds(these may be in your seed vault), Bucket of Milk, Logs, Tinderbox, Shears (21 Inventory Slots)",
+    "_section": "Bank 127"
+  },
+  "episode-4-banks-105-through-150-bank-128-step-001": {
+    "withdraw": [
+      {
+        "name": "Oak longbow",
+        "itemIds": [
+          845
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rake",
+        "itemIds": [
+          5341
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Axe",
+        "itemIds": [
+          1359
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Oak longbow, Iron Bar, Ardy Cloak, Dramen Staff, Coins, Logs, Any ring (Keep 1 gold ring), Rake, Rune Axe, Rune Pickaxe (7 Inventory Slots)",
+    "_section": "Bank 128"
+  },
+  "episode-4-banks-105-through-150-bank-129-step-001": {
+    "withdraw": [
+      {
+        "name": "Coal",
+        "itemIds": [
+          453
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Super antipoison",
+        "itemIds": [
+          185
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Range Gear to kill Sea Snake, 5 Coal, Food, Super antipoison",
+    "_section": "Bank 129"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Lockpick, Coins, Chisel, Ardy Cloak, Dramen Staff, Ogre Bow, Ogre Arrows, Ogre Bellows, Iron Spit, Axe, (16 Inventory Spots)",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-131-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Graceful Legs",
+        "itemIds": [
+          11856
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Boots of Lightness",
+        "itemIds": [
+          88
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Fishbowl, Graceful Legs, Boots of Lightness, 3x Bronze Wire, Needle, Dorg Bow, Iron Oxide (14 Inventory Slots)",
+    "_section": "Bank 131"
+  },
+  "episode-4-banks-105-through-150-bank-132-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Rune Pickaxe, Combat gear for Slagilith, Bronze/Iron/Steel Bar, Hammer, Animate Rock Scroll (12 Inventory Slots)",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Empty Pot",
+        "itemIds": [
+          1931
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Needle",
+        "itemIds": [
+          1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Thread",
+        "itemIds": [
+          1734
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Red Spider Eggs, Limpwurt Root, Cadavaberry, 5 Pigeon Cages, Pot Lid, Empty Pot, Needle, Thread, Leather, Knife, Herbal Tincture, Bucket of Water, Bread, Eye Amulet, Cooked Meat, Milk Sample (25 Inventory Slots)",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-134-step-001": {
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Guam",
+        "itemIds": [
+          249
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Pickaxe, Guam, Swamp Tar, Pestle & Mortar, Chisel (5 Inventory Slots)",
+    "_section": "Bank 134"
+  },
+  "episode-4-banks-105-through-150-bank-132-2-step-001": {
+    "withdraw": [
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Karamja Rum, Knife, Mithril Spear, All Karambwanji, Pestle & Mortar, 4x Logs, Skewered Chompy, Tinderbox, 2x Toadflax, 2x Swamp Toad, Bone crossbow+bolts, Jogre Bones, Ardy Cloak, Dramen Staff, Duelling Ring, Teasing Stick, 2x Karambwan vessels",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-136-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Axe, weapon to bop random stuff",
+    "_section": "Bank 136"
+  },
+  "episode-4-banks-105-through-150-bank-137-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwanji",
+        "itemIds": [
+          21394
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Fish Pie, Karambwan Vessel, Karambwanji, Ardy Cloak, Dramen Staff (10 Inventory Slots)",
+    "_section": "Bank 137"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vodka",
+        "itemIds": [
+          2015
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Ardy Cloak, games necklace, Vodka, Pineapple, Knife, Climbing Boots, Ranarr Potion (unf), 2x Logs, Tinderbox, Pestle & Mortar, Cat, Catspeak amulet (16 Inventory Slots)",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-139-step-001": {
+    "withdraw": [
+      {
+        "name": "Rune Axe",
+        "itemIds": [
+          1359
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Rune Axe,Dramen Staff+Ardy CLoak + tick manipulation, Tinderbox",
+    "_section": "Bank 139"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Climbing Boots, games necklace, 3x Ugthanki Dung, 7x Supercompost, Axe, Spade, Coins (20 Inventory Slots)",
+    "_section": "Bank 140"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-006": {
+    "withdraw": [
+      {
+        "name": "Antifire Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Best Earth Spell, Antifire Shield, Few Food, Magic Gear",
+    "_section": "Bank 140"
+  },
+  "episode-4-banks-105-through-150-bank-141-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Hardy Gout Tubers, Coins, Duelling Ring, Climbing Boots, ring of recoil, Combat runes + Magic gear to kill Giant Roc. Inventory of Food OPTIONAL: a herb seed to plant into the patch",
+    "_section": "Bank 141"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos Runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Oak Logs",
+        "itemIds": [
+          1521
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Soft Clay",
+        "itemIds": [
+          1761
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coal",
+        "itemIds": [
+          453
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Waterskin",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing Net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Chaos Runes, Coins, Chisel, Bread, Tinderbox, Lit Candle, Logs, Oak Logs, Willow Logs, Maple Logs, Pickaxe, Soft Clay, Coal, Duelling Ring, 2x Waterskin (4), Ardy Cloak, Small Fishing Net, Harralander, Goat Horn, Pestle & Mortar, Snake Charm (26 Inventory Slots)",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-143-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardy Cloak, Dramen Staff, Chisel, Coins, Ball of Wool, Lots of Food and Air spells/Crumble undead runes",
+    "_section": "Bank 143"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-001": {
+    "withdraw": [
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silk",
+        "itemIds": [
+          950
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Red Dye",
+        "itemIds": [
+          1763
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Yellow Dye",
+        "itemIds": [
+          1765
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Tinderbox, 10x Silk, 8 Empty Sacks, Red Dye, Yellow Dye, Empty Bowl, Rada's Blessing 1 (22 Inventory Slots)",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-145-step-001": {
+    "withdraw": [
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 11
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Law/Earth/Air Runes, 12 Willow Branches, Tinderbox, 11 Logs, Coins (28 Inventory Slots)",
+    "_section": "Bank 145"
+  },
+  "episode-4-banks-105-through-150-bank-146-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Tinderbox, 11 Willow Logs and 1 Regular Log (can cut at Draynor if low), Cat, Catspeak Amulet",
+    "_section": "Bank 146"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-001": {
+    "withdraw": [
+      {
+        "name": "Varrock Teleport Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 20 Mahogany Logs, Cadava Potion, Varrock Teleport Runes, Coins, (24 Inventory Slots)",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-016": {
+    "withdraw": [
+      {
+        "name": "Desert Robes",
+        "itemIds": [
+          1835
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial of Water",
+        "itemIds": [
+          227
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Desert Robes, games necklace, Vial of Water, Cat, Cat Speak Amulet, Nurse/Doctor Hat",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-148-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwans",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardougne Cloak, Dramen Staff, Combat Gear, Axe, Tinderbox, Pickaxe, Gold Helmet, Schematics, Coins, Karambwans (Keep 15 Inventory Spots)",
+    "_section": "Bank 148"
+  },
+  "episode-4-banks-105-through-150-bank-149-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 60
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, games necklace, Death Runes, Adamant Sword, Bronze Arrow, Molten Glass, Tinderbox, Hammer, 60 Steel Nails, 2 Planks, Swamp Tar (16 Inventory Slots) + Food",
+    "_section": "Bank 149"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour.",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Watermelon, Hay Sack, Ectophial, Steak Sandwich, 2x Jangerberry, Pure Essenece, Pickaxe, Earmuffs, Ardy Cloak, Dramen Staff, Silver Tiara, Hammer and combat gear (Preferably range or magic) (16 Inventory Slots)",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-152-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Shortbow",
+        "itemIds": [
+          841
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Shortbow, Bronze Arrows, Food, Spade",
+    "_section": "Bank 152"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak 1",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Big Fishing Net",
+        "itemIds": [
+          305
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold Bar",
+        "itemIds": [
+          2357
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Antipoisons, Monk Robes, Holy Symbol, Prayer Potion (2), Damaged Book, Ball of Wool, Ardy Cloak 1, Mithril Seeds, Axe, Big Fishing Net, Gold Bar, Strange Fruits(Optional) (11 Inventory Slots)+Food",
+    "_section": "Bank 153"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-014": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Pickaxe, Brown Apron",
+    "_section": "Bank 153"
+  },
+  "episode-5-banks-151-through-175-bank-154-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Sword",
+        "itemIds": [
+          1289
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Sap",
+        "itemIds": [
+          4687
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Oak Logs",
+        "itemIds": [
+          1521
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardy Cloak, Rune Sword, Teleport Runes, Dramen Staff, Maple Log, Bucket of Sap, Mud Runes, Oak Logs, Hammer, Saw, Pestle & Mortar, Bowstring, Axe, Knife (18 Inventory Slots)",
+    "_section": "Bank 154"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial",
+        "itemIds": [
+          229
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Vial, Knife, Rope, Dragon Bones (10 Inventory Slots) + Combat gear",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Bert's Rota, Coins, Duelling Ring, Rope, Tobans stolen Gold, Relic Part 3, Tooth, 2 vials, lantern lense, Whiteberries [18 Inventory Slots]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold Bar",
+        "itemIds": [
+          2357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Vial",
+        "itemIds": [
+          229
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Rune",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bat Bones",
+        "itemIds": [
+          530
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antidragon Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Ogre Relic, Gold Bar, Pestle & Mortar, Vial, Death Rune, Lit Candle, Bucket of Sand, Jangerberries, Guam Potion (unf), Bat Bones, Antidragon Shield, Pickaxe, Magical Orb, Yellow Crystal, Rada's blessing 1 (19 Inventory Slots)",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-158-step-001": {
+    "withdraw": [
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Beer",
+        "itemIds": [
+          1917
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Hammer, Saw, Beer, Teleport Runes, Duelling Ring, Ardy Cloak, Dramen Staff, Raw Chicken, Raw Swordfish, Chaos Runes (14 Inventory Slots) + Food",
+    "_section": "Bank 158"
+  },
+  "episode-5-banks-151-through-175-bank-159-step-001": {
+    "withdraw": [
+      {
+        "name": "Shortbow",
+        "itemIds": [
+          841
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Shortbow, Teleport Runes, Death Runes, Coins, Bronze Arrows, Spade, Pestle & Mortar, Rope, Antipoison, Leather Gloves (11 Inventory Slots) + Food",
+    "_section": "Bank 159"
+  },
+  "episode-5-banks-151-through-175-bank-160-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Bone Crossbow Gear, Teleport Runes",
+    "_section": "Bank 160"
+  },
+  "episode-5-banks-151-through-175-bank-161-step-001": {
+    "withdraw": [
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: ring of recoil, Coins, Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 Inventory Slots) + Food",
+    "_section": "Bank 161"
+  },
+  "episode-5-banks-151-through-175-bank-162-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bear Fur",
+        "itemIds": [
+          948
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silk",
+        "itemIds": [
+          950
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Bar",
+        "itemIds": [
+          2355
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Bear Fur, 2x Silk, Bucket of Water, Teleport Crystal, Feather, t'd Crunchies, Magic Logs, Leather, Ogre Bellows, Duelling Ring, Silver Bar, Jade, Cosmic Rune, Necklace Mould(21 Inventory Slots) + Bone Crossbow & bolts",
+    "_section": "Bank 162"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-001": {
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ogre Bow, Ball of Wool, Ogre Arrows, Pickaxe, Dramen Staff, Ardy Cloak, Red/Blue/Green/Yellow Dye",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-165-step-001": {
+    "withdraw": [
+      {
+        "name": "Rune Axe",
+        "itemIds": [
+          1359
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Rune Axe, Tick Manipulation, Curse Runes if 2 tick",
+    "_section": "Bank 165"
+  },
+  "episode-5-banks-151-through-175-bank-166-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Nettle Tea",
+        "itemIds": [
+          4239
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Coins, Hammer, Saw, 4x Oak Planks, Pet Rock, Bullseye Lantern, Swamp Tar, Tinderbox, Nettle Tea, Fishing Explosive, Bucket of Water, Bucket of Milk, Snape Grass, Chocolate Dust, Sapphire (16 Inventory Slots) + range gear",
+    "_section": "Bank 166"
+  },
+  "episode-5-banks-151-through-175-bank-167a-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Sapphire Lantern (Sapphire Lense), Chisel, Pickaxe (8 Inventory Slots)",
+    "_section": "Bank 167A"
+  },
+  "episode-5-banks-151-through-175-bank-168b-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Steel Bars",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Charcoal",
+        "itemIds": [
+          973
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bones",
+        "itemIds": [
+          526
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwans",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Nature Runes, Death Runes, Facemask, Tinderbox, 1 Blood Rune, NOTED: Ashes, 12 Magic Logs, 6 Molten Glass, 6 Steel Bars, Charcoal, Bones, Ardy Cloak, Dramen Staff, 5 Strange Fruit, 5 Karambwans (27 Inventory Slots)",
+    "_section": "Bank 168B"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-001": {
+    "withdraw": [
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Bar",
+        "itemIds": [
+          2355
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 11 Yew Logs, Logs, Tinderbox, Teleport Runes, Spade, Silver Bar, Enchanted Key, Scroll, Necklace of Passage, Cooked Jubbly (23 Inventory Slots)",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Planks",
+        "itemIds": [
+          960
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Steel Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 225
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spice",
+        "itemIds": [
+          2007
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Garlic",
+        "itemIds": [
+          1550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Longsword",
+        "itemIds": [
+          1295
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Dagger",
+        "itemIds": [
+          1207
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Mace",
+        "itemIds": [
+          1424
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Warhammer",
+        "itemIds": [
+          1339
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Death Runes, 3 Planks, 225 Steel Nails, Hammer, Spice, Garlic, Pestle & Mortar, Blessed Pot, 2x Steel Sword, Steel Longsword, Steel Dagger, Steel Mace, Steel Warhammer, Rope, Small Fishing net, (22 Inventory Slots)",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-171-step-001": {
+    "withdraw": [
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Antipoison, Teleport Runes, 14x Lockpick, 36x Noted Lockpick, Coins, Camulet, 5 Food (13 Inventory Slots)",
+    "_section": "Bank 171"
+  },
+  "episode-5-banks-151-through-175-bank-172-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Gilded Cross, Teleport Runes, Death Runes, 3x Strange Fruit, Curse Runes (11 Inventory Slots) + Food",
+    "_section": "Bank 172"
+  },
+  "episode-5-banks-151-through-175-bank-173-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos Runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "ring of recoil",
+        "itemIds": [
+          2550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwans",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 11
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Chaos Runes(may need to buy more), ring of recoil, 4x Restores Potions, 2x Prayer Potion, Climbing Boots, Spiked Boots, Cake, 11 Karambwans (16 Inventory Slots)",
+    "_section": "Bank 173"
+  },
+  "episode-5-banks-151-through-175-bank-174-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 4x Diamonds, Coins, Teleport Runes, Camulet, Antipoison, 3x Prayer Potion, Monk Robes, Holy Symbol, Damaged Book, Strange Fruit & Food",
+    "_section": "Bank 174"
+  },
+  "episode-5-banks-151-through-175-bank-175-step-001": {
+    "withdraw": [
+      {
+        "name": "Cat",
+        "itemIds": [
+          1619
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Cat, 15 Stews",
+    "_section": "Bank 175"
+  },
+  "episode-5-banks-151-through-175-bank-176-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Camulet, Teleport Runes, Spicy Stew, Crab Meat, Kelp, Raw Cod, Bread, Knife, Pestle and mortar",
+    "_section": "Bank 176"
+  },
+  "episode-5-banks-151-through-175-bank-177-step-001": {
+    "withdraw": [
+      {
+        "name": "Antifire Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Range Gear, Antifire Shield, Coins, Teleport Runes, Dramen Staff, Raw Chicken, Sweetcorn, Dramen Branch, Pestle & Mortar, Vanilla Pod, Ice gloves",
+    "_section": "Bank 177"
+  },
+  "episode-5-banks-151-through-175-bank-178-step-001": {
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Dramen Staff & Butterfly Net",
+    "_section": "Bank 178"
+  },
+  "episode-5-banks-151-through-175-bank-179-step-001": {
+    "withdraw": [
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Watering Can",
+        "itemIds": [
+          5331
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Leather Gloves",
+        "itemIds": [
+          1059
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 2x Tarromin Potion (unf), Seed Dibber, Watering Can, Leather Gloves, Griffin feather",
+    "_section": "Bank 179"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Earth Talisman",
+        "itemIds": [
+          1440
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Axe, Kourend Blessing 1, 50+ Earth Runes, Earth Talisman, 10+ Pure Essence, Bucket of Water, Eye Amulet, Darklight",
+    "_section": "Bank 180"
+  },
+  "episode-9-bank-177-through-179-bank-181-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Rune",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Molten Glass",
+        "itemIds": [
+          1775
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Death Rune, Axe, Defence Potion (3)/(4), Volcanic Sulphur, Molten Glass, Dark Essence Block, Kharedst\u2019s Memoirs, games necklace, Pickaxe (13 Inventory Slots) + Combat Gear & Food",
+    "_section": "Bank 181"
+  },
+  "episode-9-bank-177-through-179-bank-182-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Crystal, Ardy Cloak, Dramen Staff, Pickaxe, Coins, Axe, Knife, Teasing Stick, 3 Fox fur, Tick Manipulation & 5 box traps (19 Inventory Slots)",
+    "_section": "Bank 182"
+  },
+  "episode-9-bank-177-through-179-bank-183-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Butterfly net/Magic Net",
+    "_section": "Bank 183"
+  },
+  "episode-10-bank-180-through-inferno-bank-185-step-001": {
+    "withdraw": [
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Ardougne Cloak, Dramen Staff, Coins",
+    "_section": "Bank 185"
+  },
+  "episode-10-bank-180-through-inferno-bank-186-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bars",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 4
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes to House, Falador, Varrock, Ardougne, Nature Runes, Noted Rune from Corrupted Gauntlet, 4x Steel Bars, Plank Sack, Inventory of Teak Planks",
+    "_section": "Bank 186"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardougne Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Camulet, Ardougne Cloak, Dramen Staff,",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-188-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Marrentil",
+        "itemIds": [
+          251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pestle & Mortar",
+        "itemIds": [
+          233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Bow of Faerdhinen & Crystal Armour, Teleport Runes, Tinderbox, Coins, Guam Leaf, Marrentil, Pestle & Mortar, Hammer, Costume Needle, Axe, Pickaxe, Spade, Sapphire Lantern (16 Inventory Spaces)",
+    "_section": "Bank 188"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-001": {
+    "withdraw": [
+      {
+        "name": "TINDERBOX",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Waterskin",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Bow of Fardhinen & Crystal Armour, TINDERBOX, Sapphire Lantern, Food & Potions, Duelling Ring, Astral Runes, Water & earth Runes, Waterskin",
+    "_section": "Bank 190"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-013": {
+    "withdraw": [
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 5x Mithril Bars, Tinderbox & 1x Yew Log",
+    "_section": "Bank 190"
+  },
+  "episode-10-bank-180-through-inferno-bank-191-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Blackjack, Noted Food, Coins, Rogues Outfit",
+    "_section": "Bank 191"
+  },
+  "episode-10-bank-180-through-inferno-bank-193-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bar",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Duelling Ring",
+        "itemIds": [
+          2566
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 3
+      }
+    ],
+    "_text": "Withdraw: Coins, Teleport Runes, Hammer, Crystal Saw, 2x Mahogany planks, 3x Gold Leaf, 8x Marble Block, Bolt of Cloth, Steel Bar, 3x Duelling Ring (8), 3x games necklace (8)",
+    "_section": "Bank 193"
+  },
+  "episode-10-bank-180-through-inferno-bank-194-step-001": {
+    "withdraw": [
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Wily Cat, Stews, Pharaoh\u2019s Sceptre, Ancient Signet, Lunar Signet, 10000 Astral Runes, Hammer, Crystal saw",
+    "_section": "Bank 194"
+  },
+  "episode-10-bank-180-through-inferno-bank-195-step-001": {
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Dramen Staff, Teleport Runes",
+    "_section": "Bank 195"
+  },
+  "episode-10-bank-180-through-inferno-bank-195-step-006": {
+    "withdraw": [
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Dramen Staff, Teleport Runes, Coins, Brimhaven Vouchers",
+    "_section": "Bank 195"
+  },
+  "episode-10-bank-180-through-inferno-bank-196-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Hammer, Crystal Saw, 5 Limestone Bricks, 5 Buckets of Water, 1,000 Soul Runes, 1,000 Body Runes, 10 Stamina Potions (4)",
+    "_section": "Bank 196"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-002": {
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune pouch",
+        "itemIds": [
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Pickaxe, Varrock Armour 2, Desert Robe Bottom & Boots, Camulet, Knife, Teak Log, Astral, Fire, Water Runes, Rune pouch, 3x Waterskins",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-010": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold Bar",
+        "itemIds": [
+          2357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos Runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teleport Runes, Cosmic Runes, games necklace, Cut Dragonstone, Gold Bar, Amulet Mould, Ball of Wool. If 85 Crafting also withdraw Karamja Gloves, Dramen Staff, Chisel, Ball of Wool, Wily Cat, Stews & 29,000 Chaos Runes",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-199-step-001": {
+    "withdraw": [
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Adamant Pickaxe",
+        "itemIds": [
+          1271
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Teak Logs, Knife, Adamant Pickaxe, Chisel, Karamja Gloves 3, amulet of glory",
+    "_section": "Bank 199"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-200-step-001": {
+    "withdraw": [
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Law Runes",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Air Staff, Law Runes, Earth Runes, Coins, Noted Soft Clay",
+    "_section": "Bank 200"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-001": {
+    "withdraw": [
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ectophial",
+        "itemIds": [
+          4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Bar",
+        "itemIds": [
+          2355
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Garlic",
+        "itemIds": [
+          1550
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear (Bow of Faerdhinen), Pickaxe, Dramen Staff, Teleport Runes, Slayer Helmet, Spade, Ectophial, Silver Bar, Pot, Restore Potion (3), Garlic, Elf Teleport Crystal",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-205-step-001": {
+    "withdraw": [
+      {
+        "name": "Ropes",
+        "itemIds": [
+          954
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear to kill Kalphite Queen, 2x Ropes, Antipoison, Thralls, etc",
+    "_section": "Bank 205"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coal",
+        "itemIds": [
+          453
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Seed Dibber",
+        "itemIds": [
+          5343
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear, Coins, Teleport Runes, 1 Astral Rune, 1 Mind Rune, 1 Cosmic Rune, Sapphire Lantern, Dramen Staff, Adamantite Ore, 6x Coal, Book of the dead, Pickaxe, Seed Dibber, Lockpick, Rada\u2019s Blessing (2), House Teleport (22 Inventory Slots)",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-207-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Antipoison",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Bow of Fardhinen, Full Crystal, Shayzien Armour 5 (all pieces), Teleport Runes, Antipoison, few food & potions, Dramen Staff",
+    "_section": "Bank 207"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl\u2019s are best), Coins, Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-211-step-001": {
+    "withdraw": [
+      {
+        "name": "Antifire Shield",
+        "itemIds": [
+          1540
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "plank",
+        "itemIds": [
+          960
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Combat Gear, Antifire Shield, Dramen Staff, Saw, 2x plank, Food & Potions",
+    "_section": "Bank 211"
+  },
+  "episode-12-bank-204-through-zulrah-bank-212-step-001": {
+    "withdraw": [
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fishing Rod",
+        "itemIds": [
+          307
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear, Axe, Knife, 4x Willow Longbow, 5x Maple Logs, 4x Maple Longbow (u), Fishing Rod, Hammer",
+    "_section": "Bank 212"
+  },
+  "episode-12-bank-204-through-zulrah-bank-213-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Combat Gear (Melee & Range), Food & Potions, Teleport Runes",
+    "_section": "Bank 213"
+  },
+  "episode-12-bank-204-through-zulrah-bank-214-step-002": {
+    "withdraw": [
+      {
+        "name": "Adamant Pickaxe",
+        "itemIds": [
+          1271
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "waterskin",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 3
+      }
+    ],
+    "_text": "Withdraw: Adamant Pickaxe, Knife, Teak Log, 1Mil Coins, Camulet, 3x waterskin, Humidify Runes",
+    "_section": "Bank 214"
+  },
+  "episode-12-bank-204-through-zulrah-bank-215-step-001": {
+    "withdraw": [
+      {
+        "name": "Teleport runes",
+        "itemIds": [
+          1381,
+          12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 per Onyx) [You may need to buy more], Karamja Gloves, Teleport Runes, Dramen Staff, House tab, Banana, Zombie Monkey Greegree, Chisel, Wily Cat",
+    "_section": "Bank 215"
   }
 }
