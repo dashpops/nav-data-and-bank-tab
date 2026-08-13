@@ -267,8 +267,7 @@ public class WithdrawBankFilter
 
 			int rows = (shown + ITEMS_PER_ROW - 1) / ITEMS_PER_ROW;
 			container.setScrollHeight(Math.max(rows * ITEM_Y_STEP, container.getHeight()));
-			client.runScript(ScriptID.UPDATE_SCROLLBAR,
-				InterfaceID.Bankmain.SCROLLBAR, InterfaceID.Bankmain.ITEMS, 0);
+			updateScrollbar();
 
 			Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);
 			if (title != null)
@@ -282,6 +281,18 @@ public class WithdrawBankFilter
 		{
 			applying = false;
 		}
+	}
+
+	/**
+	 * Resizes the scrollbar to match. Deferred rather than called inline: applying
+	 * happens from the bank's own build script, and running a script from inside
+	 * one trips "scripts are not reentrant" and takes the client down. Quest Helper
+	 * defers this call for the same reason.
+	 */
+	private void updateScrollbar()
+	{
+		clientThread.invokeLater(() -> client.runScript(ScriptID.UPDATE_SCROLLBAR,
+			InterfaceID.Bankmain.SCROLLBAR, InterfaceID.Bankmain.ITEMS, 0));
 	}
 
 	/**
@@ -339,8 +350,7 @@ public class WithdrawBankFilter
 		savedLayout.clear();
 
 		container.setScrollHeight(savedScrollHeight);
-		client.runScript(ScriptID.UPDATE_SCROLLBAR,
-			InterfaceID.Bankmain.SCROLLBAR, InterfaceID.Bankmain.ITEMS, 0);
+		updateScrollbar();
 
 		Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);
 		if (title != null && savedTitle != null)

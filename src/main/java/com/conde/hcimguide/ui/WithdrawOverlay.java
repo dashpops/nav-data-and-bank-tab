@@ -66,7 +66,9 @@ public class WithdrawOverlay extends Overlay
 		this.config = config;
 		this.withdrawService = withdrawService;
 		setPosition(OverlayPosition.DYNAMIC);
-		setLayer(OverlayLayer.ABOVE_SCENE);
+		// ABOVE_WIDGETS, not ABOVE_SCENE: the bank is an interface, so anything drawn
+		// on the scene layer ends up hidden behind it.
+		setLayer(OverlayLayer.ABOVE_WIDGETS);
 	}
 
 	@Override
