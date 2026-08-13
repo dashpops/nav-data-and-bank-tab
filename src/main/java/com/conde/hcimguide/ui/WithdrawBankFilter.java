@@ -1,9 +1,12 @@
 package com.conde.hcimguide.ui;
 
 import com.conde.hcimguide.HcimGuidePlugin;
+import net.runelite.api.gameval.SpriteID;
+import net.runelite.client.util.ImageUtil;
 import com.conde.hcimguide.model.WithdrawItem;
 import com.conde.hcimguide.service.WithdrawService;
 import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -13,9 +16,10 @@ import net.runelite.api.Client;
 import net.runelite.api.Item;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.ScriptID;
-import net.runelite.api.SpriteID;
 import net.runelite.api.gameval.InterfaceID;
+import net.runelite.api.FontID;
 import net.runelite.api.gameval.InventoryID;
+import net.runelite.client.util.QuantityFormatter;
 import net.runelite.api.widgets.JavaScriptCallback;
 import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.WidgetType;
@@ -35,8 +39,14 @@ import net.runelite.client.callback.ClientThread;
 public class WithdrawBankFilter
 {
 	private static final int BUTTON_SIZE = 25;
-	private static final int BUTTON_X = 408;
-	private static final int BUTTON_Y = 30;      // below Quest Helper's, which sits at y=5
+	// Heading bar, left of Quest Helper's button at x=408 so the two do not overlap.
+	private static final int BUTTON_X = 380;
+	private static final int BUTTON_Y = 5;
+	/** Our own sprite slot. Negative ids do not collide with the game's. */
+	private static final int ICON_SPRITE_ID = -1701;
+	private static final int TICK_SPRITE_ID = SpriteID.Checkbox.CHECKED;
+	private static final int CROSS_SPRITE_ID = SpriteID.Checkbox.CROSSED;
+	private static final int TEXT_COLOR = 0xFF981F;
 	private static final int ITEMS_PER_ROW = 8;
 	private static final int ITEM_X_STEP = 48;
 	private static final int ITEM_Y_STEP = 36;
@@ -49,7 +59,6 @@ public class WithdrawBankFilter
 	private final WithdrawService withdrawService;
 
 	private Widget button;
-	private Widget buttonIcon;
 	private boolean active;
 	/**
 	 * Whether our button exists on the bank interface currently loaded. The bank
@@ -64,6 +73,9 @@ public class WithdrawBankFilter
 	 * without this a rebuild could feed itself and hang the client.
 	 */
 	private boolean applying;
+	private boolean iconRegistered;
+	/** Count/tick widgets added over bank items; rebuilt on each apply. */
+	private final List<Widget> itemAnnotations = new ArrayList<>();
 
 	/** widget index -> {originalX, originalY, hidden} captured before filtering. */
 	private final Map<Integer, int[]> savedLayout = new HashMap<>();
@@ -103,14 +115,27 @@ public class WithdrawBankFilter
 	{
 		active = false;
 		buttonAdded = false;
+		itemAnnotations.clear();
 		button = null;
-		buttonIcon = null;
 		savedLayout.clear();
 		savedTitle = null;
 	}
 
+	/** Publishes the sidebar icon as a sprite so a widget can use it. */
+	private void registerIcon()
+	{
+		if (iconRegistered)
+		{
+			return;
+		}
+		client.getSpriteOverrides().put(ICON_SPRITE_ID,
+			ImageUtil.getImageSpritePixels(HcimGuidePlugin.createIcon(), client));
+		iconRegistered = true;
+	}
+
 	private void addButton()
 	{
+		registerIcon();
 		Widget parent = client.getWidget(InterfaceID.Bankmain.UNIVERSE);
 		if (parent == null)
 		{
@@ -118,7 +143,7 @@ public class WithdrawBankFilter
 		}
 
 		button = parent.createChild(-1, WidgetType.GRAPHIC);
-		button.setSpriteId(SpriteID.UNKNOWN_BUTTON_SQUARE_SMALL);
+		button.setSpriteId(ICON_SPRITE_ID);
 		button.setOriginalWidth(BUTTON_SIZE);
 		button.setOriginalHeight(BUTTON_SIZE);
 		button.setOriginalX(BUTTON_X);
@@ -126,16 +151,9 @@ public class WithdrawBankFilter
 		button.setHasListener(true);
 		button.setAction(0, active ? "Show all items" : "Show guide items");
 		button.setOnOpListener((JavaScriptCallback) e -> toggle());
+		// Dimmed while inactive, full brightness when the filter is on.
+		button.setOpacity(active ? 0 : 100);
 		button.revalidate();
-
-		buttonIcon = parent.createChild(-1, WidgetType.GRAPHIC);
-		buttonIcon.setSpriteId(SpriteID.TAB_QUESTS);
-		buttonIcon.setOriginalWidth(BUTTON_SIZE - 6);
-		buttonIcon.setOriginalHeight(BUTTON_SIZE - 6);
-		buttonIcon.setOriginalX(BUTTON_X + 3);
-		buttonIcon.setOriginalY(BUTTON_Y + 3);
-		buttonIcon.setOpacity(active ? 0 : 90);
-		buttonIcon.revalidate();
 		buttonAdded = true;
 	}
 
@@ -146,9 +164,9 @@ public class WithdrawBankFilter
 		{
 			button.setAction(0, active ? "Show all items" : "Show guide items");
 		}
-		if (buttonIcon != null)
+		if (button != null)
 		{
-			buttonIcon.setOpacity(active ? 0 : 90);
+			button.setOpacity(active ? 0 : 100);
 		}
 	}
 
@@ -158,9 +176,9 @@ public class WithdrawBankFilter
 	 */
 	public void onBankInterfaceLoaded()
 	{
+		itemAnnotations.clear();   // belonged to the old interface; already gone
 		buttonAdded = false;
 		button = null;
-		buttonIcon = null;
 		savedLayout.clear();
 		savedTitle = null;
 	}
@@ -193,6 +211,7 @@ public class WithdrawBankFilter
 	 */
 	private void restore()
 	{
+		clearAnnotations();
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
 		if (container == null)
 		{
@@ -247,6 +266,7 @@ public class WithdrawBankFilter
 			return;
 		}
 
+		clearAnnotations();
 		applying = true;
 		try
 		{
@@ -305,6 +325,101 @@ public class WithdrawBankFilter
 		{
 			applying = false;
 		}
+	}
+
+	/**
+	 * Draws "/ N" and a tick or cross over a bank item, the way Quest Helper does:
+	 * the count sits just right of the stack size the bank already draws, and the
+	 * marker after it, dropping to a second line when the pair would be too wide.
+	 *
+	 * <p>The left-hand number is what you are carrying, not what is banked, so it
+	 * counts up as you withdraw and the cross becomes a tick when the step is met.
+	 */
+	private void annotate(Widget container, int itemId, int bankQuantity, int baseX, int baseY)
+	{
+		WithdrawItem entry = entryFor(itemId);
+		if (entry == null || entry.getQuantity() <= 0)
+		{
+			return;
+		}
+
+		int required = entry.getQuantity();
+		int carried = withdrawService.carriedCount(entry);
+		boolean satisfied = carried >= required;
+
+		String goal = QuantityFormatter.quantityToStackSize(required);
+		String have = QuantityFormatter.quantityToStackSize(carried);
+		int goalLength = (int) Math.round(goal.length() * 5.5);
+		int haveLength = have.length() * 6;
+
+		int textX = baseX + 2 + haveLength;
+		int textY = baseY - 1;
+		int spriteX = textX + goalLength + 10;
+		int spriteY = textY;
+		if (haveLength + goalLength > 20)
+		{
+			textX = baseX;
+			textY = baseY + 9;
+			spriteX = baseX + 2 + haveLength;
+			spriteY = baseY - 1;
+		}
+
+		itemAnnotations.add(createText(container, have + "/" + goal, textX, textY));
+		itemAnnotations.add(createSprite(container,
+			satisfied ? TICK_SPRITE_ID : CROSS_SPRITE_ID, spriteX, spriteY));
+	}
+
+	private Widget createText(Widget container, String text, int x, int y)
+	{
+		Widget widget = container.createChild(-1, WidgetType.TEXT);
+		widget.setText(text);
+		widget.setTextColor(TEXT_COLOR);
+		widget.setFontId(FontID.PLAIN_11);
+		widget.setTextShadowed(true);
+		widget.setOriginalWidth(50);
+		widget.setOriginalHeight(20);
+		widget.setOriginalX(x);
+		widget.setOriginalY(y);
+		widget.revalidate();
+		return widget;
+	}
+
+	private Widget createSprite(Widget container, int spriteId, int x, int y)
+	{
+		Widget widget = container.createChild(-1, WidgetType.GRAPHIC);
+		widget.setSpriteId(spriteId);
+		widget.setOriginalWidth(11);
+		widget.setOriginalHeight(11);
+		widget.setOriginalX(x);
+		widget.setOriginalY(y);
+		widget.revalidate();
+		return widget;
+	}
+
+	/** Remove the widgets we drew last time, or they stack up on every rebuild. */
+	private void clearAnnotations()
+	{
+		for (Widget widget : itemAnnotations)
+		{
+			if (widget != null)
+			{
+				widget.setHidden(true);
+			}
+		}
+		itemAnnotations.clear();
+	}
+
+	/** The withdraw entry this item satisfies, or null. */
+	private WithdrawItem entryFor(int itemId)
+	{
+		for (WithdrawItem entry : plugin.getCurrentWithdrawItems())
+		{
+			if (entry.getItemIds().contains(itemId))
+			{
+				return entry;
+			}
+		}
+		return null;
 	}
 
 	/** Item IDs the current step still needs; empty when nothing is outstanding. */

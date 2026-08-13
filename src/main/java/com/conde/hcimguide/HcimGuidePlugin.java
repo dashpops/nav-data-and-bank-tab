@@ -735,7 +735,8 @@ public class HcimGuidePlugin extends Plugin
 		return Math.max(0, Math.min(stepIndex, section.getSteps().size() - 1));
 	}
 
-	private BufferedImage createIcon()
+	/** The sidebar icon. Static so the bank button can reuse the same artwork. */
+	public static BufferedImage createIcon()
 	{
 		BufferedImage image = new BufferedImage(32, 32, BufferedImage.TYPE_INT_ARGB);
 		Graphics2D graphics = image.createGraphics();

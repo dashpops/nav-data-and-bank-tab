@@ -54,6 +54,12 @@ public class WithdrawService
 		return total;
 	}
 
+	/** How many of this entry's items you are carrying, counting alternatives together. */
+	public int carriedCount(WithdrawItem item)
+	{
+		return carried(new HashSet<>(item.getItemIds()));
+	}
+
 	/**
 	 * Entries still outstanding for this step. Empty means you already have
 	 * everything, in which case nothing should be drawn.
