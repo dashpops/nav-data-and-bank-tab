@@ -18,7 +18,7 @@ Work lives on the **`boaty`** branch. `master` is untouched upstream.
 | Nav entries | **481** |
 | Bank sections covered | **89 / 215** — banks 33 → 120, contiguous |
 | Guide data | 236 sections / 2911 steps, regenerated from the wiki 2026-08-12 |
-| Olly is playing | around **bank 33**, so coverage runs ~77 banks ahead |
+| Olly is playing | around **bank 33**, so coverage runs ~87 banks ahead |
 
 Coverage starts at 33 deliberately — that is where Olly was when this started,
 and banks 1–32 are behind him.
@@ -145,8 +145,9 @@ The rule that matters: **never estimate a tile.** Every coordinate should come
 from a source, and the sources are, in order:
 
 1. **The wiki's map templates.** Fetch raw wikitext and read the pin:
-   `https://oldschool.runescape.wiki/w/PAGE?action=raw`. The scratchpad tool
-   `wikicoords.py` does this over the MediaWiki API in batches.
+   `https://oldschool.runescape.wiki/w/PAGE?action=raw`. Use
+   `scripts/wikicoords.py "Page One" "Page Two"`, which batches this over the
+   MediaWiki API and documents the parsing traps in its header.
 2. **Quest Helper's source** — `github.com/Zoinkwiz/quest-helper`, grep for the
    NPC or quest name near `new WorldPoint(x, y, z)`. Hand-verified, and often
    better than the wiki when the wiki only has a building outline.
