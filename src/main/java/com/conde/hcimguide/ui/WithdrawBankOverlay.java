@@ -36,8 +36,6 @@ import net.runelite.client.util.QuantityFormatter;
  */
 public class WithdrawBankOverlay extends Overlay
 {
-	private static final Color HIGHLIGHT_COLOR = new Color(236, 197, 94, 220);
-	private static final Color HIGHLIGHT_FILL = new Color(236, 197, 94, 45);
 	/** The yellow the game uses for bank stack sizes, so "/N" reads as part of it. */
 	private static final Color QUANTITY_COLOR = new Color(255, 255, 0);
 
@@ -119,12 +117,9 @@ public class WithdrawBankOverlay extends Overlay
 			{
 				continue;
 			}
-			Rectangle bounds = child.getBounds();
-			graphics.setColor(HIGHLIGHT_FILL);
-			graphics.fill(bounds);
-			graphics.setColor(HIGHLIGHT_COLOR);
-			graphics.draw(bounds);
-			drawProgress(graphics, bounds, items[i].getId(), items[i].getQuantity());
+			// No box around the item: the count and marker say enough, and a border
+			// on every row is noise once the bank is already filtered to these items.
+			drawProgress(graphics, child.getBounds(), items[i].getId(), items[i].getQuantity());
 		}
 	}
 

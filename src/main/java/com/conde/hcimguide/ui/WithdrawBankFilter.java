@@ -106,10 +106,31 @@ public class WithdrawBankFilter
 			refreshButton();
 		}
 
-		if (active && !questHelperOwnsBank())
+		if (!active)
 		{
-			applyFilter();
+			return;
 		}
+
+		if (questHelperOwnsBank())
+		{
+			// Quest Helper has taken the bank over. Switch off rather than lurk in a
+			// half-applied state: two filters sharing one bank is what made flicking
+			// between the buttons messy, and stale saved positions would then be
+			// restored over a layout that is no longer ours.
+			standDown();
+			return;
+		}
+
+		applyFilter();
+	}
+
+	/** Give up the bank without touching it; whoever owns it now will redraw. */
+	private void standDown()
+	{
+		active = false;
+		savedLayout.clear();
+		savedTitle = null;
+		refreshButton();
 	}
 
 	/**
@@ -191,6 +212,13 @@ public class WithdrawBankFilter
 
 	private void toggle()
 	{
+		if (!active && questHelperOwnsBank())
+		{
+			// Refuse rather than fight for the same widgets. Closing Quest Helper's
+			// tab frees the bank up.
+			return;
+		}
+
 		active = !active;
 		clientThread.invokeLater(() ->
 		{
