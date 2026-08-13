@@ -8,7 +8,9 @@ import com.conde.hcimguide.service.GuideAutoProgressService;
 import com.conde.hcimguide.service.GuideProgressStore;
 import com.conde.hcimguide.service.GuideRepository;
 import com.conde.hcimguide.service.StepMetadataRepository;
+import com.conde.hcimguide.model.WithdrawItem;
 import com.conde.hcimguide.ui.CurrentStepOverlay;
+import com.conde.hcimguide.ui.WithdrawOverlay;
 import com.conde.hcimguide.ui.GuidePanel;
 import com.google.inject.Provides;
 import java.awt.BasicStroke;
@@ -84,6 +86,9 @@ public class HcimGuidePlugin extends Plugin
 	@Inject
 	private CurrentStepOverlay currentStepOverlay;
 
+	@Inject
+	private WithdrawOverlay withdrawOverlay;
+
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
@@ -118,6 +123,7 @@ public class HcimGuidePlugin extends Plugin
 			.build();
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(currentStepOverlay);
+		overlayManager.add(withdrawOverlay);
 		refreshState();
 	}
 
@@ -125,6 +131,7 @@ public class HcimGuidePlugin extends Plugin
 	protected void shutDown()
 	{
 		overlayManager.remove(currentStepOverlay);
+		overlayManager.remove(withdrawOverlay);
 		if (navigationButton != null)
 		{
 			clientToolbar.removeNavigation(navigationButton);
@@ -272,6 +279,18 @@ public class HcimGuidePlugin extends Plugin
 			}
 		}
 		return closest;
+	}
+
+	/** Items the current step wants out of the bank; empty if it is not a withdraw step. */
+	public List<WithdrawItem> getCurrentWithdrawItems()
+	{
+		GuideStep step = getCurrentStep();
+		if (step == null)
+		{
+			return Collections.emptyList();
+		}
+		StepMetadata metadata = stepMetadataRepository.get(step.getId());
+		return metadata == null ? Collections.emptyList() : metadata.getWithdraw();
 	}
 
 	public List<GuideStep> getVisibleSteps()

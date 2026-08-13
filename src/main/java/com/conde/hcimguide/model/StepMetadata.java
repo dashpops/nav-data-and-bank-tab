@@ -23,6 +23,12 @@ public class StepMetadata
 	/** Quest Helper quest name — null if this step has no quest to open. */
 	private String quest;
 
+	/**
+	 * Items this step wants out of the bank. Only set on "Withdraw:" steps;
+	 * null everywhere else.
+	 */
+	private List<WithdrawItem> withdraw;
+
 	public NavTarget getNav()
 	{
 		if (nav != null)
@@ -55,6 +61,17 @@ public class StepMetadata
 	public String getQuest()
 	{
 		return quest;
+	}
+
+	/** Never null. */
+	public List<WithdrawItem> getWithdraw()
+	{
+		return withdraw == null ? Collections.emptyList() : withdraw;
+	}
+
+	public void setWithdraw(List<WithdrawItem> withdraw)
+	{
+		this.withdraw = withdraw;
 	}
 
 	public void setQuest(String quest)

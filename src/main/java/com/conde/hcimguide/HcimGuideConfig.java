@@ -78,4 +78,15 @@ public interface HcimGuideConfig extends Config
 	{
 		return true;
 	}
+
+	@ConfigItem(
+		keyName = "showWithdrawItems",
+		name = "Show withdraw items",
+		description = "On a Withdraw step, show what is still needed above your character "
+			+ "and box those items in the bank"
+	)
+	default boolean showWithdrawItems()
+	{
+		return true;
+	}
 }
