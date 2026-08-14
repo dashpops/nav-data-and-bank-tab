@@ -1529,9 +1529,9 @@
   },
   "episode-2-banks-24-through-75-bank-41b-step-019": {
     "nav": {
-      "label": "Camelot Castle",
-      "x": 2758,
-      "y": 3507,
+      "label": "Star symbol (NE of Camelot Castle)",
+      "x": 2780,
+      "y": 3515,
       "z": 0
     },
     "quest": "Merlin's Crystal",

@@ -10,8 +10,10 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
 import net.runelite.api.Item;
+import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.gameval.InventoryID;
+import net.runelite.client.game.ItemManager;
 
 /**
  * Works out which items of a "Withdraw:" step you are still short of.
@@ -25,11 +27,31 @@ import net.runelite.api.gameval.InventoryID;
 public class WithdrawService
 {
 	private final Client client;
+	private final ItemManager itemManager;
 
 	@Inject
-	public WithdrawService(Client client)
+	public WithdrawService(Client client, ItemManager itemManager)
 	{
 		this.client = client;
+		this.itemManager = itemManager;
+	}
+
+	/**
+	 * The real item an id stands for, seeing through a bank placeholder. The guide
+	 * tells you to keep placeholders on, so an item you fully withdraw leaves a
+	 * placeholder behind — a different id that maps back to the real one. Resolving
+	 * it is what lets a withdrawn item keep its slot, and its tick, in the bank.
+	 *
+	 * <p>Must be called on the client thread.
+	 */
+	public int canonicalItemId(int itemId)
+	{
+		if (itemId <= 0)
+		{
+			return itemId;
+		}
+		ItemComposition comp = itemManager.getItemComposition(itemId);
+		return comp.getPlaceholderTemplateId() != -1 ? comp.getPlaceholderId() : itemId;
 	}
 
 	/** How many of the given item IDs the player is carrying, worn items included. */

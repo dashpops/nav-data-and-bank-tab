@@ -8,11 +8,8 @@ import java.util.Set;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
-import net.runelite.api.Item;
-import net.runelite.api.ItemContainer;
 import net.runelite.api.ScriptID;
 import net.runelite.api.gameval.InterfaceID;
-import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.widgets.JavaScriptCallback;
 import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.WidgetType;
@@ -134,11 +131,16 @@ public class WithdrawBankFilter
 	}
 
 	/**
-	 * The bank interface was (re)loaded, so any widget we added to it is gone.
-	 * Forget it and let the next build create a single replacement.
+	 * The bank interface was opened or closed, so any widget we added to it is
+	 * gone. Forget it and let the next build create a single replacement.
+	 *
+	 * <p>Also switches the filter off: opening the bank should show it as it
+	 * normally is, so the special view is something you turn on for a step and
+	 * that quietly lapses when you walk away, rather than a mode you get stuck in.
 	 */
 	public void onBankInterfaceLoaded()
 	{
+		active = false;
 		buttonAdded = false;
 		button = null;
 		savedLayout.clear();
@@ -304,8 +306,7 @@ public class WithdrawBankFilter
 		// once you hold it never shows you its tick.
 		Set<Integer> wanted = withdrawService.allItemIds(plugin.getCurrentWithdrawItems());
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
-		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
-		if (container == null || bank == null)
+		if (container == null)
 		{
 			return;
 		}
@@ -314,7 +315,6 @@ public class WithdrawBankFilter
 		try
 		{
 			Widget[] children = container.getDynamicChildren();
-			Item[] items = bank.getItems();
 			int shown = 0;
 
 			if (savedLayout.isEmpty())
@@ -335,8 +335,10 @@ public class WithdrawBankFilter
 				savedLayout.putIfAbsent(i,
 					new int[]{child.getOriginalX(), child.getOriginalY(), child.isHidden() ? 1 : 0});
 
-				// Children past the item count are separators and tab furniture.
-				boolean keep = i < items.length && wanted.contains(items[i].getId());
+				// Read the id off the widget so a withdrawn item's placeholder still
+				// counts as wanted and keeps its slot. Separators and tab furniture
+				// carry no item id, so they fall through and get hidden.
+				boolean keep = wanted.contains(withdrawService.canonicalItemId(child.getItemId()));
 				if (!keep)
 				{
 					child.setHidden(true);

@@ -14,10 +14,7 @@ import java.util.List;
 import java.util.Set;
 import javax.inject.Inject;
 import net.runelite.api.Client;
-import net.runelite.api.Item;
-import net.runelite.api.ItemContainer;
 import net.runelite.api.gameval.InterfaceID;
-import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.gameval.SpriteID;
 import net.runelite.api.widgets.Widget;
 import net.runelite.client.game.SpriteManager;
@@ -81,8 +78,11 @@ public class WithdrawBankOverlay extends Overlay
 	}
 
 	/**
-	 * Bank item widgets are children of the item container in slot order, so the
-	 * child index matches the container index.
+	 * Marks up every bank slot holding a wanted item. Reads the id straight off
+	 * each widget rather than pairing it with the bank container by index: a fully
+	 * withdrawn item leaves a placeholder widget but drops out of the container, so
+	 * pairing by index would lose it — and losing it is exactly why the tick used
+	 * to vanish the moment you had everything.
 	 */
 	private void highlightBankItems(Graphics2D graphics, Set<Integer> itemIds)
 	{
@@ -97,29 +97,20 @@ public class WithdrawBankOverlay extends Overlay
 			return;
 		}
 
-		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
-		if (bank == null)
+		for (Widget child : container.getDynamicChildren())
 		{
-			return;
-		}
-
-		Widget[] children = container.getDynamicChildren();
-		Item[] items = bank.getItems();
-		int count = Math.min(children.length, items.length);
-		for (int i = 0; i < count; i++)
-		{
-			if (!itemIds.contains(items[i].getId()))
+			if (child == null || child.isHidden())
 			{
 				continue;
 			}
-			Widget child = children[i];
-			if (child == null || child.isHidden())
+			int id = withdrawService.canonicalItemId(child.getItemId());
+			if (!itemIds.contains(id))
 			{
 				continue;
 			}
 			// No box around the item: the count and marker say enough, and a border
 			// on every row is noise once the bank is already filtered to these items.
-			drawProgress(graphics, child.getBounds(), items[i].getId(), items[i].getQuantity());
+			drawProgress(graphics, child.getBounds(), id, child.getItemQuantity());
 		}
 	}
 

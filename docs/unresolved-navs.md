@@ -125,6 +125,11 @@ These follow a "bank anywhere"-style step, so there is no defensible bank to pic
 - **Hemenster** (79 #2) — was `2596,3473` from a polygon vertex, ~50 tiles off the
   real gate at `2642,3441`.
 - **Tithe Farm** (74 #5, #10) — outline corner corrected to the entrance.
+- **Complete Merlin's Crystal** (41B #19) — was `2758,3507`, inside Camelot Castle.
+  Wrong: the finale is the ritual at the star symbol north-east of the castle,
+  just inside the garden fence, `2780,3515` (Quest Helper's `goStandInStar`). The
+  wiki confirms the magical symbol is outdoors on the garden's NE side. Smashing
+  the crystal afterwards is trivial and #22 already navs to Merlin upstairs.
 
 ---
 
