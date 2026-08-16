@@ -14060,5 +14060,203 @@
     },
     "_text": "Head South & Enter Brimhaven Dungeon",
     "_section": "Bank 140"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-006": {
+    "nav": {
+      "label": "Galahad (west of McGrubor's Wood)",
+      "x": 2613,
+      "y": 3477,
+      "z": 0
+    },
+    "diary": "Kandarin Easy",
+    "_text": "Talk to Galahad again and complete dialogue (3) [Kandarian Easy Diary]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-003": {
+    "nav": {
+      "label": "Romeo (Varrock Square)",
+      "x": 3211,
+      "y": 3425,
+      "z": 0
+    },
+    "quest": "Romeo & Juliet",
+    "_text": "Talk to Romeo [Romeo & Juliet]",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-007": {
+    "nav": {
+      "label": "Duke Horacio (Lumbridge Castle, 1st floor)",
+      "x": 3213,
+      "y": 3226,
+      "z": 1
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Talk to Duke Horacio [The Ides of Milk]",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-85-step-021": {
+    "nav": {
+      "label": "Mord Gunnars (Rellekka docks)",
+      "x": 2644,
+      "y": 3709,
+      "z": 0
+    },
+    "quest": "The Fremennik Isles",
+    "_text": "Talk to Mord Gunnars to start Fremennik Isles (3)",
+    "_section": "Bank 85"
+  },
+  "episode-3-banks-76-through-104b-bank-100-step-009": {
+    "nav": {
+      "label": "Ak-Haranu (Port Phasmatys)",
+      "x": 3690,
+      "y": 3497,
+      "z": 0
+    },
+    "quest": "Ghosts Ahoy",
+    "_text": "Talk to Ak-Haranu for Translation Manual [Ghost's Ahoy]",
+    "_section": "Bank 100"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-013": {
+    "nav": {
+      "label": "Lady Lumbridge (Port Sarim dock)",
+      "x": 3047,
+      "y": 3204,
+      "z": 0
+    },
+    "quest": "Dragon Slayer",
+    "_text": "Board the ship, climb down the ladder and repair the hole 3 times [Dragon Slayer]",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-008": {
+    "nav": {
+      "label": "Bernald (Burthorpe)",
+      "x": 2919,
+      "y": 3536,
+      "z": 0
+    },
+    "quest": "Garden of Tranquility",
+    "_text": "Talk to Bernald [Garden of Tranquility]",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-008": {
+    "nav": {
+      "label": "Sir Tiffy Cashien (Falador Park)",
+      "x": 2997,
+      "y": 3373,
+      "z": 0
+    },
+    "quest": "Wanted!",
+    "_text": "Talk to Sir Tiffy Cashien (1) [Wanted!]",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-009": {
+    "nav": {
+      "label": "Sir Amik Varze (White Knights' Castle, top)",
+      "x": 2960,
+      "y": 3337,
+      "z": 2
+    },
+    "quest": "Wanted!",
+    "_text": "Talk to Sir Amik Varze (3) [Wanted!]",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-010": {
+    "nav": {
+      "label": "Sir Tiffy Cashien (Falador Park)",
+      "x": 2997,
+      "y": 3373,
+      "z": 0
+    },
+    "quest": "Wanted!",
+    "_text": "Talk to Sir Tiffy Cashien (2,1) [Wanted!]",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-117-step-006": {
+    "nav": {
+      "label": "Grimesquit (rat pits)",
+      "x": 3243,
+      "y": 9866,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Talk to Grimesquit [Ratcatchers]",
+    "_section": "Bank 117"
+  },
+  "episode-4-banks-105-through-150-bank-117-step-014": {
+    "nav": {
+      "label": "Jimmy Dazzler",
+      "x": 2562,
+      "y": 3320,
+      "z": 0
+    },
+    "quest": "Ratcatchers",
+    "_text": "Talk to Jimmy Dazzler (Ratcatchers)",
+    "_section": "Bank 117"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-034": {
+    "nav": {
+      "label": "Undor",
+      "x": 1624,
+      "y": 3942,
+      "z": 0
+    },
+    "quest": "The Forsaken Tower",
+    "_text": "Talk to Undor [Forsaken Tower]",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-016": {
+    "nav": {
+      "label": "Lord Daquarius (Black Knights' Base)",
+      "x": 2892,
+      "y": 9680,
+      "z": 0
+    },
+    "quest": "Wanted!",
+    "_text": "Talk to Lord Daquarias again [Wanted!]",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-006": {
+    "nav": {
+      "label": "Phantuwti Fanstuwi Farsight (Ranging Guild)",
+      "x": 2702,
+      "y": 3473,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Phantuwti Fanstuwi Farsight (4,5,1) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-007": {
+    "nav": {
+      "label": "Ranging Guild entrance",
+      "x": 2657,
+      "y": 3440,
+      "z": 0
+    },
+    "diary": "Kandarin Medium",
+    "_text": "Enter Ranging Guild [Kandarin Medium Diary]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-028": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Rantz (2) [One Small Favour]",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-033": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Talk to Rantz (2) [Recipe for Disaster]",
+    "_section": "Bank 130"
   }
 }

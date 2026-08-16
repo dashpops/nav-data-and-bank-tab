@@ -32,7 +32,6 @@ written (see "Resolved" at the bottom).
 | 50 | 3 | Talk to Frizzy Skernip | No pin found |
 | 58 | 2 | Sword Merchant identifies sword | No pin found |
 | 65 | 15 | Bank at small island north of Fossil Island | No pin for that bank |
-| 80 | 3 | Talk to Romeo | Not looked up yet |
 | 84 | 5 | Kill 20 Blue Dragons | Taverley Dungeon interior (~2881,9826); entrance is on #3 |
 | 87 | 7 | Travel Dwarven Ferryman | No pin for the ferryman |
 | 90 | 2 | Start Shadow of the Storm | Start point not pinned; #3 navs to Uzer |
@@ -144,6 +143,18 @@ These follow a "bank anywhere"-style step, so there is no defensible bank to pic
 - **Hemenster** (79 #2) — was `2596,3473` from a polygon vertex, ~50 tiles off the
   real gate at `2642,3441`.
 - **Tithe Farm** (74 #5, #10) — outline corner corrected to the entrance.
+- **Reassessment sweep, banks 64-130** — a pass over every un-navved talk-to/go
+  step turned up 18 that had simply been missed, not skipped for a reason: Romeo
+  (80 #3), Galahad (78 #6), Duke Horacio (83 #7, plane 1), Mord Gunnars (85 #21),
+  Ak-Haranu (100 #9), the Dragon Slayer ship (108B #13), Bernald (113 #8), the
+  Wanted! knights Sir Tiffy Cashien and Sir Amik Varze (116 #8-10, Amik on plane
+  2), Grimesquit and Jimmy Dazzler (117 #6, #14), Phantuwti and the Ranging Guild
+  (130 #6, #7), plus repeat-NPC steps that reuse a nearby step's tile (121 #34,
+  124 #16, 130 #28/#33). Nearly all the other un-navved steps in that range are
+  "Teleport to X", which stays empty on purpose — a teleport is not a walk.
+  Still genuinely unresolved there: Dwarven Engineer (87 #11, 116 #3, no
+  Keldagrim pin), Kalphite Lair and the Estate agent (103, no map template),
+  the Security Guard for the Falador book (108B #11, ambiguous which guard).
 - **Complete Merlin's Crystal** (41B #19) — was `2758,3507`, inside Camelot Castle.
   Wrong: the finale is the ritual at the star symbol north-east of the castle,
   just inside the garden fence, `2780,3515` (Quest Helper's `goStandInStar`). The
