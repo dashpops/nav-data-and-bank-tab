@@ -3775,6 +3775,13 @@
         "quantity": 0
       },
       {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 4
+      },
+      {
         "name": "Oak Plank",
         "itemIds": [
           8778
@@ -3796,6 +3803,13 @@
         "quantity": 5
       },
       {
+        "name": "Clockwork Mechanism",
+        "itemIds": [
+          8792
+        ],
+        "quantity": 4
+      },
+      {
         "name": "Hammer",
         "itemIds": [
           2347
@@ -3808,6 +3822,13 @@
           1755
         ],
         "quantity": 0
+      },
+      {
+        "name": "Barley",
+        "itemIds": [
+          6006
+        ],
+        "quantity": 40
       },
       {
         "name": "Pickaxe",
@@ -6009,6 +6030,13 @@
         "quantity": 0
       },
       {
+        "name": "Gardening Trowel",
+        "itemIds": [
+          5325
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Seed Dibber",
         "itemIds": [
           5343
@@ -6287,6 +6315,13 @@
           185
         ],
         "quantity": 0
+      },
+      {
+        "name": "Wizard Mind Bomb",
+        "itemIds": [
+          1907
+        ],
+        "quantity": 0
       }
     ]
   },
@@ -6449,9 +6484,23 @@
         "quantity": 0
       },
       {
+        "name": "Butterfly Net",
+        "itemIds": [
+          10010
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Bird Snare",
         "itemIds": [
           10006
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teasing Stick",
+        "itemIds": [
+          10029
         ],
         "quantity": 0
       },
@@ -7418,6 +7467,13 @@
           11190
         ],
         "quantity": 0
+      },
+      {
+        "name": "Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Law Rune, 5 Air Runes, Graceful Legs, Knife, Dramen Staff, Ardy Cloak, Coins, 10 Watering Cans, Spade, Seed Dibber, Duelling Ring, Digsite Pendant, Candle (14 Inventory Slots)",
@@ -8072,6 +8128,13 @@
           590
         ],
         "quantity": 0
+      },
+      {
+        "name": "Headless Arrows",
+        "itemIds": [
+          53
+        ],
+        "quantity": 2100
       }
     ],
     "_text": "Withdraw: Coins, Law, Death Runes, Air Staff, Ardougne Cloak, Dramen Staff, Raw Shark, Knife, Bucket, Axe, Tinderbox, 8 Food, 2100 Headless Arrows (18 Inventory Slots)",
@@ -8432,6 +8495,13 @@
         "quantity": 1
       },
       {
+        "name": "Karambawns",
+        "itemIds": [
+          3144
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Limpwurt Roots",
         "itemIds": [
           225
@@ -8737,9 +8807,23 @@
         "quantity": 5
       },
       {
+        "name": "Bronze Wires",
+        "itemIds": [
+          1794
+        ],
+        "quantity": 3
+      },
+      {
         "name": "Steel Bar",
         "itemIds": [
           2353
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cannonball Mould",
+        "itemIds": [
+          4
         ],
         "quantity": 0
       }
@@ -8841,6 +8925,13 @@
         "quantity": 0
       },
       {
+        "name": "Unblessed Symbol",
+        "itemIds": [
+          1716
+        ],
+        "quantity": 2
+      },
+      {
         "name": "Scorpion Cage",
         "itemIds": [
           456
@@ -8935,6 +9026,13 @@
         "name": "Pickaxe",
         "itemIds": [
           1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Arrows",
+        "itemIds": [
+          882
         ],
         "quantity": 0
       },
@@ -9178,6 +9276,13 @@
         "name": "Axe",
         "itemIds": [
           1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
         ],
         "quantity": 0
       }
@@ -9476,9 +9581,23 @@
         "quantity": 0
       },
       {
+        "name": "Necklace Mould",
+        "itemIds": [
+          1597
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Ectophial",
         "itemIds": [
           4251
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ring Mould",
+        "itemIds": [
+          1592
         ],
         "quantity": 0
       },
@@ -9493,6 +9612,13 @@
         "name": "cat",
         "itemIds": [
           1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "catspeak amulet",
+        "itemIds": [
+          4677
         ],
         "quantity": 0
       },
@@ -9520,6 +9646,13 @@
         "name": "Dueling Ring",
         "itemIds": [
           2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "knife",
+        "itemIds": [
+          946
         ],
         "quantity": 0
       },
@@ -9669,9 +9802,30 @@
         "quantity": 0
       },
       {
+        "name": "Tarromin",
+        "itemIds": [
+          253
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Limpwurt Root",
+        "itemIds": [
+          225
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Rope",
         "itemIds": [
           954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Kharedst Memoirs",
+        "itemIds": [
+          21760
         ],
         "quantity": 0
       },
@@ -9697,6 +9851,13 @@
         "quantity": 3
       },
       {
+        "name": "Nails",
+        "itemIds": [
+          1539
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Rune Sword",
         "itemIds": [
           1289
@@ -9716,6 +9877,13 @@
           314
         ],
         "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Teleport Runes, Coins, Death Runes, Ardy Cloak, Dramen Staff, games necklace, Pickaxe, Vial of Water, Tarromin, Limpwurt Root, Rope, Facemask, Kharedst Memoirs, Hammer, Saw, 3 Planks, 10+ Nails, Rune Sword, Fly Fishing Rod, Feathers, Spade (27 Inventory Slots) + Range Combat Gear",
@@ -9732,11 +9900,53 @@
         "quantity": 0
       },
       {
+        "name": "Box Traps",
+        "itemIds": [
+          10008
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rada's Blessing 1",
+        "itemIds": [
+          22941
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rat Poison",
+        "itemIds": [
+          24
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Cheese",
         "itemIds": [
           1985
         ],
         "quantity": 4
+      },
+      {
+        "name": "Bucket of Milk",
+        "itemIds": [
+          1927
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Amulet of Catspeak",
+        "itemIds": [
+          4677
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwanji",
+        "itemIds": [
+          21394
+        ],
+        "quantity": 0
       },
       {
         "name": "Cat",
@@ -9753,9 +9963,23 @@
         "quantity": 0
       },
       {
+        "name": "Unicorn Horn",
+        "itemIds": [
+          237
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pestle & Mortar",
         "itemIds": [
           233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinerbox",
+        "itemIds": [
+          590
         ],
         "quantity": 0
       }
@@ -9777,6 +10001,13 @@
         "itemIds": [
           1381,
           12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Gauntlets",
+        "itemIds": [
+          778
         ],
         "quantity": 0
       }
@@ -9844,6 +10075,13 @@
         "quantity": 0
       },
       {
+        "name": "Harralander",
+        "itemIds": [
+          255
+        ],
+        "quantity": 1
+      },
+      {
         "name": "Cup of Tea",
         "itemIds": [
           1978
@@ -9858,9 +10096,30 @@
         "quantity": 0
       },
       {
+        "name": "Commorb",
+        "itemIds": [
+          6635
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Damaged Soul Bearer",
+        "itemIds": [
+          19636
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Cat",
         "itemIds": [
           1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Amulet of Catspeak",
+        "itemIds": [
+          4677
         ],
         "quantity": 0
       }
@@ -9907,6 +10166,27 @@
         "quantity": 3
       },
       {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Sack of Potatoes",
+        "itemIds": [
+          5420
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Unlit Candle",
+        "itemIds": [
+          36
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Coins",
         "itemIds": [
           995
@@ -9934,11 +10214,32 @@
         "quantity": 0
       },
       {
+        "name": "Fire Feather",
+        "itemIds": [
+          1583
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Lava Eel",
+        "itemIds": [
+          2149
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Iron Bar",
         "itemIds": [
           2351
         ],
         "quantity": 0
+      },
+      {
+        "name": "Cooked Trout",
+        "itemIds": [
+          333
+        ],
+        "quantity": 10
       },
       {
         "name": "Bread",
@@ -9990,6 +10291,20 @@
         "quantity": 0
       },
       {
+        "name": "Amulet of catspeak",
+        "itemIds": [
+          4677
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chocolate Cake",
+        "itemIds": [
+          1897
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Seed Dibber",
         "itemIds": [
           5343
@@ -10004,6 +10319,20 @@
         "quantity": 0
       },
       {
+        "name": "Potato Seeds",
+        "itemIds": [
+          5318
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Bucket of Milk",
+        "itemIds": [
+          1927
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Logs",
         "itemIds": [
           1511
@@ -10014,6 +10343,13 @@
         "name": "Tinderbox",
         "itemIds": [
           590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Shears",
+        "itemIds": [
+          1735
         ],
         "quantity": 0
       }
@@ -10114,6 +10450,13 @@
         "quantity": 0
       },
       {
+        "name": "Lockpick",
+        "itemIds": [
+          1523
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Coins",
         "itemIds": [
           995
@@ -10142,6 +10485,34 @@
         "quantity": 0
       },
       {
+        "name": "Ogre Bow",
+        "itemIds": [
+          2883
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ogre Arrows",
+        "itemIds": [
+          2866
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ogre Bellows",
+        "itemIds": [
+          2871
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Spit",
+        "itemIds": [
+          7225
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Axe",
         "itemIds": [
           1351
@@ -10163,6 +10534,13 @@
         "quantity": 0
       },
       {
+        "name": "Fishbowl",
+        "itemIds": [
+          6667
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Graceful Legs",
         "itemIds": [
           11856
@@ -10177,9 +10555,23 @@
         "quantity": 0
       },
       {
+        "name": "Bronze Wire",
+        "itemIds": [
+          1794
+        ],
+        "quantity": 3
+      },
+      {
         "name": "Needle",
         "itemIds": [
           1733
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Oxide",
+        "itemIds": [
+          4427
         ],
         "quantity": 0
       }
@@ -10233,6 +10625,41 @@
         "quantity": 0
       },
       {
+        "name": "Red Spider Eggs",
+        "itemIds": [
+          223
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Limpwurt Root",
+        "itemIds": [
+          225
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cadavaberry",
+        "itemIds": [
+          753
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pigeon Cages",
+        "itemIds": [
+          424
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Pot Lid",
+        "itemIds": [
+          4440
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Empty Pot",
         "itemIds": [
           1931
@@ -10271,6 +10698,13 @@
         "name": "Bread",
         "itemIds": [
           2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cooked Meat",
+        "itemIds": [
+          2142
         ],
         "quantity": 0
       }
@@ -10329,6 +10763,13 @@
         "quantity": 0
       },
       {
+        "name": "Mithril Spear",
+        "itemIds": [
+          1243
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pestle & Mortar",
         "itemIds": [
           233
@@ -10346,6 +10787,20 @@
         "name": "Tinderbox",
         "itemIds": [
           590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Toadflax",
+        "itemIds": [
+          2998
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Jogre Bones",
+        "itemIds": [
+          3125
         ],
         "quantity": 0
       },
@@ -10369,6 +10824,20 @@
           2566
         ],
         "quantity": 0
+      },
+      {
+        "name": "Teasing Stick",
+        "itemIds": [
+          10029
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwan vessels",
+        "itemIds": [
+          3157
+        ],
+        "quantity": 2
       }
     ],
     "_text": "Withdraw: Karamja Rum, Knife, Mithril Spear, All Karambwanji, Pestle & Mortar, 4x Logs, Skewered Chompy, Tinderbox, 2x Toadflax, 2x Swamp Toad, Bone crossbow+bolts, Jogre Bones, Ardy Cloak, Dramen Staff, Duelling Ring, Teasing Stick, 2x Karambwan vessels",
@@ -10401,6 +10870,20 @@
         "itemIds": [
           1381,
           12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Fish Pie",
+        "itemIds": [
+          7188
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwan Vessel",
+        "itemIds": [
+          3157
         ],
         "quantity": 0
       },
@@ -10468,6 +10951,13 @@
         "quantity": 0
       },
       {
+        "name": "Climbing Boots",
+        "itemIds": [
+          3105
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Logs",
         "itemIds": [
           1511
@@ -10494,6 +10984,13 @@
           1619
         ],
         "quantity": 0
+      },
+      {
+        "name": "Catspeak amulet",
+        "itemIds": [
+          4677
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Teleport Runes, Ardy Cloak, games necklace, Vodka, Pineapple, Knife, Climbing Boots, Ranarr Potion (unf), 2x Logs, Tinderbox, Pestle & Mortar, Cat, Catspeak amulet (16 Inventory Slots)",
@@ -10505,6 +11002,20 @@
         "name": "Rune Axe",
         "itemIds": [
           1359
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ardy CLoak",
+        "itemIds": [
+          13121
         ],
         "quantity": 0
       },
@@ -10530,11 +11041,32 @@
         "quantity": 0
       },
       {
+        "name": "Climbing Boots",
+        "itemIds": [
+          3105
+        ],
+        "quantity": 0
+      },
+      {
         "name": "games necklace",
         "itemIds": [
           3867
         ],
         "quantity": 0
+      },
+      {
+        "name": "Ugthanki Dung",
+        "itemIds": [
+          4601
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Supercompost",
+        "itemIds": [
+          6034
+        ],
+        "quantity": 7
       },
       {
         "name": "Axe",
@@ -10587,6 +11119,13 @@
         "name": "Duelling Ring",
         "itemIds": [
           2566
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Climbing Boots",
+        "itemIds": [
+          3105
         ],
         "quantity": 0
       },
@@ -10668,6 +11207,20 @@
         "quantity": 0
       },
       {
+        "name": "Willow Logs",
+        "itemIds": [
+          1519
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Maple Logs",
+        "itemIds": [
+          1517
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pickaxe",
         "itemIds": [
           1265
@@ -10717,6 +11270,13 @@
         "quantity": 0
       },
       {
+        "name": "Harralander",
+        "itemIds": [
+          255
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pestle & Mortar",
         "itemIds": [
           233
@@ -10756,6 +11316,13 @@
           995
         ],
         "quantity": 0
+      },
+      {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Ardy Cloak, Dramen Staff, Chisel, Coins, Ball of Wool, Lots of Food and Air spells/Crumble undead runes",
@@ -10790,6 +11357,13 @@
           1765
         ],
         "quantity": 0
+      },
+      {
+        "name": "Rada's Blessing 1",
+        "itemIds": [
+          22941
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Tinderbox, 10x Silk, 8 Empty Sacks, Red Dye, Yellow Dye, Empty Bowl, Rada's Blessing 1 (22 Inventory Slots)",
@@ -10797,6 +11371,13 @@
   },
   "episode-4-banks-105-through-150-bank-145-step-001": {
     "withdraw": [
+      {
+        "name": "Willow Branches",
+        "itemIds": [
+          5933
+        ],
+        "quantity": 12
+      },
       {
         "name": "Tinderbox",
         "itemIds": [
@@ -10847,9 +11428,23 @@
         "quantity": 0
       },
       {
+        "name": "Willow Logs",
+        "itemIds": [
+          1519
+        ],
+        "quantity": 11
+      },
+      {
         "name": "Cat",
         "itemIds": [
           1619
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Catspeak Amulet",
+        "itemIds": [
+          4677
         ],
         "quantity": 0
       }
@@ -10859,6 +11454,13 @@
   },
   "episode-4-banks-105-through-150-bank-147-step-001": {
     "withdraw": [
+      {
+        "name": "Mahogany Logs",
+        "itemIds": [
+          6332
+        ],
+        "quantity": 20
+      },
       {
         "name": "Varrock Teleport Runes",
         "itemIds": [
@@ -10906,6 +11508,13 @@
           1619
         ],
         "quantity": 0
+      },
+      {
+        "name": "Cat Speak Amulet",
+        "itemIds": [
+          4677
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Desert Robes, games necklace, Vial of Water, Cat, Cat Speak Amulet, Nurse/Doctor Hat",
@@ -10945,6 +11554,13 @@
         "name": "Pickaxe",
         "itemIds": [
           1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Gold Helmet",
+        "itemIds": [
+          4567
         ],
         "quantity": 0
       },
@@ -10998,6 +11614,20 @@
         "quantity": 0
       },
       {
+        "name": "Adamant Sword",
+        "itemIds": [
+          1287
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Arrow",
+        "itemIds": [
+          882
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Molten Glass",
         "itemIds": [
           1775
@@ -11031,6 +11661,13 @@
           960
         ],
         "quantity": 2
+      },
+      {
+        "name": "Swamp Tar",
+        "itemIds": [
+          1939
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Coins, Teleport Runes, games necklace, Death Runes, Adamant Sword, Bronze Arrow, Molten Glass, Tinderbox, Hammer, 60 Steel Nails, 2 Planks, Swamp Tar (16 Inventory Slots) + Food",
@@ -11059,6 +11696,34 @@
           1265
         ],
         "quantity": 0
+      },
+      {
+        "name": "Tiara Mould",
+        "itemIds": [
+          5523
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rune Thrownaxe",
+        "itemIds": [
+          805
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Ardy Cloak",
+        "itemIds": [
+          13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dramen Staff",
+        "itemIds": [
+          772
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour.",
@@ -11082,6 +11747,13 @@
         "quantity": 0
       },
       {
+        "name": "Watermelon",
+        "itemIds": [
+          5982
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Ectophial",
         "itemIds": [
           4251
@@ -11089,9 +11761,37 @@
         "quantity": 0
       },
       {
+        "name": "Steak Sandwich",
+        "itemIds": [
+          25631
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Jangerberry",
+        "itemIds": [
+          247
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Pure Essenece",
+        "itemIds": [
+          7936
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pickaxe",
         "itemIds": [
           1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Earmuffs",
+        "itemIds": [
+          4166
         ],
         "quantity": 0
       },
@@ -11106,6 +11806,13 @@
         "name": "Dramen Staff",
         "itemIds": [
           772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silver Tiara",
+        "itemIds": [
+          5525
         ],
         "quantity": 0
       },
@@ -11137,6 +11844,13 @@
         "quantity": 0
       },
       {
+        "name": "Bronze Arrows",
+        "itemIds": [
+          882
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Spade",
         "itemIds": [
           952
@@ -11158,9 +11872,44 @@
         "quantity": 0
       },
       {
+        "name": "Antipoisons",
+        "itemIds": [
+          179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Holy Symbol",
+        "itemIds": [
+          1718
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Prayer Potion",
+        "itemIds": [
+          143
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Ardy Cloak 1",
         "itemIds": [
           13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mithril Seeds",
+        "itemIds": [
+          299
         ],
         "quantity": 0
       },
@@ -11182,6 +11931,13 @@
         "name": "Gold Bar",
         "itemIds": [
           2357
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Strange Fruits",
+        "itemIds": [
+          464
         ],
         "quantity": 0
       }
@@ -11249,9 +12005,23 @@
         "quantity": 0
       },
       {
+        "name": "Maple Log",
+        "itemIds": [
+          1517
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Bucket of Sap",
         "itemIds": [
           4687
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mud Runes",
+        "itemIds": [
+          4698
         ],
         "quantity": 0
       },
@@ -11280,6 +12050,13 @@
         "name": "Pestle & Mortar",
         "itemIds": [
           233
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bowstring",
+        "itemIds": [
+          1777
         ],
         "quantity": 0
       },
@@ -11336,6 +12113,13 @@
         "name": "Rope",
         "itemIds": [
           954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Dragon Bones",
+        "itemIds": [
+          536
         ],
         "quantity": 0
       }
@@ -11431,6 +12215,13 @@
         "quantity": 0
       },
       {
+        "name": "Jangerberries",
+        "itemIds": [
+          247
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Bat Bones",
         "itemIds": [
           530
@@ -11448,6 +12239,13 @@
         "name": "Pickaxe",
         "itemIds": [
           1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rada's blessing 1",
+        "itemIds": [
+          22941
         ],
         "quantity": 0
       }
@@ -11506,6 +12304,27 @@
           772
         ],
         "quantity": 0
+      },
+      {
+        "name": "Raw Chicken",
+        "itemIds": [
+          2138
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Raw Swordfish",
+        "itemIds": [
+          371
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chaos Runes",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Hammer, Saw, Beer, Teleport Runes, Duelling Ring, Ardy Cloak, Dramen Staff, Raw Chicken, Raw Swordfish, Chaos Runes (14 Inventory Slots) + Food",
@@ -11543,6 +12362,13 @@
         "quantity": 0
       },
       {
+        "name": "Bronze Arrows",
+        "itemIds": [
+          882
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Spade",
         "itemIds": [
           952
@@ -11567,6 +12393,13 @@
         "name": "Antipoison",
         "itemIds": [
           179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Leather Gloves",
+        "itemIds": [
+          1059
         ],
         "quantity": 0
       }
@@ -11632,6 +12465,13 @@
           179
         ],
         "quantity": 0
+      },
+      {
+        "name": "games necklace",
+        "itemIds": [
+          3867
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: ring of recoil, Coins, Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 Inventory Slots) + Food",
@@ -11676,6 +12516,13 @@
         "quantity": 0
       },
       {
+        "name": "Ogre Bellows",
+        "itemIds": [
+          2871
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Duelling Ring",
         "itemIds": [
           2566
@@ -11688,6 +12535,13 @@
           2355
         ],
         "quantity": 0
+      },
+      {
+        "name": "Necklace Mould",
+        "itemIds": [
+          1597
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Teleport Runes, Coins, Bear Fur, 2x Silk, Bucket of Water, Teleport Crystal, Feather, t'd Crunchies, Magic Logs, Leather, Ogre Bellows, Duelling Ring, Silver Bar, Jade, Cosmic Rune, Necklace Mould(21 Inventory Slots) + Bone Crossbow & bolts",
@@ -11695,6 +12549,27 @@
   },
   "episode-5-banks-151-through-175-bank-163-step-001": {
     "withdraw": [
+      {
+        "name": "Ogre Bow",
+        "itemIds": [
+          2883
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ogre Arrows",
+        "itemIds": [
+          2866
+        ],
+        "quantity": 0
+      },
       {
         "name": "Pickaxe",
         "itemIds": [
@@ -11765,6 +12640,20 @@
         "quantity": 0
       },
       {
+        "name": "Oak Planks",
+        "itemIds": [
+          8778
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Bullseye Lantern",
+        "itemIds": [
+          4548
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Swamp Tar",
         "itemIds": [
           1939
@@ -11789,6 +12678,13 @@
         "name": "Bucket of Water",
         "itemIds": [
           1929
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Milk",
+        "itemIds": [
+          1927
         ],
         "quantity": 0
       }
@@ -11898,6 +12794,13 @@
         "quantity": 0
       },
       {
+        "name": "Strange Fruit",
+        "itemIds": [
+          464
+        ],
+        "quantity": 5
+      },
+      {
         "name": "Karambwans",
         "itemIds": [
           3144
@@ -11910,6 +12813,13 @@
   },
   "episode-5-banks-151-through-175-bank-169-step-001": {
     "withdraw": [
+      {
+        "name": "Yew Logs",
+        "itemIds": [
+          1515
+        ],
+        "quantity": 11
+      },
       {
         "name": "Logs",
         "itemIds": [
@@ -11943,6 +12853,27 @@
         "name": "Silver Bar",
         "itemIds": [
           2355
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Key",
+        "itemIds": [
+          6754
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Necklace of Passage",
+        "itemIds": [
+          21155
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cooked Jubbly",
+        "itemIds": [
+          7568
         ],
         "quantity": 0
       }
@@ -12017,6 +12948,20 @@
         "quantity": 0
       },
       {
+        "name": "Blessed Pot",
+        "itemIds": [
+          4659
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Sword",
+        "itemIds": [
+          1281
+        ],
+        "quantity": 2
+      },
+      {
         "name": "Steel Longsword",
         "itemIds": [
           1295
@@ -12080,9 +13025,30 @@
         "quantity": 0
       },
       {
+        "name": "Lockpick",
+        "itemIds": [
+          1523
+        ],
+        "quantity": 14
+      },
+      {
+        "name": "Lockpick",
+        "itemIds": [
+          1523
+        ],
+        "quantity": 36
+      },
+      {
         "name": "Coins",
         "itemIds": [
           995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Camulet",
+        "itemIds": [
+          6707
         ],
         "quantity": 0
       }
@@ -12092,6 +13058,13 @@
   },
   "episode-5-banks-151-through-175-bank-172-step-001": {
     "withdraw": [
+      {
+        "name": "Gilded Cross",
+        "itemIds": [
+          4674
+        ],
+        "quantity": 0
+      },
       {
         "name": "Teleport runes",
         "itemIds": [
@@ -12106,6 +13079,13 @@
           560
         ],
         "quantity": 0
+      },
+      {
+        "name": "Strange Fruit",
+        "itemIds": [
+          464
+        ],
+        "quantity": 3
       }
     ],
     "_text": "Withdraw: Gilded Cross, Teleport Runes, Death Runes, 3x Strange Fruit, Curse Runes (11 Inventory Slots) + Food",
@@ -12132,6 +13112,41 @@
         "name": "ring of recoil",
         "itemIds": [
           2550
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Restores Potions",
+        "itemIds": [
+          131
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Prayer Potion",
+        "itemIds": [
+          143
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Climbing Boots",
+        "itemIds": [
+          3105
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spiked Boots",
+        "itemIds": [
+          3107
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cake",
+        "itemIds": [
+          1891
         ],
         "quantity": 0
       },
@@ -12164,9 +13179,37 @@
         "quantity": 0
       },
       {
+        "name": "Camulet",
+        "itemIds": [
+          6707
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Antipoison",
         "itemIds": [
           179
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Prayer Potion",
+        "itemIds": [
+          143
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "Holy Symbol",
+        "itemIds": [
+          1718
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Strange Fruit",
+        "itemIds": [
+          464
         ],
         "quantity": 0
       }
@@ -12193,6 +13236,13 @@
         "name": "Coins",
         "itemIds": [
           995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Camulet",
+        "itemIds": [
+          6707
         ],
         "quantity": 0
       },
@@ -12254,6 +13304,13 @@
         "quantity": 0
       },
       {
+        "name": "Raw Chicken",
+        "itemIds": [
+          2138
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Pestle & Mortar",
         "itemIds": [
           233
@@ -12270,6 +13327,13 @@
         "name": "Dramen Staff",
         "itemIds": [
           772
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Butterfly Net",
+        "itemIds": [
+          10010
         ],
         "quantity": 0
       }
@@ -12329,6 +13393,13 @@
         "quantity": 0
       },
       {
+        "name": "Pure Essence",
+        "itemIds": [
+          7936
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Bucket of Water",
         "itemIds": [
           1929
@@ -12374,6 +13445,13 @@
         "name": "games necklace",
         "itemIds": [
           3867
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
         ],
         "quantity": 0
       }
@@ -12424,6 +13502,20 @@
           946
         ],
         "quantity": 0
+      },
+      {
+        "name": "Teasing Stick",
+        "itemIds": [
+          10029
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "box traps",
+        "itemIds": [
+          10008
+        ],
+        "quantity": 5
       }
     ],
     "_text": "Withdraw: Teleport Crystal, Ardy Cloak, Dramen Staff, Pickaxe, Coins, Axe, Knife, Teasing Stick, 3 Fox fur, Tick Manipulation & 5 box traps (19 Inventory Slots)",
@@ -12503,6 +13595,13 @@
         "itemIds": [
           1381,
           12791
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Camulet",
+        "itemIds": [
+          6707
         ],
         "quantity": 0
       },
@@ -12789,9 +13888,23 @@
         "quantity": 0
       },
       {
+        "name": "Camulet",
+        "itemIds": [
+          6707
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Knife",
         "itemIds": [
           946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teak Log",
+        "itemIds": [
+          6333
         ],
         "quantity": 0
       },
@@ -12852,6 +13965,13 @@
         "quantity": 0
       },
       {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Chaos Runes",
         "itemIds": [
           562
@@ -12864,6 +13984,13 @@
   },
   "episode-10-bank-180-through-inferno-bank-199-step-001": {
     "withdraw": [
+      {
+        "name": "Teak Logs",
+        "itemIds": [
+          6333
+        ],
+        "quantity": 0
+      },
       {
         "name": "Knife",
         "itemIds": [
@@ -12909,6 +14036,13 @@
         "name": "Coins",
         "itemIds": [
           995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Soft Clay",
+        "itemIds": [
+          1761
         ],
         "quantity": 0
       }
@@ -12958,6 +14092,13 @@
         "name": "Silver Bar",
         "itemIds": [
           2355
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Restore Potion",
+        "itemIds": [
+          131
         ],
         "quantity": 0
       },
@@ -13036,6 +14177,13 @@
           5343
         ],
         "quantity": 0
+      },
+      {
+        "name": "Lockpick",
+        "itemIds": [
+          1523
+        ],
+        "quantity": 0
       }
     ],
     "_text": "Withdraw: Combat Gear, Coins, Teleport Runes, 1 Astral Rune, 1 Mind Rune, 1 Cosmic Rune, Sapphire Lantern, Dramen Staff, Adamantite Ore, 6x Coal, Book of the dead, Pickaxe, Seed Dibber, Lockpick, Rada\u2019s Blessing (2), House Teleport (22 Inventory Slots)",
@@ -13099,6 +14247,13 @@
           2347
         ],
         "quantity": 0
+      },
+      {
+        "name": "Box Traps",
+        "itemIds": [
+          10008
+        ],
+        "quantity": 2
       }
     ],
     "_text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl\u2019s are best), Coins, Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
@@ -13155,6 +14310,13 @@
         "quantity": 0
       },
       {
+        "name": "Maple Logs",
+        "itemIds": [
+          1517
+        ],
+        "quantity": 5
+      },
+      {
         "name": "Fishing Rod",
         "itemIds": [
           307
@@ -13199,6 +14361,20 @@
         "name": "Knife",
         "itemIds": [
           946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Teak Log",
+        "itemIds": [
+          6333
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Camulet",
+        "itemIds": [
+          6707
         ],
         "quantity": 0
       },
@@ -14258,5 +15434,77 @@
     "quest": "Recipe for Disaster",
     "_text": "Talk to Rantz (2) [Recipe for Disaster]",
     "_section": "Bank 130"
+  },
+  "episode-5-banks-151-through-175-bank-159-step-008": {
+    "withdraw": [
+      {
+        "name": "Willow Branches",
+        "itemIds": [
+          5933
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Balls of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 4
+      }
+    ],
+    "_text": "Withdraw 6 Willow Branches & 4 Balls of Wool",
+    "_section": "Bank 159"
+  },
+  "episode-5-banks-151-through-175-bank-164-step-001": {
+    "withdraw": [
+      {
+        "name": "Rotten Apple",
+        "itemIds": [
+          1984
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Barrel of Naptha, Rotten Apple",
+    "_section": "Bank 164"
+  },
+  "episode-10-bank-180-through-inferno-bank-184-step-002": {
+    "withdraw": [
+      {
+        "name": "Chisel",
+        "itemIds": [
+          1755
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw a Chisel & Uncut gems from Gauntlet.",
+    "_section": "Bank 184"
+  },
+  "episode-10-bank-180-through-inferno-bank-192-step-001": {
+    "withdraw": [
+      {
+        "name": "Lockpick",
+        "itemIds": [
+          1523
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Food, Lockpick, Cure Me Spells",
+    "_section": "Bank 192"
+  },
+  "episode-10-bank-180-through-inferno-bank-196-step-005": {
+    "withdraw": [
+      {
+        "name": "Prayer Potions",
+        "itemIds": [
+          143
+        ],
+        "quantity": 10
+      }
+    ],
+    "_text": "Withdraw: 10x Prayer Potions (4), 10x Super Restores (4) & 2x Marble Blocks",
+    "_section": "Bank 196"
   }
 }

@@ -218,3 +218,25 @@ categories rather than items — "Combat Gear", "Food", "Potions", "Range Gear",
 "Best Air Spell" — which have no id to point at and are left out on purpose.
 The rest are genuinely ambiguous ("Biohazard Items", "Thralls, etc") or later
 content nobody has checked yet.
+
+## Re-sweep, banks 65+
+
+"4x regular Logs" (bank 65) was silently dropped: the first pass matched exact
+names and had "logs" but not the "regular" qualifier or the plural forms, so the
+whole entry vanished and never showed a marker. Three parser changes fixed the
+class of bug:
+
+- split entries on `+` and `;` as well as commas — "Cannonball Mould + 5 Food"
+  and "Bone crossbow+bolts" were being kept as one lump that matched nothing;
+- strip leading qualifiers ("regular", "noted", "a") before matching, so "regular
+  Logs" and "a knife" resolve;
+- a second wave of aliases for the plurals and quest items the first pass missed
+  (Willow/Maple/Yew logs, climbing boots, catspeak amulet, clockwork, ball of
+  wool, and so on).
+
+Re-run with `scripts/parse_withdraws.py --write --force-from=65`, which replaces
+the bulk-parsed lists from bank 65 up while leaving 33-64 alone — the hand-checked
+banks 33-44 and the earlier bulk banks are never touched. This added ~180
+resolved entries. What stays unresolved past 65 is the same as before: loadout
+categories ("Combat Gear", "Food"), and a handful of genuinely odd names
+("Sawmill Agreement", "weapon to bop random stuff").

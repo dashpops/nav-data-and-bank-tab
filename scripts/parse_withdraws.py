@@ -134,6 +134,74 @@ ALIASES = {
     "black candle": "Black candle", "stake": "Stake", "chef's hat": "Chef's hat",
 }
 
+# Second wave, from re-sweeping banks 65+: plurals the first pass missed, common
+# quest items, and a few typos in the guide. Kept separate only for readability.
+ALIASES.update({
+    # logs / planks / wood
+    "logs": "Logs", "willow logs": "Willow logs", "maple logs": "Maple logs",
+    "maple log": "Maple logs", "yew logs": "Yew logs", "mahogany logs": "Mahogany logs",
+    "teak logs": "Teak logs", "teak log": "Teak logs", "oak planks": "Oak plank",
+    "willow branch": "Willow branch", "willow branches": "Willow branch",
+    # jewellery / amulets
+    "catspeak amulet": "Amulet of catspeak", "amulet of catspeak": "Amulet of catspeak",
+    "cat speak amulet": "Amulet of catspeak", "necklace of passage": "Necklace of passage(5)",
+    # boots / armour / symbols
+    "climbing boots": "Climbing boots", "spiked boots": "Spiked boots",
+    "steel gauntlets": "Steel gauntlets", "gold helmet": "Gold helmet",
+    "holy symbol": "Holy symbol", "unblessed symbol": "Unblessed symbol",
+    # weapons / ammo
+    "bronze arrows": "Bronze arrow", "bronze arrow": "Bronze arrow",
+    "headless arrows": "Headless arrow", "ogre bow": "Ogre bow",
+    "ogre arrows": "Ogre arrow", "ogre bellows": "Ogre bellows",
+    "rune thrownaxe": "Rune thrownaxe", "mithril spear": "Mithril spear",
+    "adamant sword": "Adamant sword", "steel sword": "Steel sword",
+    # tools
+    "lockpick": "Lockpick", "shears": "Shears", "gardening trowel": "Gardening trowel",
+    "iron spit": "Iron spit", "teasing stick": "Teasing stick",
+    "butterfly net": "Butterfly net", "bullseye lantern": "Bullseye lantern",
+    # moulds
+    "necklace mould": "Necklace mould", "ring mould": "Ring mould",
+    "tiara mould": "Tiara mould",
+    # farming
+    "supercompost": "Supercompost", "ugthanki dung": "Ugthanki dung",
+    "potato seeds": "Potato seed", "mithril seeds": "Mithril seed",
+    "limpwurt root": "Limpwurt root", "tarromin": "Tarromin", "harralander": "Harralander",
+    "toadflax": "Toadflax",
+    # food / cooking
+    "cake": "Cake", "chocolate cake": "Chocolate cake", "fish pie": "Fish pie",
+    "cooked trout": "Trout", "cooked meat": "Cooked meat", "steak sandwich": "Steak sandwich",
+    "cooked jubbly": "Cooked jubbly", "lava eel": "Lava eel", "raw chicken": "Raw chicken",
+    "raw swordfish": "Raw swordfish", "watermelon": "Watermelon",
+    "jangerberries": "Jangerberry", "jangerberry": "Jangerberry",
+    # potions
+    "prayer potion": "Prayer potion(4)", "prayer potions": "Prayer potion(4)",
+    "restore potion": "Restore potion(4)", "restores potions": "Restore potion(4)",
+    "antipoisons": "Antipoison(4)",
+    # runes
+    "mud runes": "Mud rune", "mud rune": "Mud rune",
+    # containers / misc quest items
+    "clockwork mechanism": "Clockwork", "clockwork": "Clockwork", "barley": "Barley",
+    "candle": "Candle", "unlit candle": "Candle", "bronze wire": "Bronze wire",
+    "bronze wires": "Bronze wire", "fishbowl": "Fishbowl", "iron oxide": "Iron oxide",
+    "red spider eggs": "Red spiders' eggs", "red spiders eggs": "Red spiders' eggs",
+    "pigeon cages": "Pigeon cage", "pigeon cage": "Pigeon cage", "pot lid": "Pot lid",
+    "cadava berries": "Cadava berries", "cadavaberry": "Cadava berries",
+    "unicorn horn": "Unicorn horn", "tinerbox": "Tinderbox", "rat poison": "Rat poison",
+    "box traps": "Box trap", "box trap": "Box trap", "commorb": "Commorb",
+    "damaged soul bearer": "Damaged soul bearer", "masterthief armband": "Masterthief armband",
+    "fire feather": "Fire feather", "jogre bones": "Jogre bones",
+    "karambwan vessel": "Karambwan vessel", "karambwan vessels": "Karambwan vessel",
+    "karambawns": "Cooked karambwan", "ball of wool": "Ball of wool",
+    "balls of wool": "Ball of wool", "enchanted key": "Enchanted key",
+    "gilded cross": "Gilded cross", "strange fruit": "Strange fruit",
+    "strange fruits": "Strange fruit", "camulet": "Camulet", "blessed pot": "Blessed pot",
+    "rotten apple": "Rotten apple", "earmuffs": "Earmuffs", "silver tiara": "Silver tiara",
+    "pure essenece": "Pure essence", "bucket of milk": "Bucket of milk",
+    "bowstring": "Bow string", "sack of potatoes": "Sack of potatoes",
+    "rada's blessing 1": "Rada's blessing 1", "kharedst memoirs": "Kharedst's memoirs",
+    "kharedst's memoirs": "Kharedst's memoirs",
+})
+
 # Named in the guide but not a single bankable item, so deliberately skipped.
 SKIP = {
     "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
@@ -211,9 +279,16 @@ def split_entries(text):
     # Names that contain "&" must survive the split on it.
     for joined, placeholder in AMPERSAND_NAMES.items():
         body = re.sub(joined, placeholder, body, flags=re.I)
-    parts = re.split(r",|\s+&\s+|\s+and\s+", body)
+    # "+" and ";" join items too - "Cannonball Mould + 5 Food", "Bone crossbow+bolts",
+    # "Scrying Orb ...; Wizard Mind Bomb" - and no item name contains either.
+    parts = re.split(r",|\s*;\s*|\s*\+\s*|\s+&\s+|\s+and\s+", body)
     parts = [p.replace("\u0001", " & ") for p in parts]
     return [p.strip(" .;") for p in parts if p.strip(" .;")]
+
+
+# Words the guide puts in front of an item that are not part of its name, so
+# "4x regular Logs" and "a knife" resolve to Logs and Knife.
+QUALIFIERS = {"regular", "normal", "noted", "your", "a", "an", "the"}
 
 
 def parse_entry(part):
@@ -227,12 +302,23 @@ def parse_entry(part):
         if m:
             part, qty = m.group(1), int(m.group(2))
     name = part.strip(" .;")
+    words = name.split()
+    while len(words) > 1 and words[0].lower() in QUALIFIERS:
+        words = words[1:]
+    name = " ".join(words)
     key = name.lower().strip()
     return name, key, qty
 
 
 def main():
     write = "--write" in sys.argv
+    # --force-from=N re-parses banks N and up, replacing lists already there. Below
+    # N is left alone, which protects the hand-curated banks 33-44 and anything
+    # else already settled. Without it, an existing list is never overwritten.
+    force_from = None
+    for a in sys.argv:
+        if a.startswith("--force-from"):
+            force_from = int(a.split("=", 1)[1] if "=" in a else "0")
     guide = json.loads(GUIDE.read_text())
     meta = json.loads(META.read_text())
     steps = {s["id"]: (sec["title"], s) for sec in guide["sections"] for s in sec["steps"]}
@@ -283,8 +369,12 @@ def main():
         for step_id, entries in plans.items():
             entry = meta.get(step_id, {})
             if entry.get("withdraw"):
-                skipped += 1      # hand-checked already; leave it alone
-                continue
+                section = steps[step_id][0]
+                bank = re.match(r"^Bank (\d+)", section)
+                forced = force_from is not None and bank and int(bank.group(1)) >= force_from
+                if not forced:
+                    skipped += 1      # already settled; leave it alone
+                    continue
             entry["withdraw"] = entries
             meta[step_id] = entry
             written += 1
