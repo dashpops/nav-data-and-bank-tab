@@ -70,6 +70,25 @@ written (see "Resolved" at the bottom).
 Istoria (121 #28) resolved to `1552,10224`, which is not Arceuus and looks like a
 different NPC of the same name, so it was left out rather than guessed.
 
+### Banks 131-140
+
+| Bank | Step(s) | Why |
+|---|---|---|
+| 132a | 3 | Kill Slagilith (One Small Favour) — its page only gives the Goblin Cave habitat, not the quest spawn near the Digsite; left out rather than guessed |
+| 132a | 2 | Pickpocket a Master Farmer — roams |
+| 134 | 2, 3 | Mine gem rocks at Shilo — rock cluster |
+| 132b | 4, 6 | "Continue/Complete Tai Bwo Wannai Trio" — progress markers; the trio NPCs themselves are navved on #7, #8, #10 |
+| 136 | 3, 6, 10 | Machete buys, dense-forest cutting, gem mining — scattered/vendor |
+| 139 | 3, 4 | Teak cutting + firemaking — a gathering area, not a spot |
+| 140 | 9-13 | Brimhaven Dungeon interior (vines, lava, dragons); #8 navs to the Saniboch entrance |
+
+Bank-at and teleport steps are skipped throughout 131-140, as before — Shortest
+Path already routes to the nearest bank and handles teleports as transports.
+
+Low confidence, worth a look in game: **Tinsay/Tiadeche/Tamayu** (132b) each have
+two wiki pins because Tai Bwo Wannai Trio moves them; the quest-context spawn was
+chosen (Tinsay on Cairn Isle, Tiadeche at the NE karambwan spot).
+
 ## Deliberately empty (a nav would be wrong or useless)
 
 | Bank | Step(s) | Reason |

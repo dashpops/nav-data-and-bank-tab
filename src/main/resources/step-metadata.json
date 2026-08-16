@@ -13776,5 +13776,289 @@
     "quest": "One Small Favour",
     "_text": "Talk to Tindel Merchant (2) [One Small Favour]",
     "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-131-step-002": {
+    "nav": {
+      "label": "Murphy (Port Khazard)",
+      "x": 2668,
+      "y": 3163,
+      "z": 0
+    },
+    "quest": "Recipe for Disaster",
+    "_text": "Talk to Murphy [Recipe for Diasaster]",
+    "_section": "Bank 131"
+  },
+  "episode-4-banks-105-through-150-bank-131-step-005": {
+    "nav": {
+      "label": "Wizard Cromperty (Ardougne)",
+      "x": 2684,
+      "y": 3325,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Wizard Cromperty (4) [One Small Favour]",
+    "_section": "Bank 131"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-003": {
+    "nav": {
+      "label": "Apothecary (Varrock)",
+      "x": 3195,
+      "y": 3404,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Apothecary (2) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-004": {
+    "nav": {
+      "label": "Apothecary (Varrock)",
+      "x": 3195,
+      "y": 3404,
+      "z": 0
+    },
+    "quest": "Romeo & Juliet",
+    "_text": "Talk to Apothecary (3,1) [Romeo & Juliet]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-006": {
+    "nav": {
+      "label": "Horvik (Varrock)",
+      "x": 3230,
+      "y": 3437,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Horvik (3,3) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-009": {
+    "nav": {
+      "label": "Blue Moon Inn (Varrock)",
+      "x": 3222,
+      "y": 3394,
+      "z": 0
+    },
+    "quest": "Below Ice Mountain",
+    "_text": "Talk to the Cook in Blue moon Inn (1) [Below Ice Mountain]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-014": {
+    "nav": {
+      "label": "Seth Groats (Lumbridge farm)",
+      "x": 3228,
+      "y": 3291,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Seth Groats [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-015": {
+    "nav": {
+      "label": "Gillie Groats (Lumbridge cow pen)",
+      "x": 3253,
+      "y": 3275,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Return to the cow pen and talk to Gillie Groats [The Ides of Milk]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-018": {
+    "nav": {
+      "label": "Gillie Groats (Lumbridge cow pen)",
+      "x": 3253,
+      "y": 3275,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Speak to Gillie Groats [The Ides of Milk]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-019": {
+    "nav": {
+      "label": "Cassius (Lumbridge)",
+      "x": 3170,
+      "y": 3279,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Speak to Cassius to complete the Ides of Milk",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-021": {
+    "nav": {
+      "label": "Johanhus Ulsbrecht (HAM hideout)",
+      "x": 3172,
+      "y": 9620,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Johanhus Ulsbrecht (4) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-022": {
+    "nav": {
+      "label": "Aggie (Draynor)",
+      "x": 3086,
+      "y": 3259,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Aggie in Draynor (2) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-023": {
+    "nav": {
+      "label": "Brian (Port Sarim)",
+      "x": 3027,
+      "y": 3249,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Brian in Port Sarim (3) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-030": {
+    "nav": {
+      "label": "Jungle forester (Shilo Village)",
+      "x": 2814,
+      "y": 2944,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Jungle forester (1) [One Small Favour]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-032": {
+    "nav": {
+      "label": "Yanni Salika (Shilo Village)",
+      "x": 2836,
+      "y": 2984,
+      "z": 0
+    },
+    "quest": "One Small Favour",
+    "_text": "Talk to Yanni to Complete One Small Favour [Lamps on Herblore]",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-132-2-step-007": {
+    "nav": {
+      "label": "Tinsay (Cairn Isle)",
+      "x": 2768,
+      "y": 2975,
+      "z": 0
+    },
+    "quest": "Tai Bwo Wannai Trio",
+    "_text": "Talk to Tinsay for 5,000 Cooking Experience",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-132-2-step-008": {
+    "nav": {
+      "label": "Tiadeche (karambwan spot)",
+      "x": 2912,
+      "y": 3118,
+      "z": 0
+    },
+    "quest": "Tai Bwo Wannai Trio",
+    "_text": "Talk to Tiadeche for 5,000 Fishing Experience",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-132-2-step-010": {
+    "nav": {
+      "label": "Tamayu (Tai Bwo Wannai)",
+      "x": 2801,
+      "y": 3058,
+      "z": 0
+    },
+    "quest": "Tai Bwo Wannai Trio",
+    "_text": "Talk to Tamayu for 2,500 Attack/Strength XP",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-136-step-011": {
+    "nav": {
+      "label": "Safta Doc (Shilo Village)",
+      "x": 2791,
+      "y": 3102,
+      "z": 0
+    },
+    "_text": "Talk to Safta Doc & buy a Red Topaz Machete [Karamja Medium Diary]",
+    "_section": "Bank 136"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-004": {
+    "nav": {
+      "label": "Sanfew (Taverley, upstairs)",
+      "x": 2897,
+      "y": 3426,
+      "z": 1
+    },
+    "quest": "Eadgar's Ruse",
+    "_text": "Talk to Sanfew (1) [Eadger's Ruse]",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-006": {
+    "nav": {
+      "label": "Unferth (Burthorpe)",
+      "x": 2920,
+      "y": 3559,
+      "z": 0
+    },
+    "quest": "A Tail of Two Cats",
+    "_text": "Talk to Unferth [A Tail of Two Cats]",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-007": {
+    "nav": {
+      "label": "Mad Eadgar (Trollheim)",
+      "x": 2890,
+      "y": 3677,
+      "z": 0
+    },
+    "quest": "Eadgar's Ruse",
+    "_text": "Head to Mad Eadger at the top of Trollheim and continue Eadger's Ruse (1)",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-009": {
+    "nav": {
+      "label": "Parroty Pete (Ardougne Zoo)",
+      "x": 2609,
+      "y": 3287,
+      "z": 0
+    },
+    "quest": "Eadgar's Ruse",
+    "_text": "Talk to Parroty Pete",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-012": {
+    "nav": {
+      "label": "Tegid (Taverley)",
+      "x": 2913,
+      "y": 3418,
+      "z": 0
+    },
+    "quest": "Eadgar's Ruse",
+    "_text": "Falador Teleport -> 10 Grain south of Doric -> Tegid (2)",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-003": {
+    "nav": {
+      "label": "My Arm (Trollheim)",
+      "x": 2830,
+      "y": 3697,
+      "z": 0
+    },
+    "quest": "My Arm's Big Adventure",
+    "_text": "Start My Arms Big Adventure",
+    "_section": "Bank 140"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-008": {
+    "nav": {
+      "label": "Brimhaven Dungeon (Saniboch)",
+      "x": 2744,
+      "y": 3152,
+      "z": 0
+    },
+    "_text": "Head South & Enter Brimhaven Dungeon",
+    "_section": "Bank 140"
   }
 }
