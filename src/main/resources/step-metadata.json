@@ -5778,12 +5778,12 @@
   },
   "episode-4-banks-105-through-150-bank-109-step-010": {
     "nav": {
-      "label": "Crandor",
-      "x": 2836,
-      "y": 3271,
+      "label": "Elvarg (Crandor dungeon)",
+      "x": 2855,
+      "y": 9637,
       "z": 0
     },
-    "quest": "Dragon Slayer I",
+    "quest": "Dragon Slayer",
     "_text": "Kill Elvarg [Dragon Slayer]",
     "_section": "Bank 109"
   },
@@ -17669,5 +17669,48 @@
     "quest": "Merlin's Crystal",
     "_text": "Talk to Candle maker and obtain a Black Candle [Merlin's Crystal]",
     "_section": "Bank 32"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-007": {
+    "nav": {
+      "label": "Lucien (pub north of East Ardougne)",
+      "x": 2573,
+      "y": 3321,
+      "z": 0
+    },
+    "quest": "Temple of Ikov",
+    "_text": "Start Temple of Ikov by talking to Lucien (2,1)",
+    "_section": "Bank 19"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-003": {
+    "nav": {
+      "label": "Frizzy Skernip (Port Sarim)",
+      "x": 3057,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "Talk to Frizzy Skernip (1) [Fairy Tale Part I] (1/5 Farmers)",
+    "_section": "Bank 50"
+  },
+  "episode-3-banks-76-through-104b-bank-90-step-002": {
+    "nav": {
+      "label": "Father Reen (outside Al Kharid bank)",
+      "x": 3270,
+      "y": 3159,
+      "z": 0
+    },
+    "quest": "Shadow of the Storm",
+    "_text": "Start Shadow of the Storm",
+    "_section": "Bank 90"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-010": {
+    "nav": {
+      "label": "Wormbrain (Port Sarim Jail)",
+      "x": 3015,
+      "y": 3195,
+      "z": 0
+    },
+    "quest": "Dragon Slayer",
+    "_text": "Head to Port Sarim and kill Wormbrain to get the map part [Dragon Slayer]",
+    "_section": "Bank 108B"
   }
 }

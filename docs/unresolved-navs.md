@@ -41,7 +41,6 @@ Banks 11-20 added the same way. Left out:
 
 | Bank | Step | Why |
 |---|---|---|
-| 19 | 7 | Lucien (Temple of Ikov) — roams the path south-east of Ardougne, no pin |
 | 17 | 3 | Fight Arena — General Khazard's only pin is the gnome battlefield, not the arena |
 | 11 | 10, 11 | Grand Tree / Gnome Agility Course — the barcrawl steps at bank 20 already nav there |
 | 12 | 9 | Asgarnian Ice Dungeon — Thurgo (#8) stands right by the entrance |
@@ -70,12 +69,10 @@ Banks 21-32 finish the early game — it is now contiguous with the bank 33+ wor
 | 46 | 2 | Buy a raw shark | Vendor not identified in the guide text |
 | 46 | 4 | Buy an Ice Cooler | Vendor not identified |
 | 49 | 11 | Talk to High Priest (Entrana) | No pin found |
-| 50 | 3 | Talk to Frizzy Skernip | No pin found |
 | 58 | 2 | Sword Merchant identifies sword | No pin found |
 | 65 | 15 | Bank at small island north of Fossil Island | No pin for that bank |
 | 84 | 5 | Kill 20 Blue Dragons | Taverley Dungeon interior (~2881,9826); entrance is on #3 |
 | 87 | 7 | Travel Dwarven Ferryman | No pin for the ferryman |
-| 90 | 2 | Start Shadow of the Storm | Start point not pinned; #3 navs to Uzer |
 | 94 | 3 | Guardians of Armadyl | No pin on the wiki or in Quest Helper |
 | 97 | 6, 7, 8 | Scorpions / mine carts / clay for book pages | Inside the Dwarven Mine, scattered; #4 navs to Rolad |
 | 98 | 5 | Animal Magnetism at "the Farm" | Which farm is not stated in the guide text |
@@ -86,8 +83,6 @@ Banks 21-32 finish the early game — it is now contiguous with the bank 33+ wor
 | 103 | 3 | Estate agent (move house) | Page has no map template |
 | 103 | 5 | Enter Kalphite Lair | Page has no map template |
 | 104 | 6 | Pyramid Plunder in Sophanem | No pin; #5 navs to Sophanem |
-| 108B | 10 | Kill Wormbrain (Port Sarim) | No pin; roams the jail area |
-| 109 | 10 | Kill Elvarg | Boss has no map pin; #10 navs to Crandor instead |
 | 112 | 10, 11 | White Tree on Ice Mountain | No pin for the tree |
 | 113 | 14 | Buy Asgarnian Ale in Burthorpe bar | Bar has no pin of its own; Harold upstairs is #15 |
 | 114 | 6 | Kill Chronozon | Boss has no map pin; #5 navs to Edgeville |
@@ -184,6 +179,11 @@ These follow a "bank anywhere"-style step, so there is no defensible bank to pic
 - **Hemenster** (79 #2) — was `2596,3473` from a polygon vertex, ~50 tiles off the
   real gate at `2642,3441`.
 - **Tithe Farm** (74 #5, #10) — outline corner corrected to the entrance.
+- **Left-out sweep via Quest Helper source** — five nav steps the wiki had no pin
+  for were resolved from Quest Helper's `WorldPoint`s: Lucien (19 #7,
+  `2573,3321`), Frizzy Skernip (50 #3, from the wiki), Father Reen to start
+  Shadow of the Storm (90 #2, `3270,3159`), Wormbrain in Port Sarim jail (108B
+  #10, `3015,3195`) and Elvarg in the Crandor dungeon (109 #10, `2855,9637`).
 - **Reassessment sweep, banks 64-130** — a pass over every un-navved talk-to/go
   step turned up 18 that had simply been missed, not skipped for a reason: Romeo
   (80 #3), Galahad (78 #6), Duke Horacio (83 #7, plane 1), Mord Gunnars (85 #21),
