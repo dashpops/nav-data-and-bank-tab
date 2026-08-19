@@ -29,7 +29,7 @@ import urllib.parse
 import urllib.request
 
 API = "https://oldschool.runescape.wiki/api.php"
-UA = {"User-Agent": "olly-boaty-coords/1.0 (personal plugin project)"}
+UA = {"User-Agent": "hcim-guide-coords/1.0 (personal plugin project)"}
 
 
 def api(params):

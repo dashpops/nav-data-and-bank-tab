@@ -20,7 +20,7 @@ REPO = Path(__file__).resolve().parent.parent
 GUIDE = REPO / "src/main/resources/guide.json"
 META = REPO / "src/main/resources/step-metadata.json"
 API = "https://oldschool.runescape.wiki/api.php"
-UA = {"User-Agent": "olly-boaty-items/1.0 (personal plugin project)"}
+UA = {"User-Agent": "hcim-guide-items/1.0 (personal plugin project)"}
 
 # Guide shorthand -> wiki page name. Anything not here is looked up as written.
 ALIASES = {
