@@ -44,9 +44,9 @@
   },
   "episode-1-banks-1-through-24-bank-1-step-008": {
     "nav": {
-      "label": "Father Urhney",
-      "x": 3148,
-      "y": 3177,
+      "label": "Father Urhney (Lumbridge Swamp)",
+      "x": 3147,
+      "y": 3175,
       "z": 0
     },
     "_text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this.",
@@ -54,11 +54,12 @@
   },
   "episode-1-banks-1-through-24-bank-1-step-013": {
     "nav": {
-      "label": "Sedridor (Wizards' Tower)",
-      "x": 3104,
+      "label": "Archmage Sedridor (Wizards' Tower basement)",
+      "x": 3103,
       "y": 9571,
       "z": 0
     },
+    "quest": "Rune Mysteries",
     "_text": "Head to the basement & Talk to Sedridor to continue Rune Mysteries (1,2,1)",
     "_section": "Bank 1"
   },
@@ -74,19 +75,20 @@
   },
   "episode-1-banks-1-through-24-bank-2-step-004": {
     "nav": {
-      "label": "Morgan",
-      "x": 3097,
-      "y": 3268,
+      "label": "Morgan (Draynor)",
+      "x": 3099,
+      "y": 3269,
       "z": 0
     },
+    "quest": "Vampyre Slayer",
     "_text": "Talk to Morgan and start Vampyre Slayer (1)",
     "_section": "Bank 2"
   },
   "episode-1-banks-1-through-24-bank-2-step-009": {
     "nav": {
-      "label": "Fortunato (Draynor)",
-      "x": 3083,
-      "y": 3251,
+      "label": "Fortunato (Draynor Market)",
+      "x": 3085,
+      "y": 3252,
       "z": 0
     },
     "_text": "Talk to Fortunato & buy 5 Jugs of wine. Hop worlds and buy 10 in total.",
@@ -135,9 +137,9 @@
   },
   "episode-1-banks-1-through-24-bank-3-step-003": {
     "nav": {
-      "label": "Zaff (Varrock)",
-      "x": 3201,
-      "y": 3433,
+      "label": "Zaff (Varrock staff shop)",
+      "x": 3203,
+      "y": 3434,
       "z": 0
     },
     "_text": "Head East and buy an Air Staff from Zaff. Equip it.",
@@ -145,9 +147,9 @@
   },
   "episode-1-banks-1-through-24-bank-3-step-004": {
     "nav": {
-      "label": "Aris (Varrock)",
+      "label": "Aris (Varrock Square)",
       "x": 3204,
-      "y": 3424,
+      "y": 3425,
       "z": 0
     },
     "quest": "Demon Slayer",
@@ -158,17 +160,18 @@
     "nav": {
       "label": "Dr Harlow (Blue Moon Inn)",
       "x": 3222,
-      "y": 3399,
+      "y": 3397,
       "z": 0
     },
+    "quest": "Vampyre Slayer",
     "_text": "Head East and talk to Dr Harlow (2, talk again)[Vampyre Slayer]",
     "_section": "Bank 3"
   },
   "episode-1-banks-1-through-24-bank-3-step-010": {
     "nav": {
-      "label": "Romeo (Varrock)",
-      "x": 3210,
-      "y": 3423,
+      "label": "Romeo (Varrock Square)",
+      "x": 3211,
+      "y": 3425,
       "z": 0
     },
     "quest": "Romeo & Juliet",
@@ -177,8 +180,8 @@
   },
   "episode-1-banks-1-through-24-bank-3-step-015": {
     "nav": {
-      "label": "Sir Prysin (Varrock Palace)",
-      "x": 3204,
+      "label": "Sir Prysin (Varrock Castle)",
+      "x": 3203,
       "y": 3472,
       "z": 0
     },
@@ -189,8 +192,8 @@
   "episode-1-banks-1-through-24-bank-3-step-017": {
     "nav": {
       "label": "Reldo (Varrock Library)",
-      "x": 3211,
-      "y": 3493,
+      "x": 3210,
+      "y": 3495,
       "z": 0
     },
     "quest": "Shield of Arrav",
@@ -199,9 +202,9 @@
   },
   "episode-1-banks-1-through-24-bank-3-step-022": {
     "nav": {
-      "label": "King Roald (Varrock Palace)",
+      "label": "King Roald (Varrock Castle)",
       "x": 3222,
-      "y": 3473,
+      "y": 3472,
       "z": 0
     },
     "quest": "Priest in Peril",
@@ -220,11 +223,12 @@
   },
   "episode-1-banks-1-through-24-bank-4-step-002": {
     "nav": {
-      "label": "Aubury (Varrock)",
+      "label": "Aubury (Varrock rune shop)",
       "x": 3253,
       "y": 3401,
       "z": 0
     },
+    "quest": "Rune Mysteries",
     "_text": "Talk to Aubury to continue Rune Mysteries (2)",
     "_section": "Bank 4"
   },
@@ -15506,5 +15510,633 @@
     ],
     "_text": "Withdraw: 10x Prayer Potions (4), 10x Super Restores (4) & 2x Marble Blocks",
     "_section": "Bank 196"
+  },
+  "episode-1-banks-1-through-24-bank-1-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bread",
+        "itemIds": [
+          2309
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Talisman",
+        "itemIds": [
+          1438
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Treasure Scroll",
+        "itemIds": [
+          23067
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Air Runes, Mind Runes, Bread, Spade, Tinderbox, Air Talisman, Treasure Scroll (8 Inventory slots)",
+    "_section": "Bank 1"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Spade",
+        "itemIds": [
+          952
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feather",
+        "itemIds": [
+          314
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Spade, Feather & Mysterious Orb (4 Inventory Slots)",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bones",
+        "itemIds": [
+          526
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Beer",
+        "itemIds": [
+          1917
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Bones, Beer (3 Inventory Spaces)",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-4-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Saw",
+        "itemIds": [
+          8794
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bronze Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Research Package",
+        "itemIds": [
+          290
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Saw, Hammer, Knife, Bronze Axe, Research Package, Tinderbox (7 Inventory Slots)",
+    "_section": "Bank 4"
+  },
+  "episode-1-banks-1-through-24-bank-6-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins.",
+    "_section": "Bank 6"
+  },
+  "episode-1-banks-1-through-24-bank-7-step-001": {
+    "withdraw": [
+      {
+        "name": "Red Eclipse",
+        "itemIds": [
+          29415
+        ],
+        "quantity": 28
+      }
+    ],
+    "_text": "Withdraw: 28x Red Eclipse",
+    "_section": "Bank 7"
+  },
+  "episode-1-banks-1-through-24-bank-8-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Research Notes (2 inventory Slots) / Bronze pickaxe not needed",
+    "_section": "Bank 8"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Small Fishing Net",
+        "itemIds": [
+          303
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Onion",
+        "itemIds": [
+          1957
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Arrowshafts",
+        "itemIds": [
+          52
+        ],
+        "quantity": 454
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: Coins, Mind Runes, Small Fishing Net, Onion, Pickaxe, 454 Arrowshafts, 2x Wines (8 Inventory Slots)",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-10-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Raw meat",
+        "itemIds": [
+          2134,
+          2138,
+          2132
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Empty Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Cheese",
+        "itemIds": [
+          1985
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Mind Runes, Raw Rat/Chicken/Beef, 10x Wines, Empty Bucket, Chest Key, Cheese (18 Inventory Slots)",
+    "_section": "Bank 10"
+  },
+  "episode-1-banks-1-through-24-bank-1-step-016": {
+    "nav": {
+      "label": "Friendly Forester (Draynor)",
+      "x": 3096,
+      "y": 3238,
+      "z": 0
+    },
+    "_text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)",
+    "_section": "Bank 1"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-012": {
+    "nav": {
+      "label": "Veos (Port Sarim)",
+      "x": 3054,
+      "y": 3245,
+      "z": 0
+    },
+    "quest": "X Marks the Spot",
+    "_text": "Head West to Port Sarim and talk to Veos to complete X Marks The Spot.",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-023": {
+    "nav": {
+      "label": "Robyn (Shayzien)",
+      "x": 1508,
+      "y": 3592,
+      "z": 0
+    },
+    "_text": "Trade Robyn and buy a Chef's Hat [Cook's guild]",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-025": {
+    "nav": {
+      "label": "Bob's Brilliant Axes (Lumbridge)",
+      "x": 3231,
+      "y": 3203,
+      "z": 0
+    },
+    "_text": "Talk to Bob and buy a Steel Axe",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-034": {
+    "nav": {
+      "label": "Gertrude (west of Varrock)",
+      "x": 3151,
+      "y": 3409,
+      "z": 0
+    },
+    "quest": "Gertrude's Cat",
+    "_text": "Head east and Talk to Gertude (1) [Gertrudes Cat]",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-005": {
+    "nav": {
+      "label": "Thessalia (Varrock clothes)",
+      "x": 3206,
+      "y": 3416,
+      "z": 0
+    },
+    "_text": "Head South & Trade Thessalia [Varrock Easy Diary]",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-011": {
+    "nav": {
+      "label": "Benny (Varrock Square)",
+      "x": 3220,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Buy a Newspaper from Benny(1,1)",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-012": {
+    "nav": {
+      "label": "Shilop (Varrock Square)",
+      "x": 3220,
+      "y": 3435,
+      "z": 0
+    },
+    "quest": "Gertrude's Cat",
+    "_text": "Talk to Shilop to continue Gertrudes Cat (2,2)",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-013": {
+    "nav": {
+      "label": "Noah (Varrock)",
+      "x": 3211,
+      "y": 3437,
+      "z": 0
+    },
+    "quest": "Children of the Sun",
+    "_text": "Talk to Noah (1,3) [Children of the Sun]",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-016": {
+    "nav": {
+      "label": "Captain Rovin (Varrock Castle, top)",
+      "x": 3204,
+      "y": 3497,
+      "z": 2
+    },
+    "quest": "Demon Slayer",
+    "_text": "Head North and go up 2x Stairs and talk to Captain Rovin (3,1,2,2,3,1) [Demon Slayer]",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-3-step-023": {
+    "nav": {
+      "label": "Marlo (east of Varrock Castle)",
+      "x": 3240,
+      "y": 3474,
+      "z": 0
+    },
+    "quest": "Daddy's Home",
+    "_text": "Talk to Marlo and start Daddy's Home (in a house the east of the castle) (2,3,3)",
+    "_section": "Bank 3"
+  },
+  "episode-1-banks-1-through-24-bank-4-step-004": {
+    "nav": {
+      "label": "Old Man Yarlo (Varrock)",
+      "x": 3239,
+      "y": 3395,
+      "z": 0
+    },
+    "quest": "Daddy's Home",
+    "_text": "Talk to Old Man Yarlo, then destroy all the furniture in the house (can't destroy furniture until you speak to him)",
+    "_section": "Bank 4"
+  },
+  "episode-1-banks-1-through-24-bank-4-step-018": {
+    "nav": {
+      "label": "Marlo (east of Varrock Castle)",
+      "x": 3240,
+      "y": 3474,
+      "z": 0
+    },
+    "quest": "Daddy's Home",
+    "_text": "Complete Daddy's home at Marlo (1)",
+    "_section": "Bank 4"
+  },
+  "episode-1-banks-1-through-24-bank-5-step-002": {
+    "nav": {
+      "label": "Regulus Cento (Varrock, travel to Varlamore)",
+      "x": 3281,
+      "y": 3413,
+      "z": 0
+    },
+    "_text": "Travel east to Regulus Cento & travel to Varlamore",
+    "_section": "Bank 5"
+  },
+  "episode-1-banks-1-through-24-bank-5-step-007": {
+    "nav": {
+      "label": "Hunter's Guild (Varlamore)",
+      "x": 1555,
+      "y": 3035,
+      "z": 0
+    },
+    "_text": "Head West to the Hunter's Guild",
+    "_section": "Bank 5"
+  },
+  "episode-1-banks-1-through-24-bank-5-step-011": {
+    "nav": {
+      "label": "Guildmaster Apatura (Hunter's Guild)",
+      "x": 1555,
+      "y": 3035,
+      "z": 0
+    },
+    "_text": "Enter Guildmaster Apatura's building and go up both ladders",
+    "_section": "Bank 5"
+  },
+  "episode-1-banks-1-through-24-bank-6-step-005": {
+    "nav": {
+      "label": "Antonia (travel to Aldarin)",
+      "x": 1495,
+      "y": 2985,
+      "z": 0
+    },
+    "_text": "Travel with Antonia to Aldarin",
+    "_section": "Bank 6"
+  },
+  "episode-1-banks-1-through-24-bank-7-step-002": {
+    "nav": {
+      "label": "Antonius (Mistrock)",
+      "x": 1361,
+      "y": 2924,
+      "z": 0
+    },
+    "_text": "Head West and trade Antonius and sell all 28 at once.",
+    "_section": "Bank 7"
+  },
+  "episode-1-banks-1-through-24-bank-8-step-006": {
+    "nav": {
+      "label": "Archmage Sedridor (Wizards' Tower basement)",
+      "x": 3103,
+      "y": 9571,
+      "z": 0
+    },
+    "quest": "Rune Mysteries",
+    "_text": "Complete Rune Mysteries",
+    "_section": "Bank 8"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-002": {
+    "nav": {
+      "label": "Diango (Draynor)",
+      "x": 3081,
+      "y": 3247,
+      "z": 0
+    },
+    "_text": "Buy Chronicle & 10 Teleport cards from Diango",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-004": {
+    "nav": {
+      "label": "Redbeard Frank (Port Sarim)",
+      "x": 3052,
+      "y": 3250,
+      "z": 0
+    },
+    "quest": "Pirate's Treasure",
+    "_text": "Head West and talk to Redbeard Frank to start Pirate's Treasure (1,1)",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-008": {
+    "nav": {
+      "label": "Luthas (Karamja plantation)",
+      "x": 2939,
+      "y": 3154,
+      "z": 0
+    },
+    "_text": "Talk to Luthas and ask for employment (1)",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-015": {
+    "nav": {
+      "label": "Wydin (Port Sarim food shop)",
+      "x": 3013,
+      "y": 3207,
+      "z": 0
+    },
+    "_text": "Trade Wydin and buy Raw Chicken, 2x Raw Beef, 3x Flour & 2x redberries",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-019": {
+    "nav": {
+      "label": "Redbeard Frank (Port Sarim)",
+      "x": 3052,
+      "y": 3250,
+      "z": 0
+    },
+    "quest": "Pirate's Treasure",
+    "_text": "Return to Redbeard Frank",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-020": {
+    "nav": {
+      "label": "Betty (Port Sarim magic shop)",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "Head West to Betty and buy 2x Eye of Newt & 200 mind runes",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-023": {
+    "nav": {
+      "label": "Rommik (Rimmington craft shop)",
+      "x": 2949,
+      "y": 3205,
+      "z": 0
+    },
+    "_text": "Buy moulds: Ring, Amulet, 2x Necklace, Bracelet, Sickle, Tiara, 3x Needle & 50 Thread (from Rommik in Rimmington)",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-10-step-004": {
+    "nav": {
+      "label": "Squire (Falador Castle)",
+      "x": 2977,
+      "y": 3342,
+      "z": 0
+    },
+    "quest": "The Knight's Sword",
+    "_text": "Head South and talk to the Squire and start Knight's Sword (1,2,1,1)",
+    "_section": "Bank 10"
+  },
+  "episode-1-banks-1-through-24-bank-10-step-005": {
+    "nav": {
+      "label": "Amy (Falador, Mahogany Homes)",
+      "x": 2991,
+      "y": 3365,
+      "z": 0
+    },
+    "_text": "Get a Mahogany Home Beginner Contract from Amy (try and do these whenever passing if viable (aka if Hosidius and you're nearby, detour and complete it. If not they're done later but may be inefficient) - Mahogany homes plugin or notepad to remember your tasks.",
+    "_section": "Bank 10"
+  },
+  "episode-1-banks-1-through-24-bank-10-step-007": {
+    "nav": {
+      "label": "Wyson the Gardener (Falador Park)",
+      "x": 3027,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Buy 6x Woad Leaves from Wyson the Gardener (1,4)",
+    "_section": "Bank 10"
+  },
+  "episode-1-banks-1-through-24-bank-10-step-010": {
+    "nav": {
+      "label": "Kaqemeex (Taverley druid circle)",
+      "x": 2926,
+      "y": 3484,
+      "z": 0
+    },
+    "quest": "Druidic Ritual",
+    "_text": "Head North and talk to Kaqemeex to start Druidic Ritual (2,1)",
+    "_section": "Bank 10"
   }
 }

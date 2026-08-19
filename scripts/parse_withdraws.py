@@ -202,6 +202,15 @@ ALIASES.update({
     "kharedst's memoirs": "Kharedst's memoirs",
 })
 
+# Third wave, from the early banks 1-10.
+ALIASES.update({
+    "mind rune": "Mind rune", "mind runes": "Mind rune", "air talisman": "Air talisman",
+    "research package": "Research package", "eclipse red": "Eclipse red",
+    "red eclipse": "Eclipse red", "arrow shaft": "Arrow shaft",
+    "arrowshaft": "Arrow shaft", "arrowshafts": "Arrow shaft", "feather": "Feather",
+    "bronze axe": "Bronze axe", "treasure scroll": "Treasure scroll",
+})
+
 # Named in the guide but not a single bankable item, so deliberately skipped.
 SKIP = {
     "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
@@ -316,9 +325,14 @@ def main():
     # N is left alone, which protects the hand-curated banks 33-44 and anything
     # else already settled. Without it, an existing list is never overwritten.
     force_from = None
+    min_bank, max_bank = 33, 10 ** 9
     for a in sys.argv:
         if a.startswith("--force-from"):
             force_from = int(a.split("=", 1)[1] if "=" in a else "0")
+        elif a.startswith("--min-bank"):
+            min_bank = int(a.split("=", 1)[1])
+        elif a.startswith("--max-bank"):
+            max_bank = int(a.split("=", 1)[1])
     guide = json.loads(GUIDE.read_text())
     meta = json.loads(META.read_text())
     steps = {s["id"]: (sec["title"], s) for sec in guide["sections"] for s in sec["steps"]}
@@ -332,7 +346,7 @@ def main():
         if not re.match(r"^\s*Withdraw", step["text"], re.I):
             continue
         bank = re.match(r"^Bank (\d+)", section)
-        if not bank or int(bank.group(1)) < 33:
+        if not bank or not (min_bank <= int(bank.group(1)) <= max_bank):
             continue
         entries, missed = [], []
         for part in split_entries(step["text"]):

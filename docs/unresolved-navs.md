@@ -18,6 +18,25 @@ Rules of thumb used when deciding:
 Verify a claim here before trusting it — several entries were wrong when first
 written (see "Resolved" at the bottom).
 
+### Banks 1-10 (early game, done last)
+
+Filled the opening banks after the fact. Most steps here are "take X off the
+table" or "head west" and need no nav; the quest-start and named-NPC talk-to
+steps are covered. Left out:
+
+| Bank | Step | Why |
+|---|---|---|
+| 2 | 27 | Count Check → Stronghold of Security — the only pin (`3240,3199`) did not look right for him, so not guessed |
+| 2 | 20 | Jennifer (Shayzien) — no wiki pin |
+| 3 | 26 | Orlando Smith — Varrock Museum *basement*, an underground region with no overworld pin; the museum itself is the entrance |
+| 10 | 9 | "the boy" (Taverley, Witch's House) — generic name, no clean lookup |
+
+Withdraw items with no wiki id, left out of those lists: **Mysterious Orb**
+(Children of the Sun), **Research Notes**, **Chest Key**. Bank 5's list starts
+"Deposit All, then Withdraw ..." so it does not match the parser and its lone
+item (leather gloves) is unrecorded. "Raw Rat/Chicken/Beef" (bank 10) is stored
+as one alternatives entry, like Food.
+
 ## Needs a coordinate (would be filled if someone supplies one)
 
 | Bank | Step | What | Why unresolved |
