@@ -54,7 +54,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.LinkBrowser;
 
 @PluginDescriptor(
-	name = "Boaty",
+	name = "HCIM Guide",
 	description = "Sidebar guide for B0aty HCIM Guide V3",
 	tags = {"hcim", "ironman", "guide", "quest"}
 )
