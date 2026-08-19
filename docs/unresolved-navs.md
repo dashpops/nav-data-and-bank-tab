@@ -50,6 +50,16 @@ Bare "Boots" in "Leather Gloves+Boots" is aliased to Leather boots; that is
 correct for the early banks but would misread a later "Boots" that means desert
 boots, so watch it if the parser is ever force-run over bank 197.
 
+Banks 21-32 finish the early game — it is now contiguous with the bank 33+ work.
+(There is no bank 31; the guide skips the number.) Left out:
+
+| Bank | Step | Why |
+|---|---|---|
+| 24 | 1 | "Mind/6xAir/6xEarth/All Water Runes" — a slash-joined loadout the parser does not split; the Waterfall Quest runes are dropped mid-quest anyway |
+| 24 | 2-6 | Waterfall Quest is done inside Baxtorian Falls; Almera (bank 19) navs to the start |
+| 29 | 8, 25, 29, 35, 37 | Queen of Thieves (dungeon), the new Varlamore quests, the Ates statue and Fight Caves — no overworld pin |
+| 28, 30 | barcrawl | Generic pub bartenders at Port Sarim and Musa Point |
+
 ## Needs a coordinate (would be filled if someone supplies one)
 
 | Bank | Step | What | Why unresolved |

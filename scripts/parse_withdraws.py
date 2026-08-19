@@ -222,6 +222,17 @@ ALIASES.update({
     "falador teleport": "Falador teleport (tablet)",
 })
 
+# Fifth wave, from banks 21-32.
+ALIASES.update({
+    "bark sample": "Bark sample", "translation book": "Translation book",
+    "soda ash": "Soda ash", "bucket of sand": "Bucket of sand",
+    "glarials pebble": "Glarial's pebble", "glarial's pebble": "Glarial's pebble",
+    "wizard hat": "Wizard hat", "ghosts skull": "Ghost's skull",
+    "ghost's skull": "Ghost's skull", "pot of flour": "Pot of flour",
+    "woad leaf": "Woad leaf", "woad leaves": "Woad leaf", "redberries": "Redberries",
+    "enchanted scroll": "Enchanted scroll", "enchanted quill": "Enchanted quill",
+})
+
 # Named in the guide but not a single bankable item, so deliberately skipped.
 SKIP = {
     "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
@@ -308,7 +319,7 @@ def split_entries(text):
 
 # Words the guide puts in front of an item that are not part of its name, so
 # "4x regular Logs" and "a knife" resolve to Logs and Knife.
-QUALIFIERS = {"regular", "normal", "noted", "your", "a", "an", "the"}
+QUALIFIERS = {"regular", "normal", "noted", "your", "a", "an", "the", "all"}
 
 
 def parse_entry(part):

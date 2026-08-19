@@ -16716,5 +16716,663 @@
     },
     "_text": "Talk to Blurberry and continue the Barcrawl",
     "_section": "Bank 20"
+  },
+  "episode-1-banks-1-through-24-bank-21-step-001": {
+    "withdraw": [
+      {
+        "name": "House Teleport",
+        "itemIds": [
+          8013
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bark sample",
+        "itemIds": [
+          783
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Translation book",
+        "itemIds": [
+          784
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      }
+    ],
+    "_text": "Withdraw: House Teleport, Coins, Mind Runes, Rope, Bark sample, Barcrawl Card, Translation book, 10 Wine (17 Inventory Spaces)",
+    "_section": "Bank 21"
+  },
+  "episode-1-banks-1-through-24-bank-22-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Silk",
+        "itemIds": [
+          950
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Silk",
+    "_section": "Bank 22"
+  },
+  "episode-1-banks-1-through-24-bank-23-step-001": {
+    "withdraw": [
+      {
+        "name": "Soda Ash",
+        "itemIds": [
+          1781
+        ],
+        "quantity": 13
+      },
+      {
+        "name": "Bucket of sand",
+        "itemIds": [
+          1783
+        ],
+        "quantity": 13
+      }
+    ],
+    "_text": "Withdraw: 13x Soda Ash & 13x Bucket of sand",
+    "_section": "Bank 23"
+  },
+  "episode-1-banks-1-through-24-bank-24-step-001": {
+    "withdraw": [
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Glarials Pebble",
+        "itemIds": [
+          294
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 10x Wines, Air Staff, Mind/6xAir/6xEarth/All Water Runes, Glarials Pebble, Rope (17 Inventory Slots)",
+    "_section": "Bank 24"
+  },
+  "episode-2-banks-24-through-75-bank-25-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghostspeak Amulet",
+        "itemIds": [
+          552
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Leather Gloves",
+        "itemIds": [
+          1059
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Boots",
+        "itemIds": [
+          1061
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wizard Hat",
+        "itemIds": [
+          1017
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pink Skirt",
+        "itemIds": [
+          1013
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Coins, Mind Runes, Air Staff, Water Runes, Ghostspeak Amulet, Chronicle, Leather Gloves+Boots, Wizard Hat, Pink Skirt, 5x Wines (15 Inventory Slots)",
+    "_section": "Bank 25"
+  },
+  "episode-2-banks-24-through-75-bank-26-step-001": {
+    "withdraw": [
+      {
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 20
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Ghosts Skull",
+        "itemIds": [
+          553
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wine",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 2
+      }
+    ],
+    "_text": "Withdraw: 20x Ball of Wool, Mind Runes, Ghosts Skull, 2x Wine (24 Inventory Slots)",
+    "_section": "Bank 26"
+  },
+  "episode-2-banks-24-through-75-bank-27-step-001": {
+    "withdraw": [
+      {
+        "name": "balls of wool",
+        "itemIds": [
+          1759
+        ],
+        "quantity": 3
+      },
+      {
+        "name": "bronze bar",
+        "itemIds": [
+          2349
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Ashes",
+        "itemIds": [
+          592
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Clay",
+        "itemIds": [
+          434
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pot of Flour",
+        "itemIds": [
+          1933
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Onions",
+        "itemIds": [
+          1957
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Woad Leaves",
+        "itemIds": [
+          1793
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Redberries",
+        "itemIds": [
+          1951
+        ],
+        "quantity": 1
+      }
+    ],
+    "_text": "Withdraw: 3x balls of wool, 1 bronze bar, Ashes, Coins, Clay, Pot of Flour, 2x Bucket of Water, 4x Onions, 6x Woad Leaves & 1x Redberries (16 Inventory Slots)",
+    "_section": "Bank 27"
+  },
+  "episode-2-banks-24-through-75-bank-28-step-001": {
+    "withdraw": [
+      {
+        "name": "barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Scroll",
+        "itemIds": [
+          21259
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Quill",
+        "itemIds": [
+          21260
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: barcrawl Card, Coins, Enchanted Scroll, Enchanted Quill (4 Inventory Slots)",
+    "_section": "Bank 28"
+  },
+  "episode-2-banks-24-through-75-bank-29-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Quill",
+        "itemIds": [
+          21260
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Enchanted Scroll",
+        "itemIds": [
+          21259
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Stew",
+        "itemIds": [
+          2003
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Axe",
+        "itemIds": [
+          1351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Tinderbox",
+        "itemIds": [
+          590
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Enchanted Quill, Enchanted Scroll, Stew, Pickaxe, Chronicle, Axe, Tinderbox (8 Inventory Slots)",
+    "_section": "Bank 29"
+  },
+  "episode-2-banks-24-through-75-bank-30-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Chronicle",
+        "itemIds": [
+          13660
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Chronicle, Barcrawl Card, all Wines",
+    "_section": "Bank 30"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-001": {
+    "withdraw": [
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pineapples",
+        "itemIds": [
+          2114
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Empty Buckets",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 60
+      }
+    ],
+    "_text": "Withdraw: Mind Runes, Coins, 15 Pineapples, 60 Noted Empty Buckets, 5x Food (if you're low on wines you can buy Stew at Seers Pub) (23 Inventory Slots)",
+    "_section": "Bank 32"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-005": {
+    "withdraw": [
+      {
+        "name": "Empty Bucket",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 1
+      }
+    ],
+    "_text": "Withdraw 1 Empty Bucket",
+    "_section": "Bank 32"
+  },
+  "episode-1-banks-1-through-24-bank-21-step-005": {
+    "nav": {
+      "label": "Hazelmere (island SE of Yanille, upstairs)",
+      "x": 2678,
+      "y": 3086,
+      "z": 1
+    },
+    "quest": "The Grand Tree",
+    "_text": "Talk to Hazelmere to continue Grand Tree",
+    "_section": "Bank 21"
+  },
+  "episode-1-banks-1-through-24-bank-21-step-009": {
+    "nav": {
+      "label": "Kangai Mau (Brimhaven food store)",
+      "x": 2791,
+      "y": 3183,
+      "z": 0
+    },
+    "quest": "Tribal Totem",
+    "_text": "Talk to Kangai Mau(2,1) in the Brimhaven food store [Tribal Totem]",
+    "_section": "Bank 21"
+  },
+  "episode-1-banks-1-through-24-bank-21-step-010": {
+    "nav": {
+      "label": "Captain Barnaby (Brimhaven dock)",
+      "x": 2768,
+      "y": 3227,
+      "z": 0
+    },
+    "_text": "Return to Ardougne via Captain Barnaby [Karamja Easy Diary]",
+    "_section": "Bank 21"
+  },
+  "episode-1-banks-1-through-24-bank-22-step-005": {
+    "nav": {
+      "label": "Wizard Cromperty (East Ardougne)",
+      "x": 2684,
+      "y": 3325,
+      "z": 0
+    },
+    "quest": "Tribal Totem",
+    "_text": "Talk to Wizard Cromperty (2,2,1) [Tribal Totem]",
+    "_section": "Bank 22"
+  },
+  "episode-1-banks-1-through-24-bank-23-step-002": {
+    "nav": {
+      "label": "Councillor Halgrive (Ardougne church)",
+      "x": 2617,
+      "y": 3300,
+      "z": 0
+    },
+    "quest": "Sheep Herder",
+    "_text": "Complete Sheep Herder",
+    "_section": "Bank 23"
+  },
+  "episode-2-banks-24-through-75-bank-26-step-003": {
+    "nav": {
+      "label": "Father Aereck (Lumbridge church)",
+      "x": 3243,
+      "y": 3210,
+      "z": 0
+    },
+    "quest": "The Restless Ghost",
+    "_text": "Complete Restless Ghost",
+    "_section": "Bank 26"
+  },
+  "episode-2-banks-24-through-75-bank-26-step-004": {
+    "nav": {
+      "label": "Fred the Farmer (north of Lumbridge)",
+      "x": 3189,
+      "y": 3273,
+      "z": 0
+    },
+    "quest": "Sheep Shearer",
+    "_text": "Complete Sheep Shearer (1,1)",
+    "_section": "Bank 26"
+  },
+  "episode-2-banks-24-through-75-bank-26-step-006": {
+    "nav": {
+      "label": "Cassius (Lumbridge)",
+      "x": 3170,
+      "y": 3279,
+      "z": 0
+    },
+    "quest": "The Ides of Milk",
+    "_text": "Talk to Cassius to start The Ides of Milk/Quick guide (1)",
+    "_section": "Bank 26"
+  },
+  "episode-2-banks-24-through-75-bank-29-step-011": {
+    "nav": {
+      "label": "Guildmaster (Champions' Guild)",
+      "x": 3191,
+      "y": 3360,
+      "z": 0
+    },
+    "quest": "Dragon Slayer",
+    "_text": "Start Dragon Slayer (2,1) [Varock Medium Diary]",
+    "_section": "Bank 29"
+  },
+  "episode-2-banks-24-through-75-bank-29-step-017": {
+    "nav": {
+      "label": "Examiner (Dig Site Exam Centre)",
+      "x": 3364,
+      "y": 3342,
+      "z": 0
+    },
+    "quest": "The Dig Site",
+    "_text": "Talk to Examiner (1) [Digsite Quest]",
+    "_section": "Bank 29"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-010": {
+    "nav": {
+      "label": "Sir Gawain (Camelot)",
+      "x": 2763,
+      "y": 3506,
+      "z": 0
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Talk to Sir Gawain (3)",
+    "_section": "Bank 32"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-011": {
+    "nav": {
+      "label": "Sir Lancelot (Camelot, upstairs)",
+      "x": 2759,
+      "y": 3515,
+      "z": 1
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Talk to Sir Lancelot (3)",
+    "_section": "Bank 32"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-015": {
+    "nav": {
+      "label": "Sherlock (east of Sorcerer's Tower)",
+      "x": 2733,
+      "y": 3413,
+      "z": 0
+    },
+    "_text": "Talk to Sherlock [Kandarin Easy Diary]",
+    "_section": "Bank 32"
+  },
+  "episode-2-banks-24-through-75-bank-32-step-018": {
+    "nav": {
+      "label": "Candle maker (Catherby)",
+      "x": 2799,
+      "y": 3440,
+      "z": 0
+    },
+    "quest": "Merlin's Crystal",
+    "_text": "Talk to Candle maker and obtain a Black Candle [Merlin's Crystal]",
+    "_section": "Bank 32"
   }
 }
