@@ -231,6 +231,8 @@ ALIASES.update({
     "ghost's skull": "Ghost's skull", "pot of flour": "Pot of flour",
     "woad leaf": "Woad leaf", "woad leaves": "Woad leaf", "redberries": "Redberries",
     "enchanted scroll": "Enchanted scroll", "enchanted quill": "Enchanted quill",
+    # slash-compound leftovers
+    "green dye": "Green dye", "raw rat": "Raw rat meat", "raw beef": "Raw beef",
 })
 
 # Named in the guide but not a single bankable item, so deliberately skipped.
@@ -302,11 +304,78 @@ QTY = re.compile(r"^\s*(\d+)\s*x?\s+(.*)$", re.I)
 QTY_SUFFIX = re.compile(r"^(.*?)\s+x\s*(\d+)\s*$", re.I)
 
 
+# A slash between items usually shares one type word - "Red/Yellow/Blue Dyes"
+# means three dyes, "Mind/6xAir/6xEarth Runes" means those runes. When the shared
+# word is one of these, the slash is a list; otherwise it is "any of these".
+TYPE_WORDS = {"rune", "runes", "dye", "dyes", "bar", "bars", "seed", "seeds",
+              "plank", "planks", "log", "logs", "potion", "potions",
+              "arrow", "arrows"}
+# Words shared at the front instead - "Raw Rat/Chicken/Beef".
+MODIFIERS = {"raw", "cooked", "grimy", "uncut", "desert"}
+
+
+def _singular(word):
+    return word[:-1] if len(word) > 3 and word.lower().endswith("s") else word
+
+
+def resolve_page(key):
+    """The wiki page for a lookup key, trying the singular if the plural misses -
+    so a distributed "Blue Dyes" still finds the "blue dye" alias."""
+    if not key:
+        return None
+    if key in ALIASES:
+        return ALIASES[key]
+    if key.endswith("s") and key[:-1] in ALIASES:
+        return ALIASES[key[:-1]]
+    return None
+
+
+def expand_slashes(part):
+    """Turn a slash-joined token into the items it stands for.
+
+    A shared trailing type word ("... Dyes/Runes/Bars") gives a list of distinct
+    items, each returned as its own name with that word appended where missing.
+    Anything else is read as alternatives - "Cat/Kitten", "Raw Rat/Chicken/Beef" -
+    and returned as one ("ALT", names, display) tuple that the caller resolves
+    into a single entry accepting any of the ids, the way "Food" already works.
+    """
+    if "/" not in part:
+        return [part]
+    frags = [f.strip() for f in re.split(r"\s*/\s*", part) if f.strip()]
+    if len(frags) < 2:
+        return [part.replace("/", " ").strip()]
+
+    suffix = frags[-1].split()[-1]
+    if suffix.lower() in TYPE_WORDS:
+        word = _singular(suffix)
+        names = []
+        for i, f in enumerate(frags):
+            last = i == len(frags) - 1
+            if last or suffix.lower() in f.lower() or word.lower() in f.lower():
+                names.append(f)
+            else:
+                names.append(f + " " + word)
+        return names
+
+    prefix = frags[0].split()[0]
+    if prefix.lower() in MODIFIERS and len(frags[0].split()) > 1:
+        alts = [frags[0]] + [(prefix + " " + f) if len(f.split()) == 1 else f
+                             for f in frags[1:]]
+    else:
+        tail = frags[-1].split()
+        shared = tail[-1] if len(tail) > 1 else ""
+        alts = [f if not shared or shared.lower() in f.lower() else (f + " " + shared)
+                for f in frags]
+    return [("ALT", alts, part.strip())]
+
+
 def split_entries(text):
-    """The item list after "Withdraw:", split on commas and ampersands."""
+    """The item list after "Withdraw:", split into entries (some may be tuples)."""
     body = re.sub(r"^\s*Withdraw(?:\s+at[^:]*)?:?", "", text, flags=re.I)
     body = re.sub(r"\(\d+\s*Inventory[^)]*\)", "", body, flags=re.I)   # slot counts
     body = re.sub(r"\([^)]*\)", "", body)                              # other asides
+    body = re.sub(r"\[[^\]]*\]", "", body)                             # [quest] / [note] tags
+    body = re.sub(r"(\d)x([A-Za-z])", r"\1x \2", body)                 # 6xAir -> 6x Air
     # Names that contain "&" must survive the split on it.
     for joined, placeholder in AMPERSAND_NAMES.items():
         body = re.sub(joined, placeholder, body, flags=re.I)
@@ -314,7 +383,12 @@ def split_entries(text):
     # "Scrying Orb ...; Wizard Mind Bomb" - and no item name contains either.
     parts = re.split(r",|\s*;\s*|\s*\+\s*|\s+&\s+|\s+and\s+", body)
     parts = [p.replace("\u0001", " & ") for p in parts]
-    return [p.strip(" .;") for p in parts if p.strip(" .;")]
+    out = []
+    for p in parts:
+        p = p.strip(" .;")
+        if p:
+            out.extend(expand_slashes(p))
+    return out
 
 
 # Words the guide puts in front of an item that are not part of its name, so
@@ -372,6 +446,20 @@ def main():
             continue
         entries, missed = [], []
         for part in split_entries(step["text"]):
+            if isinstance(part, tuple):        # ("ALT", [names], display) - any one satisfies
+                _, alt_names, disp = part
+                alt_ids = []
+                for alt in alt_names:
+                    _, akey, _ = parse_entry(alt)
+                    apage = resolve_page(akey)
+                    aids = ids.get(apage, []) if apage else []
+                    if aids and aids[0] not in alt_ids:
+                        alt_ids.append(aids[0])
+                if alt_ids:
+                    entries.append({"name": disp, "itemIds": alt_ids, "quantity": 0})
+                else:
+                    missed.append(disp)
+                continue
             name, key, qty = parse_entry(part)
             if not key or key in SKIP:
                 if key == "teleport runes":
@@ -382,7 +470,7 @@ def main():
                         continue
                 missed.append(name)
                 continue
-            page = ALIASES.get(key)
+            page = resolve_page(key)
             if not page:
                 missed.append(name)
                 continue

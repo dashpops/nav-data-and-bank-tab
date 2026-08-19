@@ -55,7 +55,6 @@ Banks 21-32 finish the early game — it is now contiguous with the bank 33+ wor
 
 | Bank | Step | Why |
 |---|---|---|
-| 24 | 1 | "Mind/6xAir/6xEarth/All Water Runes" — a slash-joined loadout the parser does not split; the Waterfall Quest runes are dropped mid-quest anyway |
 | 24 | 2-6 | Waterfall Quest is done inside Baxtorian Falls; Almera (bank 19) navs to the start |
 | 29 | 8, 25, 29, 35, 37 | Queen of Thieves (dungeon), the new Varlamore quests, the Ates statue and Fight Caves — no overworld pin |
 | 28, 30 | barcrawl | Generic pub bartenders at Port Sarim and Musa Point |
@@ -260,6 +259,17 @@ categories rather than items — "Combat Gear", "Food", "Potions", "Range Gear",
 "Best Air Spell" — which have no id to point at and are left out on purpose.
 The rest are genuinely ambiguous ("Biohazard Items", "Thralls, etc") or later
 content nobody has checked yet.
+
+### Slash-joined items now handled
+
+The parser reads a slash as one of two things. A shared trailing type word makes
+it a **list** — "Mind/6xAir/6xEarth/All Water Runes" becomes those four runes,
+"Red/Yellow/Blue Dyes" the three dyes, "Bronze/Iron/Steel Bar" the three bars.
+Anything else is read as **alternatives** and stored as one entry accepting any
+of the ids, like Food — "Cat/Kitten", "Raw Rat/Chicken/Beef". It also strips
+`[quest]`/`[note]` tags and normalises "6xAir" to "6x Air". Re-run over banks 21+
+with `--force-from`, leaving the hand-curated 33-44 and the manual bank-10 entry
+alone.
 
 ## Re-sweep, banks 65+
 

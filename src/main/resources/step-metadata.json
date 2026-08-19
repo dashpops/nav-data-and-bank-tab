@@ -1842,6 +1842,20 @@
           1925
         ],
         "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
       }
     ]
   },
@@ -5078,6 +5092,27 @@
     "_section": "Bank 99",
     "withdraw": [
       {
+        "name": "Red Dye",
+        "itemIds": [
+          1763
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "Yellow Dye",
+        "itemIds": [
+          1765
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Blue Dyes",
+        "itemIds": [
+          1767
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Coins",
         "itemIds": [
           995
@@ -6867,6 +6902,14 @@
           864
         ],
         "quantity": 0
+      },
+      {
+        "name": "Cat/Kitten",
+        "itemIds": [
+          1619,
+          5591
+        ],
+        "quantity": 0
       }
     ]
   },
@@ -7778,6 +7821,13 @@
           434
         ],
         "quantity": 2
+      },
+      {
+        "name": "Buckets",
+        "itemIds": [
+          1925
+        ],
+        "quantity": 4
       }
     ],
     "_text": "Withdraw: Teleport Runes, Coins, Adamant Pickaxe, Message, Hammer, 4x Steel Bars, Fly Fishing Rod, Feathers, 2x Clay, 4x Buckets (21 Inventory Slots)",
@@ -10267,6 +10317,13 @@
         "quantity": 0
       },
       {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Coins",
         "itemIds": [
           995
@@ -10601,6 +10658,27 @@
         "quantity": 0
       },
       {
+        "name": "Bronze Bar",
+        "itemIds": [
+          2349
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bar",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Steel Bar",
+        "itemIds": [
+          2353
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Hammer",
         "itemIds": [
           2347
@@ -10770,6 +10848,13 @@
         "name": "Mithril Spear",
         "itemIds": [
           1243
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Karambwanji",
+        "itemIds": [
+          21394
         ],
         "quantity": 0
       },
@@ -11349,6 +11434,13 @@
         "quantity": 10
       },
       {
+        "name": "Empty Sacks",
+        "itemIds": [
+          5418
+        ],
+        "quantity": 8
+      },
+      {
         "name": "Red Dye",
         "itemIds": [
           1763
@@ -11375,6 +11467,27 @@
   },
   "episode-4-banks-105-through-150-bank-145-step-001": {
     "withdraw": [
+      {
+        "name": "Law Rune",
+        "itemIds": [
+          563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Earth Rune",
+        "itemIds": [
+          557
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Runes",
+        "itemIds": [
+          556
+        ],
+        "quantity": 0
+      },
       {
         "name": "Willow Branches",
         "itemIds": [
@@ -12161,6 +12274,13 @@
           954
         ],
         "quantity": 0
+      },
+      {
+        "name": "vials",
+        "itemIds": [
+          229
+        ],
+        "quantity": 2
       }
     ],
     "_text": "Withdraw: Teleport Runes, Bert's Rota, Coins, Duelling Ring, Rope, Tobans stolen Gold, Relic Part 3, Tooth, 2 vials, lantern lense, Whiteberries [18 Inventory Slots]",
@@ -12215,6 +12335,13 @@
         "name": "Lit Candle",
         "itemIds": [
           36
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Sand",
+        "itemIds": [
+          1783
         ],
         "quantity": 0
       },
@@ -12457,6 +12584,13 @@
         "quantity": 0
       },
       {
+        "name": "Glarials Pebble",
+        "itemIds": [
+          294
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Rope",
         "itemIds": [
           954
@@ -12516,6 +12650,13 @@
         "name": "Bucket of Water",
         "itemIds": [
           1929
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feather",
+        "itemIds": [
+          314
         ],
         "quantity": 0
       },
@@ -12592,6 +12733,34 @@
         "name": "Ardy Cloak",
         "itemIds": [
           13121
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Red Dye",
+        "itemIds": [
+          1763
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Blue Dye",
+        "itemIds": [
+          1767
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Green Dye",
+        "itemIds": [
+          1771
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Yellow Dye",
+        "itemIds": [
+          1765
         ],
         "quantity": 0
       }
@@ -12689,6 +12858,13 @@
         "name": "Bucket of Milk",
         "itemIds": [
           1927
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Snape Grass",
+        "itemIds": [
+          231
         ],
         "quantity": 0
       }
@@ -13229,6 +13405,13 @@
           1619
         ],
         "quantity": 0
+      },
+      {
+        "name": "Stews",
+        "itemIds": [
+          2003
+        ],
+        "quantity": 15
       }
     ],
     "_text": "Withdraw: Cat, 15 Stews",
@@ -13390,6 +13573,13 @@
         "quantity": 0
       },
       {
+        "name": "Earth Runes",
+        "itemIds": [
+          557
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Earth Talisman",
         "itemIds": [
           1440
@@ -13531,6 +13721,13 @@
         "name": "Coins",
         "itemIds": [
           995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Butterfly net/Magic Net",
+        "itemIds": [
+          10010
         ],
         "quantity": 0
       }
@@ -13714,6 +13911,13 @@
         "quantity": 0
       },
       {
+        "name": "earth Runes",
+        "itemIds": [
+          557
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Waterskin",
         "itemIds": [
           1831
@@ -13801,6 +14005,13 @@
   },
   "episode-10-bank-180-through-inferno-bank-194-step-001": {
     "withdraw": [
+      {
+        "name": "Stews",
+        "itemIds": [
+          2003
+        ],
+        "quantity": 0
+      },
       {
         "name": "Hammer",
         "itemIds": [
@@ -13892,6 +14103,13 @@
         "quantity": 0
       },
       {
+        "name": "Boots",
+        "itemIds": [
+          1061
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Camulet",
         "itemIds": [
           6707
@@ -13925,6 +14143,13 @@
           12791
         ],
         "quantity": 0
+      },
+      {
+        "name": "Waterskins",
+        "itemIds": [
+          1831
+        ],
+        "quantity": 3
       }
     ],
     "_text": "Withdraw: Pickaxe, Varrock Armour 2, Desert Robe Bottom & Boots, Camulet, Knife, Teak Log, Astral, Fire, Water Runes, Rune pouch, 3x Waterskins",
@@ -13972,6 +14197,13 @@
         "name": "Ball of Wool",
         "itemIds": [
           1759
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Stews",
+        "itemIds": [
+          2003
         ],
         "quantity": 0
       },
@@ -14033,6 +14265,13 @@
         "name": "Law Runes",
         "itemIds": [
           563
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Earth Runes",
+        "itemIds": [
+          557
         ],
         "quantity": 0
       },
@@ -14155,6 +14394,13 @@
         "quantity": 0
       },
       {
+        "name": "Mind Rune",
+        "itemIds": [
+          558
+        ],
+        "quantity": 1
+      },
+      {
         "name": "Dramen Staff",
         "itemIds": [
           772
@@ -14186,6 +14432,13 @@
         "name": "Lockpick",
         "itemIds": [
           1523
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "House Teleport",
+        "itemIds": [
+          8013
         ],
         "quantity": 0
       }
@@ -14395,6 +14648,20 @@
   },
   "episode-12-bank-204-through-zulrah-bank-215-step-001": {
     "withdraw": [
+      {
+        "name": "Chaos Rune",
+        "itemIds": [
+          562
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Death Runes",
+        "itemIds": [
+          560
+        ],
+        "quantity": 0
+      },
       {
         "name": "Teleport runes",
         "itemIds": [
@@ -16832,6 +17099,34 @@
         "name": "Air Staff",
         "itemIds": [
           1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Rune",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Rune",
+        "itemIds": [
+          556
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Earth Rune",
+        "itemIds": [
+          557
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Water Runes",
+        "itemIds": [
+          555
         ],
         "quantity": 0
       },
