@@ -16138,5 +16138,583 @@
     "quest": "Druidic Ritual",
     "_text": "Head North and talk to Kaqemeex to start Druidic Ritual (2,1)",
     "_section": "Bank 10"
+  },
+  "episode-1-banks-1-through-24-bank-11-step-001": {
+    "withdraw": [
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Raw Sardine",
+        "itemIds": [
+          327
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Doogle Leaves",
+        "itemIds": [
+          1573
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Bucket of Milk",
+        "itemIds": [
+          1927
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Snape Grass",
+        "itemIds": [
+          231
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Mind Runes, Coins, Raw Sardine, Doogle Leaves, Bucket of Milk, Snape Grass, Rope (7 Inventory Slots)",
+    "_section": "Bank 11"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pie Dish",
+        "itemIds": [
+          2313
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Iron Bars",
+        "itemIds": [
+          2351
+        ],
+        "quantity": 2
+      },
+      {
+        "name": "House Teleport Tablet",
+        "itemIds": [
+          8013
+        ],
+        "quantity": 5
+      },
+      {
+        "name": "Falador Teleport Tablet",
+        "itemIds": [
+          8009
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 15
+      },
+      {
+        "name": "Bucket of Water",
+        "itemIds": [
+          1929
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Pie Dish, Pickaxe, 2x Iron Bars, 5x House Teleport Tablet, 1x Falador Teleport Tablet, 15 Wines, Bucket of Water, Biohazard Items (27 Inventory Slots)",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-13-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Feathers",
+        "itemIds": [
+          314
+        ],
+        "quantity": 50
+      },
+      {
+        "name": "Hammer",
+        "itemIds": [
+          2347
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Mind Runes, 50 Feathers, Hammer, Knife (5 Inventory Slots)",
+    "_section": "Bank 13"
+  },
+  "episode-1-banks-1-through-24-bank-13-step-006": {
+    "withdraw": [
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 12
+      }
+    ],
+    "_text": "Withdraw 12 Wines",
+    "_section": "Bank 13"
+  },
+  "episode-1-banks-1-through-24-bank-14-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins",
+    "_section": "Bank 14"
+  },
+  "episode-1-banks-1-through-24-bank-15-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Pickaxe",
+        "itemIds": [
+          1265
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins, Pickaxe (2 Inventory Spots)",
+    "_section": "Bank 15"
+  },
+  "episode-1-banks-1-through-24-bank-16-step-001": {
+    "withdraw": [
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Coins (1 Inventory Spot)",
+    "_section": "Bank 16"
+  },
+  "episode-1-banks-1-through-24-bank-17-step-001": {
+    "withdraw": [
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 1
+      },
+      {
+        "name": "Jug of Water",
+        "itemIds": [
+          1937
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 5
+      }
+    ],
+    "_text": "Withdraw: Mind Runes, Coins, 1x Logs, Jug of Water, 5x Wines, (9 Inventory spots)",
+    "_section": "Bank 17"
+  },
+  "episode-1-banks-1-through-24-bank-18-step-001": {
+    "withdraw": [
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 4
+      },
+      {
+        "name": "Poisoned Sheep feed",
+        "itemIds": [
+          279
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: 4x Wines, Poisoned Sheep feed (5 Inventory Slots)",
+    "_section": "Bank 18"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-001": {
+    "withdraw": [
+      {
+        "name": "Mind Runes",
+        "itemIds": [
+          558
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Air Staff",
+        "itemIds": [
+          1381
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Leather Gloves",
+        "itemIds": [
+          1059
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Boots",
+        "itemIds": [
+          1061
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Logs",
+        "itemIds": [
+          1511
+        ],
+        "quantity": 6
+      },
+      {
+        "name": "Rope",
+        "itemIds": [
+          954
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Wines",
+        "itemIds": [
+          1993
+        ],
+        "quantity": 10
+      }
+    ],
+    "_text": "Withdraw: Mind Runes, Air Staff, Leather Gloves+Boots, Coins, 6x Logs, Rope, Barcrawl Card, 10x Wines (20 Inventory Spots)",
+    "_section": "Bank 19"
+  },
+  "episode-1-banks-1-through-24-bank-20-step-001": {
+    "withdraw": [
+      {
+        "name": "Barcrawl Card",
+        "itemIds": [
+          455
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Coins",
+        "itemIds": [
+          995
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Knife",
+        "itemIds": [
+          946
+        ],
+        "quantity": 0
+      }
+    ],
+    "_text": "Withdraw: Barcrawl Card, Coins, Knife (3 Inventory Spots)",
+    "_section": "Bank 20"
+  },
+  "episode-1-banks-1-through-24-bank-11-step-008": {
+    "nav": {
+      "label": "Mage of Zamorak (Wilderness)",
+      "x": 3107,
+      "y": 3555,
+      "z": 0
+    },
+    "quest": "Enter the Abyss",
+    "_text": "Talk to Mage of Zamorak in Wilderness [Enter the Abyss] <- The Miniquest",
+    "_section": "Bank 11"
+  },
+  "episode-1-banks-1-through-24-bank-11-step-013": {
+    "nav": {
+      "label": "Edmond (West Ardougne)",
+      "x": 2568,
+      "y": 3334,
+      "z": 0
+    },
+    "quest": "Plague City",
+    "_text": "Return to Ardougne & complete Plague City",
+    "_section": "Bank 11"
+  },
+  "episode-1-banks-1-through-24-bank-11-step-015": {
+    "nav": {
+      "label": "Elena (West Ardougne)",
+      "x": 2592,
+      "y": 3336,
+      "z": 0
+    },
+    "quest": "Biohazard",
+    "_text": "Start Biohazard until you get the samples",
+    "_section": "Bank 11"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-003": {
+    "nav": {
+      "label": "Chemist (Rimmington)",
+      "x": 2932,
+      "y": 3210,
+      "z": 0
+    },
+    "quest": "Biohazard",
+    "_text": "Talk to the Chemist continue Biohazard (2)",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-008": {
+    "nav": {
+      "label": "Thurgo (south of Port Sarim)",
+      "x": 3001,
+      "y": 3144,
+      "z": 0
+    },
+    "quest": "The Knight's Sword",
+    "_text": "WALK South to Thurgo and continue Knights Sword (2,1) (you want run energy for next step)",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-018": {
+    "nav": {
+      "label": "Chancellor Hassan (Al Kharid Palace)",
+      "x": 3302,
+      "y": 3163,
+      "z": 0
+    },
+    "quest": "Prince Ali Rescue",
+    "_text": "Start Prince Ali Rescue talking to Chancellor Hassan (1,1)",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-020": {
+    "nav": {
+      "label": "Osman (Al Kharid)",
+      "x": 3286,
+      "y": 3180,
+      "z": 0
+    },
+    "quest": "Prince Ali Rescue",
+    "_text": "Talk to Osman",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-13-step-008": {
+    "nav": {
+      "label": "Irena (Shantay Pass)",
+      "x": 3303,
+      "y": 3112,
+      "z": 0
+    },
+    "quest": "Tourist Trap",
+    "_text": "Start Tourist Trap",
+    "_section": "Bank 13"
+  },
+  "episode-1-banks-1-through-24-bank-14-step-006": {
+    "nav": {
+      "label": "Aleck (Yanille hunter shop)",
+      "x": 2567,
+      "y": 3083,
+      "z": 0
+    },
+    "_text": "Trade Aleck [Ardougne Easy Diary] and buy Butterfly Net, 10x Buttefly Jar, 3x Bird Snare, 1x Teasing Stick, 8x Box Traps",
+    "_section": "Bank 14"
+  },
+  "episode-1-banks-1-through-24-bank-17-step-006": {
+    "nav": {
+      "label": "Brother Omad (Ardougne Monastery)",
+      "x": 2604,
+      "y": 3209,
+      "z": 0
+    },
+    "quest": "Monk's Friend",
+    "_text": "Complete Monks Friend",
+    "_section": "Bank 17"
+  },
+  "episode-1-banks-1-through-24-bank-17-step-009": {
+    "nav": {
+      "label": "Councillor Halgrive (Ardougne church)",
+      "x": 2617,
+      "y": 3300,
+      "z": 0
+    },
+    "quest": "Sheep Herder",
+    "_text": "Head North to the church then start Sheep Herder (1,1) Wear Plague outfit",
+    "_section": "Bank 17"
+  },
+  "episode-1-banks-1-through-24-bank-18-step-005": {
+    "nav": {
+      "label": "Captain Lawgof (Dwarven mine)",
+      "x": 2567,
+      "y": 3462,
+      "z": 0
+    },
+    "quest": "Dwarf Cannon",
+    "_text": "Start Dwarf Cannon up to needing to go to Falador",
+    "_section": "Bank 18"
+  },
+  "episode-1-banks-1-through-24-bank-18-step-008": {
+    "nav": {
+      "label": "Captain Cain (Barbarian Outpost)",
+      "x": 2534,
+      "y": 3570,
+      "z": 0
+    },
+    "_text": "Talk to Captain Cain & unlock Barbarian Assault teleport (Skip tutorial)",
+    "_section": "Bank 18"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-003": {
+    "nav": {
+      "label": "Almera (Baxtorian Falls)",
+      "x": 2522,
+      "y": 3498,
+      "z": 0
+    },
+    "quest": "Waterfall Quest",
+    "_text": "Head south and start the Waterfall Quest by talking to Almera",
+    "_section": "Bank 19"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-006": {
+    "nav": {
+      "label": "Flying Horse Inn (East Ardougne)",
+      "x": 2617,
+      "y": 3300,
+      "z": 0
+    },
+    "_text": "Head into the pub for the Barcrawl (Bartender (Flying Horse Inn))",
+    "_section": "Bank 19"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-008": {
+    "nav": {
+      "label": "Ceril Carnillean (East Ardougne)",
+      "x": 2566,
+      "y": 3270,
+      "z": 0
+    },
+    "quest": "Hazeel Cult",
+    "_text": "Start Hazeel Cult [Side with Hazeel]",
+    "_section": "Bank 19"
+  },
+  "episode-1-banks-1-through-24-bank-19-step-013": {
+    "nav": {
+      "label": "King Bolren (Tree Gnome Village)",
+      "x": 2542,
+      "y": 3170,
+      "z": 0
+    },
+    "quest": "Tree Gnome Village",
+    "_text": "Complete Tree Gnome Village",
+    "_section": "Bank 19"
+  },
+  "episode-1-banks-1-through-24-bank-20-step-002": {
+    "nav": {
+      "label": "Hudo (Grand Tree, upstairs)",
+      "x": 2449,
+      "y": 3510,
+      "z": 1
+    },
+    "_text": "Trade Hudo North",
+    "_section": "Bank 20"
+  },
+  "episode-1-banks-1-through-24-bank-20-step-007": {
+    "nav": {
+      "label": "Blurberry (Grand Tree bar, upstairs)",
+      "x": 2483,
+      "y": 3489,
+      "z": 1
+    },
+    "_text": "Talk to Blurberry and continue the Barcrawl",
+    "_section": "Bank 20"
   }
 }

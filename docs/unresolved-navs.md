@@ -37,6 +37,19 @@ Withdraw items with no wiki id, left out of those lists: **Mysterious Orb**
 item (leather gloves) is unrecorded. "Raw Rat/Chicken/Beef" (bank 10) is stored
 as one alternatives entry, like Food.
 
+Banks 11-20 added the same way. Left out:
+
+| Bank | Step | Why |
+|---|---|---|
+| 19 | 7 | Lucien (Temple of Ikov) — roams the path south-east of Ardougne, no pin |
+| 17 | 3 | Fight Arena — General Khazard's only pin is the gnome battlefield, not the arena |
+| 11 | 10, 11 | Grand Tree / Gnome Agility Course — the barcrawl steps at bank 20 already nav there |
+| 12 | 9 | Asgarnian Ice Dungeon — Thurgo (#8) stands right by the entrance |
+
+Bare "Boots" in "Leather Gloves+Boots" is aliased to Leather boots; that is
+correct for the early banks but would misread a later "Boots" that means desert
+boots, so watch it if the parser is ever force-run over bank 197.
+
 ## Needs a coordinate (would be filled if someone supplies one)
 
 | Bank | Step | What | Why unresolved |

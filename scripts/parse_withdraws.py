@@ -211,6 +211,17 @@ ALIASES.update({
     "bronze axe": "Bronze axe", "treasure scroll": "Treasure scroll",
 })
 
+# Fourth wave, from banks 11-20.
+ALIASES.update({
+    "raw sardine": "Raw sardine", "doogle leaves": "Doogle leaves",
+    "snape grass": "Snape grass", "pie dish": "Pie dish", "boots": "Leather boots",
+    "leather boots": "Leather boots", "poisoned sheep feed": "Poisoned sheep feed",
+    "house teleport tablet": "Teleport to house (tablet)",
+    "house teleport": "Teleport to house (tablet)",
+    "falador teleport tablet": "Falador teleport (tablet)",
+    "falador teleport": "Falador teleport (tablet)",
+})
+
 # Named in the guide but not a single bankable item, so deliberately skipped.
 SKIP = {
     "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
