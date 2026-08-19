@@ -83,12 +83,6 @@ public class WithdrawBankFilter
 		this.withdrawService = withdrawService;
 	}
 
-	/** True when the filter is on and actually ours to apply. */
-	public boolean isActive()
-	{
-		return active && !questHelperOwnsBank();
-	}
-
 	/** The bank finished building: make sure the button exists, then re-apply. */
 	public void onBankBuilt()
 	{
@@ -131,6 +125,20 @@ public class WithdrawBankFilter
 	}
 
 	/**
+	 * The player opened a bank search, from the search button or ctrl-f. Drop the
+	 * filter so the search runs against the whole bank: searching means finding
+	 * something across everything, the opposite of narrowing to a step's items.
+	 * The search rebuilds the bank itself, so there is nothing to put back.
+	 */
+	public void onBankSearch()
+	{
+		if (active)
+		{
+			standDown();
+		}
+	}
+
+	/**
 	 * The bank interface was opened or closed, so any widget we added to it is
 	 * gone. Forget it and let the next build create a single replacement.
 	 *
@@ -140,14 +148,16 @@ public class WithdrawBankFilter
 	 */
 	public void onBankInterfaceLoaded()
 	{
-		active = false;
-		buttonAdded = false;
-		button = null;
-		savedLayout.clear();
-		savedTitle = null;
+		clearState();
 	}
 
+	/** Full reset, on plugin shutdown. */
 	public void reset()
+	{
+		clearState();
+	}
+
+	private void clearState()
 	{
 		active = false;
 		buttonAdded = false;
@@ -156,12 +166,6 @@ public class WithdrawBankFilter
 		savedTitle = null;
 	}
 
-	/**
-	 * Whether Quest Helper's bank tab is showing. It renames the bank to
-	 * "Tab &lt;col=...&gt;", which is the only signal available from outside that
-	 * plugin. Both of us rewriting the same item widgets on every build is what
-	 * locked the client up when its button was pressed.
-	 */
 	/**
 	 * Clicks Quest Helper's bank button for the user, so its tab closes and gives
 	 * the bank back. Its button is the one on the bank interface offering
@@ -206,6 +210,12 @@ public class WithdrawBankFilter
 		return false;
 	}
 
+	/**
+	 * Whether Quest Helper's bank tab is showing. It renames the bank to
+	 * "Tab &lt;col=...&gt;", which is the only signal available from outside that
+	 * plugin, and both of us rewriting the same item widgets on every build is
+	 * what locked the client up when its button was pressed.
+	 */
 	private boolean questHelperOwnsBank()
 	{
 		Widget title = client.getWidget(InterfaceID.Bankmain.TITLE);

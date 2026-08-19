@@ -528,6 +528,12 @@ public class HcimGuidePlugin extends Plugin
 		{
 			withdrawBankFilter.onBankBuilt();
 		}
+		else if (event.getScriptId() == ScriptID.BANKMAIN_SEARCH_TOGGLE)
+		{
+			// Search button or ctrl-f both run this; drop the filter so the search
+			// sees the whole bank.
+			withdrawBankFilter.onBankSearch();
+		}
 	}
 
 	@Subscribe
