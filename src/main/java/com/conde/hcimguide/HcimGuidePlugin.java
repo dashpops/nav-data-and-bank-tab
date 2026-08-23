@@ -8,7 +8,9 @@ import com.conde.hcimguide.service.GuideAutoProgressService;
 import com.conde.hcimguide.service.GuideProgressStore;
 import com.conde.hcimguide.service.GuideRepository;
 import com.conde.hcimguide.service.StepMetadataRepository;
+import com.conde.hcimguide.service.WithdrawService;
 import com.conde.hcimguide.model.WithdrawItem;
+import com.conde.hcimguide.model.WithdrawLine;
 import com.conde.hcimguide.ui.CurrentStepOverlay;
 import com.conde.hcimguide.ui.WithdrawBankFilter;
 import com.conde.hcimguide.ui.WithdrawBankOverlay;
@@ -20,6 +22,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -36,7 +39,9 @@ import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.Player;
 import net.runelite.api.ScriptID;
 import net.runelite.api.gameval.InterfaceID;
+import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.events.GameTick;
+import net.runelite.api.events.ItemContainerChanged;
 import net.runelite.api.events.ScriptPostFired;
 import net.runelite.api.events.WidgetClosed;
 import net.runelite.api.events.WidgetLoaded;
@@ -102,6 +107,9 @@ public class HcimGuidePlugin extends Plugin
 	@Inject
 	private WithdrawBankFilter withdrawBankFilter;
 
+	@Inject
+	private WithdrawService withdrawService;
+
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
@@ -111,6 +119,7 @@ public class HcimGuidePlugin extends Plugin
 	private volatile String autoProgressText = "Auto: manual";
 	private volatile String lastAutoSatisfiedStepId;
 	private volatile String lastNavStepId;
+	private volatile List<WithdrawLine> currentWithdrawLines = Collections.emptyList();
 
 	@Provides
 	HcimGuideConfig provideConfig(ConfigManager configManager)
@@ -307,6 +316,41 @@ public class HcimGuidePlugin extends Plugin
 		}
 		StepMetadata metadata = stepMetadataRepository.get(step.getId());
 		return metadata == null ? Collections.emptyList() : metadata.getWithdraw();
+	}
+
+	/** The current step's withdraw items as colour-coded sidebar lines (cached). */
+	public List<WithdrawLine> getCurrentWithdrawLines()
+	{
+		return currentWithdrawLines;
+	}
+
+	/**
+	 * Recompute the colour-coded withdraw lines. Must run on the client thread — it
+	 * reads item containers. Returns whether the lines changed (so a panel refresh is
+	 * only queued when something actually moved).
+	 */
+	private boolean updateWithdrawLines()
+	{
+		List<WithdrawLine> lines;
+		if (!config.showWithdrawItems())
+		{
+			lines = Collections.emptyList();
+		}
+		else
+		{
+			List<WithdrawItem> items = getCurrentWithdrawItems();
+			lines = new ArrayList<>(items.size());
+			for (WithdrawItem item : items)
+			{
+				lines.add(new WithdrawLine(withdrawService.resolvedLabel(item), withdrawService.stateOf(item)));
+			}
+		}
+		if (lines.equals(currentWithdrawLines))
+		{
+			return false;
+		}
+		currentWithdrawLines = lines;
+		return true;
 	}
 
 	public List<GuideStep> getVisibleSteps()
@@ -541,7 +585,22 @@ public class HcimGuidePlugin extends Plugin
 	{
 		boolean changed = updateAutoProgress(true);
 		updateShortestPathTarget();
-		if (changed)
+		if (updateWithdrawLines() || changed)
+		{
+			refreshPanel();
+		}
+	}
+
+	@Subscribe
+	public void onItemContainerChanged(ItemContainerChanged event)
+	{
+		int id = event.getContainerId();
+		if (id == InventoryID.BANK)
+		{
+			withdrawService.snapshotBank();
+		}
+		if ((id == InventoryID.INV || id == InventoryID.WORN || id == InventoryID.BANK)
+			&& updateWithdrawLines())
 		{
 			refreshPanel();
 		}
@@ -573,6 +632,7 @@ public class HcimGuidePlugin extends Plugin
 
 			updateAutoProgress(false);
 			updateShortestPathTarget();
+			updateWithdrawLines();
 			refreshPanel();
 		});
 	}

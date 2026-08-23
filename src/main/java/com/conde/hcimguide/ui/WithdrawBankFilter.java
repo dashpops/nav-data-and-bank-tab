@@ -8,8 +8,11 @@ import java.util.Set;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
+import net.runelite.api.Item;
+import net.runelite.api.ItemContainer;
 import net.runelite.api.ScriptID;
 import net.runelite.api.gameval.InterfaceID;
+import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.widgets.JavaScriptCallback;
 import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.WidgetType;
@@ -222,6 +225,39 @@ public class WithdrawBankFilter
 		return title != null && title.getText() != null && title.getText().startsWith("Tab ");
 	}
 
+	/**
+	 * Whether the bank is showing only part of its contents — a numbered bank tab, or a
+	 * Bank Tags layout tab. Both rebuild the item container down to a subset before our
+	 * build handler runs, so the widgets present are fewer than the bank actually holds.
+	 * Compared against the bank's own item container, which always holds everything.
+	 */
+	private boolean bankNarrowed(Widget container)
+	{
+		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
+		Widget[] children = container.getDynamicChildren();
+		if (bank == null || children == null)
+		{
+			return false;
+		}
+		int occupied = 0;
+		for (Item item : bank.getItems())
+		{
+			if (item.getId() > 0)
+			{
+				occupied++;
+			}
+		}
+		int visible = 0;
+		for (Widget child : children)
+		{
+			if (child != null && child.getItemId() > 0)
+			{
+				visible++;
+			}
+		}
+		return occupied > 0 && visible < occupied;
+	}
+
 	private void registerIcon()
 	{
 		if (iconRegistered)
@@ -318,6 +354,16 @@ public class WithdrawBankFilter
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
 		if (container == null)
 		{
+			return;
+		}
+
+		if (bankNarrowed(container))
+		{
+			// A numbered bank tab or a Bank Tags layout tab has already cut the bank down
+			// to a subset before we see it, so filtering it would narrow a narrowing and
+			// show only that tab's matches. The filter is meant to sift the *whole* bank,
+			// so step aside and leave the tab view intact rather than break it.
+			standDown();
 			return;
 		}
 

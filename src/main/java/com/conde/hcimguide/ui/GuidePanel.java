@@ -3,7 +3,9 @@ package com.conde.hcimguide.ui;
 import com.conde.hcimguide.HcimGuidePlugin;
 import com.conde.hcimguide.model.GuideSection;
 import com.conde.hcimguide.model.GuideStep;
+import com.conde.hcimguide.model.ItemState;
 import com.conde.hcimguide.model.StepMetadata;
+import com.conde.hcimguide.model.WithdrawLine;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -41,6 +43,7 @@ public class GuidePanel extends PluginPanel
 	private static final Color ACCENT_COLOR = new Color(224, 169, 72);
 	private static final Color ACCENT_SOFT_COLOR = new Color(90, 74, 35);
 	private static final Color SUCCESS_COLOR = new Color(91, 176, 118);
+	private static final Color DANGER_COLOR = new Color(214, 96, 96);
 	private static final Color INFO_COLOR = new Color(85, 150, 212);
 	private static final Color WARNING_COLOR = new Color(205, 152, 79);
 	private static final Color MUTED_TEXT_COLOR = new Color(170, 176, 186);
@@ -56,6 +59,7 @@ public class GuidePanel extends PluginPanel
 	private final JLabel currentStepBadge = new JLabel();
 	private final JTextArea currentStepText = new JTextArea();
 	private final JLabel navTargetLabel = new JLabel();
+	private final JPanel withdrawPanel = new JPanel();
 	private final JButton previousButton;
 	private final JButton toggleButton;
 	private final JButton nextButton;
@@ -220,10 +224,17 @@ public class GuidePanel extends PluginPanel
 		navTargetLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		navTargetLabel.setVisible(false);
 
+		withdrawPanel.setOpaque(false);
+		withdrawPanel.setLayout(new BoxLayout(withdrawPanel, BoxLayout.Y_AXIS));
+		withdrawPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		withdrawPanel.setVisible(false);
+
 		wrapper.add(currentStepBadge);
 		wrapper.add(Box.createRigidArea(new Dimension(0, 8)));
 		wrapper.add(currentStepText);
 		wrapper.add(navTargetLabel);
+		wrapper.add(Box.createRigidArea(new Dimension(0, 6)));
+		wrapper.add(withdrawPanel);
 		return wrapper;
 	}
 
@@ -242,7 +253,7 @@ public class GuidePanel extends PluginPanel
 
 	private JPanel createTimelinePanel()
 	{
-		JPanel panel = createCardPanel();
+		JPanel panel = createCardPanel(true);
 		panel.setLayout(new BorderLayout(0, 8));
 
 		JLabel heading = new JLabel("Timeline");
@@ -337,6 +348,7 @@ public class GuidePanel extends PluginPanel
 			currentStepText.setText("No step loaded.");
 			navTargetLabel.setVisible(false);
 			toggleButton.setText("Done");
+			renderWithdrawLines();
 			return;
 		}
 
@@ -356,6 +368,45 @@ public class GuidePanel extends PluginPanel
 		else
 		{
 			navTargetLabel.setVisible(false);
+		}
+
+		renderWithdrawLines();
+	}
+
+	/**
+	 * One line per item of a "Withdraw:" step, coloured by where it is: green on you,
+	 * white in the bank, red missing, grey when it has no id to check.
+	 */
+	private void renderWithdrawLines()
+	{
+		withdrawPanel.removeAll();
+		List<WithdrawLine> lines = plugin.getCurrentWithdrawLines();
+		for (WithdrawLine line : lines)
+		{
+			JLabel label = new JLabel("• " + line.getLabel());
+			label.setFont(FontManager.getRunescapeSmallFont());
+			label.setForeground(colorForState(line.getState()));
+			label.setAlignmentX(Component.LEFT_ALIGNMENT);
+			label.setToolTipText(line.getLabel());   // full text on hover if it truncates
+			withdrawPanel.add(label);
+		}
+		withdrawPanel.setVisible(!lines.isEmpty());
+		withdrawPanel.revalidate();
+		withdrawPanel.repaint();
+	}
+
+	private Color colorForState(ItemState state)
+	{
+		switch (state)
+		{
+			case CARRIED:
+				return SUCCESS_COLOR;
+			case BANK:
+				return Color.WHITE;
+			case MISSING:
+				return DANGER_COLOR;
+			default:
+				return MUTED_TEXT_COLOR;
 		}
 	}
 
@@ -394,14 +445,35 @@ public class GuidePanel extends PluginPanel
 
 	private JPanel createCardPanel()
 	{
-		JPanel panel = new JPanel();
+		return createCardPanel(false);
+	}
+
+	/**
+	 * @param fill whether the card should take up spare vertical space. Only the
+	 *     timeline should — the header and current-step cards must sit at their
+	 *     natural height, or the vertical BoxLayout stretches them and opens a gap
+	 *     between the title (pinned top) and the subtitle (pinned bottom of the row).
+	 */
+	private JPanel createCardPanel(boolean fill)
+	{
+		JPanel panel = fill ? new JPanel() : new JPanel()
+		{
+			@Override
+			public Dimension getMaximumSize()
+			{
+				return new Dimension(Integer.MAX_VALUE, getPreferredSize().height);
+			}
+		};
 		panel.setOpaque(true);
 		panel.setBackground(SURFACE_COLOR);
 		panel.setBorder(BorderFactory.createCompoundBorder(
 			BorderFactory.createLineBorder(BORDER_COLOR),
 			BorderFactory.createEmptyBorder(10, 10, 10, 10)));
 		panel.setAlignmentX(Component.LEFT_ALIGNMENT);
-		panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
+		if (fill)
+		{
+			panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
+		}
 		return panel;
 	}
 

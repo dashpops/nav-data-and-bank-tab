@@ -125,7 +125,7 @@ public class WithdrawBankOverlay extends Overlay
 	 */
 	private void drawProgress(Graphics2D graphics, Rectangle bounds, int itemId, int bankQuantity)
 	{
-		WithdrawItem entry = entryFor(itemId);
+		WithdrawItem entry = withdrawService.entryFor(itemId, plugin.getCurrentWithdrawItems());
 		if (entry == null)
 		{
 			return;
@@ -183,18 +183,5 @@ public class WithdrawBankOverlay extends Overlay
 		{
 			graphics.drawImage(marker, markerX, markerY, null);
 		}
-	}
-
-	/** The withdraw entry this item satisfies, or null. */
-	private WithdrawItem entryFor(int itemId)
-	{
-		for (WithdrawItem entry : plugin.getCurrentWithdrawItems())
-		{
-			if (entry.getItemIds().contains(itemId))
-			{
-				return entry;
-			}
-		}
-		return null;
 	}
 }
