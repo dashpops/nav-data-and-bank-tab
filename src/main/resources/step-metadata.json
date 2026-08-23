@@ -2309,7 +2309,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -2487,7 +2488,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -2724,7 +2726,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -3296,7 +3299,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -3430,7 +3434,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -3530,7 +3535,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -3663,7 +3669,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -3760,7 +3767,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -5994,13 +6002,21 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
       {
         "name": "Ring of Duelling",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -6323,7 +6339,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -6448,7 +6465,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -6703,7 +6721,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -6871,7 +6890,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7099,7 +7119,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       }
@@ -7120,7 +7141,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7244,7 +7266,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7393,6 +7416,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -7504,6 +7534,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -7511,7 +7548,11 @@
       {
         "name": "Digsite Pendant",
         "itemIds": [
-          11190
+          11190,
+          11191,
+          11192,
+          11193,
+          11194
         ],
         "quantity": 0
       },
@@ -7532,7 +7573,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7615,7 +7657,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7664,7 +7707,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7720,7 +7764,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7769,7 +7814,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -7784,6 +7830,13 @@
         "name": "Adamant Pickaxe",
         "itemIds": [
           1271
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Message",
+        "itemIds": [
+          755
         ],
         "quantity": 0
       },
@@ -7846,13 +7899,21 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -7860,7 +7921,11 @@
       {
         "name": "Digsite Pendant",
         "itemIds": [
-          11190
+          11190,
+          11191,
+          11192,
+          11193,
+          11194
         ],
         "quantity": 0
       },
@@ -7964,7 +8029,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -8234,6 +8300,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -8296,6 +8369,13 @@
       {
         "name": "Ring of Duelling",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -8310,7 +8390,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       }
@@ -8351,6 +8432,13 @@
       {
         "name": "Ring of Duelling",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -8393,7 +8481,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -8606,7 +8695,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -8697,7 +8787,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -8918,7 +9009,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -8967,6 +9059,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -9016,7 +9115,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9114,7 +9214,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9273,7 +9374,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9350,7 +9452,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9427,7 +9530,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9483,7 +9587,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9560,7 +9665,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9581,6 +9687,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -9588,6 +9701,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -9699,6 +9819,13 @@
       {
         "name": "Dueling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -9802,7 +9929,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -9837,6 +9965,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -9949,7 +10084,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10046,6 +10182,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -10054,7 +10197,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10075,7 +10219,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10124,6 +10269,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -10187,7 +10339,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10201,6 +10354,13 @@
       {
         "name": "Dueling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -10263,6 +10423,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -10312,7 +10479,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10340,6 +10508,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -10506,7 +10681,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10590,7 +10766,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10646,7 +10823,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10695,7 +10873,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -10910,6 +11089,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -10958,7 +11144,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11007,7 +11194,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11021,6 +11209,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -11125,7 +11320,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11139,6 +11335,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -11207,6 +11410,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -11235,7 +11445,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11333,6 +11544,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -11526,7 +11744,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11608,6 +11827,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -11712,13 +11938,21 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -11796,7 +12030,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11859,7 +12094,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -11984,7 +12220,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12068,7 +12305,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12110,7 +12348,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12201,7 +12440,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12250,7 +12490,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12264,6 +12505,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -12292,7 +12540,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12411,13 +12660,21 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -12474,7 +12731,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12544,7 +12802,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       }
@@ -12572,7 +12831,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12607,6 +12867,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -12621,7 +12888,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12670,6 +12938,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -12787,7 +13062,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12878,7 +13154,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -12913,7 +13190,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13018,7 +13296,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13046,6 +13325,10 @@
       {
         "name": "Necklace of Passage",
         "itemIds": [
+          21146,
+          21149,
+          21151,
+          21153,
           21155
         ],
         "quantity": 0
@@ -13074,7 +13357,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13200,7 +13484,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13249,7 +13534,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13277,7 +13563,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13354,7 +13641,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13437,7 +13725,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13479,7 +13768,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13561,7 +13851,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13610,7 +13901,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13638,6 +13930,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -13795,7 +14094,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13830,7 +14130,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13906,6 +14207,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 0
@@ -13967,7 +14275,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -13988,6 +14297,13 @@
       {
         "name": "Duelling Ring",
         "itemIds": [
+          2552,
+          2554,
+          2556,
+          2558,
+          2560,
+          2562,
+          2564,
           2566
         ],
         "quantity": 3
@@ -13995,6 +14311,13 @@
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 3
@@ -14036,7 +14359,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       }
@@ -14057,7 +14381,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14078,7 +14403,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14161,13 +14487,21 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
       {
         "name": "games necklace",
         "itemIds": [
+          3853,
+          3855,
+          3857,
+          3859,
+          3861,
+          3863,
+          3865,
           3867
         ],
         "quantity": 0
@@ -14313,7 +14647,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14389,7 +14724,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14452,7 +14788,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14487,7 +14824,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -14597,7 +14935,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       }
@@ -14666,7 +15005,8 @@
         "name": "Teleport runes",
         "itemIds": [
           1381,
-          12791
+          12791,
+          554
         ],
         "quantity": 0
       },
@@ -17712,5 +18052,4195 @@
     "quest": "Dragon Slayer",
     "_text": "Head to Port Sarim and kill Wormbrain to get the map part [Dragon Slayer]",
     "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-017": {
+    "nav": {
+      "label": "Shantay Pass",
+      "x": 3304,
+      "y": 3123,
+      "z": 0
+    },
+    "_text": "Head South to Shantay Pass - If you turned your desert robe top & bottoms black for Shadow of the Storm and don't have another normal set in the bank, buy another top & bottoms while you're here [A Tail of Two Cats]",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-018": {
+    "nav": {
+      "label": "Jarr (Shantay Pass)",
+      "x": 3302,
+      "y": 3122,
+      "z": 0
+    },
+    "_text": "Talk to Jarr to complete both Desert Easy & Medium diary (Lamps on Herblore)",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-020": {
+    "nav": {
+      "label": "Ali the Snake Charmer (Pollnivneach)",
+      "x": 3355,
+      "y": 2953,
+      "z": 0
+    },
+    "_text": "Talk to The Snake Charmer behind Pollnivneach pub [Ratcatchers]",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-003": {
+    "nav": {
+      "label": "Land's End",
+      "x": 1510,
+      "y": 3430,
+      "z": 0
+    },
+    "_text": "Walk south to Land's End",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-007": {
+    "nav": {
+      "label": "Auguste (Entrana)",
+      "x": 2810,
+      "y": 3356,
+      "z": 0
+    },
+    "_text": "Talk to Auguste & continue Enlightened Journey",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-146-step-007": {
+    "nav": {
+      "label": "Apothecary (Varrock)",
+      "x": 3195,
+      "y": 3404,
+      "z": 0
+    },
+    "_text": "Talk to Apothecary (2) [A Tail of Two Cats]",
+    "_section": "Bank 146"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-004": {
+    "nav": {
+      "label": "Juliet (upstairs)",
+      "x": 3159,
+      "y": 3426,
+      "z": 1
+    },
+    "_text": "Talk to Juliet [Romeo & Juliet]",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-005": {
+    "nav": {
+      "label": "Barbarian Village",
+      "x": 3080,
+      "y": 3427,
+      "z": 0
+    },
+    "_text": "Head to Barbarian Village",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-009": {
+    "nav": {
+      "label": "Romeo (Varrock Square)",
+      "x": 3211,
+      "y": 3425,
+      "z": 0
+    },
+    "_text": "Talk to Romeo to complete Romeo & Juliet",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-010": {
+    "nav": {
+      "label": "Sawmill operator (Varrock)",
+      "x": 3302,
+      "y": 3492,
+      "z": 0
+    },
+    "_text": "Turn 20 Mahogany logs into Planks at Sawmill [Varrock Medium Diary]",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-014": {
+    "nav": {
+      "label": "Toby (Varrock)",
+      "x": 3225,
+      "y": 3415,
+      "z": 0
+    },
+    "_text": "Talk to Toby and complete Varrock Medium Diary [Use lamps on Herblore]",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-018": {
+    "nav": {
+      "label": "Unferth (Burthorpe)",
+      "x": 2920,
+      "y": 3559,
+      "z": 0
+    },
+    "_text": "Talk to Unferth & complete A Tail of Two Cats",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-148-step-003": {
+    "nav": {
+      "label": "Olaf Hradson (Rellekka)",
+      "x": 2724,
+      "y": 3729,
+      "z": 0
+    },
+    "_text": "Start Olaf's Quest until you get Sven's Last Map",
+    "_section": "Bank 148"
+  },
+  "episode-4-banks-105-through-150-bank-149-step-005": {
+    "nav": {
+      "label": "Jossik (Lighthouse, upstairs)",
+      "x": 2509,
+      "y": 3641,
+      "z": 1
+    },
+    "_text": "From Jossik get a Unholy book, then buy Book of War & Book of Law",
+    "_section": "Bank 149"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-006": {
+    "nav": {
+      "label": "Blanin (Rellekka)",
+      "x": 2674,
+      "y": 3670,
+      "z": 0
+    },
+    "_text": "Talk to Blanin and then Dron (3,2 2,1 2,1 2,2 1,3 3,1 1,1) [Making History]",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-009": {
+    "nav": {
+      "label": "Askeladden (Rellekka)",
+      "x": 2658,
+      "y": 3660,
+      "z": 0
+    },
+    "_text": "Get a pet Rock from Askeladden",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-011": {
+    "nav": {
+      "label": "Yrsa (Rellekka)",
+      "x": 2624,
+      "y": 3674,
+      "z": 0
+    },
+    "_text": "Check shoes at Yrsa [Fremmenik Easy Diary]",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-012": {
+    "nav": {
+      "label": "Jarvald (Rellekka docks)",
+      "x": 2621,
+      "y": 3683,
+      "z": 0
+    },
+    "_text": "Head to Waterbirth Island by talking to Jarvald",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-015": {
+    "nav": {
+      "label": "Burntof (Dwarven Mine)",
+      "x": 2957,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Talk to Burntof [Below Ice Mountain]",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-018": {
+    "nav": {
+      "label": "Marley (Ice Mountain)",
+      "x": 3088,
+      "y": 3472,
+      "z": 0
+    },
+    "_text": "Talk to Marley [Below Ice Mountain]",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-152-step-008": {
+    "nav": {
+      "label": "King Lathas (Ardougne, upstairs)",
+      "x": 2579,
+      "y": 3294,
+      "z": 1
+    },
+    "_text": "Talk to King Lathas to start Regicide (1,1)",
+    "_section": "Bank 152"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-002": {
+    "nav": {
+      "label": "King Narnode (Grand Tree)",
+      "x": 2466,
+      "y": 3496,
+      "z": 0
+    },
+    "_text": "Start Monkey Madness",
+    "_section": "Bank 153"
+  },
+  "episode-5-banks-151-through-175-bank-154-step-004": {
+    "nav": {
+      "label": "Brimstail (cave)",
+      "x": 2409,
+      "y": 9817,
+      "z": 0
+    },
+    "_text": "Start Eyes of Glouphrie",
+    "_section": "Bank 154"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-004": {
+    "nav": {
+      "label": "Bert (Yanille)",
+      "x": 2551,
+      "y": 3100,
+      "z": 0
+    },
+    "_text": "Talk to Bert (2,1) [Hand in the Sand]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-008": {
+    "nav": {
+      "label": "Zavistic Rarve (Wizards' Guild)",
+      "x": 2591,
+      "y": 3088,
+      "z": 0
+    },
+    "_text": "Talk to Zavistic Rarve (2) [Hand in the Sand]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-011": {
+    "nav": {
+      "label": "Watchtower Wizard (top)",
+      "x": 2547,
+      "y": 3115,
+      "z": 2
+    },
+    "_text": "Talk to Watchtower Wizard (1,1,1) [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-013": {
+    "nav": {
+      "label": "Watchtower Wizard (top)",
+      "x": 2547,
+      "y": 3115,
+      "z": 2
+    },
+    "_text": "Talk to Watchtower Wizard (1,1) [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-017": {
+    "nav": {
+      "label": "Bert (Yanille)",
+      "x": 2551,
+      "y": 3100,
+      "z": 0
+    },
+    "_text": "Talk to Bert to get the Rota [Hand in the Sand]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-019": {
+    "nav": {
+      "label": "Og (Gu'Tanoth)",
+      "x": 2506,
+      "y": 3115,
+      "z": 0
+    },
+    "_text": "Talk to Og (1) [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-020": {
+    "nav": {
+      "label": "Grew (Gu'Tanoth)",
+      "x": 2511,
+      "y": 3086,
+      "z": 0
+    },
+    "_text": "Talk to Grew (1) [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-023": {
+    "nav": {
+      "label": "Toban (Gu'Tanoth)",
+      "x": 2575,
+      "y": 3028,
+      "z": 0
+    },
+    "_text": "Talk to Toban (1,1) [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-024": {
+    "nav": {
+      "label": "Toban (Gu'Tanoth)",
+      "x": 2575,
+      "y": 3028,
+      "z": 0
+    },
+    "_text": "Talk to Toban [Watchtower Quest]",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-003": {
+    "nav": {
+      "label": "Sandy (Brimhaven)",
+      "x": 2790,
+      "y": 3176,
+      "z": 0
+    },
+    "_text": "Search Sandy's Desk [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-007": {
+    "nav": {
+      "label": "Og (Gu'Tanoth)",
+      "x": 2506,
+      "y": 3115,
+      "z": 0
+    },
+    "_text": "Talk to Og [Watchtower Quest]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-009": {
+    "nav": {
+      "label": "Grew (Gu'Tanoth)",
+      "x": 2511,
+      "y": 3086,
+      "z": 0
+    },
+    "_text": "Talk to Grew [Watchtower Quest]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-010": {
+    "nav": {
+      "label": "Bert (Yanille)",
+      "x": 2551,
+      "y": 3100,
+      "z": 0
+    },
+    "_text": "Talk to Bert [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-011": {
+    "nav": {
+      "label": "Watchtower Wizard (top)",
+      "x": 2547,
+      "y": 3115,
+      "z": 2
+    },
+    "_text": "Return to Watchtower Wizard",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-013": {
+    "nav": {
+      "label": "Zavistic Rarve (Wizards' Guild)",
+      "x": 2591,
+      "y": 3088,
+      "z": 0
+    },
+    "_text": "Talk to Zavistic Rarve [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-015": {
+    "nav": {
+      "label": "Wydin (Port Sarim)",
+      "x": 3013,
+      "y": 3207,
+      "z": 0
+    },
+    "_text": "Buy Raw Chicken & Redberries from Wydin [Ardougne Medium Diary]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-016": {
+    "nav": {
+      "label": "Betty (Port Sarim)",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "Talk to Betty (1) [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-019": {
+    "nav": {
+      "label": "Betty (Port Sarim)",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "Talk to Betty (1) [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-021": {
+    "nav": {
+      "label": "Betty (Port Sarim)",
+      "x": 3013,
+      "y": 3259,
+      "z": 0
+    },
+    "_text": "Talk to Betty (1) [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-023": {
+    "nav": {
+      "label": "Sandy (Brimhaven)",
+      "x": 2790,
+      "y": 3176,
+      "z": 0
+    },
+    "_text": "Talk to Sandy (1,2,3) [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-026": {
+    "nav": {
+      "label": "Sandy (Brimhaven)",
+      "x": 2790,
+      "y": 3176,
+      "z": 0
+    },
+    "_text": "Talk to Sandy (1,1,1) [Hand in the Sand]",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-006": {
+    "nav": {
+      "label": "Zavistic Rarve (Wizards' Guild)",
+      "x": 2591,
+      "y": 3088,
+      "z": 0
+    },
+    "_text": "Talk to Zavistic Rarve [Hand in the Sand]",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-007": {
+    "nav": {
+      "label": "Zavistic Rarve (Wizards' Guild)",
+      "x": 2591,
+      "y": 3088,
+      "z": 0
+    },
+    "_text": "Talk to Zavistic Rarve again [Hand in the Sand]",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-008": {
+    "nav": {
+      "label": "Watchtower Wizard (top)",
+      "x": 2547,
+      "y": 3115,
+      "z": 2
+    },
+    "_text": "Talk to the Watchtower Wizard",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-161-step-009": {
+    "nav": {
+      "label": "Arianwyn (Lletya)",
+      "x": 2353,
+      "y": 3172,
+      "z": 0
+    },
+    "_text": "Talk to Arianwyn until you get the Elf Teleport Crystal",
+    "_section": "Bank 161"
+  },
+  "episode-5-banks-151-through-175-bank-161-step-010": {
+    "nav": {
+      "label": "Oronwen (Lletya)",
+      "x": 2326,
+      "y": 3178,
+      "z": 0
+    },
+    "_text": "Trade Oronwen 2x Red, Yellow, Blue, Green dye [Mournings End Pt 1]",
+    "_section": "Bank 161"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-006": {
+    "nav": {
+      "label": "Sylas (Taverley)",
+      "x": 2891,
+      "y": 3454,
+      "z": 0
+    },
+    "_text": "Talk to Sylas (1) [Grim Tales]",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-007": {
+    "nav": {
+      "label": "Grimgnash",
+      "x": 2865,
+      "y": 3510,
+      "z": 0
+    },
+    "_text": "Talk to Grimnash (1,1,2,4,4,3,1) [Grim Tales]",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-013": {
+    "nav": {
+      "label": "Rantz (Feldip Hills)",
+      "x": 2630,
+      "y": 2981,
+      "z": 0
+    },
+    "_text": "Talk to Rantz (2) [Recipe for Disaster]",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-164-step-003": {
+    "nav": {
+      "label": "Arianwyn (Lletya)",
+      "x": 2353,
+      "y": 3172,
+      "z": 0
+    },
+    "_text": "Talk to Arianwyn to start Mournings End Pt 2",
+    "_section": "Bank 164"
+  },
+  "episode-5-banks-151-through-175-bank-166-step-007": {
+    "nav": {
+      "label": "Chemist (Rimmington)",
+      "x": 2932,
+      "y": 3210,
+      "z": 0
+    },
+    "_text": "Distil the Swamp Tar in the Chemist then light the Bullseye Lantern [Falador Medium Diary]",
+    "_section": "Bank 166"
+  },
+  "episode-5-banks-151-through-175-bank-168b-step-005": {
+    "nav": {
+      "label": "Eblis (Bedabin Camp)",
+      "x": 3186,
+      "y": 2984,
+      "z": 0
+    },
+    "_text": "Start Desert Treasure until talking to Eblis at the Mirrors",
+    "_section": "Bank 168B"
+  },
+  "episode-5-banks-151-through-175-bank-168b-step-010": {
+    "nav": {
+      "label": "Malak (Canifis)",
+      "x": 3496,
+      "y": 3475,
+      "z": 0
+    },
+    "_text": "Talk to Malak in the Canifis Pub (5,1,3) [Desert Treasure]",
+    "_section": "Bank 168B"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-009": {
+    "nav": {
+      "label": "Wise Old Man (Draynor)",
+      "x": 3089,
+      "y": 3254,
+      "z": 0
+    },
+    "_text": "Talk to Wise Old Man (3,2,5) [Recipe for Disaster]",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-020": {
+    "nav": {
+      "label": "Rasolo (McGrubor's Wood)",
+      "x": 2535,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Talk to Rasolo (3) [Desert Treasure]",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-003": {
+    "nav": {
+      "label": "Malak (Canifis)",
+      "x": 3496,
+      "y": 3475,
+      "z": 0
+    },
+    "_text": "Talk to Malak [Desert Treasure]",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-013": {
+    "nav": {
+      "label": "Malak (Canifis)",
+      "x": 3496,
+      "y": 3475,
+      "z": 0
+    },
+    "_text": "Talk to Malak [Desert Treasure]",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-172-step-002": {
+    "nav": {
+      "label": "Rasolo (McGrubor's Wood)",
+      "x": 2535,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Head to Rasolo",
+    "_section": "Bank 172"
+  },
+  "episode-5-banks-151-through-175-bank-176-step-004": {
+    "nav": {
+      "label": "Eblis (Bedabin Camp)",
+      "x": 3186,
+      "y": 2984,
+      "z": 0
+    },
+    "_text": "Buy Ancient Staff off Eblis for 80,000GP",
+    "_section": "Bank 176"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-005": {
+    "nav": {
+      "label": "Elise (Kourend)",
+      "x": 1648,
+      "y": 3665,
+      "z": 0
+    },
+    "_text": "Talk to Elise & complete Kourend Medium Diary",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-025": {
+    "nav": {
+      "label": "Mage of Zamorak (Edgeville)",
+      "x": 3107,
+      "y": 3555,
+      "z": 0
+    },
+    "_text": "Talk to Mage of Zamorak [Temple of the Eye]",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-026": {
+    "nav": {
+      "label": "Tea Seller (Varrock)",
+      "x": 3270,
+      "y": 3413,
+      "z": 0
+    },
+    "_text": "Talk to Tea Seller (3) [Temple of the Eye]",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-035": {
+    "nav": {
+      "label": "Wizard Persten",
+      "x": 3284,
+      "y": 3231,
+      "z": 0
+    },
+    "_text": "Talk to Wizard Persten",
+    "_section": "Bank 180"
+  },
+  "episode-9-bank-177-through-179-bank-182-step-010": {
+    "nav": {
+      "label": "Pellem (Hunter Guild)",
+      "x": 1562,
+      "y": 3035,
+      "z": 0
+    },
+    "_text": "Talk to Pellem and make Mixed Hide Top, Bottom & Boots",
+    "_section": "Bank 182"
+  },
+  "episode-9-bank-177-through-179-bank-183-step-002": {
+    "nav": {
+      "label": "Imia (Hunter Guild)",
+      "x": 1561,
+      "y": 3060,
+      "z": 0
+    },
+    "_text": "Buy 27 Butterfly Jars from Imia North-East",
+    "_section": "Bank 183"
+  },
+  "episode-9-bank-177-through-179-bank-183-step-003": {
+    "nav": {
+      "label": "Guildmaster Apatura (Hunter Guild)",
+      "x": 1555,
+      "y": 3035,
+      "z": 0
+    },
+    "_text": "Talk to Guildmaster Apatura (2,1) [At First Light]",
+    "_section": "Bank 183"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-009": {
+    "nav": {
+      "label": "Tyss (Arceuus)",
+      "x": 1714,
+      "y": 3883,
+      "z": 0
+    },
+    "_text": "Talk to Tyss for Arceuss Signet",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-013": {
+    "nav": {
+      "label": "Eblis (Bedabin Camp)",
+      "x": 3186,
+      "y": 2984,
+      "z": 0
+    },
+    "_text": "Talk to Eblis for an Ancient Signet",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-188-step-004": {
+    "nav": {
+      "label": "Brundt (Rellekka)",
+      "x": 2659,
+      "y": 3670,
+      "z": 0
+    },
+    "_text": "Talk to Brundt [Lunar Diplomacy]",
+    "_section": "Bank 188"
+  },
+  "episode-10-bank-180-through-inferno-bank-189-step-003": {
+    "nav": {
+      "label": "Baba Yaga (Lunar Isle)",
+      "x": 2088,
+      "y": 3931,
+      "z": 0
+    },
+    "_text": "Trade Baba Yaga & buy Lunar Signet & 11,000 Astrals Runes",
+    "_section": "Bank 189"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-012": {
+    "nav": {
+      "label": "Nardah",
+      "x": 3427,
+      "y": 2911,
+      "z": 0
+    },
+    "_text": "Head to Nardah",
+    "_section": "Bank 190"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-202-step-006": {
+    "nav": {
+      "label": "Sir Renitee (Falador, upstairs)",
+      "x": 2982,
+      "y": 3341,
+      "z": 1
+    },
+    "_text": "Buy an Isafdor Painting from Ser Renitee",
+    "_section": "Bank 202"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-013": {
+    "nav": {
+      "label": "Brother Tranquility (Mos Le'Harmless)",
+      "x": 3680,
+      "y": 2963,
+      "z": 0
+    },
+    "_text": "Talk to Brother Tranquility to travel to Harmony Island",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-016": {
+    "nav": {
+      "label": "Le-sabre (Canifis)",
+      "x": 3465,
+      "y": 3478,
+      "z": 0
+    },
+    "_text": "Talk to Le Sabre and complete Morytania Medium & Hard Diary",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-012": {
+    "nav": {
+      "label": "Captain Khaled (Piscarilius)",
+      "x": 1847,
+      "y": 3755,
+      "z": 0
+    },
+    "_text": "Deliver an Artefact to Captain Khaled [Kourend Hard Diary]",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-207-step-008": {
+    "nav": {
+      "label": "Tyss (Arceuus)",
+      "x": 1714,
+      "y": 3883,
+      "z": 0
+    },
+    "_text": "Talk to Tyss to complete Kourend Hard Diary (Lamp on Herblore)",
+    "_section": "Bank 207"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-006": {
+    "nav": {
+      "label": "Emelio (Varlamore)",
+      "x": 1754,
+      "y": 3074,
+      "z": 0
+    },
+    "_text": "Head South and talk to Emelio (1) [Meat and Greet]",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-016": {
+    "nav": {
+      "label": "Alba (Varlamore)",
+      "x": 1586,
+      "y": 3126,
+      "z": 0
+    },
+    "_text": "Talk to Alba [Meat and Greet]",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-020": {
+    "nav": {
+      "label": "Curator Herminius (Varlamore)",
+      "x": 1712,
+      "y": 3163,
+      "z": 0
+    },
+    "_text": "Talk to Curator Herminius to complete Ethically Acquired Antiques (4)",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-021": {
+    "nav": {
+      "label": "Emelio (Varlamore)",
+      "x": 1754,
+      "y": 3074,
+      "z": 0
+    },
+    "_text": "Head South-East back to Emelio",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-024": {
+    "nav": {
+      "label": "Atza (Varlamore)",
+      "x": 1697,
+      "y": 3064,
+      "z": 0
+    },
+    "_text": "Talk to Atza [At First Light]",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-212-step-004": {
+    "nav": {
+      "label": "Marcus (Civitas illa Fortis)",
+      "x": 1394,
+      "y": 3354,
+      "z": 0
+    },
+    "_text": "Talk to Marcus [Shadows of Custodia]",
+    "_section": "Bank 212"
+  },
+  "episode-12-bank-204-through-zulrah-bank-212-step-007": {
+    "nav": {
+      "label": "Ranulph (Civitas illa Fortis)",
+      "x": 1366,
+      "y": 3367,
+      "z": 0
+    },
+    "_text": "Talk to Ranulph [Vale Totems]",
+    "_section": "Bank 212"
+  },
+  "episode-12-bank-204-through-zulrah-bank-212-step-011": {
+    "nav": {
+      "label": "Ictus (Civitas illa Fortis)",
+      "x": 1408,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Talk to Ictus [Shadows of Custodia]",
+    "_section": "Bank 212"
+  },
+  "episode-1-banks-1-through-24-bank-2-step-024": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 2"
+  },
+  "episode-1-banks-1-through-24-bank-8-step-002": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home Teleport to Lumbridge",
+    "_section": "Bank 8"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-007": {
+    "nav": {
+      "label": "Musa Point",
+      "x": 2904,
+      "y": 3162,
+      "z": 0
+    },
+    "_text": "Take Ship to Karamja (Seamen dressed in blue)",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-9-step-014": {
+    "nav": {
+      "label": "Port Sarim",
+      "x": 3029,
+      "y": 3221,
+      "z": 0
+    },
+    "_text": "Take boat back to Port Sarim [Karamja Easy Diary]",
+    "_section": "Bank 9"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-002": {
+    "nav": {
+      "label": "Rimmington",
+      "x": 2956,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Take the boat to Rimmington",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-011": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador with Teletab",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-12-step-016": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 12"
+  },
+  "episode-1-banks-1-through-24-bank-14-step-002": {
+    "nav": {
+      "label": "Last Man Standing",
+      "x": 3142,
+      "y": 3636,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving.",
+    "_section": "Bank 14"
+  },
+  "episode-1-banks-1-through-24-take-the-bones-demon-slayer-step-002": {
+    "nav": {
+      "label": "Tree Gnome Stronghold",
+      "x": 2440,
+      "y": 3460,
+      "z": 0
+    },
+    "_text": "Take Spirit Tree to Gnome Stronghold (2) [Western Province Medium Diary]",
+    "_section": "Take the bones [Demon Slayer]"
+  },
+  "episode-1-banks-1-through-24-bank-21-step-002": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Castle Wars",
+    "_section": "Bank 21"
+  },
+  "episode-1-banks-1-through-24-bank-22-step-012": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Take Boat to Ardougne & bank at the South Bank",
+    "_section": "Bank 22"
+  },
+  "episode-1-banks-1-through-24-bank-24-step-007": {
+    "nav": {
+      "label": "Soul Wars",
+      "x": 2206,
+      "y": 2900,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Soul Wars",
+    "_section": "Bank 24"
+  },
+  "episode-2-banks-24-through-75-bank-25-step-003": {
+    "nav": {
+      "label": "Tree Gnome Stronghold",
+      "x": 2440,
+      "y": 3460,
+      "z": 0
+    },
+    "_text": "Take Spirit Tree to Gnome Stronghold (2) [Varrock Medium Diary]",
+    "_section": "Bank 25"
+  },
+  "episode-2-banks-24-through-75-bank-25-step-007": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Charter to Brimhaven [Karamja Medium Diary]",
+    "_section": "Bank 25"
+  },
+  "episode-2-banks-24-through-75-bank-25-step-011": {
+    "nav": {
+      "label": "Tree Gnome Stronghold",
+      "x": 2440,
+      "y": 3460,
+      "z": 0
+    },
+    "_text": "Take Spirit Tree from Khazard Battlefield to Gnome Stronghold (2)",
+    "_section": "Bank 25"
+  },
+  "episode-2-banks-24-through-75-bank-26-step-002": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 26"
+  },
+  "episode-2-banks-24-through-75-bank-29-step-004": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Minecart back to Piscarilius to complete Client of Kourend",
+    "_section": "Bank 29"
+  },
+  "episode-2-banks-24-through-75-bank-29-step-036": {
+    "nav": {
+      "label": "TzHaar Fight Pit",
+      "x": 2398,
+      "y": 5151,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Tzhaar Fight Pits",
+    "_section": "Bank 29"
+  },
+  "episode-2-banks-24-through-75-bank-at-ardy-south-bank-for-more-wines-when-needed-keep-health-low-t-step-006": {
+    "nav": {
+      "label": "Catherby",
+      "x": 2814,
+      "y": 3443,
+      "z": 0
+    },
+    "_text": "Charter to Catherby",
+    "_section": "Bank at Ardy South bank for more wines when needed. Keep health low t..."
+  },
+  "episode-2-banks-24-through-75-bank-34-step-011": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 34"
+  },
+  "episode-2-banks-24-through-75-bank-36-step-003": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 36"
+  },
+  "episode-2-banks-24-through-75-bank-38-step-005": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne [Ardougne Medium Diary]",
+    "_section": "Bank 38"
+  },
+  "episode-2-banks-24-through-75-bank-39-step-013": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardy after getting the corpse and restock wines (don't go into tunnels with less than 3 wines, and note that teles are unavailable briefly when searching for items)",
+    "_section": "Bank 39"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-005": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador [Falador Medium Diary]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-014": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock [Varrock Medium Diary]",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-018": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-41b-step-023": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Last Man Standing -> Castle Wars portal",
+    "_section": "Bank 41B"
+  },
+  "episode-2-banks-24-through-75-bank-42-step-005": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 42"
+  },
+  "episode-2-banks-24-through-75-bank-46-step-014": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home Teleport to Lumbridge",
+    "_section": "Bank 46"
+  },
+  "episode-2-banks-24-through-75-bank-49-step-016": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge [Lumbridge Medium Diary]",
+    "_section": "Bank 49"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-009": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-017": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-50-step-019": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 50"
+  },
+  "episode-2-banks-24-through-75-bank-53-step-008": {
+    "nav": {
+      "label": "Fairy ring BKQ",
+      "x": 3041,
+      "y": 4532,
+      "z": 0
+    },
+    "_text": "Teleport to BKQ and kill Tree Spirits until Adamant, Mithril and Rune Axe. Take everything.",
+    "_section": "Bank 53"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-002": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-54-step-011": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 54"
+  },
+  "episode-2-banks-24-through-75-bank-59-step-004": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardy Cloak",
+    "_section": "Bank 59"
+  },
+  "episode-2-banks-24-through-75-bank-59-step-006": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 59"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-005": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-61-step-007": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 61"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-002": {
+    "nav": {
+      "label": "Fairy ring BLS",
+      "x": 1295,
+      "y": 3493,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BLS",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-003": {
+    "nav": {
+      "label": "Fairy ring DJR",
+      "x": 1455,
+      "y": 3658,
+      "z": 0
+    },
+    "_text": "Start Garden of Death -> Fairy Ring DJR to Boaty",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-006": {
+    "nav": {
+      "label": "Fairy ring CIS",
+      "x": 1639,
+      "y": 3868,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIS",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-62-step-007": {
+    "nav": {
+      "label": "Hosidius",
+      "x": 1762,
+      "y": 3598,
+      "z": 0
+    },
+    "_text": "Take Minecart to Hosidius West",
+    "_section": "Bank 62"
+  },
+  "episode-2-banks-24-through-75-bank-63-step-003": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardougne: Ardy Cloak 1 -> Run North",
+    "_section": "Bank 63"
+  },
+  "episode-2-banks-24-through-75-bank-63-step-004": {
+    "nav": {
+      "label": "Fairy ring AKR",
+      "x": 1827,
+      "y": 3538,
+      "z": 0
+    },
+    "_text": "Hosidius: Ardy Cloak 1 -> AKR Fairy Ring",
+    "_section": "Bank 63"
+  },
+  "episode-2-banks-24-through-75-bank-64-step-008": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 64"
+  },
+  "episode-2-banks-24-through-75-bank-70-step-002": {
+    "nav": {
+      "label": "Fairy ring DKR",
+      "x": 3129,
+      "y": 3496,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKR",
+    "_section": "Bank 70"
+  },
+  "episode-2-banks-24-through-75-bank-71-step-002": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardy",
+    "_section": "Bank 71"
+  },
+  "episode-2-banks-24-through-75-bank-73-step-002": {
+    "nav": {
+      "label": "Fairy ring CKR",
+      "x": 2801,
+      "y": 3003,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKR",
+    "_section": "Bank 73"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-002": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 74"
+  },
+  "episode-2-banks-24-through-75-bank-74-step-004": {
+    "nav": {
+      "label": "Fairy ring AKR",
+      "x": 1827,
+      "y": 3538,
+      "z": 0
+    },
+    "_text": "Ardy Cloak->AKR",
+    "_section": "Bank 74"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-002": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 75"
+  },
+  "episode-2-banks-24-through-75-bank-75-step-009": {
+    "nav": {
+      "label": "Fairy ring CIR",
+      "x": 1302,
+      "y": 3762,
+      "z": 0
+    },
+    "_text": "Take Edgeville Fairy ring to CIR [Kourend Medium Diary]",
+    "_section": "Bank 75"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-017": {
+    "nav": {
+      "label": "Fairy ring ALQ",
+      "x": 3597,
+      "y": 3495,
+      "z": 0
+    },
+    "_text": "Morytania Patch - ALQ Fairy Ring (Slower)",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-77-step-018": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "Varlamore Patch - AJP Fairy Ring (Slow; only do if surplus seeds)",
+    "_section": "Bank 77"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-010": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-013": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-020": {
+    "nav": {
+      "label": "Fairy ring BJR",
+      "x": 2650,
+      "y": 4730,
+      "z": 0
+    },
+    "_text": "After Finding Percival use Fairy Ring BJR to return",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-002": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 80"
+  },
+  "episode-3-banks-76-through-104b-bank-81-step-009": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 81"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-005": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-009": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-011": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-83-step-023": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 83"
+  },
+  "episode-3-banks-76-through-104b-bank-84-step-007": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 84"
+  },
+  "episode-3-banks-76-through-104b-bank-85-step-004": {
+    "nav": {
+      "label": "Fairy ring AJR",
+      "x": 2780,
+      "y": 3613,
+      "z": 0
+    },
+    "_text": "Fairy Ring - AJR",
+    "_section": "Bank 85"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-006": {
+    "nav": {
+      "label": "Fairy ring DKS",
+      "x": 2744,
+      "y": 3719,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKS",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-87-step-012": {
+    "nav": {
+      "label": "Fairy ring CIR",
+      "x": 1302,
+      "y": 3762,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIR",
+    "_section": "Bank 87"
+  },
+  "episode-3-banks-76-through-104b-bank-88-step-002": {
+    "nav": {
+      "label": "Fairy ring DIS",
+      "x": 3108,
+      "y": 3149,
+      "z": 0
+    },
+    "_text": "Ardy Cloak->DIS [Lumbridge Medium Diary]",
+    "_section": "Bank 88"
+  },
+  "episode-3-banks-76-through-104b-bank-88-step-010": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars",
+    "_section": "Bank 88"
+  },
+  "episode-3-banks-76-through-104b-bank-89-step-002": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 89"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-002": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-007": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-91-step-015": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 91"
+  },
+  "episode-3-banks-76-through-104b-bank-92-step-004": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 92"
+  },
+  "episode-3-banks-76-through-104b-bank-93-step-019": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 93"
+  },
+  "episode-3-banks-76-through-104b-bank-94-step-004": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 94"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-002": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-011": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-97-step-015": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 97"
+  },
+  "episode-3-banks-76-through-104b-bank-98-step-003": {
+    "nav": {
+      "label": "Fairy ring ALQ",
+      "x": 3597,
+      "y": 3495,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> ALQ",
+    "_section": "Bank 98"
+  },
+  "episode-3-banks-76-through-104b-bank-102-step-005": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 102"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-002": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-004": {
+    "nav": {
+      "label": "Fairy ring BIQ",
+      "x": 3251,
+      "y": 3095,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BIQ",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-103-step-009": {
+    "nav": {
+      "label": "Fairy ring DLQ",
+      "x": 3423,
+      "y": 3016,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DLQ",
+    "_section": "Bank 103"
+  },
+  "episode-3-banks-76-through-104b-bank-104-step-009": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 104"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-002": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKS",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-105-step-008": {
+    "nav": {
+      "label": "Fairy ring BIP",
+      "x": 3410,
+      "y": 3324,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BIP",
+    "_section": "Bank 105"
+  },
+  "episode-3-banks-76-through-104b-bank-106-step-002": {
+    "nav": {
+      "label": "Fairy ring BKR",
+      "x": 3469,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BKR",
+    "_section": "Bank 106"
+  },
+  "episode-4-banks-105-through-150-bank-107a-step-002": {
+    "nav": {
+      "label": "Fairy ring DLQ",
+      "x": 3423,
+      "y": 3016,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DLQ",
+    "_section": "Bank 107A"
+  },
+  "episode-4-banks-105-through-150-bank-107a-step-004": {
+    "nav": {
+      "label": "Fairy ring BIP",
+      "x": 3410,
+      "y": 3324,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BIP",
+    "_section": "Bank 107A"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-002": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-108b-step-007": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 108B"
+  },
+  "episode-4-banks-105-through-150-bank-109-step-014": {
+    "nav": {
+      "label": "Soul Wars",
+      "x": 2206,
+      "y": 2900,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Soul Wars (If spider bops you, just teleport anywhere)",
+    "_section": "Bank 109"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-009": {
+    "nav": {
+      "label": "Ectofuntus (Ectophial)",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Ectophial",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-013": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-110-step-017": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 110"
+  },
+  "episode-4-banks-105-through-150-bank-112-step-005": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena",
+    "_section": "Bank 112"
+  },
+  "episode-4-banks-105-through-150-bank-112-step-009": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 112"
+  },
+  "episode-4-banks-105-through-150-bank-112-step-014": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 112"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-003": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2870,
+      "y": 3544,
+      "z": 0
+    },
+    "_text": "Teleport to Burthrope",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-012": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2870,
+      "y": 3544,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-018": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-021": {
+    "nav": {
+      "label": "Ectofuntus (Ectophial)",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Ectophial",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-023": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-025": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-027": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-031": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-113-step-033": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 113"
+  },
+  "episode-4-banks-105-through-150-bank-114-step-004": {
+    "nav": {
+      "label": "Soul Wars",
+      "x": 2206,
+      "y": 2900,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Soul Wars",
+    "_section": "Bank 114"
+  },
+  "episode-4-banks-105-through-150-bank-114-step-008": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 114"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-005": {
+    "nav": {
+      "label": "Fairy ring AKQ",
+      "x": 2319,
+      "y": 3619,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKQ",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-010": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-015": {
+    "nav": {
+      "label": "Fairy ring AKQ",
+      "x": 2319,
+      "y": 3619,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKQ",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-017": {
+    "nav": {
+      "label": "Fairy ring AKQ",
+      "x": 2319,
+      "y": 3619,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKQ",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-025": {
+    "nav": {
+      "label": "Fairy ring AKQ",
+      "x": 2319,
+      "y": 3619,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKQ",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-029": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-115-step-031": {
+    "nav": {
+      "label": "Fairy ring DKS",
+      "x": 2744,
+      "y": 3719,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKS",
+    "_section": "Bank 115"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-005": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-014": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-116-step-018": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 116"
+  },
+  "episode-4-banks-105-through-150-bank-117-step-010": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 117"
+  },
+  "episode-4-banks-105-through-150-bank-117-step-013": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 117"
+  },
+  "episode-4-banks-105-through-150-bank-118-step-002": {
+    "nav": {
+      "label": "Fairy ring AKS",
+      "x": 2571,
+      "y": 2956,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKS",
+    "_section": "Bank 118"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-006": {
+    "nav": {
+      "label": "Fairy ring CIS",
+      "x": 1639,
+      "y": 3868,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIS",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-016": {
+    "nav": {
+      "label": "Wintertodt",
+      "x": 1630,
+      "y": 3981,
+      "z": 0
+    },
+    "_text": "Games necklace -> Wintertodt",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-023": {
+    "nav": {
+      "label": "Wintertodt",
+      "x": 1630,
+      "y": 3981,
+      "z": 0
+    },
+    "_text": "Games necklace -> Wintertodt",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-033": {
+    "nav": {
+      "label": "Wintertodt",
+      "x": 1630,
+      "y": 3981,
+      "z": 0
+    },
+    "_text": "Games necklace -> Wintertodt",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-035": {
+    "nav": {
+      "label": "Lovakengj",
+      "x": 1505,
+      "y": 3801,
+      "z": 0
+    },
+    "_text": "Take Minecart to Lovakenj (7)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-039": {
+    "nav": {
+      "label": "Fairy ring CIR",
+      "x": 1302,
+      "y": 3762,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIR",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-042": {
+    "nav": {
+      "label": "Fairy ring CIS",
+      "x": 1639,
+      "y": 3868,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIS",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-050": {
+    "nav": {
+      "label": "Shayzien",
+      "x": 1517,
+      "y": 3592,
+      "z": 0
+    },
+    "_text": "Minecart -> Shayzien East (B)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-056": {
+    "nav": {
+      "label": "Wintertodt",
+      "x": 1630,
+      "y": 3981,
+      "z": 0
+    },
+    "_text": "Games necklace -> Wintertodt",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-065": {
+    "nav": {
+      "label": "Fairy ring DJR",
+      "x": 1455,
+      "y": 3658,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DJR",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-067": {
+    "nav": {
+      "label": "Port Piscarilius",
+      "x": 1803,
+      "y": 3752,
+      "z": 0
+    },
+    "_text": "Kharedst's Memoirs -> Piscarillius (2)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-073": {
+    "nav": {
+      "label": "Hosidius",
+      "x": 1762,
+      "y": 3598,
+      "z": 0
+    },
+    "_text": "Teleport to POH (Should be Hosidius)",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-121-step-080": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend",
+    "_section": "Bank 121"
+  },
+  "episode-4-banks-105-through-150-bank-122-step-003": {
+    "nav": {
+      "label": "Kourend Woodland",
+      "x": 1540,
+      "y": 3464,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend Woodland using Rada's blessing",
+    "_section": "Bank 122"
+  },
+  "episode-4-banks-105-through-150-bank-122-step-007": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 122"
+  },
+  "episode-4-banks-105-through-150-bank-122-step-012": {
+    "nav": {
+      "label": "Blast Furnace",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Blast Furnace",
+    "_section": "Bank 122"
+  },
+  "episode-4-banks-105-through-150-bank-123-step-002": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 123"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-003": {
+    "nav": {
+      "label": "Rimmington",
+      "x": 2956,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Teleport to Ardy->Rimmington Boat",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-008": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-124-step-026": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 124"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-002": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena using the Duelling Ring",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-004": {
+    "nav": {
+      "label": "White Wolf Mountain",
+      "x": 2845,
+      "y": 3483,
+      "z": 0
+    },
+    "_text": "Take Glider to White Wolf Mountain",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-008": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-009": {
+    "nav": {
+      "label": "Rimmington",
+      "x": 2956,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Take Boat to Rimmington",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-016": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-019": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock [You will need to buy black armour if Black Arm gang]",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-125-step-028": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 125"
+  },
+  "episode-4-banks-105-through-150-bank-128-step-002": {
+    "nav": {
+      "label": "Fairy ring CIP",
+      "x": 2513,
+      "y": 3884,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIP",
+    "_section": "Bank 128"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-003": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-005": {
+    "nav": {
+      "label": "Camelot",
+      "x": 2757,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Teleport to Camelot",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-013": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-015": {
+    "nav": {
+      "label": "Port Khazard",
+      "x": 2656,
+      "y": 3153,
+      "z": 0
+    },
+    "_text": "Ardy cloak teleport and head to Port Khazard",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-017": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-020": {
+    "nav": {
+      "label": "Fairy ring AKS",
+      "x": 2571,
+      "y": 2956,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKS",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-130-step-036": {
+    "nav": {
+      "label": "Fishing Trawler",
+      "x": 2669,
+      "y": 3161,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Fishing Trawler",
+    "_section": "Bank 130"
+  },
+  "episode-4-banks-105-through-150-bank-131-step-004": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 131"
+  },
+  "episode-4-banks-105-through-150-bank-132-step-005": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-005": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-024": {
+    "nav": {
+      "label": "Musa Point",
+      "x": 2904,
+      "y": 3162,
+      "z": 0
+    },
+    "_text": "Take Boat to Musa Point",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-027": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-133-step-028": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take Boaty to Brimhaven",
+    "_section": "Bank 133"
+  },
+  "episode-4-banks-105-through-150-bank-132-2-step-003": {
+    "nav": {
+      "label": "Fairy ring DKP",
+      "x": 2900,
+      "y": 3111,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKP",
+    "_section": "Bank 132"
+  },
+  "episode-4-banks-105-through-150-bank-136-step-002": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take Boat to Brimhaven",
+    "_section": "Bank 136"
+  },
+  "episode-4-banks-105-through-150-bank-137-step-002": {
+    "nav": {
+      "label": "Fairy ring DKP",
+      "x": 2900,
+      "y": 3111,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKP",
+    "_section": "Bank 137"
+  },
+  "episode-4-banks-105-through-150-bank-137-step-004": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 137"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-002": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Wield games necklace, Ardy Cloak + Climbing Boots",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-005": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2870,
+      "y": 3544,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe Games Room",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-138-step-008": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> Run north to the zoo",
+    "_section": "Bank 138"
+  },
+  "episode-4-banks-105-through-150-bank-139-step-002": {
+    "nav": {
+      "label": "Fairy ring BJP",
+      "x": 2267,
+      "y": 2976,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BJP",
+    "_section": "Bank 139"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-002": {
+    "nav": {
+      "label": "Fairy ring AJR",
+      "x": 2780,
+      "y": 3613,
+      "z": 0
+    },
+    "_text": "Teleport to Trollheim if you can (58+ mindbomb) else Ardy Cloak -> AJR -> Secret door North-East",
+    "_section": "Bank 140"
+  },
+  "episode-4-banks-105-through-150-bank-140-step-007": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take boat back to Brimhaven",
+    "_section": "Bank 140"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-005": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> Recharge Prayer",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-006": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Teleport to Emir's Arena",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-009": {
+    "nav": {
+      "label": "Ruins of Unkah",
+      "x": 3165,
+      "y": 2845,
+      "z": 0
+    },
+    "_text": "Take boat to Unkah",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-014": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Teleport with Camulet [Desert Medium Diary]",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-016": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Duelling Ring -> Emir's Arena",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-019": {
+    "nav": {
+      "label": "Pollnivneach",
+      "x": 3358,
+      "y": 2974,
+      "z": 0
+    },
+    "_text": "Take the Carpet to Pollnivneach",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-022": {
+    "nav": {
+      "label": "Pest Control",
+      "x": 2658,
+      "y": 2625,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Pest Control [Western Province Medium Diary]",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-142-step-023": {
+    "nav": {
+      "label": "Port Sarim",
+      "x": 3029,
+      "y": 3221,
+      "z": 0
+    },
+    "_text": "Take boat to Port Sarim",
+    "_section": "Bank 142"
+  },
+  "episode-4-banks-105-through-150-bank-143-step-002": {
+    "nav": {
+      "label": "Fairy ring BIP",
+      "x": 3410,
+      "y": 3324,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BIP",
+    "_section": "Bank 143"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-002": {
+    "nav": {
+      "label": "Kourend Woodland",
+      "x": 1540,
+      "y": 3464,
+      "z": 0
+    },
+    "_text": "Blessing > Kourend Woodland",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-004": {
+    "nav": {
+      "label": "Port Sarim",
+      "x": 3029,
+      "y": 3221,
+      "z": 0
+    },
+    "_text": "Take boat to Port Sarim",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-144-step-009": {
+    "nav": {
+      "label": "Land's End",
+      "x": 1510,
+      "y": 3430,
+      "z": 0
+    },
+    "_text": "Take boat to Lands End",
+    "_section": "Bank 144"
+  },
+  "episode-4-banks-105-through-150-bank-145-step-004": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 145"
+  },
+  "episode-4-banks-105-through-150-bank-146-step-006": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 146"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-008": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-011": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-013": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock.",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-147-step-017": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2870,
+      "y": 3544,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe",
+    "_section": "Bank 147"
+  },
+  "episode-4-banks-105-through-150-bank-149-step-002": {
+    "nav": {
+      "label": "Fairy ring ALP",
+      "x": 2503,
+      "y": 3636,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> ALP",
+    "_section": "Bank 149"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-003": {
+    "nav": {
+      "label": "Fairy ring CIP",
+      "x": 2513,
+      "y": 3884,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIP",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-150-step-004": {
+    "nav": {
+      "label": "Rellekka",
+      "x": 2658,
+      "y": 3677,
+      "z": 0
+    },
+    "_text": "Take boat to Relleka",
+    "_section": "Bank 150"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-004": {
+    "nav": {
+      "label": "Fairy ring DJR",
+      "x": 1455,
+      "y": 3658,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DJR",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-008": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Take Fairy Ring to CKS",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-010": {
+    "nav": {
+      "label": "Ectofuntus (Ectophial)",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Ectophial",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-013": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-017": {
+    "nav": {
+      "label": "Edgeville",
+      "x": 3087,
+      "y": 3496,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Soul Wars > Edgeville",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-021": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-024": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-026": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKS",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-151-step-029": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 151"
+  },
+  "episode-4-banks-105-through-150-bank-152-step-002": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne and Head West",
+    "_section": "Bank 152"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-004": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardy Cloak & collect the Monkey. Head back to the Grand Tree.",
+    "_section": "Bank 153"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-020": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 153"
+  },
+  "episode-4-banks-105-through-150-bank-153-step-022": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 153"
+  },
+  "episode-5-banks-151-through-175-bank-154-step-002": {
+    "nav": {
+      "label": "Grand Exchange",
+      "x": 3165,
+      "y": 3490,
+      "z": 0
+    },
+    "_text": "Teleport to Grand Exchange via spellbook > Spirit tree (2)",
+    "_section": "Bank 154"
+  },
+  "episode-5-banks-151-through-175-bank-154-step-006": {
+    "nav": {
+      "label": "Fairy ring CLS",
+      "x": 2682,
+      "y": 3081,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CLS Fairy Ring to get to Hazelmere",
+    "_section": "Bank 154"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-002": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-155-step-026": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne & bank at South Bank",
+    "_section": "Bank 155"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-002": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take the boat to Brimhaven",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-005": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-156-step-027": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars",
+    "_section": "Bank 156"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-011": {
+    "nav": {
+      "label": "Kourend Woodland",
+      "x": 1540,
+      "y": 3464,
+      "z": 0
+    },
+    "_text": "Teleport Blessing -> Kourend Woodland",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-157-step-015": {
+    "nav": {
+      "label": "Watchtower",
+      "x": 2547,
+      "y": 3113,
+      "z": 0
+    },
+    "_text": "Teleport to Watchtower",
+    "_section": "Bank 157"
+  },
+  "episode-5-banks-151-through-175-bank-158-step-002": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Ring of dueling -> Castle Wars",
+    "_section": "Bank 158"
+  },
+  "episode-5-banks-151-through-175-bank-158-step-005": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Ardy Cloak Teleport and run east",
+    "_section": "Bank 158"
+  },
+  "episode-5-banks-151-through-175-bank-158-step-008": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Home teleport to Lumbridge",
+    "_section": "Bank 158"
+  },
+  "episode-5-banks-151-through-175-bank-159-step-002": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne & head to Underground Pass",
+    "_section": "Bank 159"
+  },
+  "episode-5-banks-151-through-175-bank-159-step-007": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador & bank at the East Bank",
+    "_section": "Bank 159"
+  },
+  "episode-5-banks-151-through-175-bank-160-step-002": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 160"
+  },
+  "episode-5-banks-151-through-175-bank-160-step-004": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 160"
+  },
+  "episode-5-banks-151-through-175-bank-161-step-002": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take boat to Brimhaven",
+    "_section": "Bank 161"
+  },
+  "episode-5-banks-151-through-175-bank-161-step-003": {
+    "nav": {
+      "label": "Port Tyras",
+      "x": 2153,
+      "y": 3122,
+      "z": 0
+    },
+    "_text": "Charter to Port Tyras",
+    "_section": "Bank 161"
+  },
+  "episode-5-banks-151-through-175-bank-162-step-002": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 162"
+  },
+  "episode-5-banks-151-through-175-bank-162-step-004": {
+    "nav": {
+      "label": "The Outpost",
+      "x": 2430,
+      "y": 3348,
+      "z": 0
+    },
+    "_text": "Teleport to Outpost",
+    "_section": "Bank 162"
+  },
+  "episode-5-banks-151-through-175-bank-162-step-006": {
+    "nav": {
+      "label": "Ferox Enclave",
+      "x": 3137,
+      "y": 3623,
+      "z": 0
+    },
+    "_text": "Teleport to Ferox to reset stats",
+    "_section": "Bank 162"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-002": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-008": {
+    "nav": {
+      "label": "Lletya",
+      "x": 2338,
+      "y": 3171,
+      "z": 0
+    },
+    "_text": "Teleport Crystal to Lletya",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-163-step-011": {
+    "nav": {
+      "label": "Fairy ring AKS",
+      "x": 2571,
+      "y": 2956,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AKS",
+    "_section": "Bank 163"
+  },
+  "episode-5-banks-151-through-175-bank-166-step-005": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 166"
+  },
+  "episode-5-banks-151-through-175-bank-167a-step-002": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 167A"
+  },
+  "episode-5-banks-151-through-175-bank-168b-step-004": {
+    "nav": {
+      "label": "Fairy ring BIQ",
+      "x": 3251,
+      "y": 3095,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BIQ",
+    "_section": "Bank 168B"
+  },
+  "episode-5-banks-151-through-175-bank-168b-step-009": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKS",
+    "_section": "Bank 168B"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-003": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-016": {
+    "nav": {
+      "label": "The Outpost",
+      "x": 2430,
+      "y": 3348,
+      "z": 0
+    },
+    "_text": "Necklace of passage > The Outpost",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-169-step-019": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardounge",
+    "_section": "Bank 169"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-002": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKS",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-004": {
+    "nav": {
+      "label": "Fairy ring BKR",
+      "x": 3469,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Fairy Ring -> BKR",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-007": {
+    "nav": {
+      "label": "Fairy ring BKR",
+      "x": 3469,
+      "y": 3431,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> BKR",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-170-step-012": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CKS",
+    "_section": "Bank 170"
+  },
+  "episode-5-banks-151-through-175-bank-171-step-002": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet -> Enakhrah",
+    "_section": "Bank 171"
+  },
+  "episode-5-banks-151-through-175-bank-171-step-007": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 171"
+  },
+  "episode-5-banks-151-through-175-bank-173-step-002": {
+    "nav": {
+      "label": "Trollheim",
+      "x": 2891,
+      "y": 3678,
+      "z": 0
+    },
+    "_text": "Teleport to Trollheim",
+    "_section": "Bank 173"
+  },
+  "episode-5-banks-151-through-175-bank-174-step-002": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet",
+    "_section": "Bank 174"
+  },
+  "episode-5-banks-151-through-175-bank-176-step-003": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet",
+    "_section": "Bank 176"
+  },
+  "episode-5-banks-151-through-175-bank-176-step-006": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 176"
+  },
+  "episode-5-banks-151-through-175-bank-177-step-003": {
+    "nav": {
+      "label": "Fairy ring DIS",
+      "x": 3108,
+      "y": 3149,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DIS",
+    "_section": "Bank 177"
+  },
+  "episode-5-banks-151-through-175-bank-177-step-006": {
+    "nav": {
+      "label": "Zanaris",
+      "x": 2430,
+      "y": 4428,
+      "z": 0
+    },
+    "_text": "Fairy Ring -> Zanaris",
+    "_section": "Bank 177"
+  },
+  "episode-5-banks-151-through-175-bank-177-step-011": {
+    "nav": {
+      "label": "Lumbridge",
+      "x": 3222,
+      "y": 3218,
+      "z": 0
+    },
+    "_text": "Teleport to Lumbridge",
+    "_section": "Bank 177"
+  },
+  "episode-5-banks-151-through-175-buy-barrows-gloves-step-003": {
+    "nav": {
+      "label": "Ape Atoll",
+      "x": 2750,
+      "y": 2750,
+      "z": 0
+    },
+    "_text": "Teleport to Ape Atoll [Western Province Hard Diary] < Do this even if the lap is complete",
+    "_section": "Buy Barrows Gloves"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-002": {
+    "nav": {
+      "label": "Farming Guild",
+      "x": 1249,
+      "y": 3726,
+      "z": 0
+    },
+    "_text": "Blessing -> Minecart (North-East) -> Farming Guild (2)",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-004": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend Castle",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-bank-180-step-024": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Bank 180"
+  },
+  "episode-6-bank-176-through-combat-achievements-training-melee-combat-slayer-step-005": {
+    "nav": {
+      "label": "Fairy ring DKS",
+      "x": 2744,
+      "y": 3719,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> DKS",
+    "_section": "Training melee combat & slayer"
+  },
+  "episode-6-bank-176-through-combat-achievements-training-melee-combat-slayer-step-008": {
+    "nav": {
+      "label": "Varrock",
+      "x": 3213,
+      "y": 3424,
+      "z": 0
+    },
+    "_text": "Teleport to Varrock",
+    "_section": "Training melee combat & slayer"
+  },
+  "episode-6-bank-176-through-combat-achievements-combat-achievements-step-010": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend. Enter Catacombs. Head West & climb the Vine for Giants Pit",
+    "_section": "Combat Achievements"
+  },
+  "episode-7-further-combat-training-questing-through-barrows-further-combat-training-questing-step-001": {
+    "nav": {
+      "label": "Trouble Brewing",
+      "x": 3813,
+      "y": 2973,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Trouble Brewing (take an axe and tinderbox)",
+    "_section": "Further Combat training/Questing"
+  },
+  "episode-9-bank-177-through-179-bank-181-step-002": {
+    "nav": {
+      "label": "Kourend Castle",
+      "x": 1628,
+      "y": 3673,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend Castle",
+    "_section": "Bank 181"
+  },
+  "episode-9-bank-177-through-179-bank-182-step-002": {
+    "nav": {
+      "label": "Prifddinas",
+      "x": 3263,
+      "y": 6083,
+      "z": 0
+    },
+    "_text": "Teleport to Priffdinas",
+    "_section": "Bank 182"
+  },
+  "episode-9-bank-177-through-179-bank-182-step-005": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AJP",
+    "_section": "Bank 182"
+  },
+  "episode-9-bank-177-through-179-bank-182-step-008": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AJP",
+    "_section": "Bank 182"
+  },
+  "episode-10-bank-180-through-inferno-bank-184-step-006": {
+    "nav": {
+      "label": "Miscellania",
+      "x": 2560,
+      "y": 3870,
+      "z": 0
+    },
+    "_text": "Teleport to Miscellania and collect your resources (check allocation before to make sure they are atleast on x10 teaks)",
+    "_section": "Bank 184"
+  },
+  "episode-10-bank-180-through-inferno-bank-185-step-002": {
+    "nav": {
+      "label": "Fairy ring AIS",
+      "x": 1430,
+      "y": 3323,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> AIS",
+    "_section": "Bank 185"
+  },
+  "episode-10-bank-180-through-inferno-bank-185-step-006": {
+    "nav": {
+      "label": "Blast Furnace",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Minigame teleport to Blast Furnace",
+    "_section": "Bank 185"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-002": {
+    "nav": {
+      "label": "Blast Furnace",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Blast Furnace",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-004": {
+    "nav": {
+      "label": "Yanille",
+      "x": 2577,
+      "y": 3090,
+      "z": 0
+    },
+    "_text": "Teleport to Yanille",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-006": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-008": {
+    "nav": {
+      "label": "Fairy ring CIS",
+      "x": 1639,
+      "y": 3868,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIS",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-010": {
+    "nav": {
+      "label": "Zanaris",
+      "x": 2430,
+      "y": 4428,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> Zanaris",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-187-step-012": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet",
+    "_section": "Bank 187"
+  },
+  "episode-10-bank-180-through-inferno-bank-188-step-002": {
+    "nav": {
+      "label": "Fairy ring CIP",
+      "x": 2513,
+      "y": 3884,
+      "z": 0
+    },
+    "_text": "Ardy Cloak -> CIP",
+    "_section": "Bank 188"
+  },
+  "episode-10-bank-180-through-inferno-bank-188-step-003": {
+    "nav": {
+      "label": "Rellekka",
+      "x": 2658,
+      "y": 3677,
+      "z": 0
+    },
+    "_text": "Take boat to Relleka",
+    "_section": "Bank 188"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-002": {
+    "nav": {
+      "label": "Emir's Arena",
+      "x": 3360,
+      "y": 3233,
+      "z": 0
+    },
+    "_text": "Teleport to Emir\u2019s Arena",
+    "_section": "Bank 190"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-004": {
+    "nav": {
+      "label": "Pollnivneach",
+      "x": 3358,
+      "y": 2974,
+      "z": 0
+    },
+    "_text": "Take Carpet to Polnivneach",
+    "_section": "Bank 190"
+  },
+  "episode-10-bank-180-through-inferno-bank-190-step-007": {
+    "nav": {
+      "label": "Sophanem",
+      "x": 3297,
+      "y": 2783,
+      "z": 0
+    },
+    "_text": "Take Carpet to Sophanem",
+    "_section": "Bank 190"
+  },
+  "episode-10-bank-180-through-inferno-bank-191-step-003": {
+    "nav": {
+      "label": "Sophanem",
+      "x": 3297,
+      "y": 2783,
+      "z": 0
+    },
+    "_text": "Take Carpet to Sophanem",
+    "_section": "Bank 191"
+  },
+  "episode-10-bank-180-through-inferno-bank-193-step-002": {
+    "nav": {
+      "label": "Lunar Isle",
+      "x": 2117,
+      "y": 3903,
+      "z": 0
+    },
+    "_text": "Home Teleport to Lunar Isle",
+    "_section": "Bank 193"
+  },
+  "episode-10-bank-180-through-inferno-bank-195-step-002": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "Teleport to POH -> AJP",
+    "_section": "Bank 195"
+  },
+  "episode-10-bank-180-through-inferno-bank-195-step-007": {
+    "nav": {
+      "label": "Ardougne",
+      "x": 2662,
+      "y": 3305,
+      "z": 0
+    },
+    "_text": "Teleport to Ardougne",
+    "_section": "Bank 195"
+  },
+  "episode-10-bank-180-through-inferno-bank-195-step-008": {
+    "nav": {
+      "label": "Brimhaven",
+      "x": 2760,
+      "y": 3195,
+      "z": 0
+    },
+    "_text": "Take the boat to Brimhaven",
+    "_section": "Bank 195"
+  },
+  "episode-10-bank-180-through-inferno-bank-196-step-004": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars via Jewellry Box",
+    "_section": "Bank 196"
+  },
+  "episode-10-bank-180-through-inferno-bank-196-step-008": {
+    "nav": {
+      "label": "Castle Wars",
+      "x": 2407,
+      "y": 3105,
+      "z": 0
+    },
+    "_text": "Teleport to Castle Wars via Jewellry Box",
+    "_section": "Bank 196"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-004": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-011": {
+    "nav": {
+      "label": "Lunar Isle",
+      "x": 2117,
+      "y": 3903,
+      "z": 0
+    },
+    "_text": "Home teleport to Lunar Isle & return to regular Spellbook",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-012": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-014": {
+    "nav": {
+      "label": "Burthorpe",
+      "x": 2870,
+      "y": 3544,
+      "z": 0
+    },
+    "_text": "Teleport to Burthorpe and head to the Heroes Guild",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-197-step-016": {
+    "nav": {
+      "label": "Fairy ring BLP",
+      "x": 2437,
+      "y": 5126,
+      "z": 0
+    },
+    "_text": "Teleport to POH -> BLP",
+    "_section": "Bank 197"
+  },
+  "episode-10-bank-180-through-inferno-bank-199-step-003": {
+    "nav": {
+      "label": "Musa Point",
+      "x": 2904,
+      "y": 3162,
+      "z": 0
+    },
+    "_text": "Teleport on your Karamja Gloves",
+    "_section": "Bank 199"
+  },
+  "episode-10-bank-180-through-inferno-bank-199-step-006": {
+    "nav": {
+      "label": "Blast Furnace",
+      "x": 1944,
+      "y": 4958,
+      "z": 0
+    },
+    "_text": "Minigame Teleport to Blast Furnace",
+    "_section": "Bank 199"
+  },
+  "episode-10-bank-180-through-inferno-bank-199-step-008": {
+    "nav": {
+      "label": "Falador",
+      "x": 2965,
+      "y": 3379,
+      "z": 0
+    },
+    "_text": "Teleport to Falador and make all Opals into Expeditious Bracelets, Jades into Amulets of Chemistry, Topaz into Slaughter Bracelets",
+    "_section": "Bank 199"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-002": {
+    "nav": {
+      "label": "Fairy ring BIP",
+      "x": 3410,
+      "y": 3324,
+      "z": 0
+    },
+    "_text": "Teleport to POH -> BIP",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-006": {
+    "nav": {
+      "label": "Canifis",
+      "x": 3493,
+      "y": 3471,
+      "z": 0
+    },
+    "_text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-008": {
+    "nav": {
+      "label": "Ectofuntus (Ectophial)",
+      "x": 3660,
+      "y": 3520,
+      "z": 0
+    },
+    "_text": "Ectophial",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-012": {
+    "nav": {
+      "label": "Mos Le'Harmless",
+      "x": 3735,
+      "y": 2999,
+      "z": 0
+    },
+    "_text": "Take boat to Mos Le\u2019Harmless",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-015": {
+    "nav": {
+      "label": "Fairy ring CKS",
+      "x": 3447,
+      "y": 3470,
+      "z": 0
+    },
+    "_text": "Teleport POH -> CKS",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-017": {
+    "nav": {
+      "label": "Lletya",
+      "x": 2338,
+      "y": 3171,
+      "z": 0
+    },
+    "_text": "Teleport to Lletya",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-204-step-020": {
+    "nav": {
+      "label": "Fairy ring DLQ",
+      "x": 3423,
+      "y": 3016,
+      "z": 0
+    },
+    "_text": "Teleport POH -> DLQ",
+    "_section": "Bank 204"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-004": {
+    "nav": {
+      "label": "Kourend Woodland",
+      "x": 1540,
+      "y": 3464,
+      "z": 0
+    },
+    "_text": "Teleport to Kourend Woodland",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-005": {
+    "nav": {
+      "label": "Mount Quidamortem",
+      "x": 1246,
+      "y": 3550,
+      "z": 0
+    },
+    "_text": "Take the Minecart to Mount Quidamortem",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-007": {
+    "nav": {
+      "label": "Lovakengj",
+      "x": 1505,
+      "y": 3801,
+      "z": 0
+    },
+    "_text": "Teleport to Lovakenj with Book of the Dead",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-011": {
+    "nav": {
+      "label": "Port Piscarilius",
+      "x": 1803,
+      "y": 3752,
+      "z": 0
+    },
+    "_text": "Teleport to Piscarillius with Book of the Dead",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-013": {
+    "nav": {
+      "label": "Hosidius",
+      "x": 1762,
+      "y": 3598,
+      "z": 0
+    },
+    "_text": "Teleport to Hosidius with Book of the Dead",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-015": {
+    "nav": {
+      "label": "Hosidius",
+      "x": 1762,
+      "y": 3598,
+      "z": 0
+    },
+    "_text": "Teleport to Hosidius again",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-017": {
+    "nav": {
+      "label": "Shayzien",
+      "x": 1517,
+      "y": 3592,
+      "z": 0
+    },
+    "_text": "Teleport to Shayzien",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-020": {
+    "nav": {
+      "label": "Shayzien",
+      "x": 1517,
+      "y": 3592,
+      "z": 0
+    },
+    "_text": "Teleport to Shayzien",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-206-step-025": {
+    "nav": {
+      "label": "Fairy ring DJR",
+      "x": 1455,
+      "y": 3658,
+      "z": 0
+    },
+    "_text": "Fairy ring -> DJR",
+    "_section": "Bank 206"
+  },
+  "episode-11-bank-196-through-slayer-grind-bank-207-step-004": {
+    "nav": {
+      "label": "Fairy ring CIR",
+      "x": 1302,
+      "y": 3762,
+      "z": 0
+    },
+    "_text": "Teleport to POH -> CIR",
+    "_section": "Bank 207"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-002": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitas Illa Fortis",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-009": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitas Illa Fortis",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-012": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "AJP Fairy Ring",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-018": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitis Illa Fortis",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-026": {
+    "nav": {
+      "label": "Fairy ring AJP",
+      "x": 1651,
+      "y": 3010,
+      "z": 0
+    },
+    "_text": "AJP Fairy Ring",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-028": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitas Illa Fortis",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-029": {
+    "nav": {
+      "label": "Quetzacalli Gorge",
+      "x": 1505,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Take the Quetzal to Quetzacalli Gorge",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-208-step-033": {
+    "nav": {
+      "label": "Quetzacalli Gorge",
+      "x": 1505,
+      "y": 3232,
+      "z": 0
+    },
+    "_text": "Take the Quetzal to Quetzacalli Gorge",
+    "_section": "Bank 208"
+  },
+  "episode-12-bank-204-through-zulrah-bank-209-step-005": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitas Illa Fortis",
+    "_section": "Bank 209"
+  },
+  "episode-12-bank-204-through-zulrah-bank-210-step-004": {
+    "nav": {
+      "label": "Civitas illa Fortis",
+      "x": 1725,
+      "y": 3128,
+      "z": 0
+    },
+    "_text": "Teleport to Civitas Illa Fortis",
+    "_section": "Bank 210"
+  },
+  "episode-12-bank-204-through-zulrah-bank-210-step-005": {
+    "nav": {
+      "label": "Tal Teklan",
+      "x": 1223,
+      "y": 3111,
+      "z": 0
+    },
+    "_text": "Take the Quetzal to Tal Teklan",
+    "_section": "Bank 210"
+  },
+  "episode-12-bank-204-through-zulrah-bank-211-step-004": {
+    "nav": {
+      "label": "Fairy ring AIS",
+      "x": 1430,
+      "y": 3323,
+      "z": 0
+    },
+    "_text": "Fairy Ring -> AIS",
+    "_section": "Bank 211"
+  },
+  "episode-12-bank-204-through-zulrah-bank-213-step-002": {
+    "nav": {
+      "label": "Tal Teklan",
+      "x": 1223,
+      "y": 3111,
+      "z": 0
+    },
+    "_text": "Take North Quetzal to Teklan",
+    "_section": "Bank 213"
+  },
+  "episode-12-bank-204-through-zulrah-bank-214-step-004": {
+    "nav": {
+      "label": "Enakhra's Temple (Camulet)",
+      "x": 3104,
+      "y": 9312,
+      "z": 0
+    },
+    "_text": "Camulet to inside. Upgrade to infinite charges then camulet outside",
+    "_section": "Bank 214"
+  },
+  "episode-12-bank-204-through-zulrah-bank-215-step-003": {
+    "nav": {
+      "label": "Fairy ring BLP",
+      "x": 2437,
+      "y": 5126,
+      "z": 0
+    },
+    "_text": "Fairy ring -> BLP",
+    "_section": "Bank 215"
+  },
+  "episode-12-bank-204-through-zulrah-bank-215-step-005": {
+    "nav": {
+      "label": "Ape Atoll",
+      "x": 2750,
+      "y": 2750,
+      "z": 0
+    },
+    "_text": "Teleport to Ape Atoll",
+    "_section": "Bank 215"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-004": {
+    "nav": {
+      "label": "Hops patch (McGrubor's Wood)",
+      "x": 2666,
+      "y": 3525,
+      "z": 0
+    },
+    "_text": "Plant Jute Seeds in patch [Kandarin Easy Diary] (Supplies in Leprechaun)",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-007": {
+    "nav": {
+      "label": "Log balance to Coal Trucks",
+      "x": 2602,
+      "y": 3477,
+      "z": 0
+    },
+    "_text": "Cross Log to Coal Mine [Kandarin Easy Diary]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-78-step-016": {
+    "nav": {
+      "label": "Rope swing to Moss Giant Island",
+      "x": 2705,
+      "y": 3209,
+      "z": 0
+    },
+    "_text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
+    "_section": "Bank 78"
+  },
+  "episode-3-banks-76-through-104b-bank-80-step-012": {
+    "nav": {
+      "label": "Pottery oven (Barbarian Village)",
+      "x": 3085,
+      "y": 3409,
+      "z": 0
+    },
+    "_text": "Make a Bowl [Varrock Easy Diary] Drop this",
+    "_section": "Bank 80"
   }
 }

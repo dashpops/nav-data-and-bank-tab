@@ -248,7 +248,19 @@ SKIP = {
 }
 
 # "Teleport Runes" means these, per the guide's usual loadout.
-TELEPORT_RUNES = ("Teleport runes", ["Staff of air", "Rune pouch"])
+TELEPORT_RUNES = ("Teleport runes", ["Staff of air", "Rune pouch", "Fire rune"])
+
+# Charged jewellery: any charge satisfies the requirement, so accept every variant.
+# (Items that hold charges on a single id -- ring of recoil, camulet, watering can --
+# are not listed here; they need no expansion.)
+_DUEL = [2552, 2554, 2556, 2558, 2560, 2562, 2564, 2566]
+CHARGED = {
+    "games necklace": [3853, 3855, 3857, 3859, 3861, 3863, 3865, 3867],
+    "ring of dueling": _DUEL, "ring of duelling": _DUEL,
+    "dueling ring": _DUEL, "duelling ring": _DUEL,
+    "digsite pendant": [11190, 11191, 11192, 11193, 11194],
+    "necklace of passage": [21146, 21149, 21151, 21153, 21155],
+}
 
 
 def api(params):
@@ -461,6 +473,9 @@ def main():
                     missed.append(disp)
                 continue
             name, key, qty = parse_entry(part)
+            if key in CHARGED:
+                entries.append({"name": name, "itemIds": list(CHARGED[key]), "quantity": qty})
+                continue
             if not key or key in SKIP:
                 if key == "teleport runes":
                     page_ids = [i for p in TELEPORT_RUNES[1] for i in ids.get(p, [])[:1]]

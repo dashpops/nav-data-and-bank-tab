@@ -14,6 +14,11 @@ Rules of thumb used when deciding:
 - **Instanced areas** have no overworld tile. Note that a *separate region* is not
   the same thing: the Blast Furnace looked instanced but is reachable via stairs
   Shortest Path knows about, so it now has targets.
+- **Transports and teleports now DO get a nav** — the destination tile. Marking
+  where a teleport/boat/fairy ring drops you is a fast-travel aid, so this reverses
+  the earlier "a teleport is not a walk" rule (see the transport pass below). The
+  transport-related entries in "Deliberately empty" and the 121-130 minecart rows
+  are therefore superseded.
 
 Verify a claim here before trusting it — several entries were wrong when first
 written (see "Resolved" at the bottom).
@@ -160,6 +165,81 @@ chosen (Tinsay on Cairn Isle, Tiadeche at the NE karambwan spot).
 
 These follow a "bank anywhere"-style step, so there is no defensible bank to pick:
 **63 #1**, **64 #1**, **66 #1**, **72 #3**.
+
+## Frontier pass, banks 142-215
+
+Nav coverage previously stopped at ~bank 141; this pass swept every section from
+142 to the end (banks 142-215 plus the named endgame sections). It added **87
+navs**, all from wiki `{{Map}}` pins via `scripts/wikicoords.py`. Highlights:
+the desert/Fremennik quest NPCs (Jarr, Snake Charmer, Auguste, Olaf Hradson,
+Jossik, Askeladden, Yrsa, Jarvald), the Yanille/Gu'Tanoth block (Bert, Zavistic
+Rarve, Watchtower Wizard `z2`, Og, Grew, Toban), Hand-in-the-Sand (Sandy, Wydin,
+Betty), the elf and Grim Tales NPCs, Temple of the Eye (Mage of Zamorak at
+Edgeville, Tea Seller, Wizard Persten), and the whole Varlamore endgame cluster
+(Pellem, Imia, Apatura, Emelio, Alba, Curator Herminius, Atza, Marcus, Ranulph,
+Ictus).
+
+Skipped on purpose throughout, same rules as before: transports (boats,
+balloons, carpets, gliders, spirit trees, fairy rings, minecarts, Quetzals),
+teleports, "Head to <town/bank>" waypoints already covered by the next NPC step,
+the Combat-Achievement point-tally pseudo-steps (e.g. 180 #12-23, Barrows #4-20),
+and the training / boss / POH-build / skill-grind blocks that fill the endgame.
+
+### Low confidence — set, but worth checking in game
+
+| Bank | Step | Target | Concern |
+|---|---|---|---|
+| 154 | 4 | Brimstail `2409,9817` | His cave (underground); relies on Shortest Path knowing the entrance, like the Blast Furnace |
+| 149 | 5 | Jossik `2509,3641` z1 | Wiki pins him upstairs in the lighthouse; check he isn't on the ground floor |
+| 168B/176 | 5 / 4 | Eblis `3186,2984` | Bedabin Camp; the page has a second pin (`3214,2955`) and the "mirrors" spot may differ |
+| 204 | 13 | Brother Tranquility `3680,2963` | Mos Le'Harmless dock; he also has Harmony Island pins, picked the travel-from side |
+
+### Needs a coordinate (frontier)
+
+| Bank | Step | What | Why unresolved |
+|---|---|---|---|
+| 145 | 5 | Kill Brutus (cow pen) | No map pin on the wiki |
+| 161 | 4, 8 | Islwyn / Eluned (Roving Elves, MEP1) | Roaming Isafdar elves — two-spot roamers, no fixed tile |
+| 168B | 7 | Smoke well W of Pollnivneach | Dungeon entrance, no clean pin |
+| 169 | 4 | Skrach Uglogwee (Cooked Jubbly) | Wiki pin looks wrong (Lumbridge, not his Feldip home) |
+| 169 | 6 | Talk to Cook (RFD) | Wiki "Cook" page has no pin; the Lumbridge kitchen is navved earlier — pull from Quest Helper |
+| 169 | 10 | Ruantun (Silver Pot) | Only an underground pin, reachability unclear |
+| 169 | 12 | High Priest (Entrana) | No pin, as at 49 #11 |
+| 170 | 16 | Veliaf Hurtz (In Aid of the Myreque) | Three pins across quests; the hideout one is underground |
+| 171 | 3 | Head to Bandit Camp | Location page has no map pin |
+| 190 | 8 | High Priest (Sophanem, Contact!) | No pin |
+| 201 | 11 | Fairy Fixit | In the fairy realm, reached only by fairy ring |
+| 224 | 13 | Guildmaster Fox (At First Light) | Couldn't confirm which Hunter Guild NPC "Fox" is |
+| 224/226 | 32 / 2, 6 | Servius (The Final Dawn) | Brand-new content, no wiki map pin yet |
+| 227 | 2 | Alan (Scrambled!) | Brand-new content, no wiki map pin yet |
+
+## Transport & teleport steps (now navved to destination)
+
+Previously every "Teleport to X", boat, charter, fairy ring, spirit tree, glider,
+carpet, minecart and Quetzal step was left empty. They now carry a **destination**
+nav, because a marked target is a genuine help when moving fast. **328 steps** were
+filled in one pass from a destination→coordinate table:
+
+- The five city teleports use their canonical landing squares (Varrock `3213,3424`,
+  Lumbridge `3222,3218`, Falador `2965,3379`, Ardougne `2662,3305`, Camelot `2757,3477`).
+- **All 53 fairy-ring codes** come from the wiki *Fairy ring* page's own map pins
+  (`scripts/wikicoords.py` won't parse that table, so it was fetched directly). The
+  `Ardy Cloak -> XXX` and `POH -> XXX` shorthands resolve to the code's tile.
+- Towns, docks, islands and minigame lobbies use their wiki `{{Map}}` pins.
+
+The matcher is conservative — it only fires on a clear transport verb or a known
+fairy code, so crafting-order arrows ("Mould Order: Blade -> …") and instructional
+sentences that merely mention a ring are left alone.
+
+Still empty on purpose (no fixed destination tile):
+
+- **"Teleport anywhere" / "to a bank"** — no specific target; Shortest Path already
+  routes to the nearest bank.
+- **POH / house** teleports — instanced, no overworld tile (but `POH -> <fairy code>`
+  *is* navved, to the ring).
+- **Rune Essence Mine** — instanced, entered by an NPC teleport.
+- Destination-less shorthand — `Ardy Cloak -> Recharge Prayer`, `-> Run North`.
+- `Teleport to all 5 cities on the Kharedst's Memoirs` — ambiguous (five at once).
 
 ## Resolved (kept as a record of what was wrong)
 
