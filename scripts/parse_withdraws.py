@@ -235,13 +235,21 @@ ALIASES.update({
     "green dye": "Green dye", "raw rat": "Raw rat meat", "raw beef": "Raw beef",
 })
 
+# Sixth wave, from bank sweeps 76-104 (reported missing in-game).
+ALIASES.update({
+    "ectotokens": "Ecto-token", "ectotoken": "Ecto-token",
+    "ecto tokens": "Ecto-token", "ecto token": "Ecto-token",
+    "ecto-tokens": "Ecto-token", "ecto-token": "Ecto-token",
+    "hard leather": "Hard leather", "polished buttons": "Polished buttons",
+})
+
 # Named in the guide but not a single bankable item, so deliberately skipped.
 SKIP = {
     "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
     "best air spell", "food", "few food", "8 food", "2x food", "full inventory of best food",
     "all pies", "tick manipulation", "nothing", "invent of planks", "remainder of cash",
     "rogue outfit", "studded body", "chaps", "coif", "studded body & chaps & coif",
-    "studded body+ chaps", "bone crossbow + bolts", "all ectotokens", "ectotokens",
+    "studded body+ chaps", "bone crossbow + bolts",
     "remaining dragon bones", "pots", "food for elvarg", "a knife, log or axe",
     "harpoon or barb-tailed harpoon if you grabbed one in previous step",
     "2x red/yellow/blue dyes", "1500 empty buckets", "2100 headless arrows",
@@ -260,6 +268,9 @@ CHARGED = {
     "dueling ring": _DUEL, "duelling ring": _DUEL,
     "digsite pendant": [11190, 11191, 11192, 11193, 11194],
     "necklace of passage": [21146, 21149, 21151, 21153, 21155],
+    # Not jewellery, but the same "any variant counts" idea: the scorpion cage has
+    # an empty id and one per fill state, and the guide just wants "the cage".
+    "scorpion cage": [456, 457, 458, 459, 460, 461, 462, 463],
 }
 
 

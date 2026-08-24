@@ -5149,6 +5149,13 @@
         "quantity": 6
       },
       {
+        "name": "ectotokens",
+        "itemIds": [
+          4278
+        ],
+        "quantity": 41
+      },
+      {
         "name": "Nettle Tea",
         "itemIds": [
           4239
@@ -8882,6 +8889,13 @@
         "quantity": 0
       },
       {
+        "name": "Ectotokens",
+        "itemIds": [
+          4278
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Sapphire Amulet",
         "itemIds": [
           1694
@@ -9078,6 +9092,20 @@
         "quantity": 0
       },
       {
+        "name": "Polished Buttons",
+        "itemIds": [
+          10496
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Hard Leather",
+        "itemIds": [
+          1743
+        ],
+        "quantity": 0
+      },
+      {
         "name": "Unblessed Symbol",
         "itemIds": [
           1716
@@ -9087,7 +9115,14 @@
       {
         "name": "Scorpion Cage",
         "itemIds": [
-          456
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463
         ],
         "quantity": 0
       }
