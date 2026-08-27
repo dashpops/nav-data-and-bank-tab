@@ -379,6 +379,13 @@ CHARGED = {
     # charges), but an empty can you refill on the way is fine, so accept every fill.
     "watering can": [5331, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5340],
     "watering cans": [5331, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5340],
+    # Potions: any dose satisfies, like the charged jewellery above (ids are the
+    # wiki infobox's 1/2/3/4-dose order).
+    "antipoison": [179, 177, 175, 2446], "antipoisons": [179, 177, 175, 2446],
+    "super antipoison": [185, 183, 181, 2448],
+    "super antipoisons": [185, 183, 181, 2448],
+    # Scrying orb: full or empty both count.
+    "scrying orb": [5519, 5518],
 }
 
 # A named set expands to one entry per piece -- you need all of them, so they are
@@ -532,6 +539,9 @@ def split_entries(text):
     out = []
     for p in parts:
         p = p.strip(" .;")
+        # Drop a trailing condition ("... If 56/57/58 Magic", "... if 2 tick") before
+        # the slash split, so a level condition isn't mistaken for a slash item-list.
+        p = (re.sub(r"\s+\bif\b\s.*$", "", p, flags=re.I).strip() or p)
         if p:
             out.extend(expand_slashes(p))
     return out
@@ -558,6 +568,10 @@ def parse_entry(part):
         if m:
             part, qty = m.group(1), int(m.group(2))
     name = part.strip(" .;")
+    # Drop a trailing condition clause so the item still resolves: "Scrying Orb If
+    # 56/57/58 Magic" -> "Scrying Orb", "Curse Runes if 2 tick" -> "Curse Runes".
+    # (The full text, condition and all, still shows via the raw blue-note path.)
+    name = re.sub(r"\s+\bif\b\s.*$", "", name, flags=re.I).strip() or name
     words = name.split()
     # strip a trailing colon so a shouted "NOTED:" still reads as the qualifier "noted"
     while len(words) > 1 and words[0].lower().strip(":") in QUALIFIERS:

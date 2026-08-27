@@ -3767,7 +3767,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -6493,20 +6496,29 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
       {
         "name": "Super Antipoison",
         "itemIds": [
-          185
+          185,
+          183,
+          181,
+          2448
         ],
         "quantity": 0
       },
       {
-        "name": "Scrying Orb If 56/57/58 Magic",
-        "itemIds": [],
+        "name": "Scrying Orb",
+        "itemIds": [
+          5519,
+          5518
+        ],
         "quantity": 0
       },
       {
@@ -6650,7 +6662,8 @@
       {
         "name": "Scrying Orb",
         "itemIds": [
-          5519
+          5519,
+          5518
         ],
         "quantity": 0
       },
@@ -7928,7 +7941,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -8571,7 +8587,8 @@
       {
         "name": "Scrying Orb",
         "itemIds": [
-          5519
+          5519,
+          5518
         ],
         "quantity": 0
       },
@@ -10297,7 +10314,7 @@
         "quantity": 3
       },
       {
-        "name": "Harpoon or barb-tailed harpoon if you grabbed one in previous step",
+        "name": "Harpoon or barb-tailed harpoon",
         "itemIds": [],
         "quantity": 0
       },
@@ -10749,7 +10766,10 @@
       {
         "name": "Super antipoison",
         "itemIds": [
-          185
+          185,
+          183,
+          181,
+          2448
         ],
         "quantity": 0
       },
@@ -11231,7 +11251,10 @@
       {
         "name": "Super antipoison",
         "itemIds": [
-          185
+          185,
+          183,
+          181,
+          2448
         ],
         "quantity": 0
       }
@@ -13036,7 +13059,10 @@
       {
         "name": "Antipoisons",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -13690,7 +13716,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -13779,7 +13808,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -14054,7 +14086,7 @@
         "quantity": 0
       },
       {
-        "name": "Curse Runes if 2 tick",
+        "name": "Curse Runes",
         "itemIds": [],
         "quantity": 0
       }
@@ -14565,7 +14597,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -14767,7 +14802,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -16144,8 +16182,10 @@
         "quantity": 0
       },
       {
-        "name": "Ball of Wool. If 85 Crafting also withdraw Karamja Gloves",
-        "itemIds": [],
+        "name": "Ball of Wool",
+        "itemIds": [
+          1759
+        ],
         "quantity": 0
       },
       {
@@ -16404,7 +16444,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
@@ -16567,7 +16610,10 @@
       {
         "name": "Antipoison",
         "itemIds": [
-          179
+          179,
+          177,
+          175,
+          2446
         ],
         "quantity": 0
       },
