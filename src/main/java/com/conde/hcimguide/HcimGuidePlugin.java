@@ -31,10 +31,13 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.regex.Pattern;
 import javax.inject.Inject;
 import javax.swing.SwingUtilities;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
+import net.runelite.api.NPC;
 import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.Player;
 import net.runelite.api.ScriptID;
@@ -51,6 +54,8 @@ import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.events.PluginMessage;
+import net.runelite.client.game.npcoverlay.HighlightedNpc;
+import net.runelite.client.game.npcoverlay.NpcOverlayService;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
@@ -110,6 +115,9 @@ public class HcimGuidePlugin extends Plugin
 	@Inject
 	private WithdrawService withdrawService;
 
+	@Inject
+	private NpcOverlayService npcOverlayService;
+
 	private GuideData guideData;
 	private GuidePanel panel;
 	private NavigationButton navigationButton;
@@ -120,6 +128,15 @@ public class HcimGuidePlugin extends Plugin
 	private volatile String lastAutoSatisfiedStepId;
 	private volatile String lastNavStepId;
 	private volatile List<WithdrawLine> currentWithdrawLines = Collections.emptyList();
+
+	/** Quest Helper-style NPC outline: a "Speak to X" step tints its NPC blue. */
+	private static final Color NPC_HIGHLIGHT_COLOR = new Color(88, 160, 255);
+	private static final Pattern TALK_STEP =
+		Pattern.compile("(?i)\\b(?:speak|talk)\\s+(?:to|with)\\b");
+	private final Function<NPC, HighlightedNpc> npcHighlighter = this::highlightNpc;
+	// Lowercased text of the current step when it is a "talk to" step, else null.
+	private volatile String highlightNpcText;
+	private volatile String lastHighlightStepId;
 
 	@Provides
 	HcimGuideConfig provideConfig(ConfigManager configManager)
@@ -147,6 +164,7 @@ public class HcimGuidePlugin extends Plugin
 		overlayManager.add(currentStepOverlay);
 		overlayManager.add(withdrawOverlay);
 		overlayManager.add(withdrawBankOverlay);
+		npcOverlayService.registerHighlighter(npcHighlighter);
 		refreshState();
 	}
 
@@ -156,6 +174,9 @@ public class HcimGuidePlugin extends Plugin
 		overlayManager.remove(currentStepOverlay);
 		overlayManager.remove(withdrawOverlay);
 		overlayManager.remove(withdrawBankOverlay);
+		npcOverlayService.unregisterHighlighter(npcHighlighter);
+		highlightNpcText = null;
+		lastHighlightStepId = null;
 		if (navigationButton != null)
 		{
 			clientToolbar.removeNavigation(navigationButton);
@@ -585,6 +606,7 @@ public class HcimGuidePlugin extends Plugin
 	{
 		boolean changed = updateAutoProgress(true);
 		updateShortestPathTarget();
+		updateNpcHighlight();
 		if (updateWithdrawLines() || changed)
 		{
 			refreshPanel();
@@ -632,6 +654,7 @@ public class HcimGuidePlugin extends Plugin
 
 			updateAutoProgress(false);
 			updateShortestPathTarget();
+			updateNpcHighlight();
 			updateWithdrawLines();
 			refreshPanel();
 		});
@@ -747,6 +770,78 @@ public class HcimGuidePlugin extends Plugin
 		Map<String, Object> data = new HashMap<>();
 		data.put("target", nav.toWorldPoint());
 		eventBus.post(new PluginMessage(SHORTEST_PATH_NAMESPACE, "path", data));
+	}
+
+	/**
+	 * Recompute which "talk to" step (if any) is current and, when it changes, rebuild
+	 * the NPC outlines. The highlighter reads {@link #highlightNpcText}; a rebuild is
+	 * only needed on a step change because NpcOverlayService already re-runs the
+	 * highlighter for each NPC as it spawns.
+	 */
+	private void updateNpcHighlight()
+	{
+		String stepId = null;
+		String text = null;
+		if (config.highlightNpcs())
+		{
+			GuideStep step = getCurrentStep();
+			if (step != null && step.getText() != null && TALK_STEP.matcher(step.getText()).find())
+			{
+				stepId = step.getId();
+				text = step.getText().toLowerCase();
+			}
+		}
+
+		if (Objects.equals(stepId, lastHighlightStepId))
+		{
+			return;
+		}
+		lastHighlightStepId = stepId;
+		highlightNpcText = text;
+		npcOverlayService.rebuild();
+	}
+
+	/**
+	 * Outline an NPC when the current step tells you to talk to it — matched by the
+	 * NPC's name appearing, as a whole word, in the step text. Returns null (no
+	 * highlight) otherwise, which is what NpcOverlayService expects.
+	 */
+	private HighlightedNpc highlightNpc(NPC npc)
+	{
+		String text = highlightNpcText;
+		if (text == null || npc == null)
+		{
+			return null;
+		}
+		String name = npc.getName();
+		if (name == null || name.length() < 3 || !containsWord(text, name.toLowerCase()))
+		{
+			return null;
+		}
+		return HighlightedNpc.builder()
+			.npc(npc)
+			.highlightColor(NPC_HIGHLIGHT_COLOR)
+			.outline(true)
+			.build();
+	}
+
+	/** Whole-word containment: "guard" matches "the guard" but not "bodyguard". */
+	private static boolean containsWord(String haystack, String needle)
+	{
+		int from = 0;
+		int i;
+		while ((i = haystack.indexOf(needle, from)) >= 0)
+		{
+			boolean leftEdge = i == 0 || !Character.isLetterOrDigit(haystack.charAt(i - 1));
+			int end = i + needle.length();
+			boolean rightEdge = end == haystack.length() || !Character.isLetterOrDigit(haystack.charAt(end));
+			if (leftEdge && rightEdge)
+			{
+				return true;
+			}
+			from = i + 1;
+		}
+		return false;
 	}
 
 	private boolean setAutoProgressText(String nextStatus)

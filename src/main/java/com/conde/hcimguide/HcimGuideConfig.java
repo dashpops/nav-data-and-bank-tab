@@ -80,6 +80,16 @@ public interface HcimGuideConfig extends Config
 	}
 
 	@ConfigItem(
+		keyName = "highlightNpcs",
+		name = "Highlight talk-to NPCs",
+		description = "Outline nearby NPCs in blue when the current step is to speak to them"
+	)
+	default boolean highlightNpcs()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		keyName = "showWithdrawItems",
 		name = "Show withdraw items",
 		description = "On a Withdraw step, show what is still needed above your character "
