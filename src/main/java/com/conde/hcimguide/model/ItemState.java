@@ -9,6 +9,6 @@ public enum ItemState
 	BANK,
 	/** Not on you and not (enough) in the bank. Red. */
 	MISSING,
-	/** No item id recorded, so it cannot be checked. Neutral. */
+	/** No item id recorded, so it cannot be checked — shown blue as the exact guide text. */
 	UNKNOWN
 }

@@ -405,6 +405,12 @@ public class GuidePanel extends PluginPanel
 				return Color.WHITE;
 			case MISSING:
 				return DANGER_COLOR;
+			case UNKNOWN:
+				// No id to check against — a token the resolver couldn't map to an item
+				// (a role like "Combat runes", or a quest item with no single id). Shown
+				// blue as the exact guide text: distinct from red "missing tracked item",
+				// so the list still carries every part of the withdraw step to fetch.
+				return INFO_COLOR;
 			default:
 				return MUTED_TEXT_COLOR;
 		}

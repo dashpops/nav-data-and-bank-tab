@@ -241,19 +241,106 @@ ALIASES.update({
     "ecto tokens": "Ecto-token", "ecto token": "Ecto-token",
     "ecto-tokens": "Ecto-token", "ecto-token": "Ecto-token",
     "hard leather": "Hard leather", "polished buttons": "Polished buttons",
+    # Bank 103: potato cactus + the ice cooler were being dropped from the
+    # withdraw list (no alias, and karambwans followed a "->" the splitter missed).
+    "potato cactus": "Potato cactus", "ice cooler": "Ice cooler",
+    "ice coolers": "Ice cooler",
 })
 
-# Named in the guide but not a single bankable item, so deliberately skipped.
-SKIP = {
-    "teleport runes", "combat runes", "combat gear", "range gear", "blast spells",
-    "best air spell", "food", "few food", "8 food", "2x food", "full inventory of best food",
-    "all pies", "tick manipulation", "nothing", "invent of planks", "remainder of cash",
-    "rogue outfit", "studded body", "chaps", "coif", "studded body & chaps & coif",
-    "studded body+ chaps", "bone crossbow + bolts",
-    "remaining dragon bones", "pots", "food for elvarg", "a knife, log or axe",
-    "harpoon or barb-tailed harpoon if you grabbed one in previous step",
-    "2x red/yellow/blue dyes", "1500 empty buckets", "2100 headless arrows",
-}
+# Seventh wave, from a full text-vs-resolved audit of every bank (banks 45-215
+# mostly). resolve_page() only consults ALIASES -- there is no fallback to looking
+# a name up on the wiki as written -- so any item not aliased was silently dropped
+# from its withdraw list. Each entry below was probed against the wiki and confirmed
+# to map to exactly one item id; variant/charged items went into CHARGED instead.
+ALIASES.update({
+    'adamantite ore': 'Adamantite ore', 'amulet mould': 'Amulet mould',
+    'animate rock scroll': 'Animate rock scroll',
+    'antidragon fire shield': 'Antidragon fire shield', 'astral rune': 'Astral rune',
+    'astral runes': 'Astral rune', 'banana': 'Banana', "bert's rota": "Bert's rota",
+    'blood rune': 'Blood rune', 'body runes': 'Body rune',
+    'bolt of cloth': 'Bolt of cloth', 'bone crossbow': 'Bone crossbow',
+    'brown apron': 'Brown apron', 'buckets of water': 'Buckets of water',
+    'chocolate dust': 'Chocolate dust', 'combination': 'Combination',
+    'cosmic rune': 'Cosmic rune', 'cosmic runes': 'Cosmic rune',
+    'costume needle': 'Costume needle', 'crab meat': 'Crab meat',
+    'crystal saw': 'Crystal saw', 'cut dragonstone': 'Cut dragonstone',
+    'dark essence block': 'Dark essence block', 'darklight': 'Darklight',
+    'desert robe bottom': 'Desert robe bottom', 'diamonds': 'Diamond',
+    'dorg bow': 'Dorg bow', 'dramen branch': 'Dramen branch', 'empty bowl': 'Empty bowl',
+    'eye amulet': 'Eye amulet', 'facemask': 'Facemask', 'fox fur': 'Fox fur',
+    'giant seaweed': 'Giant seaweed', 'goat horn': 'Goat horn', 'gold leaf': 'Gold leaf',
+    'griffin feather': 'Griffin feather', 'guam leaf': 'Guam leaf',
+    'guam leaves': 'Guam leaf', 'hardy gout tubers': 'Hardy gout tubers',
+    'herbal tincture': 'Herbal tincture', 'holy sickle': 'Holy sickle',
+    'house tab': 'House tab', 'ice gloves': 'Ice glove', 'jade': 'Jade',
+    'karamja gloves 3': 'Karamja gloves 3', 'karamja rum': 'Karamja rum', 'kelp': 'Kelp',
+    'key print': 'Key print', 'leather': 'Leather', 'limestone bricks': 'Limestone brick',
+    'magic logs': 'Magic log', 'mahogany planks': 'Mahogany plank',
+    'maple longbow': 'Maple longbow', 'marble block': 'Marble block',
+    'marble blocks': 'Marble block', 'marrentill': 'Marrentill',
+    'mithril bars': 'Mithril bars', 'mushroom spore': 'Mushroom spore',
+    'nature runes': 'Nature runes', 'ogre relic': 'Ogre relic', 'pineapple': 'Pineapple',
+    'plank sack': 'Plank sack', 'pot': 'Pot', 'raw cod': 'Raw cod',
+    'relic part 3': 'Relic part 3', 'ruby': 'Ruby', 'rune pickaxe': 'Rune pickaxe',
+    'sapphire': 'Sapphire', 'sawmill agreement': 'Sawmill agreement',
+    'skewered chompy': 'Skewered chompy', 'slayer helmet': 'Slayer helmet',
+    'snake charm': 'Snake charm', 'soul runes': 'Soul rune', 'spicy stew': 'Spicy stew',
+    "sven's last map": "Sven's last map", 'undead chickens': 'Undead chickens',
+    'vanilla pod': 'Vanilla pod', 'volcanic sulphur': 'Volcanic sulphur', 'weeds': 'Weed',
+    'whiteberries': 'Whiteberries', 'willow longbow': 'Willow longbow',
+    'yew log': 'Yew log',
+    # bare rune words in a spell loadout ("Astral, Fire, Giant Seaweed, ...") or a
+    # shared-suffix rune list ("2 Law, 2 Water"); the wiki "Fire"/"Water" pages are
+    # junk, so map straight to the runes by context (matches bare "air"/"law").
+    'astral': 'Astral rune', 'fire': 'Fire rune', 'water': 'Water rune',
+    'earth': 'Earth rune', 'mind': 'Mind rune', 'body': 'Body rune',
+})
+
+# Eighth wave: residual items the first audit left "red". Most just needed the
+# correct wiki title -- the guide's shorthand redirects to a location/disambig
+# ("Shantay pass" -> the place; "t'd Crunchies" is really Toad crunchies) -- so
+# these were probed straight from the item page. Later keys here override the
+# broken earlier aliases (dict.update, last wins).
+ALIASES.update({
+    "t'd crunchies": "Toad crunchies", "toad crunchies": "Toad crunchies",
+    "lantern lense": "Lantern lens", "lantern lens": "Lantern lens",
+    "blackjack": "Willow blackjack", "nurse hat": "Nurse hat",
+    "doctor hat": "Doctor's hat", "doctors hat": "Doctor's hat",
+    "tooth": "Tooth half of key", "tobans stolen gold": "Toban's gold",
+    "toban's gold": "Toban's gold", "white rose": "White rose",
+    "shantay pass": "Shantay pass (item)",              # was the location redirect
+    "masterthief armband": "Master thief armband",       # was a title with no infobox
+    "1mil coins": "Coins", "1m coins": "Coins",
+})
+
+# Ninth wave: the last genuine-item reds, probed once apostrophes were folded and
+# spellings corrected (naptha->naphtha, macahuitl->macuahuitl).
+ALIASES.update({
+    "sweetcorn": "Sweetcorn", "seal of passage": "Seal of passage",
+    "book of the dead": "Book of the dead", "ancient signet": "Ancient signet",
+    "lunar signet": "Lunar signet", "zenyte shards": "Zenyte shard",
+    "zenyte shard": "Zenyte shard", "brimhaven vouchers": "Brimhaven voucher",
+    "brimhaven voucher": "Brimhaven voucher", "barrel of naptha": "Barrel of naphtha",
+    "barrel of naphtha": "Barrel of naphtha", "fishing explosive": "Fishing explosive",
+    "dual macahuitl": "Dual macuahuitl", "dual macahuitl's": "Dual macuahuitl",
+    "kourend blessing 1": "Rada's blessing 1",
+    "pestle": "Pestle and mortar",     # "Pestle, mortar" comma-split; mortar is SKIPped
+    "log": "Logs",
+    # unfinished potions — the "(unf)" is kept through paren-stripping (see split_entries)
+    "guam potion (unf)": "Guam potion (unf)",
+    "marrentill potion (unf)": "Marrentill potion (unf)",
+    "marrentil potion (unf)": "Marrentill potion (unf)",
+    "tarromin potion (unf)": "Tarromin potion (unf)",
+    "harralander potion (unf)": "Harralander potion (unf)",
+    "ranarr potion (unf)": "Ranarr potion (unf)",
+})
+
+# Tokens to omit entirely: genuine non-content, not a thing to bring. Everything
+# else the guide names -- roles like "Combat gear"/"Food"/"Combat runes", loadout
+# prose -- is NOT dropped any more; if it doesn't resolve to an id it is shown as a
+# blue note with the exact text, so the colour list never quietly omits part of the
+# withdraw step (the reported failure: withdraw, then notice later something was cut).
+DROP = {"nothing", "etc", "mortar"}
 
 # "Teleport Runes" means these, per the guide's usual loadout.
 TELEPORT_RUNES = ("Teleport runes", ["Staff of air", "Rune pouch", "Fire rune"])
@@ -271,6 +358,23 @@ CHARGED = {
     # Not jewellery, but the same "any variant counts" idea: the scorpion cage has
     # an empty id and one per fill state, and the guide just wants "the cage".
     "scorpion cage": [456, 457, 458, 459, 460, 461, 462, 463],
+    # Seventh-wave variant/charged/multi-state items (probed from the wiki): the
+    # guide names one thing but it exists as several ids -- doses, charges, fill
+    # states, active/inactive -- and owning any of them satisfies the step.
+    "amulet of glory": [1704, 1706, 1708, 1710, 1712, 11976],
+    "bow of faerdhinen": [25862, 25865], "bow of fardhinen": [25862, 25865],
+    "crest part": [779, 780, 781], "druidic pouch": [2957, 2958],
+    "duel ring": _DUEL, "guthix rest": [4417, 4419, 4421, 4423],
+    "teleport crystal": [6099, 6100, 6101, 6102, 13102],
+    "elf teleport crystal": [6099, 6100, 6101, 6102, 13102],
+    "hay sack": [6057, 6058], "magical orb": [6950, 6951],
+    "milk sample": [33128, 33130], "pet rock": [3695, 5983],
+    "sapphire lantern": [4700, 4701, 4702], "super restores": [3024, 3026, 3028, 3030],
+    "swamp toad": [1473, 1474], "wily cat": [5584, 5585, 5586, 5587, 5588, 5589],
+    # Eighth-wave variant sets: the three Demon Slayer keys, and any Karamja glove tier.
+    "silverlight key": [2399, 2400, 2401], "silverlight keys": [2399, 2400, 2401],
+    "karamja gloves": [11136, 11138, 11140, 13103],
+    "pharaoh's sceptre": [26945, 26948],
 }
 
 
@@ -332,7 +436,7 @@ QTY_SUFFIX = re.compile(r"^(.*?)\s+x\s*(\d+)\s*$", re.I)
 # word is one of these, the slash is a list; otherwise it is "any of these".
 TYPE_WORDS = {"rune", "runes", "dye", "dyes", "bar", "bars", "seed", "seeds",
               "plank", "planks", "log", "logs", "potion", "potions",
-              "arrow", "arrows"}
+              "arrow", "arrows", "rose", "roses"}
 # Words shared at the front instead - "Raw Rat/Chicken/Beef".
 MODIFIERS = {"raw", "cooked", "grimy", "uncut", "desert"}
 
@@ -394,17 +498,25 @@ def expand_slashes(part):
 
 def split_entries(text):
     """The item list after "Withdraw:", split into entries (some may be tuples)."""
+    # Fold smart quotes to ASCII so "Pharaoh's"/"Kharedst's" match the straight-quote
+    # aliases and wiki titles (and so the overlay font, which boxes them, renders).
+    text = text.replace("’", "'").replace("‘", "'")
     body = re.sub(r"^\s*Withdraw(?:\s+at[^:]*)?:?", "", text, flags=re.I)
     body = re.sub(r"\(\d+\s*Inventory[^)]*\)", "", body, flags=re.I)   # slot counts
+    # "(unf)" identifies an unfinished potion — it IS part of the item, so keep it
+    # through the aside-stripping below.
+    body = re.sub(r"\(\s*unf\.?\s*\)", "__UNF__", body, flags=re.I)
     body = re.sub(r"\([^)]*\)", "", body)                              # other asides
+    body = body.replace("__UNF__", " (unf)")
     body = re.sub(r"\[[^\]]*\]", "", body)                             # [quest] / [note] tags
     body = re.sub(r"(\d)x([A-Za-z])", r"\1x \2", body)                 # 6xAir -> 6x Air
     # Names that contain "&" must survive the split on it.
     for joined, placeholder in AMPERSAND_NAMES.items():
         body = re.sub(joined, placeholder, body, flags=re.I)
     # "+" and ";" join items too - "Cannonball Mould + 5 Food", "Bone crossbow+bolts",
-    # "Scrying Orb ...; Wizard Mind Bomb" - and no item name contains either.
-    parts = re.split(r",|\s*;\s*|\s*\+\s*|\s+&\s+|\s+and\s+", body)
+    # "Scrying Orb ...; Wizard Mind Bomb" - and no item name contains either. "->" joins
+    # a trailing item after a slot-count note ("Potato Cactus (22 slots) -> 6 Karambwans").
+    parts = re.split(r",|\s*;\s*|\s*\+\s*|\s+&\s+|\s+and\s+|\s*->\s*|\s*→\s*", body)
     parts = [p.replace("\u0001", " & ") for p in parts]
     out = []
     for p in parts:
@@ -417,6 +529,11 @@ def split_entries(text):
 # Words the guide puts in front of an item that are not part of its name, so
 # "4x regular Logs" and "a knife" resolve to Logs and Knife.
 QUALIFIERS = {"regular", "normal", "noted", "your", "a", "an", "the", "all"}
+
+# A dropped item is worse than one shown you can't miss: the thing that bites is an
+# item absent from the colour list entirely, not one sitting there for you to fetch.
+# So every token that fails to resolve is still emitted (with no itemIds), and the
+# plugin lists it in blue as the exact text -- nothing in the withdraw step is hidden.
 
 
 def parse_entry(part):
@@ -431,7 +548,8 @@ def parse_entry(part):
             part, qty = m.group(1), int(m.group(2))
     name = part.strip(" .;")
     words = name.split()
-    while len(words) > 1 and words[0].lower() in QUALIFIERS:
+    # strip a trailing colon so a shouted "NOTED:" still reads as the qualifier "noted"
+    while len(words) > 1 and words[0].lower().strip(":") in QUALIFIERS:
         words = words[1:]
     name = " ".join(words)
     key = name.lower().strip()
@@ -481,30 +599,31 @@ def main():
                 if alt_ids:
                     entries.append({"name": disp, "itemIds": alt_ids, "quantity": 0})
                 else:
+                    entries.append({"name": disp, "itemIds": [], "quantity": 0})  # blue note
                     missed.append(disp)
                 continue
+            raw = re.sub(r"\s+", " ", part).strip(" .;")
             name, key, qty = parse_entry(part)
+            if not re.search(r"[a-z]", key) or key in DROP:   # bare numbers / true noise
+                continue
             if key in CHARGED:
                 entries.append({"name": name, "itemIds": list(CHARGED[key]), "quantity": qty})
                 continue
-            if not key or key in SKIP:
-                if key == "teleport runes":
-                    page_ids = [i for p in TELEPORT_RUNES[1] for i in ids.get(p, [])[:1]]
-                    if page_ids:
-                        entries.append({"name": TELEPORT_RUNES[0],
-                                        "itemIds": page_ids, "quantity": 0})
-                        continue
-                missed.append(name)
+            if key == "teleport runes":
+                page_ids = [i for p in TELEPORT_RUNES[1] for i in ids.get(p, [])[:1]]
+                entries.append({"name": TELEPORT_RUNES[0], "itemIds": page_ids, "quantity": 0})
                 continue
             page = resolve_page(key)
-            if not page:
-                missed.append(name)
-                continue
-            got = ids.get(page, [])
-            if not got:
-                missed.append(name)
-                continue
-            entries.append({"name": name, "itemIds": got[:1], "quantity": qty})
+            got = ids.get(page, []) if page else []
+            if got:
+                entries.append({"name": name, "itemIds": got[:1], "quantity": qty})
+            else:
+                # Not resolvable to an id: show it anyway, as the exact boaty text and
+                # with no id, so the plugin lists it in blue instead of hiding the need.
+                # A missing item you can see beats a colour-coded list that quietly
+                # omits it -- the latter is how you withdraw and only later notice a gap.
+                entries.append({"name": raw, "itemIds": [], "quantity": 0})
+                missed.append(raw)
         if entries:
             plans[step_id] = entries
         if missed:
@@ -529,7 +648,7 @@ def main():
             meta[step_id] = entry
             written += 1
         print(f"wrote {written} steps, left {skipped} existing lists untouched")
-        META.write_text(json.dumps(meta, indent=2) + "\n")
+        META.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n")
         print("wrote", META)
 
     print("\nunresolved by step:")
