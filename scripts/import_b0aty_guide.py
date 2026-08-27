@@ -101,10 +101,11 @@ def extract_checklist_blocks(wikitext: str) -> list[tuple[int, str]]:
             raise ValueError("Unclosed checklist template")
 
 
-def build_context_maps(wikitext: str) -> tuple[list[tuple[int, str]], list[tuple[int, str]], list[tuple[int, int]]]:
+def build_context_maps(wikitext: str):
     episodes = []
     videos = []
-    bank_resets = []
+    bank_resets = []       # positions of {{Var|bankNumber|0}}
+    bank_increments = []   # positions of {{Var|bankNumber|{{#expr:{{#var:bankNumber}}+1}}}}
 
     offset = 0
     for line in wikitext.splitlines(keepends=True):
@@ -119,11 +120,13 @@ def build_context_maps(wikitext: str) -> tuple[list[tuple[int, str]], list[tuple
             videos.append((offset, video_match.group(1).strip()))
 
         if re.search(r"\{\{Var\|\s*bankNumber\s*\|\s*0\s*\}\}", line):
-            bank_resets.append((offset, 0))
+            bank_resets.append(offset)
+        if re.search(r"\{\{Var\|bankNumber\|\{\{#expr:\{\{#var:bankNumber\}\}\+1\}\}\}\}", line):
+            bank_increments.append(offset)
 
         offset += len(line)
 
-    return episodes, videos, bank_resets
+    return episodes, videos, bank_resets, bank_increments
 
 
 def latest_value(context: list[tuple[int, str]], position: int) -> Optional[str]:
@@ -135,8 +138,14 @@ def latest_value(context: list[tuple[int, str]], position: int) -> Optional[str]
     return result
 
 
-def latest_bank_reset(context: list[tuple[int, int]], position: int) -> bool:
-    return any(item_position <= position for item_position, _ in context)
+def bank_number_at(bank_resets: list[int], bank_increments: list[int], position: int) -> int:
+    """The wiki's {{#var:bankNumber}} at a checklist: the number of increments
+    since the most recent reset. The A/B parts of a two-part bank share a number
+    because the wiki increments once for the pair, not per part -- so this counts
+    the wiki's own {{Var|bankNumber|...+1}} calls rather than assuming one per
+    "Bank " title (which double-counts every pair and inflates all later numbers)."""
+    reset = max((r for r in bank_resets if r <= position), default=-1)
+    return sum(1 for inc in bank_increments if reset <= inc < position)
 
 
 def parse_steps(body: str, section_slug: str) -> list[dict]:
@@ -178,16 +187,12 @@ def shorten_title(text: str, limit: int = 72) -> str:
 
 def build_guide(wikitext: str) -> dict:
     checklist_blocks = extract_checklist_blocks(wikitext)
-    episodes, videos, bank_resets = build_context_maps(wikitext)
+    episodes, videos, bank_resets, bank_increments = build_context_maps(wikitext)
     sections = []
-    bank_number = 0
-    saw_reset = False
     seen_slugs: dict[str, int] = {}
 
     for position, block in checklist_blocks:
-        if latest_bank_reset(bank_resets, position) and not saw_reset:
-            bank_number = 0
-            saw_reset = True
+        bank_number = bank_number_at(bank_resets, bank_increments, position)
 
         raw_title, body = split_title_and_body(block)
         title = parse_checklist_title(raw_title, bank_number)
@@ -201,9 +206,6 @@ def build_guide(wikitext: str) -> dict:
 
         section_slug = make_unique_slug(slugify(f"{episode}-{title}"), seen_slugs)
         steps = parse_steps(body, section_slug)
-
-        if title.startswith("Bank "):
-            bank_number += 1
 
         if not steps:
             continue
