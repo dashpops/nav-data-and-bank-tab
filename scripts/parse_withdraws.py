@@ -113,7 +113,7 @@ ALIASES = {
     "pickled brain": "Pickled brain", "decapitated head": "Decapitated head",
     "conductor mould": "Lightning conductor", "sickle mould": "Sickle mould",
     "holy sickle (b)": "Silver sickle (b)", "plant cure": "Plant cure",
-    "filled plant pot": "Plant pot", "trolley": "Trolley", "schematic": "Schematics",
+    "filled plant pot": "Filled plant pot", "trolley": "Trolley", "schematic": "Schematics",
     "dwarven lore": "Dwarven lore", "earth talisman": "Earth talisman",
     "fishing pass": "Fishing pass", "red vine worm": "Red vine worm",
     "ship ticket": "Ship ticket", "blunt axe": "Blunt axe", "rusty sword": "Rusty sword",
@@ -375,6 +375,17 @@ CHARGED = {
     "silverlight key": [2399, 2400, 2401], "silverlight keys": [2399, 2400, 2401],
     "karamja gloves": [11136, 11138, 11140, 13103],
     "pharaoh's sceptre": [26945, 26948],
+    # Any watering can counts -- the guide wants the filled one (it holds water
+    # charges), but an empty can you refill on the way is fine, so accept every fill.
+    "watering can": [5331, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5340],
+    "watering cans": [5331, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5340],
+}
+
+# A named set expands to one entry per piece -- you need all of them, so they are
+# tracked separately rather than as "any one counts".
+SETS = {
+    "full initiate": [("Initiate sallet", 5574), ("Initiate hauberk", 5575),
+                      ("Initiate cuisse", 5576)],
 }
 
 
@@ -605,6 +616,10 @@ def main():
             raw = re.sub(r"\s+", " ", part).strip(" .;")
             name, key, qty = parse_entry(part)
             if not re.search(r"[a-z]", key) or key in DROP:   # bare numbers / true noise
+                continue
+            if key in SETS:                                   # "Full initiate" -> 3 pieces
+                for piece_name, piece_id in SETS[key]:
+                    entries.append({"name": piece_name, "itemIds": [piece_id], "quantity": qty})
                 continue
             if key in CHARGED:
                 entries.append({"name": name, "itemIds": list(CHARGED[key]), "quantity": qty})

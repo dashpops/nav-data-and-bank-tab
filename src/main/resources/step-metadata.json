@@ -5771,7 +5771,7 @@
     },
     "quest": "Icthlarin's Little Helper",
     "_text": "Continue & Complete Icthlarin’s Little Helper",
-    "_section": "Bank 107A"
+    "_section": "Bank 107"
   },
   "episode-4-banks-105-through-150-bank-107a-step-005": {
     "nav": {
@@ -5782,7 +5782,7 @@
     },
     "quest": "Shades of Mort'ton",
     "_text": "Complete Shades of Morton",
-    "_section": "Bank 107A"
+    "_section": "Bank 107"
   },
   "episode-4-banks-105-through-150-bank-108b-step-003": {
     "nav": {
@@ -5793,7 +5793,7 @@
     },
     "quest": "Garden of Tranquility",
     "_text": "Talk to Queen Ellamaria twice (1,1)",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-005": {
     "nav": {
@@ -5803,7 +5803,7 @@
       "z": 0
     },
     "_text": "Bank at West bank and withdraw Food for Melzar's Maze",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-006": {
     "nav": {
@@ -5814,7 +5814,7 @@
     },
     "quest": "Ratcatchers",
     "_text": "Talk to Gertrude (1) [Ratcatchers] (AT THIS POINT DON’T TRADE YOUR CAT IN / BUY A NEW KITTEN)",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-008": {
     "nav": {
@@ -5824,7 +5824,7 @@
       "z": 0
     },
     "_text": "Take boat to Rimmington",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-009": {
     "nav": {
@@ -5835,7 +5835,7 @@
     },
     "quest": "Dragon Slayer I",
     "_text": "Continue Dragon Slayer by doing the Melzar's Maze [Dragon Slayer]",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-012": {
     "nav": {
@@ -5846,7 +5846,7 @@
     },
     "quest": "Dragon Slayer I",
     "_text": "Talk to Klarense and buy Lady Lumbridge from him [Dragon Slayer]",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-017": {
     "nav": {
@@ -5857,7 +5857,7 @@
     },
     "quest": "Dragon Slayer I",
     "_text": "Talk to Ned (1) [Dragon Slayer]",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-109-step-003": {
     "nav": {
@@ -6173,14 +6173,22 @@
       {
         "name": "Filled Plant Pot",
         "itemIds": [
-          5350
+          5354
         ],
         "quantity": 0
       },
       {
         "name": "Watering Can",
         "itemIds": [
-          5331
+          5331,
+          5333,
+          5334,
+          5335,
+          5336,
+          5337,
+          5338,
+          5339,
+          5340
         ],
         "quantity": 0
       },
@@ -7686,7 +7694,15 @@
       {
         "name": "Watering Cans",
         "itemIds": [
-          5331
+          5331,
+          5333,
+          5334,
+          5335,
+          5336,
+          5337,
+          5338,
+          5339,
+          5340
         ],
         "quantity": 10
       },
@@ -9815,7 +9831,7 @@
       }
     ],
     "_text": "Withdraw: Coins, Teleport Runes, Dramen Staff, Ardougne Cloak, Combat Runes, Coins, Kitten or Cat, Tinderbox, Willow Log, Bag of Salt, Bucket of Sap, 2x Tarromin Potion (unf), Axe, Hammer (16 Inventory Slots) + Food",
-    "_section": "Bank 107A"
+    "_section": "Bank 107"
   },
   "episode-4-banks-105-through-150-bank-108b-step-001": {
     "withdraw": [
@@ -9893,7 +9909,7 @@
       }
     ],
     "_text": "Withdraw: Teleport Runes, Coins, Death Runes, Hammer, 3 Planks, 90 Steel Nails, Maze Key, Ring of Charos, Rune Sword, 2x Compost (17 Inventory Spots)",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-109-step-001": {
     "withdraw": [
@@ -10166,8 +10182,24 @@
         "quantity": 0
       },
       {
-        "name": "Full Initiate",
-        "itemIds": [],
+        "name": "Initiate sallet",
+        "itemIds": [
+          5574
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Initiate hauberk",
+        "itemIds": [
+          5575
+        ],
+        "quantity": 0
+      },
+      {
+        "name": "Initiate cuisse",
+        "itemIds": [
+          5576
+        ],
         "quantity": 0
       },
       {
@@ -14999,7 +15031,15 @@
       {
         "name": "Watering Can",
         "itemIds": [
-          5331
+          5331,
+          5333,
+          5334,
+          5335,
+          5336,
+          5337,
+          5338,
+          5339,
+          5340
         ],
         "quantity": 0
       },
@@ -17784,7 +17824,7 @@
     },
     "quest": "Dragon Slayer",
     "_text": "Board the ship, climb down the ladder and repair the hole 3 times [Dragon Slayer]",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-113-step-008": {
     "nav": {
@@ -19987,7 +20027,7 @@
     },
     "quest": "Dragon Slayer",
     "_text": "Head to Port Sarim and kill Wormbrain to get the map part [Dragon Slayer]",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-142-step-017": {
     "nav": {
@@ -21767,7 +21807,7 @@
       "z": 0
     },
     "_text": "Ardy Cloak -> DLQ",
-    "_section": "Bank 107A"
+    "_section": "Bank 107"
   },
   "episode-4-banks-105-through-150-bank-107a-step-004": {
     "nav": {
@@ -21777,7 +21817,7 @@
       "z": 0
     },
     "_text": "Ardy Cloak -> BIP",
-    "_section": "Bank 107A"
+    "_section": "Bank 107"
   },
   "episode-4-banks-105-through-150-bank-108b-step-002": {
     "nav": {
@@ -21787,7 +21827,7 @@
       "z": 0
     },
     "_text": "Teleport to Varrock",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-108b-step-007": {
     "nav": {
@@ -21797,7 +21837,7 @@
       "z": 0
     },
     "_text": "Teleport to Ardougne",
-    "_section": "Bank 108B"
+    "_section": "Bank 108"
   },
   "episode-4-banks-105-through-150-bank-109-step-014": {
     "nav": {
@@ -24304,5 +24344,13 @@
         "quantity": 0
       }
     ]
+  },
+  "episode-4-banks-105-through-150-bank-112-step-010": {
+    "nav": {
+      "label": "White Tree (Ice Mountain)",
+      "x": 3008,
+      "y": 3498,
+      "z": 0
+    }
   }
 }

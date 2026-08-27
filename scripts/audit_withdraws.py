@@ -66,7 +66,8 @@ def main():
                     name, key, qty = P.parse_entry(part)
                     if not re.search(r"[a-z]", key):        # bare numbers -> split noise
                         continue
-                    if not key or key in P.DROP or key == "teleport runes" or key in P.CHARGED:
+                    if (not key or key in P.DROP or key == "teleport runes"
+                            or key in P.CHARGED or key in P.SETS):
                         continue
                     pg = P.resolve_page(key)
                     if pg and ids.get(pg):
