@@ -9,6 +9,7 @@ import java.awt.Dimension;
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
+import java.awt.Shape;
 import java.awt.image.BufferedImage;
 import java.util.List;
 import java.util.Set;
@@ -97,20 +98,39 @@ public class WithdrawBankOverlay extends Overlay
 			return;
 		}
 
-		for (Widget child : container.getDynamicChildren())
+		// Confine markers to the bank's item viewport. A Bank Tags layout tab (and a
+		// scrolled bank generally) leaves item widgets sitting outside the visible
+		// window; drawing at their raw bounds would paint the tick/cross below the
+		// bank where the tab icons are, rather than on the item.
+		Rectangle viewport = container.getBounds();
+		Shape savedClip = graphics.getClip();
+		graphics.clip(viewport);
+		try
 		{
-			if (child == null || child.isHidden())
+			for (Widget child : container.getDynamicChildren())
 			{
-				continue;
+				if (child == null || child.isHidden())
+				{
+					continue;
+				}
+				Rectangle bounds = child.getBounds();
+				if (!viewport.intersects(bounds))
+				{
+					continue;   // scrolled out of view
+				}
+				int id = withdrawService.canonicalItemId(child.getItemId());
+				if (!itemIds.contains(id))
+				{
+					continue;
+				}
+				// No box around the item: the count and marker say enough, and a border
+				// on every row is noise once the bank is already filtered to these items.
+				drawProgress(graphics, bounds, id, child.getItemQuantity());
 			}
-			int id = withdrawService.canonicalItemId(child.getItemId());
-			if (!itemIds.contains(id))
-			{
-				continue;
-			}
-			// No box around the item: the count and marker say enough, and a border
-			// on every row is noise once the bank is already filtered to these items.
-			drawProgress(graphics, child.getBounds(), id, child.getItemQuantity());
+		}
+		finally
+		{
+			graphics.setClip(savedClip);
 		}
 	}
 

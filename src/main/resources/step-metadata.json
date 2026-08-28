@@ -7500,7 +7500,10 @@
       },
       {
         "name": "Battered Key or Knife",
-        "itemIds": [],
+        "itemIds": [
+          2887,
+          946
+        ],
         "quantity": 0
       },
       {
@@ -9804,7 +9807,20 @@
       },
       {
         "name": "Kitten or Cat",
-        "itemIds": [],
+        "itemIds": [
+          1555,
+          1556,
+          1557,
+          1558,
+          1559,
+          1560,
+          1561,
+          1562,
+          1563,
+          1564,
+          1565,
+          1566
+        ],
         "quantity": 0
       },
       {
@@ -10296,7 +10312,10 @@
       },
       {
         "name": "log or axe",
-        "itemIds": [],
+        "itemIds": [
+          1511,
+          1351
+        ],
         "quantity": 0
       },
       {
@@ -10335,7 +10354,9 @@
       },
       {
         "name": "Harpoon or barb-tailed harpoon",
-        "itemIds": [],
+        "itemIds": [
+          311
+        ],
         "quantity": 0
       },
       {

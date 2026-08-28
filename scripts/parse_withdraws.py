@@ -549,7 +549,15 @@ def split_entries(text):
         # Drop a trailing condition ("... If 56/57/58 Magic", "... if 2 tick") before
         # the slash split, so a level condition isn't mistaken for a slash item-list.
         p = (re.sub(r"\s+\bif\b\s.*$", "", p, flags=re.I).strip() or p)
-        if p:
+        if not p:
+            continue
+        # " or " marks alternatives, any one satisfies -- the same idea as a slash
+        # ("a log or axe", "Battered Key or Knife", "Kitten or Cat"). Resolve each
+        # side and accept whichever the player has.
+        alts = [a.strip() for a in re.split(r"\s+\bor\b\s+", p, flags=re.I) if a.strip()]
+        if len(alts) >= 2 and "/" not in p:
+            out.append(("ALT", alts, p))
+        else:
             out.extend(expand_slashes(p))
     return out
 
