@@ -386,6 +386,13 @@ CHARGED = {
     "super antipoisons": [185, 183, 181, 2448],
     # Scrying orb: full or empty both count.
     "scrying orb": [5519, 5518],
+    # Pet cat / kitten: any colour. The wiki infobox lists a legacy id block first
+    # (1619-1624 / 5591-5596) that collides with uncut gems in item space -- 1619 is
+    # Uncut ruby -- so pin the real held-item ids here instead of trusting the page.
+    "cat": [1561, 1562, 1563, 1564, 1565, 1566],
+    "pet cat": [1561, 1562, 1563, 1564, 1565, 1566],
+    "kitten": [1555, 1556, 1557, 1558, 1559, 1560],
+    "pet kitten": [1555, 1556, 1557, 1558, 1559, 1560],
 }
 
 # A named set expands to one entry per piece -- you need all of them, so they are
@@ -617,10 +624,14 @@ def main():
                 alt_ids = []
                 for alt in alt_names:
                     _, akey, _ = parse_entry(alt)
-                    apage = resolve_page(akey)
-                    aids = ids.get(apage, []) if apage else []
-                    if aids and aids[0] not in alt_ids:
-                        alt_ids.append(aids[0])
+                    if akey in CHARGED:              # variant set -> accept every id
+                        aids = list(CHARGED[akey])
+                    else:
+                        apage = resolve_page(akey)
+                        aids = ids.get(apage, [])[:1] if apage else []
+                    for aid in aids:
+                        if aid not in alt_ids:
+                            alt_ids.append(aid)
                 if alt_ids:
                     entries.append({"name": disp, "itemIds": alt_ids, "quantity": 0})
                 else:

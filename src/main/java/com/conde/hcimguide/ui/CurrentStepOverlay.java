@@ -2,6 +2,7 @@ package com.conde.hcimguide.ui;
 
 import com.conde.hcimguide.HcimGuideConfig;
 import com.conde.hcimguide.HcimGuidePlugin;
+import com.conde.hcimguide.model.GuideSection;
 import com.conde.hcimguide.model.GuideStep;
 import com.conde.hcimguide.model.StepMetadata;
 import java.awt.Color;
@@ -61,10 +62,14 @@ public class CurrentStepOverlay extends OverlayPanel
 			.color(ACCENT_COLOR)
 			.build());
 
-		panelComponent.getChildren().add(LineComponent.builder()
-			.left(plugin.getProgressText())
-			.leftColor(MUTED_TEXT_COLOR)
-			.build());
+		GuideSection section = plugin.getCurrentSection();
+		if (section != null && section.getTitle() != null && !section.getTitle().isEmpty())
+		{
+			panelComponent.getChildren().add(LineComponent.builder()
+				.left(section.getTitle())
+				.leftColor(MUTED_TEXT_COLOR)
+				.build());
+		}
 
 		panelComponent.getChildren().add(LineComponent.builder()
 			.left(step.getText())
